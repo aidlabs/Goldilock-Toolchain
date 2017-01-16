@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ar-tn: binary locale definition for ar-tn
+SUMMARY_glibc-binary-localedata-ar-tn: binary locale definition for ar-tn
+SECTION: base
+PKG_glibc-binary-localedata-ar-tn: glibc-binary-localedata-ar-tn
+FILES_glibc-binary-localedata-ar-tn: /usr/lib/locale/ar_TN
+FILES_INFO: {"/usr/lib/locale/ar_TN/LC_CTYPE": 278308, "/usr/lib/locale/ar_TN/LC_MEASUREMENT": 23, "/usr/lib/locale/ar_TN/LC_NAME": 77, "/usr/lib/locale/ar_TN/LC_ADDRESS": 125, "/usr/lib/locale/ar_TN/LC_TIME": 2554, "/usr/lib/locale/ar_TN/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/ar_TN/LC_NUMERIC": 54, "/usr/lib/locale/ar_TN/LC_IDENTIFICATION": 439, "/usr/lib/locale/ar_TN/LC_TELEPHONE": 52, "/usr/lib/locale/ar_TN/LC_MONETARY": 302, "/usr/lib/locale/ar_TN/LC_PAPER": 34, "/usr/lib/locale/ar_TN/LC_COLLATE": 1243766}
+PKGSIZE_glibc-binary-localedata-ar-tn: 1525800

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-is-is: binary locale definition for is-is
+SUMMARY_glibc-binary-localedata-is-is: binary locale definition for is-is
+SECTION: base
+PKG_glibc-binary-localedata-is-is: glibc-binary-localedata-is-is
+FILES_glibc-binary-localedata-is-is: /usr/lib/locale/is_IS
+FILES_INFO: {"/usr/lib/locale/is_IS/LC_COLLATE": 106638, "/usr/lib/locale/is_IS/LC_IDENTIFICATION": 367, "/usr/lib/locale/is_IS/LC_TELEPHONE": 52, "/usr/lib/locale/is_IS/LC_ADDRESS": 148, "/usr/lib/locale/is_IS/LC_MONETARY": 290, "/usr/lib/locale/is_IS/LC_NUMERIC": 54, "/usr/lib/locale/is_IS/LC_TIME": 2546, "/usr/lib/locale/is_IS/LC_NAME": 62, "/usr/lib/locale/is_IS/LC_CTYPE": 278308, "/usr/lib/locale/is_IS/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/is_IS/LC_MEASUREMENT": 23, "/usr/lib/locale/is_IS/LC_PAPER": 34}
+PKGSIZE_glibc-binary-localedata-is-is: 388576

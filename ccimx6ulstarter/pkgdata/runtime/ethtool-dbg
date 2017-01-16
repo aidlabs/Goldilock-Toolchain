@@ -1,0 +1,15 @@
+PN: ethtool
+PV: 4.0
+PR: r0
+PKGV: 4.0
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_ethtool-dbg: A small utility for examining and tuning the settings of your ethernet-based network interfaces.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ethtool-dbg: Display or change ethernet card settings - Debugging files
+RRECOMMENDS_ethtool-dbg: glibc-dbg
+SECTION_ethtool-dbg: devel
+PKG_ethtool-dbg: ethtool-dbg
+ALLOW_EMPTY_ethtool-dbg: 1
+FILES_ethtool-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ethtool/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ethtool/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ethtool/ethtool/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/sfc.c": 140944, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/fec_8xx.c": 2561, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/at76c50x-usb.c": 603, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/ethtool.c": 105564, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/et131x.c": 7579, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/ethtool-copy.h": 52799, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/tg3.c": 881, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/stmmac.c": 2218, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/igb.c": 29382, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/e1000.c": 27576, "/usr/sbin/.debug/ethtool": 312252, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/ixgb.c": 5029, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/net_tstamp-copy.h": 3365, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/realtek.c": 20803, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/internal.h": 8292, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/tse.c": 5019, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/natsemi.c": 34440, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/e100.c": 6629, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/ixgbevf.c": 4349, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/rxclass.c": 28861, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/smsc911x.c": 5222, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/amd8111e.c": 7231, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/marvell.c": 13929, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/sfpdiag.c": 13339, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/pcnet32.c": 6943, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/ibm_emac.c": 5534, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/sfpid.c": 12150, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/de2104x.c": 18461, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/ixgbe.c": 37514, "/usr/src/debug/ethtool/4.0-r0/ethtool-4.0/vioc.c": 660}
+PKGSIZE_ethtool-dbg: 920129

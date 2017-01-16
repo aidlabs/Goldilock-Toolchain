@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-iu-ca: binary locale definition for iu-ca
+SUMMARY_glibc-binary-localedata-iu-ca: binary locale definition for iu-ca
+SECTION: base
+PKG_glibc-binary-localedata-iu-ca: glibc-binary-localedata-iu-ca
+FILES_glibc-binary-localedata-iu-ca: /usr/lib/locale/iu_CA
+FILES_INFO: {"/usr/lib/locale/iu_CA/LC_MONETARY": 286, "/usr/lib/locale/iu_CA/LC_MEASUREMENT": 23, "/usr/lib/locale/iu_CA/LC_ADDRESS": 157, "/usr/lib/locale/iu_CA/LC_CTYPE": 278308, "/usr/lib/locale/iu_CA/LC_NUMERIC": 54, "/usr/lib/locale/iu_CA/LC_COLLATE": 1243766, "/usr/lib/locale/iu_CA/LC_IDENTIFICATION": 326, "/usr/lib/locale/iu_CA/LC_TELEPHONE": 51, "/usr/lib/locale/iu_CA/LC_TIME": 2390, "/usr/lib/locale/iu_CA/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/iu_CA/LC_PAPER": 34, "/usr/lib/locale/iu_CA/LC_NAME": 62}
+PKGSIZE_glibc-binary-localedata-iu-ca: 1525509

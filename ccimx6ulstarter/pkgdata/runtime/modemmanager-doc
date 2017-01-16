@@ -1,0 +1,13 @@
+PN: modemmanager
+PV: 1.4.12
+PR: r0
+PKGV: 1.4.12
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_modemmanager-doc: ModemManager is a DBus-activated daemon which controls mobile broadband (2G/3G/4G) devices and connections  This package contains documentation.
+SUMMARY_modemmanager-doc: ModemManager is a daemon controlling broadband devices/connections - Documentation files
+SECTION_modemmanager-doc: doc
+PKG_modemmanager-doc: modemmanager-doc
+FILES_modemmanager-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/mmcli.8": 23436, "/usr/share/man/man8/ModemManager.8": 1714}
+PKGSIZE_modemmanager-doc: 25150

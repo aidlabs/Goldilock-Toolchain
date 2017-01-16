@@ -1,0 +1,15 @@
+PN: fsl-alsa-plugins
+PV: 1.0.25
+PR: r0
+PKGV: 1.0.25
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_fsl-alsa-plugins-dbg: Freescale alsa-lib plugins  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_fsl-alsa-plugins-dbg: fsl-alsa-plugins version 1.0.25-r0 - Debugging files
+RRECOMMENDS_fsl-alsa-plugins-dbg: glibc-dbg libasound-dbg
+SECTION_fsl-alsa-plugins-dbg: devel
+PKG_fsl-alsa-plugins-dbg: fsl-alsa-plugins-dbg
+ALLOW_EMPTY_fsl-alsa-plugins-dbg: 1
+FILES_fsl-alsa-plugins-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/fsl-alsa-plugins/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/fsl-alsa-plugins/.debug /usr/lib/matchbox-panel/.debug /usr/lib/fsl-alsa-plugins/fsl-alsa-plugins/.debug /usr/src/debug /usr/lib/alsa-lib/.debug
+FILES_INFO: {"/usr/src/debug/fsl-alsa-plugins/1.0.25-r0/fsl-alsa-plugins-1.0.25/asrc/rate_asrcrate.c": 4454, "/usr/src/debug/fsl-alsa-plugins/1.0.25-r0/fsl-alsa-plugins-1.0.25/asrc/asrc_pair.h": 1992, "/usr/lib/alsa-lib/.debug/libasound_module_rate_asrcrate.so": 21496, "/usr/src/debug/fsl-alsa-plugins/1.0.25-r0/fsl-alsa-plugins-1.0.25/asrc/asrc_pair.c": 9217}
+PKGSIZE_fsl-alsa-plugins-dbg: 37159

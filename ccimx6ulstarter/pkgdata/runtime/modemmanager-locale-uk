@@ -1,0 +1,15 @@
+PN: modemmanager
+PV: 1.4.12
+PR: r0
+PKGV: 1.4.12
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_modemmanager-locale-uk: ModemManager is a DBus-activated daemon which controls mobile broadband (2G/3G/4G) devices and connections  This package contains language translation files for the uk locale.
+SUMMARY_modemmanager-locale-uk: ModemManager is a daemon controlling broadband devices/connections - uk translations
+RPROVIDES_modemmanager-locale-uk: modemmanager-locale uk-translation
+RRECOMMENDS_modemmanager-locale-uk: virtual-locale-uk
+SECTION: base
+PKG_modemmanager-locale-uk: modemmanager-locale-uk
+FILES_modemmanager-locale-uk: /usr/share/locale/uk
+FILES_INFO: {"/usr/share/locale/uk/LC_MESSAGES/ModemManager.mo": 3689}
+PKGSIZE_modemmanager-locale-uk: 3689

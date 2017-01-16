@@ -1,0 +1,15 @@
+PN: packagegroup-dey-core
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_packagegroup-dey-core-dbg: Core packagegroup for DEY image.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_packagegroup-dey-core-dbg: Core packagegroup for DEY image - Debugging files
+RRECOMMENDS_packagegroup-dey-core-dbg: shadow-dbg mca-tool-dbg busybox-hwclock-dbg os-release-dbg usbutils-dbg busybox-static-nodes-dbg init-ifupdown-dbg sysvinit-dbg busybox-acpid-dbg udev-dbg base-passwd-dbg u-boot-fw-utils-dbg modutils-initscripts-dbg busybox-dbg mtd-utils-ubifs-dbg sysinfo-dbg netbase-dbg update-alternatives-opkg-dbg base-files-dbg initscripts-dbg imx-kobs-dbg
+SECTION_packagegroup-dey-core-dbg: devel
+PKG_packagegroup-dey-core-dbg: packagegroup-dey-core-dbg
+ALLOW_EMPTY_packagegroup-dey-core-dbg: 1
+FILES_packagegroup-dey-core-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/packagegroup-dey-core/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/packagegroup-dey-core/.debug /usr/lib/matchbox-panel/.debug /usr/lib/packagegroup-dey-core/packagegroup-dey-core/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-core-dbg: 0

@@ -1,0 +1,16 @@
+PN: libxau
+PE: 1
+PV: 1.0.8
+PR: r0
+PKGE: 1
+PKGV: 1.0.8
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_libxau-staticdev: libxau provides the main interfaces to the X11 authorisation handling, which controls authorisation for X connections, both client-side and server-side.  This package contains static libraries for software development.
+SUMMARY_libxau-staticdev: Xau: X Authority Database library - Development files (Static Libraries)
+RDEPENDS_libxau-staticdev: libxau-dev (= 1:1.0.8-r0.0)
+SECTION_libxau-staticdev: devel
+PKG_libxau-staticdev: libxau-staticdev
+FILES_libxau-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libxau/*.a
+FILES_INFO: {"/usr/lib/libXau.a": 57768}
+PKGSIZE_libxau-staticdev: 57768

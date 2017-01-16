@@ -1,0 +1,16 @@
+PN: psplash
+PV: 0.1+gitAUTOINC+14c8f7b705
+PR: r15
+PKGV: 0.1+git0+14c8f7b705
+PKGR: r15.0
+LICENSE: GPLv2+
+DESCRIPTION_psplash-dev: PSplash is a userspace graphical boot splash screen for mainly embedded Linux devices supporting a 16bpp or 32bpp framebuffer. It has few dependencies (just libc), supports basic images and text and handles rotation. Its visual look is configurable by basic source changes. Also included is a \'client\' command utility for sending information to psplash such as boot progress information.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_psplash-dev: Userspace framebuffer boot logo based on usplash - Development files
+RDEPENDS_psplash-dev: psplash (= 0.1+git0+14c8f7b705-r15.0)
+RRECOMMENDS_psplash-dev: glibc-dev update-alternatives-opkg-dev update-rc.d-dev initscripts-dev
+SECTION_psplash-dev: devel
+PKG_psplash-dev: psplash-dev
+ALLOW_EMPTY_psplash-dev: 1
+FILES_psplash-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/psplash/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_psplash-dev: 0

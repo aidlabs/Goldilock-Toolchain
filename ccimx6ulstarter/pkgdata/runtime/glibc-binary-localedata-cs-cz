@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-cs-cz: binary locale definition for cs-cz
+SUMMARY_glibc-binary-localedata-cs-cz: binary locale definition for cs-cz
+SECTION: base
+PKG_glibc-binary-localedata-cs-cz: glibc-binary-localedata-cs-cz
+FILES_glibc-binary-localedata-cs-cz: /usr/lib/locale/cs_CZ
+FILES_INFO: {"/usr/lib/locale/cs_CZ/LC_IDENTIFICATION": 379, "/usr/lib/locale/cs_CZ/LC_TELEPHONE": 60, "/usr/lib/locale/cs_CZ/LC_MONETARY": 294, "/usr/lib/locale/cs_CZ/LC_PAPER": 34, "/usr/lib/locale/cs_CZ/LC_ADDRESS": 164, "/usr/lib/locale/cs_CZ/LC_COLLATE": 111962, "/usr/lib/locale/cs_CZ/LC_CTYPE": 278308, "/usr/lib/locale/cs_CZ/LC_MEASUREMENT": 23, "/usr/lib/locale/cs_CZ/LC_NAME": 82, "/usr/lib/locale/cs_CZ/LC_TIME": 2446, "/usr/lib/locale/cs_CZ/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/cs_CZ/LC_NUMERIC": 54}
+PKGSIZE_glibc-binary-localedata-cs-cz: 393865

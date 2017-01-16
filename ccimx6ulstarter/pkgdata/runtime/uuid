@@ -1,0 +1,18 @@
+PN: ossp-uuid
+PV: 1.6.2
+PR: r2
+PKGV: 1.6.2
+PKGR: r2.0
+LICENSE: MIT
+DESCRIPTION_uuid: This package contains a tool to create Universally Unique Identifiers (UUID) from the command-line.
+SUMMARY: Universally Unique Identifier (UUID) library
+RDEPENDS_uuid: glibc (>= 2.22) ossp-uuid (>= 1.6.2)
+SECTION: libs
+PKG_uuid: uuid
+FILES_uuid: /usr/bin/uuid
+FILERPROVIDESFLIST_uuid: /usr/bin/uuid
+FILES_INFO: {"/usr/bin/uuid": 8444}
+FILERPROVIDES_/usr/bin/uuid_uuid: elf(buildid) (= 86dd8a8cc5246c4c8b86159e80215d5b3517dba6)
+FILERDEPENDSFLIST_uuid: /usr/bin/uuid
+FILERDEPENDS_/usr/bin/uuid_uuid: libc.so.6 libc.so.6(GLIBC_2.4) libossp-uuid.so.16 rtld(GNU_HASH)
+PKGSIZE_uuid: 8444

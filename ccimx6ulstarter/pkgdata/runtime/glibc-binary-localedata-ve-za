@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ve-za: binary locale definition for ve-za
+SUMMARY_glibc-binary-localedata-ve-za: binary locale definition for ve-za
+SECTION: base
+PKG_glibc-binary-localedata-ve-za: glibc-binary-localedata-ve-za
+FILES_glibc-binary-localedata-ve-za: /usr/lib/locale/ve_ZA
+FILES_INFO: {"/usr/lib/locale/ve_ZA/LC_PAPER": 34, "/usr/lib/locale/ve_ZA/LC_COLLATE": 1243766, "/usr/lib/locale/ve_ZA/LC_MONETARY": 286, "/usr/lib/locale/ve_ZA/LC_NAME": 62, "/usr/lib/locale/ve_ZA/LC_ADDRESS": 166, "/usr/lib/locale/ve_ZA/LC_MEASUREMENT": 23, "/usr/lib/locale/ve_ZA/LC_IDENTIFICATION": 435, "/usr/lib/locale/ve_ZA/LC_CTYPE": 278308, "/usr/lib/locale/ve_ZA/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/ve_ZA/LC_TELEPHONE": 58, "/usr/lib/locale/ve_ZA/LC_NUMERIC": 54, "/usr/lib/locale/ve_ZA/LC_TIME": 2590}
+PKGSIZE_glibc-binary-localedata-ve-za: 1525834

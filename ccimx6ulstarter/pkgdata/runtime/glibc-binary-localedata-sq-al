@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sq-al: binary locale definition for sq-al
+SUMMARY_glibc-binary-localedata-sq-al: binary locale definition for sq-al
+SECTION: base
+PKG_glibc-binary-localedata-sq-al: glibc-binary-localedata-sq-al
+FILES_glibc-binary-localedata-sq-al: /usr/lib/locale/sq_AL
+FILES_INFO: {"/usr/lib/locale/sq_AL/LC_PAPER": 34, "/usr/lib/locale/sq_AL/LC_MESSAGES/SYS_LC_MESSAGES": 56, "/usr/lib/locale/sq_AL/LC_MONETARY": 290, "/usr/lib/locale/sq_AL/LC_TELEPHONE": 54, "/usr/lib/locale/sq_AL/LC_NAME": 72, "/usr/lib/locale/sq_AL/LC_COLLATE": 1247082, "/usr/lib/locale/sq_AL/LC_NUMERIC": 54, "/usr/lib/locale/sq_AL/LC_MEASUREMENT": 23, "/usr/lib/locale/sq_AL/LC_CTYPE": 278308, "/usr/lib/locale/sq_AL/LC_IDENTIFICATION": 443, "/usr/lib/locale/sq_AL/LC_TIME": 2594, "/usr/lib/locale/sq_AL/LC_ADDRESS": 116}
+PKGSIZE_glibc-binary-localedata-sq-al: 1529126

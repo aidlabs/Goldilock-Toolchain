@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-en-zw: binary locale definition for en-zw
+SUMMARY_glibc-binary-localedata-en-zw: binary locale definition for en-zw
+SECTION: base
+PKG_glibc-binary-localedata-en-zw: glibc-binary-localedata-en-zw
+FILES_glibc-binary-localedata-en-zw: /usr/lib/locale/en_ZW
+FILES_INFO: {"/usr/lib/locale/en_ZW/LC_PAPER": 34, "/usr/lib/locale/en_ZW/LC_COLLATE": 1243766, "/usr/lib/locale/en_ZW/LC_MESSAGES/SYS_LC_MESSAGES": 48, "/usr/lib/locale/en_ZW/LC_MONETARY": 290, "/usr/lib/locale/en_ZW/LC_NAME": 62, "/usr/lib/locale/en_ZW/LC_TIME": 2378, "/usr/lib/locale/en_ZW/LC_MEASUREMENT": 23, "/usr/lib/locale/en_ZW/LC_IDENTIFICATION": 307, "/usr/lib/locale/en_ZW/LC_CTYPE": 278308, "/usr/lib/locale/en_ZW/LC_TELEPHONE": 50, "/usr/lib/locale/en_ZW/LC_NUMERIC": 54, "/usr/lib/locale/en_ZW/LC_ADDRESS": 146}
+PKGSIZE_glibc-binary-localedata-en-zw: 1525466

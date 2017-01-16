@@ -1,0 +1,13 @@
+PN: udev-rules-imx
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: udev rules for Freescale i.MX SOCs
+SUMMARY: udev-rules-imx version 1.0-r0
+SECTION: base
+PKG_udev-rules-imx-locale: udev-rules-imx-locale
+FILES_udev-rules-imx-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_udev-rules-imx-locale: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-fo-fo: binary locale definition for fo-fo
+SUMMARY_glibc-binary-localedata-fo-fo: binary locale definition for fo-fo
+SECTION: base
+PKG_glibc-binary-localedata-fo-fo: glibc-binary-localedata-fo-fo
+FILES_glibc-binary-localedata-fo-fo: /usr/lib/locale/fo_FO
+FILES_INFO: {"/usr/lib/locale/fo_FO/LC_NUMERIC": 54, "/usr/lib/locale/fo_FO/LC_MONETARY": 294, "/usr/lib/locale/fo_FO/LC_MEASUREMENT": 23, "/usr/lib/locale/fo_FO/LC_TIME": 2458, "/usr/lib/locale/fo_FO/LC_CTYPE": 278340, "/usr/lib/locale/fo_FO/LC_COLLATE": 1244094, "/usr/lib/locale/fo_FO/LC_IDENTIFICATION": 388, "/usr/lib/locale/fo_FO/LC_TELEPHONE": 50, "/usr/lib/locale/fo_FO/LC_ADDRESS": 148, "/usr/lib/locale/fo_FO/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/fo_FO/LC_PAPER": 34, "/usr/lib/locale/fo_FO/LC_NAME": 62}
+PKGSIZE_glibc-binary-localedata-fo-fo: 1525999

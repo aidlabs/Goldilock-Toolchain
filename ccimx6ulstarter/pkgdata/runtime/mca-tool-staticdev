@@ -1,0 +1,14 @@
+PN: mca-tool
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: CLOSED
+DESCRIPTION_mca-tool-staticdev: MCA firmware management tool.  This package contains static libraries for software development.
+SUMMARY_mca-tool-staticdev: MCA firmware management tool - Development files (Static Libraries)
+RDEPENDS_mca-tool-staticdev: mca-tool-dev (= 1.0-r0.0)
+SECTION_mca-tool-staticdev: devel
+PKG_mca-tool-staticdev: mca-tool-staticdev
+FILES_mca-tool-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/mca-tool/*.a
+FILES_INFO: {}
+PKGSIZE_mca-tool-staticdev: 0

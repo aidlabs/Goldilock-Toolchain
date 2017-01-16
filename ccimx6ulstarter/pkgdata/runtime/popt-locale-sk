@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-sk: Library for parsing command line options.  This package contains language translation files for the sk locale.
+SUMMARY_popt-locale-sk: Library for parsing command line options - sk translations
+RPROVIDES_popt-locale-sk: popt-locale sk-translation popt-locale-sk (=1.16)
+RRECOMMENDS_popt-locale-sk: virtual-locale-sk
+SECTION: libs
+PKG_popt-locale-sk: libpopt-locale-sk
+FILES_popt-locale-sk: /usr/share/locale/sk
+FILES_INFO: {"/usr/share/locale/sk/LC_MESSAGES/popt.mo": 553}
+PKGSIZE_popt-locale-sk: 553

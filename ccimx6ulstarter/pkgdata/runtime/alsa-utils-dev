@@ -1,0 +1,16 @@
+PN: alsa-utils
+PV: 1.0.29
+PR: r0
+PKGV: 1.0.29
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_alsa-utils-dev: ALSA sound utilities.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_alsa-utils-dev: ALSA sound utilities - Development files
+RDEPENDS_alsa-utils-dev: alsa-utils (= 1.0.29-r0.0)
+RRECOMMENDS_alsa-utils-dev: alsa-utils-iecset-dev ncurses-libtinfo-dev ncurses-libncursesw-dev alsa-lib-dev alsa-utils-alsaucm-dev alsa-utils-midi-dev alsa-utils-speakertest-dev alsa-utils-alsaloop-dev glibc-dev udev-dev alsa-utils-aseqnet-dev alsa-utils-aconnect-dev libasound-dev alsa-utils-amixer-dev ncurses-dev ncurses-libformw-dev alsa-utils-aseqdump-dev ncurses-libmenuw-dev alsa-utils-alsamixer-dev ncurses-libpanelw-dev alsa-utils-aplay-dev alsa-utils-alsactl-dev libsamplerate0-dev
+SECTION_alsa-utils-dev: devel
+PKG_alsa-utils-dev: alsa-utils-dev
+ALLOW_EMPTY_alsa-utils-dev: 1
+FILES_alsa-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/alsa-utils/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_alsa-utils-dev: 0

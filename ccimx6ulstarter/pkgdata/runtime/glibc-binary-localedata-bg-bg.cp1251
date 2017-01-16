@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-bg-bg.cp1251: binary locale definition for bg-bg.cp1251
+SUMMARY_glibc-binary-localedata-bg-bg.cp1251: binary locale definition for bg-bg.cp1251
+SECTION: base
+PKG_glibc-binary-localedata-bg-bg.cp1251: glibc-binary-localedata-bg-bg.cp1251
+FILES_glibc-binary-localedata-bg-bg.cp1251: /usr/lib/locale/bg_BG.CP1251
+FILES_INFO: {"/usr/lib/locale/bg_BG.CP1251/LC_TIME": 2367, "/usr/lib/locale/bg_BG.CP1251/LC_NUMERIC": 55, "/usr/lib/locale/bg_BG.CP1251/LC_MESSAGES/SYS_LC_MESSAGES": 67, "/usr/lib/locale/bg_BG.CP1251/LC_CTYPE": 237624, "/usr/lib/locale/bg_BG.CP1251/LC_MONETARY": 291, "/usr/lib/locale/bg_BG.CP1251/LC_PAPER": 35, "/usr/lib/locale/bg_BG.CP1251/LC_MEASUREMENT": 24, "/usr/lib/locale/bg_BG.CP1251/LC_NAME": 82, "/usr/lib/locale/bg_BG.CP1251/LC_COLLATE": 22035, "/usr/lib/locale/bg_BG.CP1251/LC_TELEPHONE": 63, "/usr/lib/locale/bg_BG.CP1251/LC_ADDRESS": 169, "/usr/lib/locale/bg_BG.CP1251/LC_IDENTIFICATION": 362}
+PKGSIZE_glibc-binary-localedata-bg-bg.cp1251: 263174

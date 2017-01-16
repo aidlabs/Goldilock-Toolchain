@@ -1,0 +1,14 @@
+PN: udev-rules-imx
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_udev-rules-imx-staticdev: udev rules for Freescale i.MX SOCs  This package contains static libraries for software development.
+SUMMARY_udev-rules-imx-staticdev: udev-rules-imx version 1.0-r0 - Development files (Static Libraries)
+RDEPENDS_udev-rules-imx-staticdev: udev-rules-imx-dev (= 1.0-r0.0)
+SECTION_udev-rules-imx-staticdev: devel
+PKG_udev-rules-imx-staticdev: udev-rules-imx-staticdev
+FILES_udev-rules-imx-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/udev-rules-imx/*.a
+FILES_INFO: {}
+PKGSIZE_udev-rules-imx-staticdev: 0

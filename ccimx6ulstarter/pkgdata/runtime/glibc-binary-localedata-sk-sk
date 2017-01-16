@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sk-sk: binary locale definition for sk-sk
+SUMMARY_glibc-binary-localedata-sk-sk: binary locale definition for sk-sk
+SECTION: base
+PKG_glibc-binary-localedata-sk-sk: glibc-binary-localedata-sk-sk
+FILES_glibc-binary-localedata-sk-sk: /usr/lib/locale/sk_SK
+FILES_INFO: {"/usr/lib/locale/sk_SK/LC_COLLATE": 111962, "/usr/lib/locale/sk_SK/LC_IDENTIFICATION": 350, "/usr/lib/locale/sk_SK/LC_TELEPHONE": 50, "/usr/lib/locale/sk_SK/LC_ADDRESS": 139, "/usr/lib/locale/sk_SK/LC_MONETARY": 294, "/usr/lib/locale/sk_SK/LC_NUMERIC": 54, "/usr/lib/locale/sk_SK/LC_TIME": 2426, "/usr/lib/locale/sk_SK/LC_NAME": 62, "/usr/lib/locale/sk_SK/LC_CTYPE": 278308, "/usr/lib/locale/sk_SK/LC_MESSAGES/SYS_LC_MESSAGES": 65, "/usr/lib/locale/sk_SK/LC_MEASUREMENT": 23, "/usr/lib/locale/sk_SK/LC_PAPER": 34}
+PKGSIZE_glibc-binary-localedata-sk-sk: 393767

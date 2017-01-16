@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ml-in: binary locale definition for ml-in
+SUMMARY_glibc-binary-localedata-ml-in: binary locale definition for ml-in
+SECTION: base
+PKG_glibc-binary-localedata-ml-in: glibc-binary-localedata-ml-in
+FILES_glibc-binary-localedata-ml-in: /usr/lib/locale/ml_IN
+FILES_INFO: {"/usr/lib/locale/ml_IN/LC_NAME": 157, "/usr/lib/locale/ml_IN/LC_CTYPE": 280924, "/usr/lib/locale/ml_IN/LC_MESSAGES/SYS_LC_MESSAGES": 90, "/usr/lib/locale/ml_IN/LC_MEASUREMENT": 23, "/usr/lib/locale/ml_IN/LC_PAPER": 34, "/usr/lib/locale/ml_IN/LC_COLLATE": 1243766, "/usr/lib/locale/ml_IN/LC_IDENTIFICATION": 362, "/usr/lib/locale/ml_IN/LC_TELEPHONE": 53, "/usr/lib/locale/ml_IN/LC_ADDRESS": 129, "/usr/lib/locale/ml_IN/LC_MONETARY": 294, "/usr/lib/locale/ml_IN/LC_NUMERIC": 54, "/usr/lib/locale/ml_IN/LC_TIME": 3058}
+PKGSIZE_glibc-binary-localedata-ml-in: 1528944

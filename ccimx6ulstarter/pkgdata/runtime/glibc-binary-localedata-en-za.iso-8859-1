@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-en-za.iso-8859-1: binary locale definition for en-za.iso-8859-1
+SUMMARY_glibc-binary-localedata-en-za.iso-8859-1: binary locale definition for en-za.iso-8859-1
+SECTION: base
+PKG_glibc-binary-localedata-en-za.iso-8859-1: glibc-binary-localedata-en-za.iso-8859-1
+FILES_glibc-binary-localedata-en-za.iso-8859-1: /usr/lib/locale/en_ZA.ISO-8859-1
+FILES_INFO: {"/usr/lib/locale/en_ZA.ISO-8859-1/LC_TIME": 2383, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_COLLATE": 19459, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_MONETARY": 291, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_MESSAGES/SYS_LC_MESSAGES": 53, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_NUMERIC": 59, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_MEASUREMENT": 28, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_ADDRESS": 164, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_NAME": 78, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_CTYPE": 237196, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_TELEPHONE": 63, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_PAPER": 39, "/usr/lib/locale/en_ZA.ISO-8859-1/LC_IDENTIFICATION": 457}
+PKGSIZE_glibc-binary-localedata-en-za.iso-8859-1: 260270

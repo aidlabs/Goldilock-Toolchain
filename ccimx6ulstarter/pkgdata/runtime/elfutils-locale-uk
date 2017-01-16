@@ -1,0 +1,15 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-locale-uk: Utilities and libraries for handling compiled object files.  This package contains language translation files for the uk locale.
+SUMMARY_elfutils-locale-uk: Utilities and libraries for handling compiled object files - uk translations
+RPROVIDES_elfutils-locale-uk: elfutils-locale uk-translation
+RRECOMMENDS_elfutils-locale-uk: virtual-locale-uk
+SECTION: base
+PKG_elfutils-locale-uk: elfutils-locale-uk
+FILES_elfutils-locale-uk: /usr/share/locale/uk
+FILES_INFO: {"/usr/share/locale/uk/LC_MESSAGES/elfutils.mo": 191100}
+PKGSIZE_elfutils-locale-uk: 191100

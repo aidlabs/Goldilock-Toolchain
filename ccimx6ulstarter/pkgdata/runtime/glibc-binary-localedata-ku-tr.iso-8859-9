@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ku-tr.iso-8859-9: binary locale definition for ku-tr.iso-8859-9
+SUMMARY_glibc-binary-localedata-ku-tr.iso-8859-9: binary locale definition for ku-tr.iso-8859-9
+SECTION: base
+PKG_glibc-binary-localedata-ku-tr.iso-8859-9: glibc-binary-localedata-ku-tr.iso-8859-9
+FILES_glibc-binary-localedata-ku-tr.iso-8859-9: /usr/lib/locale/ku_TR.ISO-8859-9
+FILES_INFO: {"/usr/lib/locale/ku_TR.ISO-8859-9/LC_COLLATE": 20483, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_MEASUREMENT": 28, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_IDENTIFICATION": 369, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_TELEPHONE": 56, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_NUMERIC": 59, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_PAPER": 39, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_TIME": 2195, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_ADDRESS": 160, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_MONETARY": 295, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_NAME": 83, "/usr/lib/locale/ku_TR.ISO-8859-9/LC_CTYPE": 113752}
+PKGSIZE_glibc-binary-localedata-ku-tr.iso-8859-9: 137585

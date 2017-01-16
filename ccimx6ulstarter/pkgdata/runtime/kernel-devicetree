@@ -1,0 +1,15 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION: Linux kernel for Digi boards.
+SUMMARY: Linux kernel for Digi boards
+SECTION: base
+PKG_kernel-devicetree: kernel-devicetree
+FILES_kernel-devicetree: /boot/devicetree*
+pkg_postinst_kernel-devicetree: \tcd /boot\n\tfor DTB_FILE in  imx6ul-ccimx6ulstarter.dtb imx6ul-ccimx6ulstarter-wb.dtb imx6ul-ccimx6ulstarter-id129.dtb \n\tdo\n\t\tDTB_BASE_NAME=`basename ${DTB_FILE} | awk -F "." \'{print $1}\'`\n\t\tDTB_SYMLINK_NAME=`echo zImage-ccimx6ulstarter | sed "s/ccimx6ulstarter/${DTB_BASE_NAME}/g"`\n\t\tupdate-alternatives --install /boot/${DTB_BASE_NAME}.dtb ${DTB_BASE_NAME}.dtb devicetree-${DTB_SYMLINK_NAME}.dtb 40101 || true\n\tdone\n
+pkg_postrm_kernel-devicetree: \tcd /boot\n\tfor DTB_FILE in  imx6ul-ccimx6ulstarter.dtb imx6ul-ccimx6ulstarter-wb.dtb imx6ul-ccimx6ulstarter-id129.dtb \n\tdo\n\t\tDTB_BASE_NAME=`basename ${DTB_FILE} | awk -F "." \'{print $1}\'`\n\t\tDTB_SYMLINK_NAME=`echo zImage-ccimx6ulstarter | sed "s/ccimx6ulstarter/${DTB_BASE_NAME}/g"`\n\t\tupdate-alternatives --remove ${DTB_BASE_NAME}.dtb devicetree-${DTB_SYMLINK_NAME}.dtb 40101 || true\n\tdone\n
+FILES_INFO: {"/boot/devicetree-zImage-imx6ul-ccimx6ulstarter.dtb": 29020, "/boot/devicetree-zImage-imx6ul-ccimx6ulstarter-wb.dtb": 29664, "/boot/devicetree-zImage-imx6ul-ccimx6ulstarter-id129.dtb": 29664}
+PKGSIZE_kernel-devicetree: 88348

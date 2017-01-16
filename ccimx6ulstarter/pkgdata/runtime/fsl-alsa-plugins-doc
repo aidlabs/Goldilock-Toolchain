@@ -1,0 +1,13 @@
+PN: fsl-alsa-plugins
+PV: 1.0.25
+PR: r0
+PKGV: 1.0.25
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_fsl-alsa-plugins-doc: Freescale alsa-lib plugins  This package contains documentation.
+SUMMARY_fsl-alsa-plugins-doc: fsl-alsa-plugins version 1.0.25-r0 - Documentation files
+SECTION_fsl-alsa-plugins-doc: doc
+PKG_fsl-alsa-plugins-doc: fsl-alsa-plugins-doc
+FILES_fsl-alsa-plugins-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/fsl-alsa-plugins/asrcrate.txt": 1747}
+PKGSIZE_fsl-alsa-plugins-doc: 1747

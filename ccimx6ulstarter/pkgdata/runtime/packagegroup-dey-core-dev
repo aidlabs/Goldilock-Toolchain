@@ -1,0 +1,16 @@
+PN: packagegroup-dey-core
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_packagegroup-dey-core-dev: Core packagegroup for DEY image.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_packagegroup-dey-core-dev: Core packagegroup for DEY image - Development files
+RDEPENDS_packagegroup-dey-core-dev: packagegroup-dey-core (= 1.0-r0.0)
+RRECOMMENDS_packagegroup-dey-core-dev: sysinfo-dev base-passwd-dev netbase-dev usbutils-dev busybox-static-nodes-dev udev-dev base-files-dev shadow-dev imx-kobs-dev mtd-utils-ubifs-dev busybox-acpid-dev sysvinit-dev busybox-hwclock-dev update-alternatives-opkg-dev init-ifupdown-dev mca-tool-dev busybox-dev modutils-initscripts-dev u-boot-fw-utils-dev os-release-dev initscripts-dev
+SECTION_packagegroup-dey-core-dev: devel
+PKG_packagegroup-dey-core-dev: packagegroup-dey-core-dev
+ALLOW_EMPTY_packagegroup-dey-core-dev: 1
+FILES_packagegroup-dey-core-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-dey-core/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-core-dev: 0

@@ -1,0 +1,13 @@
+PN: vsftpd
+PV: 3.0.3
+PR: r0
+PKGV: 3.0.3
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: Very Secure FTP server.
+SUMMARY: Very Secure FTP server
+SECTION: net
+PKG_vsftpd-locale: vsftpd-locale
+FILES_vsftpd-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_vsftpd-locale: 0

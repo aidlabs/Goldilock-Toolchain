@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'ERROR: /home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/xml2-config should not be used, use an alternative such as pkg-config' >&2
+echo '--should-not-have-used-/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/xml2-config'
+exit 1

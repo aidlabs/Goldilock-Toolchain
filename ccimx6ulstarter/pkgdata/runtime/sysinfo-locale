@@ -1,0 +1,13 @@
+PN: sysinfo
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION: Digi\'s system info utility.
+SUMMARY: Digi\'s system info utility
+SECTION: base
+PKG_sysinfo-locale: sysinfo-locale
+FILES_sysinfo-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_sysinfo-locale: 0

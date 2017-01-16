@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-xv: XCB library module for xv
+SUMMARY_libxcb-xv: XCB library module for xv
+RDEPENDS_libxcb-xv: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-xv:  libxcb-xv (=1.11)
+SECTION: x11/libs
+PKG_libxcb-xv: libxcb-xv0
+FILES_libxcb-xv: /usr/lib/libxcb-xv.so.0 /usr/lib/libxcb-xv.so.0.0.0
+pkg_postinst_libxcb-xv: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-xv: /usr/lib/libxcb-xv.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-xv.so.0.0.0": 18592, "/usr/lib/libxcb-xv.so.0": 18}
+FILERPROVIDES_/usr/lib/libxcb-xv.so.0.0.0_libxcb-xv: elf(buildid) (= 7ec68a133c675110c859853e2154b812e2861787) libxcb-xv.so.0
+FILERDEPENDSFLIST_libxcb-xv: /usr/lib/libxcb-xv.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-xv.so.0.0.0_libxcb-xv: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-xv: 18610

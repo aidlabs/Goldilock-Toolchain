@@ -1,0 +1,16 @@
+PN: libtirpc
+PV: 0.2.5
+PR: r0
+PKGV: 0.2.5
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_libtirpc-dev: Libtirpc is a port of Suns Transport-Independent RPC library to Linux  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libtirpc-dev: Transport-Independent RPC library - Development files
+RDEPENDS_libtirpc-dev: libtirpc (= 0.2.5-r0.0)
+RRECOMMENDS_libtirpc-dev: glibc-dev
+SECTION_libtirpc-dev: devel
+PKG_libtirpc-dev: libtirpc-dev
+ALLOW_EMPTY_libtirpc-dev: 1
+FILES_libtirpc-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libtirpc/*.la /lib/*.la
+FILES_INFO: {"/usr/include/tirpc/rpcsvc/crypt.x": 3929, "/usr/include/tirpc/rpc/rpcent.h": 2554, "/usr/include/tirpc/rpc/pmap_prot.h": 4046, "/usr/lib/libtirpc.so": 18, "/usr/include/tirpc/rpc/svc_dg.h": 2462, "/usr/include/tirpc/rpcsvc/crypt.h": 2414, "/usr/include/tirpc/rpc/rpcb_clnt.h": 3455, "/usr/include/tirpc/rpc/rpc_com.h": 3084, "/usr/include/tirpc/rpc/svc_soc.h": 3526, "/usr/include/tirpc/rpc/rpc.h": 4108, "/usr/include/tirpc/rpc/auth.h": 12300, "/usr/include/tirpc/rpc/rpcb_prot.x": 14673, "/usr/lib/pkgconfig/libtirpc.pc": 211, "/usr/include/tirpc/rpc/rpc_msg.h": 5299, "/usr/include/tirpc/rpc/des.h": 3040, "/usr/include/tirpc/rpc/rpcb_prot.h": 25776, "/usr/include/tirpc/rpc/svc_auth.h": 3000, "/usr/include/tirpc/rpc/nettype.h": 2390, "/usr/include/tirpc/rpc/pmap_clnt.h": 3497, "/usr/include/tirpc/rpc/clnt_soc.h": 3763, "/usr/lib/libtirpc.la": 935, "/usr/include/tirpc/rpc/types.h": 3270, "/usr/include/tirpc/rpc/auth_kerb.h": 4546, "/usr/include/tirpc/rpc/raw.h": 2117, "/usr/include/tirpc/rpc/clnt_stat.h": 2202, "/usr/include/tirpc/rpc/svc.h": 14326, "/usr/include/tirpc/netconfig.h": 2124, "/usr/include/tirpc/rpc/auth_gss.h": 4514, "/usr/include/tirpc/rpc/auth_des.h": 4068, "/usr/include/tirpc/rpc/pmap_rmt.h": 2432, "/usr/include/tirpc/rpc/xdr.h": 13355, "/usr/include/tirpc/rpc/auth_unix.h": 2991, "/usr/include/tirpc/rpc/clnt.h": 16803, "/usr/include/tirpc/rpc/des_crypt.h": 3606}
+PKGSIZE_libtirpc-dev: 180834

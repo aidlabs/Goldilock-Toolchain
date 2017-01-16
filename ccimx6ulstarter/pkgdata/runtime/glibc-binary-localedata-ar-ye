@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ar-ye: binary locale definition for ar-ye
+SUMMARY_glibc-binary-localedata-ar-ye: binary locale definition for ar-ye
+SECTION: base
+PKG_glibc-binary-localedata-ar-ye: glibc-binary-localedata-ar-ye
+FILES_glibc-binary-localedata-ar-ye: /usr/lib/locale/ar_YE
+FILES_INFO: {"/usr/lib/locale/ar_YE/LC_CTYPE": 278308, "/usr/lib/locale/ar_YE/LC_MEASUREMENT": 23, "/usr/lib/locale/ar_YE/LC_NAME": 77, "/usr/lib/locale/ar_YE/LC_ADDRESS": 125, "/usr/lib/locale/ar_YE/LC_TIME": 2554, "/usr/lib/locale/ar_YE/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/ar_YE/LC_NUMERIC": 54, "/usr/lib/locale/ar_YE/LC_IDENTIFICATION": 435, "/usr/lib/locale/ar_YE/LC_TELEPHONE": 52, "/usr/lib/locale/ar_YE/LC_MONETARY": 302, "/usr/lib/locale/ar_YE/LC_PAPER": 34, "/usr/lib/locale/ar_YE/LC_COLLATE": 1243766}
+PKGSIZE_glibc-binary-localedata-ar-ye: 1525796

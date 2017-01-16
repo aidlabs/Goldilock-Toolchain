@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.22.0
+PR: r0
+PKGV: 5.22.0
+PKGR: r0.0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-perlio-via: perl module perlio-via
+SUMMARY_perl-module-perlio-via: perl module perlio-via
+RDEPENDS_perl-module-perlio-via: glibc (>= 2.22) perl perl-module-xsloader
+SECTION: devel
+PKG_perl-module-perlio-via: perl-module-perlio-via
+FILES_perl-module-perlio-via: /usr/lib/perl/5.22.0/auto/PerlIO/via/via.so /usr/lib/perl/5.22.0/PerlIO/via.pm
+FILERPROVIDESFLIST_perl-module-perlio-via: /usr/lib/perl/5.22.0/auto/PerlIO/via/via.so
+FILES_INFO: {"/usr/lib/perl/5.22.0/auto/PerlIO/via/via.so": 15852, "/usr/lib/perl/5.22.0/PerlIO/via.pm": 7215}
+FILERPROVIDES_/usr/lib/perl/5.22.0/auto/PerlIO/via/via.so_perl-module-perlio-via: elf(buildid) (= ee7469874beb43d97b18ddaa045a994dda1a1221) via.so
+FILERDEPENDSFLIST_perl-module-perlio-via: /usr/lib/perl/5.22.0/auto/PerlIO/via/via.so
+FILERDEPENDS_/usr/lib/perl/5.22.0/auto/PerlIO/via/via.so_perl-module-perlio-via: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-perlio-via: 23067

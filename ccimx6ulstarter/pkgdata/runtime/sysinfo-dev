@@ -1,0 +1,15 @@
+PN: sysinfo
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION_sysinfo-dev: Digi\'s system info utility.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_sysinfo-dev: Digi\'s system info utility - Development files
+RDEPENDS_sysinfo-dev: sysinfo (= 1.0-r0.0)
+SECTION_sysinfo-dev: devel
+PKG_sysinfo-dev: sysinfo-dev
+ALLOW_EMPTY_sysinfo-dev: 1
+FILES_sysinfo-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sysinfo/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_sysinfo-dev: 0

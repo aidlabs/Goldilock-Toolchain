@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-readline: Python readline support
+RDEPENDS_python-readline: python-core readline (>= 6.3) glibc (>= 2.22) libpython2 (>= 2.7.9)
+SECTION: devel/python
+PKG_python-readline: python-readline
+FILES_python-readline: /usr/lib/python2.7/lib-dynload/readline.so /usr/lib/python2.7/rlcompleter.* 
+FILERPROVIDESFLIST_python-readline: /usr/lib/python2.7/lib-dynload/readline.so
+FILES_INFO: {"/usr/lib/python2.7/lib-dynload/readline.so": 21676, "/usr/lib/python2.7/rlcompleter.py": 5816, "/usr/lib/python2.7/rlcompleter.pyc": 5962}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/readline.so_python-readline: elf(buildid) (= 4d794efcac03e5a5ed96fee735a6df374a36dfca) readline.so
+FILERDEPENDSFLIST_python-readline: /usr/lib/python2.7/lib-dynload/readline.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/readline.so_python-readline: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libreadline.so.6 rtld(GNU_HASH)
+PKGSIZE_python-readline: 33454

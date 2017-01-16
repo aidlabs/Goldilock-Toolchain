@@ -1,0 +1,14 @@
+PN: alsa-state
+PV: 0.2.0
+PR: r5
+PKGV: 0.2.0
+PKGR: r5.0
+LICENSE: MIT
+DESCRIPTION_alsa-state-dbg: Alsa Scenario Files - an init script and state files to restore sound state at system boot and save it at system shut down.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_alsa-state-dbg: Alsa scenario files to enable alsa state restoration - Debugging files
+SECTION_alsa-state-dbg: devel
+PKG_alsa-state-dbg: alsa-state-dbg
+ALLOW_EMPTY_alsa-state-dbg: 1
+FILES_alsa-state-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/alsa-state/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/alsa-state/.debug /usr/lib/matchbox-panel/.debug /usr/lib/alsa-state/alsa-state/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_alsa-state-dbg: 0

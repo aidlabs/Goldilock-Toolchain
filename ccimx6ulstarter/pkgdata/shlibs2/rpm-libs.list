@@ -1,0 +1,6 @@
+librpmio-5.4.so:/usr/lib:5.4.14
+librpmconstant-5.4.so:/usr/lib:5.4.14
+librpmmisc-5.4.so:/usr/lib:5.4.14
+librpm-5.4.so:/usr/lib:5.4.14
+librpmbuild-5.4.so:/usr/lib:5.4.14
+librpmdb-5.4.so:/usr/lib:5.4.14

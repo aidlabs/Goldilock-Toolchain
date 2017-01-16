@@ -1,0 +1,16 @@
+PN: libusb1
+PV: 1.0.19
+PR: r0
+PKGV: 1.0.19
+PKGR: r0.0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb1-dbg: Userspace library to access USB (version 1.0).  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libusb1-dbg: Userspace library to access USB (version 1.0) - Debugging files
+RPROVIDES_libusb1-dbg:  libusb1-dbg (=1.0.19)
+RRECOMMENDS_libusb1-dbg: glibc-dbg
+SECTION_libusb1-dbg: devel
+PKG_libusb1-dbg: libusb-1.0-dbg
+ALLOW_EMPTY_libusb1-dbg: 1
+FILES_libusb1-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libusb1/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libusb1/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libusb1/libusb1/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/strerror.c": 7425, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/hotplug.h": 2592, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/core.c": 79546, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/hotplug.c": 10271, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/os/threads_posix.c": 2297, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/libusb.h": 70156, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/os/linux_netlink.c": 8738, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/os/linux_usbfs.h": 6033, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/libusbi.h": 36734, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/sync.c": 11209, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/os/poll_posix.h": 218, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/os/linux_usbfs.c": 75314, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/descriptor.c": 35744, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/io.c": 100297, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/os/poll_posix.c": 1422, "/lib/.debug/libusb-1.0.so.0.1.0": 210356, "/usr/src/debug/libusb1/1.0.19-r0/libusb-1.0.19/libusb/os/threads_posix.h": 1894}
+PKGSIZE_libusb1-dbg: 660246

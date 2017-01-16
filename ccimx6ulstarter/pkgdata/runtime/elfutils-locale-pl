@@ -1,0 +1,15 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-locale-pl: Utilities and libraries for handling compiled object files.  This package contains language translation files for the pl locale.
+SUMMARY_elfutils-locale-pl: Utilities and libraries for handling compiled object files - pl translations
+RPROVIDES_elfutils-locale-pl: elfutils-locale pl-translation
+RRECOMMENDS_elfutils-locale-pl: virtual-locale-pl
+SECTION: base
+PKG_elfutils-locale-pl: elfutils-locale-pl
+FILES_elfutils-locale-pl: /usr/share/locale/pl
+FILES_INFO: {"/usr/share/locale/pl/LC_MESSAGES/elfutils.mo": 158084}
+PKGSIZE_elfutils-locale-pl: 158084

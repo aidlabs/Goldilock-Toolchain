@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ar-jo: binary locale definition for ar-jo
+SUMMARY_glibc-binary-localedata-ar-jo: binary locale definition for ar-jo
+SECTION: base
+PKG_glibc-binary-localedata-ar-jo: glibc-binary-localedata-ar-jo
+FILES_glibc-binary-localedata-ar-jo: /usr/lib/locale/ar_JO
+FILES_INFO: {"/usr/lib/locale/ar_JO/LC_NAME": 77, "/usr/lib/locale/ar_JO/LC_NUMERIC": 54, "/usr/lib/locale/ar_JO/LC_PAPER": 34, "/usr/lib/locale/ar_JO/LC_IDENTIFICATION": 437, "/usr/lib/locale/ar_JO/LC_COLLATE": 1243766, "/usr/lib/locale/ar_JO/LC_CTYPE": 278308, "/usr/lib/locale/ar_JO/LC_MONETARY": 302, "/usr/lib/locale/ar_JO/LC_TELEPHONE": 52, "/usr/lib/locale/ar_JO/LC_TIME": 3138, "/usr/lib/locale/ar_JO/LC_MEASUREMENT": 23, "/usr/lib/locale/ar_JO/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/ar_JO/LC_ADDRESS": 125}
+PKGSIZE_glibc-binary-localedata-ar-jo: 1526382

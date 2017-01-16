@@ -1,0 +1,26 @@
+PN: tcp-wrappers
+PV: 7.6
+PR: r10
+PKGV: 7.6
+PKGR: r10.0
+LICENSE: BSD
+DESCRIPTION: Tools for monitoring and filtering incoming requests for tcp                services.
+SUMMARY: Security tool that is a wrapper for TCP daemons
+RDEPENDS_tcp-wrappers: libwrap (>= 7.6) glibc (>= 2.22)
+SECTION: console/network
+PKG_tcp-wrappers: tcp-wrappers
+FILES_tcp-wrappers: /usr/sbin /etc/hosts.allow /etc/hosts.deny
+FILERPROVIDESFLIST_tcp-wrappers: /usr/sbin/try-from /usr/sbin/tcpd /usr/sbin/tcpdmatch /usr/sbin/tcpdchk /usr/sbin/safe@underscore@finger
+FILES_INFO: {"/usr/sbin/tcpd": 4832, "/usr/sbin/tcpdchk": 16180, "/etc/hosts.allow": 0, "/usr/sbin/try-from": 4876, "/usr/sbin/safe_finger": 5972, "/etc/hosts.deny": 0, "/usr/sbin/tcpdmatch": 12576}
+FILERPROVIDES_/usr/sbin/try-from_tcp-wrappers: elf(buildid) (= 27b4c97c07b9a420d4f6320585a1f2bb282d9474)
+FILERPROVIDES_/usr/sbin/tcpd_tcp-wrappers: elf(buildid) (= 090542ccbe0e478910a874fe9e569d9eea2409fd)
+FILERPROVIDES_/usr/sbin/tcpdmatch_tcp-wrappers: elf(buildid) (= 1d137a20fbb6136eae8f7be075d379d4c6a4c05f)
+FILERPROVIDES_/usr/sbin/tcpdchk_tcp-wrappers: elf(buildid) (= ec87a82496e23fabf505a54574fd6bfb36aee0f7)
+FILERPROVIDES_/usr/sbin/safe@underscore@finger_tcp-wrappers: elf(buildid) (= 8a28941596e9c584188ab14dd5db93b12f6c188f)
+FILERDEPENDSFLIST_tcp-wrappers: /usr/sbin/try-from /usr/sbin/tcpd /usr/sbin/tcpdmatch /usr/sbin/tcpdchk /usr/sbin/safe@underscore@finger
+FILERDEPENDS_/usr/sbin/try-from_tcp-wrappers: libc.so.6 libc.so.6(GLIBC_2.4) libwrap.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/tcpd_tcp-wrappers: libc.so.6 libc.so.6(GLIBC_2.4) libwrap.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/tcpdmatch_tcp-wrappers: libc.so.6 libc.so.6(GLIBC_2.4) libwrap.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/tcpdchk_tcp-wrappers: libc.so.6 libc.so.6(GLIBC_2.4) libwrap.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/safe@underscore@finger_tcp-wrappers: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_tcp-wrappers: 44436

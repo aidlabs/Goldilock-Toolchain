@@ -1,0 +1,13 @@
+PN: imx-kobs
+PV: 5.4
+PR: r0
+PKGV: 5.4
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_imx-kobs-doc: Nand boot write source.  This package contains documentation.
+SUMMARY_imx-kobs-doc: Nand boot write source - Documentation files
+SECTION_imx-kobs-doc: doc
+PKG_imx-kobs-doc: imx-kobs-doc
+FILES_imx-kobs-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_imx-kobs-doc: 0

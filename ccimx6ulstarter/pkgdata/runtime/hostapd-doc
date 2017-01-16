@@ -1,0 +1,13 @@
+PN: hostapd
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: GPLv2 | BSD
+DESCRIPTION_hostapd-doc: User space daemon for extended IEEE 802.11 management.  This package contains documentation.
+SUMMARY_hostapd-doc: User space daemon for extended IEEE 802.11 management - Documentation files
+SECTION_hostapd-doc: doc
+PKG_hostapd-doc: hostapd-doc
+FILES_hostapd-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_hostapd-doc: 0

@@ -1,0 +1,13 @@
+PN: neard
+PV: 0.15
+PR: r0
+PKGV: 0.15
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_neard-doc: A daemon for the Linux Near Field Communication stack  This package contains documentation.
+SUMMARY_neard-doc: Linux NFC daemon - Documentation files
+SECTION_neard-doc: doc
+PKG_neard-doc: neard-doc
+FILES_neard-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man5/neard.conf.5": 1497, "/usr/share/man/man1/nfctool.1": 4577, "/usr/share/man/man8/neard.8": 1922}
+PKGSIZE_neard-doc: 7996

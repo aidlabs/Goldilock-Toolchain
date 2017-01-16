@@ -1,0 +1,14 @@
+PN: ofono
+PV: 1.16
+PR: r0
+PKGV: 1.16
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_ofono-staticdev: oFono is a stack for mobile telephony devices on Linux. oFono supports speaking to telephony devices through specific drivers, or with generic AT commands.  This package contains static libraries for software development.
+SUMMARY_ofono-staticdev: open source telephony - Development files (Static Libraries)
+RDEPENDS_ofono-staticdev: ofono-dev (= 1.16-r0.0)
+SECTION_ofono-staticdev: devel
+PKG_ofono-staticdev: ofono-staticdev
+FILES_ofono-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ofono/*.a
+FILES_INFO: {}
+PKGSIZE_ofono-staticdev: 0

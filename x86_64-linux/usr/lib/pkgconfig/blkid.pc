@@ -1,0 +1,11 @@
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+libdir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.26.0
+Requires.private: uuid
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid

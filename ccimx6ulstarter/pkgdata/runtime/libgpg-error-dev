@@ -1,0 +1,21 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-dev: Small library that defines common error values for all GnuPG components.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libgpg-error-dev: Small library that defines common error values for all GnuPG components - Development files
+RDEPENDS_libgpg-error-dev: glibc (>= 2.22) libgpg-error (= 1.19-r0.0) libgpg-error (>= 1.19)
+RRECOMMENDS_libgpg-error-dev: glibc-dev
+SECTION_libgpg-error-dev: devel
+PKG_libgpg-error-dev: libgpg-error-dev
+ALLOW_EMPTY_libgpg-error-dev: 1
+FILES_libgpg-error-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libgpg-error/*.la /lib/*.la /usr/bin/*-config /usr/bin/gpg-error
+FILERPROVIDESFLIST_libgpg-error-dev: /usr/bin/gpg-error
+FILES_INFO: {"/usr/include/gpg-error.h": 46330, "/usr/lib/libgpg-error.so": 22, "/usr/share/aclocal/gpg-error.m4": 2091, "/usr/lib/pkgconfig/gpg-error.pc": 262, "/usr/bin/gpg-error": 20916, "/usr/bin/gpg-error-config": 175, "/usr/lib/libgpg-error.la": 934}
+FILERPROVIDES_/usr/bin/gpg-error_libgpg-error-dev: elf(buildid) (= 2acb0fc98fc8c7a41c6e46611e53fe7e9b782510)
+FILERDEPENDSFLIST_libgpg-error-dev: /usr/bin/gpg-error-config /usr/bin/gpg-error
+FILERDEPENDS_/usr/bin/gpg-error-config_libgpg-error-dev: /bin/sh
+FILERDEPENDS_/usr/bin/gpg-error_libgpg-error-dev: libc.so.6 libc.so.6(GLIBC_2.4) libgpg-error.so.0 libgpg-error.so.0(GPG_ERROR_1.0) rtld(GNU_HASH)
+PKGSIZE_libgpg-error-dev: 70730

@@ -1,0 +1,21 @@
+PN: openssl
+PV: 1.0.2h
+PR: r0
+PKGV: 1.0.2h
+PKGR: r0.0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RDEPENDS_libcrypto: glibc (>= 2.22)
+RPROVIDES_libcrypto:  libcrypto (=1.0.2h)
+RRECOMMENDS_libcrypto:  openssl-conf
+SECTION: libs/network
+PKG_libcrypto: libcrypto1.0.0
+FILES_libcrypto: /lib/libcrypto.so.*
+pkg_postinst_libcrypto: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libcrypto: /lib/libcrypto.so.1.0.0
+FILES_INFO: {"/lib/libcrypto.so.1.0.0": 1457884}
+FILERPROVIDES_/lib/libcrypto.so.1.0.0_libcrypto: elf(buildid) (= 97b7a71be34a659ad0ceef9fe2da243d936d5607) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libcrypto.so.1.0.0(OPENSSL_1.0.1) libcrypto.so.1.0.0(OPENSSL_1.0.1d) libcrypto.so.1.0.0(OPENSSL_1.0.2) libcrypto.so.1.0.0(OPENSSL_1.0.2g)
+FILERDEPENDSFLIST_libcrypto: /lib/libcrypto.so.1.0.0
+FILERDEPENDS_/lib/libcrypto.so.1.0.0_libcrypto: libc.so.6 libc.so.6(GLIBC_2.16) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdl.so.2 libdl.so.2(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libcrypto: 1457884

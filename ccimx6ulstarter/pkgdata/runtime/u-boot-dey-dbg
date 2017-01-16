@@ -1,0 +1,14 @@
+PN: u-boot-dey
+PV: 2015.04
+PR: r0
+PKGV: 2015.04
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-dey-dbg: Bootloader for Digi platforms  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_u-boot-dey-dbg: Universal Boot Loader for embedded devices - Debugging files
+SECTION_u-boot-dey-dbg: devel
+PKG_u-boot-dey-dbg: u-boot-dey-dbg
+ALLOW_EMPTY_u-boot-dey-dbg: 1
+FILES_u-boot-dey-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/u-boot-dey/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/u-boot-dey/.debug /usr/lib/matchbox-panel/.debug /usr/lib/u-boot-dey/u-boot-dey/.debug /usr/src/debug /boot/.debug
+FILES_INFO: {}
+PKGSIZE_u-boot-dey-dbg: 0

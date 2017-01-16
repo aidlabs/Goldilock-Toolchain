@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-ja: Library for parsing command line options.  This package contains language translation files for the ja locale.
+SUMMARY_popt-locale-ja: Library for parsing command line options - ja translations
+RPROVIDES_popt-locale-ja: popt-locale ja-translation popt-locale-ja (=1.16)
+RRECOMMENDS_popt-locale-ja: virtual-locale-ja
+SECTION: libs
+PKG_popt-locale-ja: libpopt-locale-ja
+FILES_popt-locale-ja: /usr/share/locale/ja
+FILES_INFO: {"/usr/share/locale/ja/LC_MESSAGES/popt.mo": 2110}
+PKGSIZE_popt-locale-ja: 2110

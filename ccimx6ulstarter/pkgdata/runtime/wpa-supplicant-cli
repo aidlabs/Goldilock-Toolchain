@@ -1,0 +1,18 @@
+PN: wpa-supplicant
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION: Client for Wi-Fi Protected Access (WPA).
+SUMMARY: Client for Wi-Fi Protected Access (WPA)
+RDEPENDS_wpa-supplicant-cli: glibc (>= 2.22)
+SECTION: network
+PKG_wpa-supplicant-cli: wpa-supplicant-cli
+FILES_wpa-supplicant-cli: /usr/sbin/wpa_cli
+FILERPROVIDESFLIST_wpa-supplicant-cli: /usr/sbin/wpa@underscore@cli
+FILES_INFO: {"/usr/sbin/wpa_cli": 78540}
+FILERPROVIDES_/usr/sbin/wpa@underscore@cli_wpa-supplicant-cli: elf(buildid) (= c95dc3454567fe541f9b9e070da284c7ea49c17b)
+FILERDEPENDSFLIST_wpa-supplicant-cli: /usr/sbin/wpa@underscore@cli
+FILERDEPENDS_/usr/sbin/wpa@underscore@cli_wpa-supplicant-cli: libc.so.6 libc.so.6(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_wpa-supplicant-cli: 78540

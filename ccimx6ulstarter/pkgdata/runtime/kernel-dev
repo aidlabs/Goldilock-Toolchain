@@ -1,0 +1,14 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION: Linux kernel for Digi boards.
+SUMMARY: Linux kernel for Digi boards
+RRECOMMENDS_kernel-dev: kernel-module-ax88179-178a-dev kernel-module-usb-f-ecm-dev kernel-module-g-ether-dev kernel-module-snd-usbmidi-lib-dev kernel-module-snd-hwdep-dev kernel-module-usbserial-dev kernel-module-ftdi-sio-dev kernel-module-usb-f-ecm-subset-dev kernel-module-i2c-algo-pcf-dev kernel-module-evbug-dev kernel-module-mxc-dcic-dev kernel-module-g-mass-storage-dev kernel-module-pegasus-dev kernel-base-dev kernel-module-cdc-eem-dev kernel-module-usb-f-acm-dev kernel-module-usb-f-ncm-dev kernel-module-libcomposite-dev kernel-module-crc-itu-t-dev kernel-module-crc7-dev kernel-module-g-serial-dev kernel-module-crc-ccitt-dev kernel-module-asix-dev kernel-4.1.35-dey+g8dca338-dev kernel-module-usb-f-fs-dev kernel-module-psmouse-dev kernel-module-option-dev kernel-module-usb-f-eem-dev kernel-module-i2c-algo-pca-dev kernel-module-libcrc32c-dev kernel-module-gadgetfs-dev kernel-module-cdc-ncm-dev kernel-module-cdc-acm-dev kernel-module-serport-dev kernel-module-cdc-ether-dev kernel-module-u-serial-dev kernel-module-g-ncm-dev kernel-module-rtl8150-dev kernel-module-usb-f-ss-lb-dev kernel-module-configfs-dev kernel-module-snd-usb-audio-dev kernel-module-cdc-subset-dev kernel-module-nls-iso8859-15-dev kernel-module-tcrypt-dev kernel-module-r8152-dev kernel-module-usb-f-serial-dev kernel-module-usb-f-obex-dev kernel-module-g-zero-dev kernel-module-usb-f-mass-storage-dev kernel-module-usb-f-rndis-dev kernel-module-net1080-dev kernel-module-usb-wwan-dev kernel-module-zaurus-dev kernel-module-snd-rawmidi-dev kernel-module-usbnet-dev kernel-module-u-ether-dev kernel-module-binfmt-misc-dev
+SECTION: base
+PKG_kernel-dev: kernel-dev
+FILES_kernel-dev: /boot/System.map* /boot/Module.symvers* /boot/config* /usr/src/kernel /lib/modules/4.1.35-dey+g8dca338/build
+FILES_INFO: {"/boot/System.map-4.1.35-dey+g8dca338": 2306545, "/boot/Module.symvers-4.1.35-dey+g8dca338": 444625}
+PKGSIZE_kernel-dev: 2751170

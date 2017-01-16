@@ -1,0 +1,16 @@
+PN: iptables
+PV: 1.4.21
+PR: r0
+PKGV: 1.4.21
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-dev: iptables is the userspace command line program used to configure and control network packet filtering code in Linux.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_iptables-dev: Tools for managing kernel packet filtering capabilities - Development files
+RDEPENDS_iptables-dev: iptables (= 1.4.21-r0.0)
+RRECOMMENDS_iptables-dev: glibc-dev
+SECTION_iptables-dev: devel
+PKG_iptables-dev: iptables-dev
+ALLOW_EMPTY_iptables-dev: 1
+FILES_iptables-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/iptables/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/xtables.pc": 262, "/usr/lib/libip4tc.so": 17, "/usr/include/libiptc/libiptc.h": 5447, "/usr/lib/pkgconfig/libip4tc.pc": 214, "/usr/lib/libip6tc.la": 907, "/usr/lib/pkgconfig/libip6tc.pc": 214, "/usr/include/libiptc/ipt_kernel_headers.h": 360, "/usr/include/xtables.h": 16569, "/usr/lib/libxtables.so": 20, "/usr/lib/pkgconfig/libiptc.pc": 191, "/usr/include/libiptc/libip6tc.h": 5375, "/usr/lib/libxtables.la": 928, "/usr/lib/libiptc.so": 16, "/usr/lib/libip4tc.la": 907, "/usr/lib/libip6tc.so": 17, "/usr/lib/libiptc.la": 945, "/usr/include/libiptc/xtcshared.h": 634, "/usr/include/libiptc/libxtc.h": 724, "/usr/include/xtables-version.h": 75}
+PKGSIZE_iptables-dev: 33822

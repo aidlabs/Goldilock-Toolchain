@@ -1,0 +1,15 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-locale-tr: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains language translation files for the tr locale.
+SUMMARY_e2fsprogs-locale-tr: Ext2 Filesystem Utilities - tr translations
+RPROVIDES_e2fsprogs-locale-tr: e2fsprogs-locale tr-translation
+RRECOMMENDS_e2fsprogs-locale-tr: virtual-locale-tr
+SECTION: base
+PKG_e2fsprogs-locale-tr: e2fsprogs-locale-tr
+FILES_e2fsprogs-locale-tr: /usr/share/locale/tr
+FILES_INFO: {"/usr/share/locale/tr/LC_MESSAGES/e2fsprogs.mo": 73759}
+PKGSIZE_e2fsprogs-locale-tr: 73759

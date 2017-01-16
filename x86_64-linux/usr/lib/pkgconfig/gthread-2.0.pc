@@ -1,0 +1,11 @@
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+libdir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include
+
+Name: GThread
+Description: Thread support for GLib
+Requires: glib-2.0
+Version: 2.44.1
+Libs: -L${libdir} -lgthread-2.0 -pthread
+Cflags: -pthread

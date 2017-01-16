@@ -1,0 +1,12 @@
+PN: packagegroup-dey-network
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Network applications packagegroup for DEY image.
+SUMMARY: Network applications packagegroup for DEY image
+SECTION: base
+PKG_packagegroup-dey-network-ptest: packagegroup-dey-network-ptest
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-network-ptest: 0

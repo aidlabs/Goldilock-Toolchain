@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-fi: Library for parsing command line options.  This package contains language translation files for the fi locale.
+SUMMARY_popt-locale-fi: Library for parsing command line options - fi translations
+RPROVIDES_popt-locale-fi: popt-locale fi-translation popt-locale-fi (=1.16)
+RRECOMMENDS_popt-locale-fi: virtual-locale-fi
+SECTION: libs
+PKG_popt-locale-fi: libpopt-locale-fi
+FILES_popt-locale-fi: /usr/share/locale/fi
+FILES_INFO: {"/usr/share/locale/fi/LC_MESSAGES/popt.mo": 2426}
+PKGSIZE_popt-locale-fi: 2426

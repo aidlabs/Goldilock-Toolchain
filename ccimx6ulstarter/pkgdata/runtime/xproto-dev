@@ -1,0 +1,17 @@
+PN: xproto
+PE: 1
+PV: 7.0.28
+PR: r0
+PKGE: 1
+PKGV: 7.0.28
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_xproto-dev: This package provides the basic headers for the X Window System.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_xproto-dev: Xlib: C Language X interface headers - Development files
+RRECOMMENDS_xproto-dev: util-macros-dev
+SECTION_xproto-dev: devel
+PKG_xproto-dev: xproto-dev
+ALLOW_EMPTY_xproto-dev: 1
+FILES_xproto-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xproto/*.la /lib/*.la
+FILES_INFO: {"/usr/include/X11/Xpoll.h": 7650, "/usr/include/X11/Xwindows.h": 3283, "/usr/include/X11/Xwinsock.h": 2262, "/usr/include/X11/Xos.h": 4362, "/usr/include/X11/Xmd.h": 5075, "/usr/include/X11/Xprotostr.h": 2805, "/usr/include/X11/ap_keysym.h": 2298, "/usr/include/X11/HPkeysym.h": 6044, "/usr/include/X11/XF86keysym.h": 13065, "/usr/include/X11/Sunkeysym.h": 4022, "/usr/include/X11/DECkeysym.h": 2820, "/usr/include/X11/Xthreads.h": 12395, "/usr/include/X11/keysymdef.h": 175257, "/usr/include/X11/Xproto.h": 56959, "/usr/include/X11/Xosdefs.h": 3115, "/usr/include/X11/Xos_r.h": 33693, "/usr/include/X11/X.h": 20205, "/usr/include/X11/XWDFile.h": 3968, "/usr/include/X11/Xfuncproto.h": 7131, "/usr/include/X11/Xarch.h": 2951, "/usr/lib/pkgconfig/xproto.pc": 183, "/usr/include/X11/Xw32defs.h": 1910, "/usr/include/X11/keysym.h": 2774, "/usr/include/X11/Xdefs.h": 2404, "/usr/include/X11/Xfuncs.h": 2257, "/usr/include/X11/Xalloca.h": 4578, "/usr/include/X11/Xatom.h": 2518}
+PKGSIZE_xproto-dev: 385984

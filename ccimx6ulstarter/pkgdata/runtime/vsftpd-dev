@@ -1,0 +1,16 @@
+PN: vsftpd
+PV: 3.0.3
+PR: r0
+PKGV: 3.0.3
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_vsftpd-dev: Very Secure FTP server.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_vsftpd-dev: Very Secure FTP server - Development files
+RDEPENDS_vsftpd-dev: vsftpd (= 3.0.3-r0.0)
+RRECOMMENDS_vsftpd-dev: tcp-wrappers-dev base-passwd-dev shadow-dev shadow-sysroot-dev base-files-dev openssl-dev libwrap-dev update-rc.d-dev libcap-dev glibc-dev initscripts-dev
+SECTION_vsftpd-dev: devel
+PKG_vsftpd-dev: vsftpd-dev
+ALLOW_EMPTY_vsftpd-dev: 1
+FILES_vsftpd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vsftpd/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_vsftpd-dev: 0

@@ -1,0 +1,18 @@
+PN: imx-kobs
+PV: 5.4
+PR: r0
+PKGV: 5.4
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: Nand boot write source.
+SUMMARY: Nand boot write source
+RDEPENDS_imx-kobs: glibc (>= 2.22)
+SECTION: base
+PKG_imx-kobs: imx-kobs
+FILES_imx-kobs: /usr/bin/* /usr/sbin/* /usr/lib/imx-kobs/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/imx-kobs /usr/lib/imx-kobs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_imx-kobs: /usr/bin/kobs-ng
+FILES_INFO: {"/usr/bin/kobs-ng": 189416}
+FILERPROVIDES_/usr/bin/kobs-ng_imx-kobs: elf(buildid) (= a892f4891b56bd6bcf9d813891dc01b5486f70d3)
+FILERDEPENDSFLIST_imx-kobs: /usr/bin/kobs-ng
+FILERDEPENDS_/usr/bin/kobs-ng_imx-kobs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_imx-kobs: 189416

@@ -1,0 +1,15 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_python-smartpm-locale-zh-tw: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.  This package contains language translation files for the zh_TW locale.
+SUMMARY_python-smartpm-locale-zh-tw: The Smart Package Manager - zh_TW translations
+RPROVIDES_python-smartpm-locale-zh-tw: python-smartpm-locale zh-tw-translation
+RRECOMMENDS_python-smartpm-locale-zh-tw: virtual-locale-zh-tw
+SECTION: devel/python
+PKG_python-smartpm-locale-zh-tw: python-smartpm-locale-zh-tw
+FILES_python-smartpm-locale-zh-tw: /usr/share/locale/zh_TW
+FILES_INFO: {"/usr/share/locale/zh_TW/LC_MESSAGES/smart.mo": 65896}
+PKGSIZE_python-smartpm-locale-zh-tw: 65896

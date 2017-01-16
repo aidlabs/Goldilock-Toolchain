@@ -1,0 +1,15 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-locale-uk: Small library that defines common error values for all GnuPG components.  This package contains language translation files for the uk locale.
+SUMMARY_libgpg-error-locale-uk: Small library that defines common error values for all GnuPG components - uk translations
+RPROVIDES_libgpg-error-locale-uk: libgpg-error-locale uk-translation
+RRECOMMENDS_libgpg-error-locale-uk: virtual-locale-uk
+SECTION: libs
+PKG_libgpg-error-locale-uk: libgpg-error-locale-uk
+FILES_libgpg-error-locale-uk: /usr/share/locale/uk
+FILES_INFO: {"/usr/share/locale/uk/LC_MESSAGES/libgpg-error.mo": 28061}
+PKGSIZE_libgpg-error-locale-uk: 28061

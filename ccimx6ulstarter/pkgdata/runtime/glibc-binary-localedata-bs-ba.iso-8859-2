@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-bs-ba.iso-8859-2: binary locale definition for bs-ba.iso-8859-2
+SUMMARY_glibc-binary-localedata-bs-ba.iso-8859-2: binary locale definition for bs-ba.iso-8859-2
+SECTION: base
+PKG_glibc-binary-localedata-bs-ba.iso-8859-2: glibc-binary-localedata-bs-ba.iso-8859-2
+FILES_glibc-binary-localedata-bs-ba.iso-8859-2: /usr/lib/locale/bs_BA.ISO-8859-2
+FILES_INFO: {"/usr/lib/locale/bs_BA.ISO-8859-2/LC_CTYPE": 237184, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_ADDRESS": 152, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_IDENTIFICATION": 369, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_NAME": 67, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_NUMERIC": 59, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_MEASUREMENT": 28, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_MONETARY": 295, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_COLLATE": 21659, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_TIME": 2359, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_TELEPHONE": 57, "/usr/lib/locale/bs_BA.ISO-8859-2/LC_PAPER": 39}
+PKGSIZE_glibc-binary-localedata-bs-ba.iso-8859-2: 262327

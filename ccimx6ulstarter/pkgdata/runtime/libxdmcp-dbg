@@ -1,0 +1,17 @@
+PN: libxdmcp
+PE: 1
+PV: 1.1.2
+PR: r0
+PKGE: 1
+PKGV: 1.1.2
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_libxdmcp-dbg: The purpose of the X Display Manager Control Protocol (XDMCP) is to provide a uniform mechanism for an autonomous display to request login service from a remote host. An X terminal (screen, keyboard, mouse, processor, network interface) is a prime example of an autonomous display.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libxdmcp-dbg: XDMCP: X Display Manager Control Protocol library - Debugging files
+RRECOMMENDS_libxdmcp-dbg: glibc-dbg
+SECTION_libxdmcp-dbg: devel
+PKG_libxdmcp-dbg: libxdmcp-dbg
+ALLOW_EMPTY_libxdmcp-dbg: 1
+FILES_libxdmcp-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libxdmcp/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libxdmcp/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libxdmcp/libxdmcp/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Key.c": 2656, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Write.c": 3883, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Flush.c": 1712, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Read.c": 6515, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Wrap.h": 492, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Unwrap.c": 2783, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/include/X11/Xdmcp.h": 6371, "/usr/lib/.debug/libXdmcp.so.6.0.0": 37792, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Wrap.c": 3191, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Fill.c": 2008, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Wraphelp.c": 19644, "/usr/src/debug/libxdmcp/1_1.1.2-r0/libXdmcp-1.1.2/Array.c": 6427}
+PKGSIZE_libxdmcp-dbg: 93474

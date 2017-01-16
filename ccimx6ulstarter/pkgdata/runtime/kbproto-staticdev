@@ -1,0 +1,16 @@
+PN: kbproto
+PE: 1
+PV: 1.0.7
+PR: r0
+PKGE: 1
+PKGV: 1.0.7
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_kbproto-staticdev: This package provides the wire protocol for the X Keyboard extension.  This extension is used to control options related to keyboard handling and layout.  This package contains static libraries for software development.
+SUMMARY_kbproto-staticdev: XKB: X Keyboard extension headers - Development files (Static Libraries)
+RDEPENDS_kbproto-staticdev: kbproto-dev (= 1:1.0.7-r0.0)
+SECTION_kbproto-staticdev: devel
+PKG_kbproto-staticdev: kbproto-staticdev
+FILES_kbproto-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/kbproto/*.a
+FILES_INFO: {}
+PKGSIZE_kbproto-staticdev: 0

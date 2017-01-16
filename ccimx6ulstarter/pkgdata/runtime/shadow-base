@@ -1,0 +1,26 @@
+PN: shadow
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0.0
+LICENSE: BSD | Artistic-1.0
+DESCRIPTION: Tools to change and administer password and group data.
+SUMMARY: Tools to change and administer password and group data
+RDEPENDS_shadow-base: update-alternatives-opkg glibc (>= 2.22)
+SECTION: base/utils
+PKG_shadow-base: shadow-base
+FILES_shadow-base:     /bin/login.shadow     /bin/su.shadow     /usr/bin/sg     /usr/bin/newgrp.shadow     /usr/bin/groups.shadow     /etc/pam.d/login     /etc/pam.d/su     /etc/login.defs 
+pkg_postinst_shadow-base: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/newgrp newgrp /usr/bin/newgrp.shadow 200\n\tupdate-alternatives --install /usr/bin/groups groups /usr/bin/groups.shadow 200\n\tupdate-alternatives --install /bin/login login /bin/login.shadow 200\n\tupdate-alternatives --install /bin/su su /bin/su.shadow 200\n
+pkg_prerm_shadow-base: #!/bin/sh\n\tupdate-alternatives --remove  newgrp /usr/bin/newgrp.shadow\n\tupdate-alternatives --remove  groups /usr/bin/groups.shadow\n\tupdate-alternatives --remove  login /bin/login.shadow\n\tupdate-alternatives --remove  su /bin/su.shadow\n
+FILERPROVIDESFLIST_shadow-base: /usr/bin/groups.shadow /bin/login.shadow /usr/bin/newgrp.shadow /bin/su.shadow
+FILES_INFO: {"/usr/bin/groups.shadow": 6888, "/etc/login.defs": 10929, "/usr/bin/newgrp.shadow": 24028, "/bin/su.shadow": 43908, "/usr/bin/sg": 13, "/bin/login.shadow": 52092}
+FILERPROVIDES_/usr/bin/groups.shadow_shadow-base: elf(buildid) (= 65ede0c1cc485046dce487c43d99c889425ea9ff) /usr/bin/groups
+FILERPROVIDES_/bin/login.shadow_shadow-base: elf(buildid) (= c653a75c5e9a87b82d3c8e812c2fe79d9a455ef6) /bin/login
+FILERPROVIDES_/usr/bin/newgrp.shadow_shadow-base: elf(buildid) (= eb8161f7fcdbdaad283bce276941b0687adaabf2) /usr/bin/newgrp
+FILERPROVIDES_/bin/su.shadow_shadow-base: elf(buildid) (= abc3fc0d220869ef570c82285e33cfafe01cad31) /bin/su
+FILERDEPENDSFLIST_shadow-base: /usr/bin/groups.shadow /bin/login.shadow /usr/bin/newgrp.shadow /bin/su.shadow
+FILERDEPENDS_/usr/bin/groups.shadow_shadow-base: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/bin/login.shadow_shadow-base: libc.so.6 libc.so.6(GLIBC_2.4) libcrypt.so.1 libcrypt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/newgrp.shadow_shadow-base: libc.so.6 libc.so.6(GLIBC_2.4) libcrypt.so.1 libcrypt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/bin/su.shadow_shadow-base: libc.so.6 libc.so.6(GLIBC_2.4) libcrypt.so.1 libcrypt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_shadow-base: 137858

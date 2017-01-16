@@ -1,0 +1,13 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-doc: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains documentation.
+SUMMARY_rpm-doc: The RPM package management system - Documentation files
+SECTION_rpm-doc: doc
+PKG_rpm-doc: rpm-doc
+FILES_rpm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/rpmconstant.8": 369, "/usr/share/man/pl/man8/rpm.8": 29432, "/usr/share/man/sk/man8/rpm.8": 23164, "/usr/share/man/pl/man8/rpmdeps.8": 668, "/usr/share/man/fr/man8/rpm.8": 25567, "/usr/share/man/man1/gendiff.1": 1642, "/usr/share/man/pl/man8/rpmbuild.8": 7296, "/usr/share/man/pl/man8/rpm2cpio.8": 689, "/usr/share/man/man1/rpmgrep.1": 21129, "/usr/share/man/man8/rpm2cpio.8": 628, "/usr/share/man/pl/man1/gendiff.1": 1714, "/usr/share/man/ko/man8/rpm2cpio.8": 778, "/usr/share/man/ru/man8/rpm.8": 44575, "/usr/share/man/ko/man8/rpm.8": 13941, "/usr/share/man/ru/man8/rpm2cpio.8": 913, "/usr/share/man/man8/rpmdeps.8": 859, "/usr/share/man/ja/man8/rpmbuild.8": 10037, "/usr/share/man/ja/man8/rpm2cpio.8": 1623, "/usr/share/man/man8/rpm.8": 28949, "/usr/share/man/ja/man8/rpm.8": 37286, "/usr/share/man/man8/rpmbuild.8": 7332, "/usr/share/man/man8/rpmmtree.8": 10653}
+PKGSIZE_rpm-doc: 269244

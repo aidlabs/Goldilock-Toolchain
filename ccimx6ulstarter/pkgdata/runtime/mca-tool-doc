@@ -1,0 +1,13 @@
+PN: mca-tool
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: CLOSED
+DESCRIPTION_mca-tool-doc: MCA firmware management tool.  This package contains documentation.
+SUMMARY_mca-tool-doc: MCA firmware management tool - Documentation files
+SECTION_mca-tool-doc: doc
+PKG_mca-tool-doc: mca-tool-doc
+FILES_mca-tool-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_mca-tool-doc: 0

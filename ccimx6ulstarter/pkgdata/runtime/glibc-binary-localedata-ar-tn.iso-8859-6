@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ar-tn.iso-8859-6: binary locale definition for ar-tn.iso-8859-6
+SUMMARY_glibc-binary-localedata-ar-tn.iso-8859-6: binary locale definition for ar-tn.iso-8859-6
+SECTION: base
+PKG_glibc-binary-localedata-ar-tn.iso-8859-6: glibc-binary-localedata-ar-tn.iso-8859-6
+FILES_glibc-binary-localedata-ar-tn.iso-8859-6: /usr/lib/locale/ar_TN.ISO-8859-6
+FILES_INFO: {"/usr/lib/locale/ar_TN.ISO-8859-6/LC_TELEPHONE": 57, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_NUMERIC": 59, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_TIME": 2403, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_NAME": 82, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_COLLATE": 18475, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_MEASUREMENT": 28, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_MONETARY": 299, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_MESSAGES/SYS_LC_MESSAGES": 64, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_ADDRESS": 123, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_IDENTIFICATION": 444, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_PAPER": 39, "/usr/lib/locale/ar_TN.ISO-8859-6/LC_CTYPE": 236956}
+PKGSIZE_glibc-binary-localedata-ar-tn.iso-8859-6: 259029

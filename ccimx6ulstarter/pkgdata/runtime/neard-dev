@@ -1,0 +1,16 @@
+PN: neard
+PV: 0.15
+PR: r0
+PKGV: 0.15
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_neard-dev: A daemon for the Linux Near Field Communication stack  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_neard-dev: Linux NFC daemon - Development files
+RDEPENDS_neard-dev: neard (= 0.15-r0.0)
+RRECOMMENDS_neard-dev: python-pygobject-dev libnl-dev dbus-lib-dev libnl-genl-dev update-rc.d-dev python-dbus-dev glib-2.0-dev glibc-dev dbus-dev python-dev initscripts-dev
+SECTION_neard-dev: devel
+PKG_neard-dev: neard-dev
+ALLOW_EMPTY_neard-dev: 1
+FILES_neard-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/neard/*.la /lib/*.la
+FILES_INFO: {"/usr/include/near/version.h": 967, "/usr/include/near/snep.h": 3148, "/usr/lib/pkgconfig/neard.pc": 332, "/usr/include/near/setting.h": 1006, "/usr/include/near/ndef.h": 2305, "/usr/include/near/tlv.h": 1164, "/usr/include/near/tag.h": 4945, "/usr/include/near/types.h": 4129, "/usr/include/near/nfc_copy.h": 10063, "/usr/include/near/plugin.h": 2401, "/usr/include/near/device.h": 2025, "/usr/include/near/log.h": 1662, "/usr/include/near/adapter.h": 1267}
+PKGSIZE_neard-dev: 35414

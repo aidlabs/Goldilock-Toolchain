@@ -1,0 +1,13 @@
+PN: u-boot-dey
+PV: 2015.04
+PR: r0
+PKGV: 2015.04
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: Bootloader for Digi platforms
+SUMMARY: Universal Boot Loader for embedded devices
+SECTION: bootloaders
+PKG_u-boot-dey-locale: u-boot-dey-locale
+FILES_u-boot-dey-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_u-boot-dey-locale: 0

@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-nl: Library for parsing command line options.  This package contains language translation files for the nl locale.
+SUMMARY_popt-locale-nl: Library for parsing command line options - nl translations
+RPROVIDES_popt-locale-nl: popt-locale nl-translation popt-locale-nl (=1.16)
+RRECOMMENDS_popt-locale-nl: virtual-locale-nl
+SECTION: libs
+PKG_popt-locale-nl: libpopt-locale-nl
+FILES_popt-locale-nl: /usr/share/locale/nl
+FILES_INFO: {"/usr/share/locale/nl/LC_MESSAGES/popt.mo": 2204}
+PKGSIZE_popt-locale-nl: 2204

@@ -1,0 +1,12 @@
+PN: packagegroup-base
+PV: 1.0
+PR: r83
+PKGV: 1.0
+PKGR: r83.0
+LICENSE: MIT
+DESCRIPTION: Merge machine and distro options to create a basic machine task/package.
+SUMMARY: Merge machine and distro options to create a basic machine task/package
+SECTION: base
+PKG_packagegroup-base-bluetooth-ptest: packagegroup-base-bluetooth-ptest
+FILES_INFO: {}
+PKGSIZE_packagegroup-base-bluetooth-ptest: 0

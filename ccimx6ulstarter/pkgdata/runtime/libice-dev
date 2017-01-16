@@ -1,0 +1,18 @@
+PN: libice
+PE: 1
+PV: 1.0.9
+PR: r0
+PKGE: 1
+PKGV: 1.0.9
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_libice-dev: The Inter-Client Exchange (ICE) protocol provides a generic framework for building protocols on top of reliable, byte-stream transport connections. It provides basic mechanisms for setting up and shutting down connections, for performing authentication, for negotiating versions, and for reporting errors.   This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libice-dev: ICE: Inter-Client Exchange library - Development files
+RDEPENDS_libice-dev: libice (= 1:1.0.9-r0.0)
+RRECOMMENDS_libice-dev: xproto-dev glibc-dev xtrans-dev util-macros-dev
+SECTION_libice-dev: devel
+PKG_libice-dev: libice-dev
+ALLOW_EMPTY_libice-dev: 1
+FILES_libice-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libice/*.la /lib/*.la
+FILES_INFO: {"/usr/include/X11/ICE/ICE.h": 2512, "/usr/lib/libICE.la": 903, "/usr/include/X11/ICE/ICEproto.h": 4668, "/usr/include/X11/ICE/ICEutil.h": 3154, "/usr/lib/pkgconfig/ice.pc": 205, "/usr/include/X11/ICE/ICEconn.h": 7413, "/usr/include/X11/ICE/ICEmsg.h": 8410, "/usr/lib/libICE.so": 15, "/usr/include/X11/ICE/ICElib.h": 9925}
+PKGSIZE_libice-dev: 37205

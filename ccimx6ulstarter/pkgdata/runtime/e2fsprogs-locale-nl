@@ -1,0 +1,15 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-locale-nl: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains language translation files for the nl locale.
+SUMMARY_e2fsprogs-locale-nl: Ext2 Filesystem Utilities - nl translations
+RPROVIDES_e2fsprogs-locale-nl: e2fsprogs-locale nl-translation
+RRECOMMENDS_e2fsprogs-locale-nl: virtual-locale-nl
+SECTION: base
+PKG_e2fsprogs-locale-nl: e2fsprogs-locale-nl
+FILES_e2fsprogs-locale-nl: /usr/share/locale/nl
+FILES_INFO: {"/usr/share/locale/nl/LC_MESSAGES/e2fsprogs.mo": 139448}
+PKGSIZE_e2fsprogs-locale-nl: 139448

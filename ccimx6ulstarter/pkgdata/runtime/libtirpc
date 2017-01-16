@@ -1,0 +1,20 @@
+PN: libtirpc
+PV: 0.2.5
+PR: r0
+PKGV: 0.2.5
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION: Libtirpc is a port of Suns Transport-Independent RPC library to Linux
+SUMMARY: Transport-Independent RPC library
+RDEPENDS_libtirpc: glibc (>= 2.22)
+RPROVIDES_libtirpc:  libtirpc (=0.2.5)
+SECTION: libs/network
+PKG_libtirpc: libtirpc1
+FILES_libtirpc: /usr/bin/* /usr/sbin/* /usr/lib/libtirpc/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libtirpc /usr/lib/libtirpc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libtirpc: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libtirpc: /usr/lib/libtirpc.so.1.0.10
+FILES_INFO: {"/usr/lib/libtirpc.so.1.0.10": 118068, "/usr/lib/libtirpc.so.1": 18, "/etc/netconfig": 767}
+FILERPROVIDES_/usr/lib/libtirpc.so.1.0.10_libtirpc: elf(buildid) (= df8f5bd05a8d82c56921a12c77effcb90cc42072) libtirpc.so.1
+FILERDEPENDSFLIST_libtirpc: /usr/lib/libtirpc.so.1.0.10
+FILERDEPENDS_/usr/lib/libtirpc.so.1.0.10_libtirpc: libc.so.6 libc.so.6(GLIBC_2.4) libnsl.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libtirpc: 118853

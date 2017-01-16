@@ -1,0 +1,20 @@
+PN: beecrypt
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: A general-purpose cryptography library.
+SUMMARY: A general-purpose cryptography library
+RDEPENDS_beecrypt: libstdc++ (>= 5.2.0) glibc (>= 2.22) libgcc (>= 5.2.0)
+RPROVIDES_beecrypt:  beecrypt (=4.2.1)
+SECTION: base
+PKG_beecrypt: libbeecrypt7
+FILES_beecrypt: /etc /usr/lib/*.so.* /usr/lib/beecrypt/*.so.*
+pkg_postinst_beecrypt: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_beecrypt: /usr/lib/libbeecrypt.so.7.0.0
+FILES_INFO: {"/usr/lib/libbeecrypt.so.7.0.0": 229960, "/usr/lib/libbeecrypt.so.7": 20}
+FILERPROVIDES_/usr/lib/libbeecrypt.so.7.0.0_beecrypt: elf(buildid) (= 723721e67a162c5a386341aa1a1fad81c7fff0d8) libbeecrypt.so.7
+FILERDEPENDSFLIST_beecrypt: /usr/lib/libbeecrypt.so.7.0.0
+FILERDEPENDS_/usr/lib/libbeecrypt.so.7.0.0_beecrypt: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.11) libstdc++.so.6(GLIBCXX_3.4.9) rtld(GNU_HASH)
+PKGSIZE_beecrypt: 229980

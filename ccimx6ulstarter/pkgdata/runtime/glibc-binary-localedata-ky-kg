@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ky-kg: binary locale definition for ky-kg
+SUMMARY_glibc-binary-localedata-ky-kg: binary locale definition for ky-kg
+SECTION: base
+PKG_glibc-binary-localedata-ky-kg: glibc-binary-localedata-ky-kg
+FILES_glibc-binary-localedata-ky-kg: /usr/lib/locale/ky_KG
+FILES_INFO: {"/usr/lib/locale/ky_KG/LC_CTYPE": 278308, "/usr/lib/locale/ky_KG/LC_MONETARY": 302, "/usr/lib/locale/ky_KG/LC_PAPER": 34, "/usr/lib/locale/ky_KG/LC_IDENTIFICATION": 373, "/usr/lib/locale/ky_KG/LC_TELEPHONE": 50, "/usr/lib/locale/ky_KG/LC_ADDRESS": 155, "/usr/lib/locale/ky_KG/LC_NAME": 62, "/usr/lib/locale/ky_KG/LC_MEASUREMENT": 23, "/usr/lib/locale/ky_KG/LC_COLLATE": 1243770, "/usr/lib/locale/ky_KG/LC_NUMERIC": 54, "/usr/lib/locale/ky_KG/LC_MESSAGES/SYS_LC_MESSAGES": 74, "/usr/lib/locale/ky_KG/LC_TIME": 2486}
+PKGSIZE_glibc-binary-localedata-ky-kg: 1525691

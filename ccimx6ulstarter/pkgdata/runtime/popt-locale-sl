@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-sl: Library for parsing command line options.  This package contains language translation files for the sl locale.
+SUMMARY_popt-locale-sl: Library for parsing command line options - sl translations
+RPROVIDES_popt-locale-sl: popt-locale sl-translation popt-locale-sl (=1.16)
+RRECOMMENDS_popt-locale-sl: virtual-locale-sl
+SECTION: libs
+PKG_popt-locale-sl: libpopt-locale-sl
+FILES_popt-locale-sl: /usr/share/locale/sl
+FILES_INFO: {"/usr/share/locale/sl/LC_MESSAGES/popt.mo": 557}
+PKGSIZE_popt-locale-sl: 557

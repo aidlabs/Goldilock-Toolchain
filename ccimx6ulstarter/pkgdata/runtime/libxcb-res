@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-res: XCB library module for res
+SUMMARY_libxcb-res: XCB library module for res
+RDEPENDS_libxcb-res: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-res:  libxcb-res (=1.11)
+SECTION: x11/libs
+PKG_libxcb-res: libxcb-res0
+FILES_libxcb-res: /usr/lib/libxcb-res.so.0 /usr/lib/libxcb-res.so.0.0.0
+pkg_postinst_libxcb-res: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-res: /usr/lib/libxcb-res.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-res.so.0.0.0": 9284, "/usr/lib/libxcb-res.so.0": 19}
+FILERPROVIDES_/usr/lib/libxcb-res.so.0.0.0_libxcb-res: elf(buildid) (= 0c17d82f4cd4b56ceed4818f8280f72cd670ca0a) libxcb-res.so.0
+FILERDEPENDSFLIST_libxcb-res: /usr/lib/libxcb-res.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-res.so.0.0.0_libxcb-res: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-res: 9303

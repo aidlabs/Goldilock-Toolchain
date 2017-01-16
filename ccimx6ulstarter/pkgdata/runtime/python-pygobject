@@ -1,0 +1,24 @@
+PN: python-pygobject
+PV: 2.28.3
+PR: r0
+PKGV: 2.28.3
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION: Python GObject bindings.
+SUMMARY: Python GObject bindings
+RDEPENDS_python-pygobject: python-textutils python-pygobject-lib (>= 2.28.3) zlib (>= 1.2.8) glib-2.0 (>= 2.44.1) python-core libffi (>= 3.2.1) glibc (>= 2.22)
+SECTION: devel/python
+PKG_python-pygobject: python-pygobject
+FILES_python-pygobject: /usr/lib/python*
+FILERPROVIDESFLIST_python-pygobject: /usr/lib/python2.7/site-packages/gtk-2.0/gio/@underscore@gio.so /usr/lib/python2.7/site-packages/gtk-2.0/gio/unix.so /usr/lib/python2.7/site-packages/glib/@underscore@glib.so /usr/lib/python2.7/site-packages/gobject/@underscore@gobject.so
+FILES_INFO: {"/usr/lib/python2.7/site-packages/glib/option.py": 13157, "/usr/lib/python2.7/site-packages/gtk-2.0/gio/unix.la": 1173, "/usr/lib/python2.7/site-packages/gobject/_gobject.la": 1129, "/usr/lib/python2.7/site-packages/gobject/_gobject.so": 114580, "/usr/lib/python2.7/site-packages/glib/__init__.pyo": 219, "/usr/lib/python2.7/site-packages/gtk-2.0/dsextras.py": 16339, "/usr/lib/python2.7/site-packages/gtk-2.0/gio/__init__.py": 1328, "/usr/lib/python2.7/site-packages/gtk-2.0/gio/__init__.pyo": 929, "/usr/lib/python2.7/site-packages/gtk-2.0/gio/_gio.so": 287464, "/usr/lib/python2.7/site-packages/gobject/propertyhelper.pyo": 9424, "/usr/lib/python2.7/site-packages/gtk-2.0/dsextras.pyo": 17806, "/usr/lib/python2.7/site-packages/gobject/__init__.pyo": 5208, "/usr/lib/python2.7/site-packages/glib/__init__.py": 996, "/usr/lib/python2.7/site-packages/pygtk.pyo": 1755, "/usr/lib/python2.7/site-packages/gtk-2.0/gio/_gio.la": 1235, "/usr/lib/python2.7/site-packages/gobject/constants.py": 3158, "/usr/lib/python2.7/site-packages/gobject/constants.pyo": 1989, "/usr/lib/python2.7/site-packages/gtk-2.0/gio/unix.so": 21548, "/usr/lib/python2.7/site-packages/gobject/__init__.py": 4875, "/usr/lib/python2.7/site-packages/glib/_glib.la": 1108, "/usr/lib/python2.7/site-packages/glib/option.pyo": 12595, "/usr/lib/python2.7/site-packages/pygtk.pth": 8, "/usr/lib/python2.7/site-packages/pygtk.py": 2966, "/usr/lib/python2.7/site-packages/glib/_glib.so": 56436, "/usr/lib/python2.7/site-packages/gobject/propertyhelper.py": 9884}
+FILERPROVIDES_/usr/lib/python2.7/site-packages/gtk-2.0/gio/@underscore@gio.so_python-pygobject: _gio.so elf(buildid) (= 29cf4b547d09541cbb153fcf78f932c36f7c8ab0)
+FILERPROVIDES_/usr/lib/python2.7/site-packages/gtk-2.0/gio/unix.so_python-pygobject: elf(buildid) (= 312c2a147e2011ce103f5ed18842013727397e34) unix.so
+FILERPROVIDES_/usr/lib/python2.7/site-packages/glib/@underscore@glib.so_python-pygobject: _glib.so elf(buildid) (= 36a9f918d8daa9c3f3de9f8c3bb8d535afbf41fd)
+FILERPROVIDES_/usr/lib/python2.7/site-packages/gobject/@underscore@gobject.so_python-pygobject: _gobject.so elf(buildid) (= 73d4da08ecec76a92a0531504073142d722f0708)
+FILERDEPENDSFLIST_python-pygobject: /usr/lib/python2.7/site-packages/gtk-2.0/gio/@underscore@gio.so /usr/lib/python2.7/site-packages/gtk-2.0/gio/unix.so /usr/lib/python2.7/site-packages/glib/@underscore@glib.so /usr/lib/python2.7/site-packages/gobject/@underscore@gobject.so
+FILERDEPENDS_/usr/lib/python2.7/site-packages/gtk-2.0/gio/@underscore@gio.so_python-pygobject: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libffi.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libpyglib-2.0-python.so.0 libresolv.so.2 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/site-packages/gtk-2.0/gio/unix.so_python-pygobject: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libffi.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libresolv.so.2 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/site-packages/glib/@underscore@glib.so_python-pygobject: libc.so.6 libc.so.6(GLIBC_2.4) libffi.so.6 libglib-2.0.so.0 libgobject-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libpyglib-2.0-python.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/site-packages/gobject/@underscore@gobject.so_python-pygobject: libc.so.6 libc.so.6(GLIBC_2.4) libffi.so.6 libglib-2.0.so.0 libgobject-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpyglib-2.0-python.so.0 rtld(GNU_HASH)
+PKGSIZE_python-pygobject: 587309

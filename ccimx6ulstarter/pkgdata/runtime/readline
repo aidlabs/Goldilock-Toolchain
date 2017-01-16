@@ -1,0 +1,22 @@
+PN: readline
+PV: 6.3
+PR: r0
+PKGV: 6.3
+PKGR: r0.0
+LICENSE: GPLv3+
+DESCRIPTION: The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes  additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those   lines, and perform csh-like history expansion on previous commands.
+SUMMARY: Library for editing typed command lines
+RDEPENDS_readline: glibc (>= 2.22) ncurses-libtinfo (>= 5.9)
+RPROVIDES_readline:  readline (=6.3)
+SECTION: libs
+PKG_readline: libreadline6
+FILES_readline: /usr/bin/* /usr/sbin/* /usr/lib/readline/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/readline /usr/lib/readline/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_readline: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_readline: /usr/lib/libhistory.so.6.3 /usr/lib/libreadline.so.6.3
+FILES_INFO: {"/usr/share/readline/rl-fgets.c": 11147, "/usr/share/readline/histexamp.c": 2889, "/usr/lib/libhistory.so.6": 17, "/usr/share/readline/excallback.c": 5808, "/usr/share/readline/hist_erasedups.c": 2767, "/usr/lib/libreadline.so.6": 18, "/usr/share/readline/rl-callbacktest.c": 2038, "/usr/share/readline/rltest.c": 2146, "/usr/lib/libreadline.so.6.3": 225916, "/usr/share/readline/rlversion.c": 1287, "/usr/share/readline/rlcat.c": 3299, "/usr/share/readline/manexamp.c": 3300, "/usr/lib/libhistory.so.6.3": 27208, "/usr/share/readline/fileman.c": 11426, "/usr/share/readline/rlptytest.c": 6531, "/usr/share/readline/rl.c": 3179, "/usr/share/readline/rlevent.c": 3295, "/usr/share/readline/hist_purgecmd.c": 3362}
+FILERPROVIDES_/usr/lib/libhistory.so.6.3_readline: elf(buildid) (= 507123c16ae53fe611491eeaf86417440743eab3) libhistory.so.6
+FILERPROVIDES_/usr/lib/libreadline.so.6.3_readline: elf(buildid) (= 4f836327d8faae8f9404fbb08f9b474165ee5c30) libreadline.so.6
+FILERDEPENDSFLIST_readline: /usr/lib/libhistory.so.6.3 /usr/lib/libreadline.so.6.3
+FILERDEPENDS_/usr/lib/libhistory.so.6.3_readline: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libreadline.so.6.3_readline: libc.so.6 libc.so.6(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_readline: 315633

@@ -1,0 +1,17 @@
+PN: kbproto
+PE: 1
+PV: 1.0.7
+PR: r0
+PKGE: 1
+PKGV: 1.0.7
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_kbproto-dev: This package provides the wire protocol for the X Keyboard extension.  This extension is used to control options related to keyboard handling and layout.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_kbproto-dev: XKB: X Keyboard extension headers - Development files
+RRECOMMENDS_kbproto-dev: util-macros-dev
+SECTION_kbproto-dev: devel
+PKG_kbproto-dev: kbproto-dev
+ALLOW_EMPTY_kbproto-dev: 1
+FILES_kbproto-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/kbproto/*.la /lib/*.la
+FILES_INFO: {"/usr/include/X11/extensions/XKBstr.h": 19643, "/usr/include/X11/extensions/XKBgeom.h": 15816, "/usr/include/X11/extensions/XKBsrv.h": 28029, "/usr/include/X11/extensions/XKB.h": 28241, "/usr/lib/pkgconfig/kbproto.pc": 158, "/usr/include/X11/extensions/XKBproto.h": 30890}
+PKGSIZE_kbproto-dev: 122777

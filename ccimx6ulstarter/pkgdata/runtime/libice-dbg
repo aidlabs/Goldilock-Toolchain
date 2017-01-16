@@ -1,0 +1,17 @@
+PN: libice
+PE: 1
+PV: 1.0.9
+PR: r0
+PKGE: 1
+PKGV: 1.0.9
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_libice-dbg: The Inter-Client Exchange (ICE) protocol provides a generic framework for building protocols on top of reliable, byte-stream transport connections. It provides basic mechanisms for setting up and shutting down connections, for performing authentication, for negotiating versions, and for reporting errors.   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libice-dbg: ICE: Inter-Client Exchange library - Debugging files
+RRECOMMENDS_libice-dbg: glibc-dbg
+SECTION_libice-dbg: devel
+PKG_libice-dbg: libice-dbg
+ALLOW_EMPTY_libice-dbg: 1
+FILES_libice-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libice/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libice/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libice/libice/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/listenwk.c": 3588, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/error.c": 13032, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/locking.c": 1669, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/include/X11/ICE/ICEconn.h": 7413, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/connect.c": 13353, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/getauth.c": 6014, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/shutdown.c": 8345, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/process.c": 63295, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/replywait.c": 3736, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/authutil.c": 9749, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/include/X11/ICE/ICEproto.h": 4668, "/usr/lib/.debug/libICE.so.6.3.0": 258132, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/register.c": 5429, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/ping.c": 2008, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/globals.h": 1634, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/protosetup.c": 7801, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/watch.c": 4880, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/include/X11/ICE/ICElib.h": 9925, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/misc.c": 9408, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/ICElibint.h": 10563, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/iceauth.c": 5538, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/setauth.c": 3562, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/accept.c": 4549, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/src/listen.c": 5510, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/include/X11/ICE/ICEmsg.h": 8410, "/usr/src/debug/libice/1_1.0.9-r0/libICE-1.0.9/include/X11/ICE/ICEutil.h": 3154}
+PKGSIZE_libice-dbg: 475365

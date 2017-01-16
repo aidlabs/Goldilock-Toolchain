@@ -1,0 +1,17 @@
+PN: inputproto
+PE: 1
+PV: 2.3.1
+PR: r0
+PKGE: 1
+PKGV: 2.3.1
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_inputproto-dbg: This package provides the wire protocol for the X Input extension.  The extension supports input devices other then the core X keyboard and pointer.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_inputproto-dbg: XI: X Input extension headers - Debugging files
+RRECOMMENDS_inputproto-dbg: inputproto-dev (= 1:2.3.1-r0.0)
+SECTION_inputproto-dbg: devel
+PKG_inputproto-dbg: inputproto-dbg
+ALLOW_EMPTY_inputproto-dbg: 1
+FILES_inputproto-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/inputproto/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/inputproto/.debug /usr/lib/matchbox-panel/.debug /usr/lib/inputproto/inputproto/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_inputproto-dbg: 0

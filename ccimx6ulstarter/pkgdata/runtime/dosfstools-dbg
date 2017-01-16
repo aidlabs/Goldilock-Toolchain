@@ -1,0 +1,15 @@
+PN: dosfstools
+PV: 3.0.28
+PR: r0
+PKGV: 3.0.28
+PKGR: r0.0
+LICENSE: GPLv3
+DESCRIPTION_dosfstools-dbg: DOS FAT Filesystem Utilities.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_dosfstools-dbg: DOS FAT Filesystem Utilities - Debugging files
+RRECOMMENDS_dosfstools-dbg: glibc-dbg
+SECTION_dosfstools-dbg: devel
+PKG_dosfstools-dbg: dosfstools-dbg
+ALLOW_EMPTY_dosfstools-dbg: 1
+FILES_dosfstools-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dosfstools/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dosfstools/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dosfstools/dosfstools/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/common.c": 2638, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/check.c": 31039, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/common.h": 1846, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/check.h": 1648, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/file.h": 2273, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/fat.h": 2955, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/file.c": 6503, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/fat.c": 16358, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/lfn.c": 15881, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/lfn.h": 1372, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/fsck.fat.c": 5899, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/mkfs.fat.c": 56448, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/boot.c": 18987, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/io.h": 2434, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/fsck.fat.h": 7090, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/io.c": 6134, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/boot.h": 1202, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/msdos_fs.h": 2396, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/charconv.c": 1536, "/sbin/.debug/fatlabel": 117584, "/sbin/.debug/mkfs.fat": 47112, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/charconv.h": 173, "/usr/src/debug/dosfstools/3.0.28-r0/dosfstools-3.0.28/src/fatlabel.c": 3470, "/sbin/.debug/fsck.fat": 118036}
+PKGSIZE_dosfstools-dbg: 471014

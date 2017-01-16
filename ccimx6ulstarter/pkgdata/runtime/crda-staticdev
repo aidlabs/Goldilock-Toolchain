@@ -1,0 +1,14 @@
+PN: crda
+PV: 3.18
+PR: r0
+PKGV: 3.18
+PKGR: r0.0
+LICENSE: copyleft-next-0.3.0 & ISC
+DESCRIPTION_crda-staticdev: Wireless Central Regulatory Domain Agent.  This package contains static libraries for software development.
+SUMMARY_crda-staticdev: Wireless Central Regulatory Domain Agent - Development files (Static Libraries)
+RDEPENDS_crda-staticdev: crda-dev (= 3.18-r0.0)
+SECTION_crda-staticdev: devel
+PKG_crda-staticdev: crda-staticdev
+FILES_crda-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/crda/*.a
+FILES_INFO: {}
+PKGSIZE_crda-staticdev: 0

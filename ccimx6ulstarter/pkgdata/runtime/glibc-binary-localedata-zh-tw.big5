@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-zh-tw.big5: binary locale definition for zh-tw.big5
+SUMMARY_glibc-binary-localedata-zh-tw.big5: binary locale definition for zh-tw.big5
+SECTION: base
+PKG_glibc-binary-localedata-zh-tw.big5: glibc-binary-localedata-zh-tw.big5
+FILES_glibc-binary-localedata-zh-tw.big5: /usr/lib/locale/zh_TW.BIG5
+FILES_INFO: {"/usr/lib/locale/zh_TW.BIG5/LC_MESSAGES/SYS_LC_MESSAGES": 53, "/usr/lib/locale/zh_TW.BIG5/LC_NUMERIC": 53, "/usr/lib/locale/zh_TW.BIG5/LC_TIME": 2145, "/usr/lib/locale/zh_TW.BIG5/LC_PAPER": 33, "/usr/lib/locale/zh_TW.BIG5/LC_MONETARY": 289, "/usr/lib/locale/zh_TW.BIG5/LC_CTYPE": 265396, "/usr/lib/locale/zh_TW.BIG5/LC_MEASUREMENT": 22, "/usr/lib/locale/zh_TW.BIG5/LC_TELEPHONE": 56, "/usr/lib/locale/zh_TW.BIG5/LC_NAME": 73, "/usr/lib/locale/zh_TW.BIG5/LC_COLLATE": 593001, "/usr/lib/locale/zh_TW.BIG5/LC_ADDRESS": 145, "/usr/lib/locale/zh_TW.BIG5/LC_IDENTIFICATION": 313}
+PKGSIZE_glibc-binary-localedata-zh-tw.big5: 861579

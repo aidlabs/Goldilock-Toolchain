@@ -1,0 +1,13 @@
+PN: kernel-module-qualcomm
+PV: v4.2.74.63
+PR: r0
+PKGV: v4.2.74.63
+PKGR: r0.0
+LICENSE: ISC
+DESCRIPTION: qcacld-2.0 module.bbclass mechanism.
+SUMMARY: Qualcomm\'s wireless driver for qca6564
+SECTION: base
+PKG_kernel-module-qualcomm-locale: kernel-module-qualcomm-locale
+FILES_kernel-module-qualcomm-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_kernel-module-qualcomm-locale: 0

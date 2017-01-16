@@ -1,0 +1,15 @@
+PN: sysvinit
+PV: 2.88dsf
+PR: r14
+PKGV: 2.88dsf
+PKGR: r14.0
+LICENSE: GPLv2+
+DESCRIPTION_sysvinit-dbg: This package is required to boot in most configurations.  It provides the /sbin/init program.  This is the first process started on boot, and the last process terminated before the system halts.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_sysvinit-dbg: System-V like init - Debugging files
+RRECOMMENDS_sysvinit-dbg: glibc-dbg
+SECTION_sysvinit-dbg: devel
+PKG_sysvinit-dbg: sysvinit-dbg
+ALLOW_EMPTY_sysvinit-dbg: 1
+FILES_sysvinit-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sysvinit/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sysvinit/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sysvinit/sysvinit/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/last.c": 21068, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/shutdown.c": 17520, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/halt.c": 7059, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/init.c": 62676, "/sbin/.debug/runlevel.sysvinit": 12300, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/init.h": 4513, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/oldutmp.h": 1218, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/initreq.h": 2505, "/usr/bin/.debug/utmpdump.sysvinit": 21020, "/sbin/.debug/bootlogd": 29288, "/sbin/.debug/killall5": 39248, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/killall5.c": 24458, "/sbin/.debug/init.sysvinit": 64780, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/utmpdump.c": 6859, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/utmp.c": 6911, "/usr/bin/.debug/wall.sysvinit": 24540, "/sbin/.debug/halt.sysvinit": 35444, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/hddown.c": 12674, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/sulogin.c": 13492, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/dowall.c": 5694, "/sbin/.debug/sulogin.sysvinit": 28452, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/mountpoint.c": 2861, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/mesg.c": 2890, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/bootlogd.c": 14194, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/ifdown.c": 2773, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/fstab-decode.c": 1919, "/bin/.debug/mountpoint.sysvinit": 14836, "/usr/bin/.debug/last.sysvinit": 31356, "/sbin/.debug/shutdown.sysvinit": 45596, "/sbin/.debug/fstab-decode": 12452, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/runlevel.c": 1415, "/usr/src/debug/sysvinit/2.88dsf-r14/sysvinit-2.88dsf/src/wall.c": 2804, "/usr/bin/.debug/mesg.sysvinit": 14684}
+PKGSIZE_sysvinit-dbg: 589499

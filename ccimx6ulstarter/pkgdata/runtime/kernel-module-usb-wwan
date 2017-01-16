@@ -1,0 +1,16 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-usb-wwan: usb-wwan kernel module; USB Driver for GSM modems
+SUMMARY_kernel-module-usb-wwan: usb-wwan kernel module
+RDEPENDS_kernel-module-usb-wwan: kernel-4.1.35-dey+g8dca338 kernel-module-usbserial
+SECTION: base
+PKG_kernel-module-usb-wwan: kernel-module-usb-wwan
+FILES_kernel-module-usb-wwan: /lib/modules/4.1.35-dey+g8dca338/kernel/drivers/usb/serial/usb_wwan.ko /etc/modules-load.d/usb_wwan.conf /etc/modprobe.d/usb_wwan.conf
+pkg_postinst_kernel-module-usb-wwan: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-usb-wwan: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\tdepmodwrapper -a -b $D 4.1.35-dey+g8dca338\nfi\n\n
+FILES_INFO: {"/lib/modules/4.1.35-dey+g8dca338/kernel/drivers/usb/serial/usb_wwan.ko": 16080}
+PKGSIZE_kernel-module-usb-wwan: 16080

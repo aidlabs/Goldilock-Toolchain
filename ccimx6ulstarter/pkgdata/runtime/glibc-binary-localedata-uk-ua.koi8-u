@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-uk-ua.koi8-u: binary locale definition for uk-ua.koi8-u
+SUMMARY_glibc-binary-localedata-uk-ua.koi8-u: binary locale definition for uk-ua.koi8-u
+SECTION: base
+PKG_glibc-binary-localedata-uk-ua.koi8-u: glibc-binary-localedata-uk-ua.koi8-u
+FILES_glibc-binary-localedata-uk-ua.koi8-u: /usr/lib/locale/uk_UA.KOI8-U
+FILES_INFO: {"/usr/lib/locale/uk_UA.KOI8-U/LC_TELEPHONE": 62, "/usr/lib/locale/uk_UA.KOI8-U/LC_NUMERIC": 55, "/usr/lib/locale/uk_UA.KOI8-U/LC_MONETARY": 295, "/usr/lib/locale/uk_UA.KOI8-U/LC_MESSAGES/SYS_LC_MESSAGES": 85, "/usr/lib/locale/uk_UA.KOI8-U/LC_ADDRESS": 169, "/usr/lib/locale/uk_UA.KOI8-U/LC_TIME": 2803, "/usr/lib/locale/uk_UA.KOI8-U/LC_NAME": 92, "/usr/lib/locale/uk_UA.KOI8-U/LC_MEASUREMENT": 24, "/usr/lib/locale/uk_UA.KOI8-U/LC_IDENTIFICATION": 341, "/usr/lib/locale/uk_UA.KOI8-U/LC_CTYPE": 210424, "/usr/lib/locale/uk_UA.KOI8-U/LC_PAPER": 35, "/usr/lib/locale/uk_UA.KOI8-U/LC_COLLATE": 21143}
+PKGSIZE_glibc-binary-localedata-uk-ua.koi8-u: 235528

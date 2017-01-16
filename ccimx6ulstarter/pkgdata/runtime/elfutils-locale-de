@@ -1,0 +1,15 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-locale-de: Utilities and libraries for handling compiled object files.  This package contains language translation files for the de locale.
+SUMMARY_elfutils-locale-de: Utilities and libraries for handling compiled object files - de translations
+RPROVIDES_elfutils-locale-de: elfutils-locale de-translation
+RRECOMMENDS_elfutils-locale-de: virtual-locale-de
+SECTION: base
+PKG_elfutils-locale-de: elfutils-locale-de
+FILES_elfutils-locale-de: /usr/share/locale/de
+FILES_INFO: {"/usr/share/locale/de/LC_MESSAGES/elfutils.mo": 21117}
+PKGSIZE_elfutils-locale-de: 21117

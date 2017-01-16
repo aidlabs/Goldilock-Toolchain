@@ -1,0 +1,24 @@
+PN: libtool
+PV: 2.4.6
+PR: r0
+PKGV: 2.4.6
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: This is GNU libtool, a generic library support script. Libtool hides the complexity of generating special library types (such as shared libraries) behind a consistent interface.
+SUMMARY: Generic library support script
+RDEPENDS_libtool: bash
+SECTION: devel
+PKG_libtool: libtool
+FILES_libtool: /usr/bin/* /usr/sbin/* /usr/lib/libtool/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libtool /usr/lib/libtool/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/aclocal
+FILES_INFO: {"/usr/share/libtool/Makefile.in": 53358, "/usr/share/libtool/aclocal.m4": 42362, "/usr/share/aclocal/ltargz.m4": 2569, "/usr/share/libtool/COPYING.LIB": 26530, "/usr/share/libtool/build-aux/ltmain.sh": 328348, "/usr/share/libtool/slist.c": 9830, "/usr/share/libtool/libltdl/lt__glibc.h": 2816, "/usr/share/libtool/libltdl/slist.h": 3233, "/usr/share/libtool/ltdl.mk": 5669, "/usr/share/libtool/libltdl/lt_error.h": 3647, "/usr/bin/libtool": 370349, "/usr/share/libtool/lt__argz.c": 5896, "/usr/share/libtool/lt_error.c": 2967, "/usr/share/libtool/Makefile.am": 5146, "/usr/share/aclocal/lt~obsolete.m4": 6140, "/usr/share/libtool/configure": 461370, "/usr/share/libtool/configure.ac": 2628, "/usr/share/libtool/build-aux/install-sh": 14675, "/usr/share/libtool/libltdl/lt__dirent.h": 2525, "/usr/share/libtool/libltdl/lt_system.h": 5342, "/usr/share/aclocal/ltsugar.m4": 4384, "/usr/share/libtool/build-aux/config.guess": 43434, "/usr/share/libtool/loaders/dld_link.c": 4559, "/usr/bin/libtoolize": 129155, "/usr/share/aclocal/ltdl.m4": 30030, "/usr/share/libtool/libltdl/lt__strl.h": 1988, "/usr/share/libtool/libltdl/lt__argz_.h": 2227, "/usr/share/libtool/loaders/dyld.c": 13617, "/usr/share/libtool/build-aux/missing": 6872, "/usr/share/libtool/libltdl/lt__alloc.h": 2178, "/usr/share/libtool/lt__alloc.c": 2298, "/usr/share/aclocal/libtool.m4": 305954, "/usr/share/libtool/lt__dirent.c": 3014, "/usr/share/libtool/loaders/loadlibrary.c": 10836, "/usr/share/aclocal/ltversion.m4": 699, "/usr/share/libtool/loaders/preopen.c": 9813, "/usr/share/libtool/loaders/shl_load.c": 6694, "/usr/share/libtool/loaders/load_add_on.c": 4787, "/usr/share/libtool/README": 693, "/usr/share/libtool/libltdl/lt__private.h": 4507, "/usr/share/libtool/loaders/dlopen.c": 7585, "/usr/share/libtool/libltdl/lt_dlloader.h": 3211, "/usr/share/libtool/lt__strl.c": 3610, "/usr/share/libtool/build-aux/compile": 7333, "/usr/share/libtool/build-aux/config.sub": 36132, "/usr/share/libtool/ltdl.c": 55324, "/usr/share/aclocal/ltoptions.m4": 14514, "/usr/share/libtool/lt_dlloader.c": 6088, "/usr/share/libtool/build-aux/depcomp": 23566, "/usr/share/libtool/config-h.in": 4863, "/usr/share/libtool/ltdl.h": 5709}
+FILERDEPENDSFLIST_libtool: /usr/share/libtool/build-aux/config.guess /usr/bin/libtool /usr/share/libtool/build-aux/compile /usr/bin/libtoolize /usr/share/libtool/build-aux/depcomp /usr/share/libtool/configure /usr/share/libtool/build-aux/config.sub /usr/share/libtool/build-aux/missing /usr/share/libtool/build-aux/install-sh
+FILERDEPENDS_/usr/share/libtool/build-aux/config.guess_libtool: /bin/sh
+FILERDEPENDS_/usr/bin/libtool_libtool: /bin/bash
+FILERDEPENDS_/usr/share/libtool/build-aux/compile_libtool: /bin/sh
+FILERDEPENDS_/usr/bin/libtoolize_libtool: /bin/sh
+FILERDEPENDS_/usr/share/libtool/build-aux/depcomp_libtool: /bin/sh
+FILERDEPENDS_/usr/share/libtool/configure_libtool: /bin/sh
+FILERDEPENDS_/usr/share/libtool/build-aux/config.sub_libtool: /bin/sh
+FILERDEPENDS_/usr/share/libtool/build-aux/missing_libtool: /bin/sh
+FILERDEPENDS_/usr/share/libtool/build-aux/install-sh_libtool: /bin/sh
+PKGSIZE_libtool: 2111074

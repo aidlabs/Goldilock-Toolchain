@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-pl-pl: binary locale definition for pl-pl
+SUMMARY_glibc-binary-localedata-pl-pl: binary locale definition for pl-pl
+SECTION: base
+PKG_glibc-binary-localedata-pl-pl: glibc-binary-localedata-pl-pl
+FILES_glibc-binary-localedata-pl-pl: /usr/lib/locale/pl_PL
+FILES_INFO: {"/usr/lib/locale/pl_PL/LC_MONETARY": 294, "/usr/lib/locale/pl_PL/LC_TELEPHONE": 49, "/usr/lib/locale/pl_PL/LC_ADDRESS": 145, "/usr/lib/locale/pl_PL/LC_COLLATE": 105222, "/usr/lib/locale/pl_PL/LC_NUMERIC": 54, "/usr/lib/locale/pl_PL/LC_PAPER": 34, "/usr/lib/locale/pl_PL/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/pl_PL/LC_MEASUREMENT": 23, "/usr/lib/locale/pl_PL/LC_IDENTIFICATION": 351, "/usr/lib/locale/pl_PL/LC_TIME": 2442, "/usr/lib/locale/pl_PL/LC_NAME": 62, "/usr/lib/locale/pl_PL/LC_CTYPE": 278308}
+PKGSIZE_glibc-binary-localedata-pl-pl: 387038

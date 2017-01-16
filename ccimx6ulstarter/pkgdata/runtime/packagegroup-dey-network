@@ -1,0 +1,15 @@
+PN: packagegroup-dey-network
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Network applications packagegroup for DEY image.
+SUMMARY: Network applications packagegroup for DEY image
+RDEPENDS_packagegroup-dey-network: ethtool busybox-httpd modemmanager busybox-ntpd vsftpd ppp iproute2
+SECTION: base
+PKG_packagegroup-dey-network: packagegroup-dey-network
+ALLOW_EMPTY_packagegroup-dey-network: 1
+FILES_packagegroup-dey-network: /usr/bin/* /usr/sbin/* /usr/lib/packagegroup-dey-network/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/packagegroup-dey-network /usr/lib/packagegroup-dey-network/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-network: 0

@@ -1,0 +1,13 @@
+PN: libdigi
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION: Digi\'s utilities library.
+SUMMARY: Digi\'s utilities library
+SECTION: libs
+PKG_libdigi: libdigi
+FILES_libdigi: /usr/bin/* /usr/sbin/* /usr/lib/libdigi/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libdigi /usr/lib/libdigi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_libdigi: 0

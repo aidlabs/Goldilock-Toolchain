@@ -1,0 +1,16 @@
+PN: file
+PV: 5.24
+PR: r0
+PKGV: 5.24
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_file-dev: File attempts to classify files depending on their contents and prints a description if a match is found.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_file-dev: File classification tool - Development files
+RDEPENDS_file-dev: file (= 5.24-r0.0)
+RRECOMMENDS_file-dev: glibc-dev zlib-dev
+SECTION_file-dev: devel
+PKG_file-dev: file-dev
+ALLOW_EMPTY_file-dev: 1
+FILES_file-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/file/*.la /lib/*.la
+FILES_INFO: {"/usr/include/magic.h": 4958, "/usr/lib/libmagic.so": 17, "/usr/lib/libmagic.la": 911}
+PKGSIZE_file-dev: 5886

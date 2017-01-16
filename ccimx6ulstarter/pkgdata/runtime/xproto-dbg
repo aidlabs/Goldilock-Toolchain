@@ -1,0 +1,17 @@
+PN: xproto
+PE: 1
+PV: 7.0.28
+PR: r0
+PKGE: 1
+PKGV: 7.0.28
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_xproto-dbg: This package provides the basic headers for the X Window System.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_xproto-dbg: Xlib: C Language X interface headers - Debugging files
+RRECOMMENDS_xproto-dbg: xproto-dev (= 1:7.0.28-r0.0)
+SECTION_xproto-dbg: devel
+PKG_xproto-dbg: xproto-dbg
+ALLOW_EMPTY_xproto-dbg: 1
+FILES_xproto-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/xproto/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/xproto/.debug /usr/lib/matchbox-panel/.debug /usr/lib/xproto/xproto/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_xproto-dbg: 0

@@ -1,0 +1,20 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1.0
+LICENSE: MIT
+DESCRIPTION_ncurses-libmenu: ncurses menu library
+SUMMARY_ncurses-libmenu: ncurses menu library
+RDEPENDS_ncurses-libmenu: glibc (>= 2.22) ncurses-libtinfo (>= 5.9) ncurses-libncurses (>= 5.9)
+RPROVIDES_ncurses-libmenu:  ncurses-libmenu (=5.9)
+SECTION: libs
+PKG_ncurses-libmenu: libmenu5
+FILES_ncurses-libmenu: /usr/lib/libmenu.so.5 /usr/lib/libmenu.so.5.9
+pkg_postinst_ncurses-libmenu: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_ncurses-libmenu: /usr/lib/libmenu.so.5.9
+FILES_INFO: {"/usr/lib/libmenu.so.5.9": 23588, "/usr/lib/libmenu.so.5": 14}
+FILERPROVIDES_/usr/lib/libmenu.so.5.9_ncurses-libmenu: elf(buildid) (= 10d956ead8bd3b33de393fdd897de7ab37f82fc3) libmenu.so.5
+FILERDEPENDSFLIST_ncurses-libmenu: /usr/lib/libmenu.so.5.9
+FILERDEPENDS_/usr/lib/libmenu.so.5.9_ncurses-libmenu: libc.so.6 libc.so.6(GLIBC_2.4) libncurses.so.5 libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libmenu: 23602

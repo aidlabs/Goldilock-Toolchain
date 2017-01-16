@@ -1,0 +1,18 @@
+PN: bluez5
+PV: 5.33
+PR: r0
+PKGV: 5.33
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.
+SUMMARY: Linux Bluetooth Stack Userland V5
+RDEPENDS_bluez5-obex: glibc (>= 2.22) dbus-lib (>= 1.8.20) libical (>= 1.0.0) glib-2.0 (>= 2.44.1)
+SECTION: libs
+PKG_bluez5-obex: bluez5-obex
+FILES_bluez5-obex: /usr/lib/bluez5/bluetooth/obexd                     /usr/lib/systemd/user/obex.service                     /usr/share/dbus-1/services/org.bluez.obex.service                    
+FILERPROVIDESFLIST_bluez5-obex: /usr/lib/bluez5/bluetooth/obexd
+FILES_INFO: {"/usr/lib/bluez5/bluetooth/obexd": 345104, "/usr/share/dbus-1/services/org.bluez.obex.service": 116}
+FILERPROVIDES_/usr/lib/bluez5/bluetooth/obexd_bluez5-obex: elf(buildid) (= a4f7f48b24bc3861e649f749ed70227ca62bc022)
+FILERDEPENDSFLIST_bluez5-obex: /usr/lib/bluez5/bluetooth/obexd
+FILERDEPENDS_/usr/lib/bluez5/bluetooth/obexd_bluez5-obex: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdbus-1.so.3 libdl.so.2 libdl.so.2(GLIBC_2.4) libglib-2.0.so.0 libicalvcal.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_bluez5-obex: 345220

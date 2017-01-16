@@ -1,0 +1,16 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_python-smartpm-dev: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_python-smartpm-dev: The Smart Package Manager - Development files
+RDEPENDS_python-smartpm-dev: python-smartpm (= 1.5+git0+407a7eca76-r0.0)
+RRECOMMENDS_python-smartpm-dev: python-pickle-dev python-compression-dev glibc-dev python-resource-dev python-rpm-dev libpython2-dev python-smartpm-backend-rpm-dev python-shell-dev python-codecs-dev python-pprint-dev python-unixadmin-dev python-fcntl-dev python-netclient-dev python-xml-dev python-textutils-dev python-crypt-dev rpm-dev python-threading-dev python-dev python-core-dev
+SECTION_python-smartpm-dev: devel
+PKG_python-smartpm-dev: python-smartpm-dev
+ALLOW_EMPTY_python-smartpm-dev: 1
+FILES_python-smartpm-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/python-smartpm/*.la /lib/*.la   /usr/share/pkgconfig   /usr/lib/pkgconfig   /usr/lib/python2.7/site-packages/*.la 
+FILES_INFO: {}
+PKGSIZE_python-smartpm-dev: 0

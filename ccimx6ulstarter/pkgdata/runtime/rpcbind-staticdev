@@ -1,0 +1,14 @@
+PN: rpcbind
+PV: 0.2.3
+PR: r0
+PKGV: 0.2.3
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_rpcbind-staticdev: The rpcbind utility is a server that converts RPC                program numbers into universal addresses.  This package contains static libraries for software development.
+SUMMARY_rpcbind-staticdev: Universal Addresses to RPC Program Number Mapper - Development files (Static Libraries)
+RDEPENDS_rpcbind-staticdev: rpcbind-dev (= 0.2.3-r0.0)
+SECTION_rpcbind-staticdev: devel
+PKG_rpcbind-staticdev: rpcbind-staticdev
+FILES_rpcbind-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/rpcbind/*.a
+FILES_INFO: {}
+PKGSIZE_rpcbind-staticdev: 0

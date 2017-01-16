@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-cv-ru: binary locale definition for cv-ru
+SUMMARY_glibc-binary-localedata-cv-ru: binary locale definition for cv-ru
+SECTION: base
+PKG_glibc-binary-localedata-cv-ru: glibc-binary-localedata-cv-ru
+FILES_glibc-binary-localedata-cv-ru: /usr/lib/locale/cv_RU
+FILES_INFO: {"/usr/lib/locale/cv_RU/LC_CTYPE": 278308, "/usr/lib/locale/cv_RU/LC_MONETARY": 286, "/usr/lib/locale/cv_RU/LC_PAPER": 34, "/usr/lib/locale/cv_RU/LC_IDENTIFICATION": 353, "/usr/lib/locale/cv_RU/LC_TELEPHONE": 52, "/usr/lib/locale/cv_RU/LC_ADDRESS": 153, "/usr/lib/locale/cv_RU/LC_NAME": 62, "/usr/lib/locale/cv_RU/LC_MEASUREMENT": 23, "/usr/lib/locale/cv_RU/LC_COLLATE": 1243806, "/usr/lib/locale/cv_RU/LC_NUMERIC": 54, "/usr/lib/locale/cv_RU/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/cv_RU/LC_TIME": 2282}
+PKGSIZE_glibc-binary-localedata-cv-ru: 1525465

@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-record: XCB library module for record
+SUMMARY_libxcb-record: XCB library module for record
+RDEPENDS_libxcb-record: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-record:  libxcb-record (=1.11)
+SECTION: x11/libs
+PKG_libxcb-record: libxcb-record0
+FILES_libxcb-record: /usr/lib/libxcb-record.so.0 /usr/lib/libxcb-record.so.0.0.0
+pkg_postinst_libxcb-record: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-record: /usr/lib/libxcb-record.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-record.so.0.0.0": 9500, "/usr/lib/libxcb-record.so.0": 22}
+FILERPROVIDES_/usr/lib/libxcb-record.so.0.0.0_libxcb-record: elf(buildid) (= 5da466ba3c799d300f10c2a5d463c13daad127a7) libxcb-record.so.0
+FILERDEPENDSFLIST_libxcb-record: /usr/lib/libxcb-record.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-record.so.0.0.0_libxcb-record: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-record: 9522

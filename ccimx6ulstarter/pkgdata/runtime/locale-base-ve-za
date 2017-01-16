@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Locale data from glibc.
+SUMMARY: Locale data from glibc
+RDEPENDS_locale-base-ve-za: glibc-binary-localedata-ve-za
+RPROVIDES_locale-base-ve-za:  virtual-locale-ve-za virtual-locale-ve
+SECTION: base
+PKG_locale-base-ve-za: locale-base-ve-za
+ALLOW_EMPTY_locale-base-ve-za: 1
+FILES_INFO: {}
+PKGSIZE_locale-base-ve-za: 0

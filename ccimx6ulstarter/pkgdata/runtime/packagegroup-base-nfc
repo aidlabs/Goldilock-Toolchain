@@ -1,0 +1,15 @@
+PN: packagegroup-base
+PV: 1.0
+PR: r83
+PKGV: 1.0
+PKGR: r83.0
+LICENSE: MIT
+DESCRIPTION: Merge machine and distro options to create a basic machine task/package.
+SUMMARY_packagegroup-base-nfc: Near Field Communication support
+RDEPENDS_packagegroup-base-nfc: neard
+RRECOMMENDS_packagegroup-base-nfc:     kernel-module-nfc
+SECTION: base
+PKG_packagegroup-base-nfc: packagegroup-base-nfc
+ALLOW_EMPTY_packagegroup-base-nfc: 1
+FILES_INFO: {}
+PKGSIZE_packagegroup-base-nfc: 0

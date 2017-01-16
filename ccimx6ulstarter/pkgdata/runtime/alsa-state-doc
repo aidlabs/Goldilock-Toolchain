@@ -1,0 +1,13 @@
+PN: alsa-state
+PV: 0.2.0
+PR: r5
+PKGV: 0.2.0
+PKGR: r5.0
+LICENSE: MIT
+DESCRIPTION_alsa-state-doc: Alsa Scenario Files - an init script and state files to restore sound state at system boot and save it at system shut down.  This package contains documentation.
+SUMMARY_alsa-state-doc: Alsa scenario files to enable alsa state restoration - Documentation files
+SECTION_alsa-state-doc: doc
+PKG_alsa-state-doc: alsa-state-doc
+FILES_alsa-state-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_alsa-state-doc: 0

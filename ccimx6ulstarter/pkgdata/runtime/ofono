@@ -1,0 +1,24 @@
+PN: ofono
+PV: 1.16
+PR: r0
+PKGV: 1.16
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: oFono is a stack for mobile telephony devices on Linux. oFono supports speaking to telephony devices through specific drivers, or with generic AT commands.
+SUMMARY: open source telephony
+RDEPENDS_ofono: libudev (>= 182) dbus dbus-lib (>= 1.8.20) glibc (>= 2.22) glib-2.0 (>= 2.44.1)
+RRECOMMENDS_ofono:  update-rc.d
+SECTION: base
+PKG_ofono: ofono
+FILES_ofono: /usr/bin/* /usr/sbin/* /usr/lib/ofono/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ofono /usr/lib/ofono/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/udev /lib/systemd
+pkg_postinst_ofono: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT ofono defaults 22\nfi\n
+pkg_postrm_ofono: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT ofono remove\nfi\n
+pkg_preinst_ofono: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/ofono" ]; then\n\t/etc/init.d/ofono stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT ofono remove\nfi\n
+pkg_prerm_ofono: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/ofono stop\nfi\n
+FILERPROVIDESFLIST_ofono: /usr/sbin/ofonod
+FILES_INFO: {"/etc/init.d/ofono": 516, "/etc/ofono/phonesim.conf": 361, "/etc/dbus-1/system.d/ofono.conf": 937, "/usr/sbin/ofonod": 1064416}
+FILERPROVIDES_/usr/sbin/ofonod_ofono: elf(buildid) (= 11c04cbee2363e248c1a97e03a36501461f41770)
+FILERDEPENDSFLIST_ofono: /etc/init.d/ofono /usr/sbin/ofonod
+FILERDEPENDS_/etc/init.d/ofono_ofono: /bin/sh
+FILERDEPENDS_/usr/sbin/ofonod_ofono: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.9) libdbus-1.so.3 libdl.so.2 libdl.so.2(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libudev.so.0 rtld(GNU_HASH)
+PKGSIZE_ofono: 1066230

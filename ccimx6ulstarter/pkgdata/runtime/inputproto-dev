@@ -1,0 +1,17 @@
+PN: inputproto
+PE: 1
+PV: 2.3.1
+PR: r0
+PKGE: 1
+PKGV: 2.3.1
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_inputproto-dev: This package provides the wire protocol for the X Input extension.  The extension supports input devices other then the core X keyboard and pointer.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_inputproto-dev: XI: X Input extension headers - Development files
+RRECOMMENDS_inputproto-dev: util-macros-dev
+SECTION_inputproto-dev: devel
+PKG_inputproto-dev: inputproto-dev
+ALLOW_EMPTY_inputproto-dev: 1
+FILES_inputproto-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/inputproto/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/inputproto.pc": 164, "/usr/include/X11/extensions/XIproto.h": 42622, "/usr/include/X11/extensions/XI2proto.h": 37518, "/usr/include/X11/extensions/XI2.h": 10542, "/usr/include/X11/extensions/XI.h": 9823}
+PKGSIZE_inputproto-dev: 100669

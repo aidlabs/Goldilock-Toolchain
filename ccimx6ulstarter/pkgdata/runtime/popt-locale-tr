@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-tr: Library for parsing command line options.  This package contains language translation files for the tr locale.
+SUMMARY_popt-locale-tr: Library for parsing command line options - tr translations
+RPROVIDES_popt-locale-tr: popt-locale tr-translation popt-locale-tr (=1.16)
+RRECOMMENDS_popt-locale-tr: virtual-locale-tr
+SECTION: libs
+PKG_popt-locale-tr: libpopt-locale-tr
+FILES_popt-locale-tr: /usr/share/locale/tr
+FILES_INFO: {"/usr/share/locale/tr/LC_MESSAGES/popt.mo": 1541}
+PKGSIZE_popt-locale-tr: 1541

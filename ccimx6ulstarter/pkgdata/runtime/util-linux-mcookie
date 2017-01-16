@@ -1,0 +1,18 @@
+PN: util-linux
+PV: 2.26.2
+PR: r0
+PKGV: 2.26.2
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-mcookie: glibc (>= 2.22)
+SECTION: base
+PKG_util-linux-mcookie: util-linux-mcookie
+FILES_util-linux-mcookie: /usr/bin/mcookie
+FILERPROVIDESFLIST_util-linux-mcookie: /usr/bin/mcookie
+FILES_INFO: {"/usr/bin/mcookie": 19480}
+FILERPROVIDES_/usr/bin/mcookie_util-linux-mcookie: elf(buildid) (= d2eb15f47089a219df45b165a01a853fc8de37e3)
+FILERDEPENDSFLIST_util-linux-mcookie: /usr/bin/mcookie
+FILERDEPENDS_/usr/bin/mcookie_util-linux-mcookie: ld-linux-armhf.so.3 ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_util-linux-mcookie: 19480

@@ -1,0 +1,15 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-locale-zh-cn: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains language translation files for the zh_CN locale.
+SUMMARY_e2fsprogs-locale-zh-cn: Ext2 Filesystem Utilities - zh_CN translations
+RPROVIDES_e2fsprogs-locale-zh-cn: e2fsprogs-locale zh-cn-translation
+RRECOMMENDS_e2fsprogs-locale-zh-cn: virtual-locale-zh-cn
+SECTION: base
+PKG_e2fsprogs-locale-zh-cn: e2fsprogs-locale-zh-cn
+FILES_e2fsprogs-locale-zh-cn: /usr/share/locale/zh_CN
+FILES_INFO: {"/usr/share/locale/zh_CN/LC_MESSAGES/e2fsprogs.mo": 22631}
+PKGSIZE_e2fsprogs-locale-zh-cn: 22631

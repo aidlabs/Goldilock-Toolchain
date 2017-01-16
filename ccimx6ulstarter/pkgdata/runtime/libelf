@@ -1,0 +1,20 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION: Utilities and libraries for handling compiled object files.
+SUMMARY: Utilities and libraries for handling compiled object files
+RDEPENDS_libelf: glibc (>= 2.22)
+RPROVIDES_libelf:  libelf (=0.163)
+SECTION: base
+PKG_libelf: libelf1
+FILES_libelf: /usr/lib/libelf-0.163.so /usr/lib/libelf.so.*
+pkg_postinst_libelf: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libelf: /usr/lib/libelf-0.163.so
+FILES_INFO: {"/usr/lib/libelf-0.163.so": 79536, "/usr/lib/libelf.so.1": 15}
+FILERPROVIDES_/usr/lib/libelf-0.163.so_libelf: elf(buildid) (= 0458563ecab8f6c9921f23a00e578b3231d35b0a) libelf.so.1 libelf.so.1(ELFUTILS_1.0) libelf.so.1(ELFUTILS_1.1) libelf.so.1(ELFUTILS_1.1.1) libelf.so.1(ELFUTILS_1.2) libelf.so.1(ELFUTILS_1.3) libelf.so.1(ELFUTILS_1.4) libelf.so.1(ELFUTILS_1.5) libelf.so.1(ELFUTILS_1.6)
+FILERDEPENDSFLIST_libelf: /usr/lib/libelf-0.163.so
+FILERDEPENDS_/usr/lib/libelf-0.163.so_libelf: ld-linux-armhf.so.3 ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libelf: 79551

@@ -1,0 +1,13 @@
+PN: dosfstools
+PV: 3.0.28
+PR: r0
+PKGV: 3.0.28
+PKGR: r0.0
+LICENSE: GPLv3
+DESCRIPTION: DOS FAT Filesystem Utilities.
+SUMMARY: DOS FAT Filesystem Utilities
+SECTION: base
+PKG_dosfstools-locale: dosfstools-locale
+FILES_dosfstools-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_dosfstools-locale: 0

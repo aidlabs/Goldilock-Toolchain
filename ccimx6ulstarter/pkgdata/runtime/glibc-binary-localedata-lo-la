@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-lo-la: binary locale definition for lo-la
+SUMMARY_glibc-binary-localedata-lo-la: binary locale definition for lo-la
+SECTION: base
+PKG_glibc-binary-localedata-lo-la: glibc-binary-localedata-lo-la
+FILES_glibc-binary-localedata-lo-la: /usr/lib/locale/lo_LA
+FILES_INFO: {"/usr/lib/locale/lo_LA/LC_NAME": 70, "/usr/lib/locale/lo_LA/LC_CTYPE": 278308, "/usr/lib/locale/lo_LA/LC_MESSAGES/SYS_LC_MESSAGES": 87, "/usr/lib/locale/lo_LA/LC_MEASUREMENT": 23, "/usr/lib/locale/lo_LA/LC_PAPER": 34, "/usr/lib/locale/lo_LA/LC_COLLATE": 35326, "/usr/lib/locale/lo_LA/LC_IDENTIFICATION": 329, "/usr/lib/locale/lo_LA/LC_TELEPHONE": 59, "/usr/lib/locale/lo_LA/LC_ADDRESS": 164, "/usr/lib/locale/lo_LA/LC_MONETARY": 294, "/usr/lib/locale/lo_LA/LC_NUMERIC": 54, "/usr/lib/locale/lo_LA/LC_TIME": 3090}
+PKGSIZE_glibc-binary-localedata-lo-la: 317838

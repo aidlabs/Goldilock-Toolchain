@@ -1,0 +1,18 @@
+PN: alsa-utils
+PV: 1.0.29
+PR: r0
+PKGV: 1.0.29
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: ALSA sound utilities.
+SUMMARY_alsa-utils-speakertest: ALSA surround speaker test utility
+RDEPENDS_alsa-utils-speakertest: glibc (>= 2.22) libasound (>= 1.0.29)
+SECTION: console/utils
+PKG_alsa-utils-speakertest: alsa-utils-speakertest
+FILES_alsa-utils-speakertest: /usr/bin/speaker-test /usr/share/sounds/alsa/ /usr/share/alsa/speaker-test/
+FILERPROVIDESFLIST_alsa-utils-speakertest: /usr/bin/speaker-test
+FILES_INFO: {"/usr/share/sounds/alsa/Rear_Left.wav": 126064, "/usr/share/sounds/alsa/Front_Left.wav": 142128, "/usr/share/sounds/alsa/Front_Center.wav": 137134, "/usr/share/sounds/alsa/Rear_Center.wav": 130096, "/usr/bin/speaker-test": 22728, "/usr/share/sounds/alsa/Rear_Right.wav": 146480, "/usr/share/alsa/speaker-test/sample_map.csv": 118, "/usr/share/sounds/alsa/Noise.wav": 135202, "/usr/share/sounds/alsa/Side_Left.wav": 134868, "/usr/share/sounds/alsa/Side_Right.wav": 129966, "/usr/share/sounds/alsa/Front_Right.wav": 146990}
+FILERPROVIDES_/usr/bin/speaker-test_alsa-utils-speakertest: elf(buildid) (= cf64b87f277de997ac795c151ede668b16643c25)
+FILERDEPENDSFLIST_alsa-utils-speakertest: /usr/bin/speaker-test
+FILERDEPENDS_/usr/bin/speaker-test_alsa-utils-speakertest: libasound.so.2 libasound.so.2(ALSA_0.9) libasound.so.2(ALSA_0.9.0rc4) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_alsa-utils-speakertest: 1251774

@@ -1,0 +1,18 @@
+PN: wpa-supplicant
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION: Client for Wi-Fi Protected Access (WPA).
+SUMMARY: Client for Wi-Fi Protected Access (WPA)
+RDEPENDS_wpa-supplicant-passphrase: glibc (>= 2.22) libcrypto (>= 1.0.2h)
+SECTION: network
+PKG_wpa-supplicant-passphrase: wpa-supplicant-passphrase
+FILES_wpa-supplicant-passphrase: /usr/bin/wpa_passphrase
+FILERPROVIDESFLIST_wpa-supplicant-passphrase: /usr/bin/wpa@underscore@passphrase
+FILES_INFO: {"/usr/bin/wpa_passphrase": 30888}
+FILERPROVIDES_/usr/bin/wpa@underscore@passphrase_wpa-supplicant-passphrase: elf(buildid) (= f416d426fb87b4fec099c3a77a974c3b62a8c49b)
+FILERDEPENDSFLIST_wpa-supplicant-passphrase: /usr/bin/wpa@underscore@passphrase
+FILERDEPENDS_/usr/bin/wpa@underscore@passphrase_wpa-supplicant-passphrase: libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_wpa-supplicant-passphrase: 30888

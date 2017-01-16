@@ -1,0 +1,16 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.
+SUMMARY: The Smart Package Manager
+RDEPENDS_smartpm: python-smartpm
+SECTION: devel/python
+PKG_smartpm: smartpm
+FILES_smartpm: /usr/bin/smart
+FILES_INFO: {"/usr/bin/smart": 6224}
+FILERDEPENDSFLIST_smartpm: /usr/bin/smart
+FILERDEPENDS_/usr/bin/smart_smartpm: /usr/bin/env
+PKGSIZE_smartpm: 6224

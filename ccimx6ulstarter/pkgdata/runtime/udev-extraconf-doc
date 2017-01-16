@@ -1,0 +1,13 @@
+PN: udev-extraconf
+PV: 1.1
+PR: r0
+PKGV: 1.1
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_udev-extraconf-doc: Extra machine specific configuration files for udev, specifically blacklist information.  This package contains documentation.
+SUMMARY_udev-extraconf-doc: Extra machine specific configuration files - Documentation files
+SECTION_udev-extraconf-doc: doc
+PKG_udev-extraconf-doc: udev-extraconf-doc
+FILES_udev-extraconf-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_udev-extraconf-doc: 0

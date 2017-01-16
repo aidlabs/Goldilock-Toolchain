@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-glx: XCB library module for glx
+SUMMARY_libxcb-glx: XCB library module for glx
+RDEPENDS_libxcb-glx: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-glx:  libxcb-glx (=1.11)
+SECTION: x11/libs
+PKG_libxcb-glx: libxcb-glx0
+FILES_libxcb-glx: /usr/lib/libxcb-glx.so.0 /usr/lib/libxcb-glx.so.0.0.0
+pkg_postinst_libxcb-glx: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-glx: /usr/lib/libxcb-glx.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-glx.so.0.0.0": 62688, "/usr/lib/libxcb-glx.so.0": 19}
+FILERPROVIDES_/usr/lib/libxcb-glx.so.0.0.0_libxcb-glx: elf(buildid) (= 3e57b91e17f3ef2116801e46689acfa342564c42) libxcb-glx.so.0
+FILERDEPENDSFLIST_libxcb-glx: /usr/lib/libxcb-glx.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-glx.so.0.0.0_libxcb-glx: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-glx: 62707

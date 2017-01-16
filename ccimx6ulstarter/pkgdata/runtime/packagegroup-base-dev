@@ -1,0 +1,16 @@
+PN: packagegroup-base
+PV: 1.0
+PR: r83
+PKGV: 1.0
+PKGR: r83.0
+LICENSE: MIT
+DESCRIPTION_packagegroup-base-dev: Merge machine and distro options to create a basic machine task/package.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_packagegroup-base-dev: Merge machine and distro options to create a basic machine task/package - Development files
+RDEPENDS_packagegroup-base-dev: packagegroup-base (= 1.0-r83.0)
+RRECOMMENDS_packagegroup-base-dev: packagegroup-base-alsa-dev packagegroup-distro-base-dev module-init-tools-dev sysfsutils-dev packagegroup-base-zeroconf-dev packagegroup-base-ipv6-dev packagegroup-base-bluetooth-dev packagegroup-machine-base-dev packagegroup-base-nfs-dev packagegroup-base-usbgadget-dev packagegroup-base-wifi-dev packagegroup-base-usbhost-dev
+SECTION_packagegroup-base-dev: devel
+PKG_packagegroup-base-dev: packagegroup-base-dev
+ALLOW_EMPTY_packagegroup-base-dev: 1
+FILES_packagegroup-base-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-base/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_packagegroup-base-dev: 0

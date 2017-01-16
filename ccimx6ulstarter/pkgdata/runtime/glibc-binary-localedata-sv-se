@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sv-se: binary locale definition for sv-se
+SUMMARY_glibc-binary-localedata-sv-se: binary locale definition for sv-se
+SECTION: base
+PKG_glibc-binary-localedata-sv-se: glibc-binary-localedata-sv-se
+FILES_glibc-binary-localedata-sv-se: /usr/lib/locale/sv_SE
+FILES_INFO: {"/usr/lib/locale/sv_SE/LC_ADDRESS": 142, "/usr/lib/locale/sv_SE/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/sv_SE/LC_COLLATE": 1243778, "/usr/lib/locale/sv_SE/LC_CTYPE": 278308, "/usr/lib/locale/sv_SE/LC_MEASUREMENT": 23, "/usr/lib/locale/sv_SE/LC_NAME": 62, "/usr/lib/locale/sv_SE/LC_IDENTIFICATION": 355, "/usr/lib/locale/sv_SE/LC_MONETARY": 290, "/usr/lib/locale/sv_SE/LC_TELEPHONE": 57, "/usr/lib/locale/sv_SE/LC_PAPER": 34, "/usr/lib/locale/sv_SE/LC_NUMERIC": 54, "/usr/lib/locale/sv_SE/LC_TIME": 2394}
+PKGSIZE_glibc-binary-localedata-sv-se: 1525551

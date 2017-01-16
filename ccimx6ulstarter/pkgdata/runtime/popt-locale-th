@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-th: Library for parsing command line options.  This package contains language translation files for the th locale.
+SUMMARY_popt-locale-th: Library for parsing command line options - th translations
+RPROVIDES_popt-locale-th: popt-locale th-translation popt-locale-th (=1.16)
+RRECOMMENDS_popt-locale-th: virtual-locale-th
+SECTION: libs
+PKG_popt-locale-th: libpopt-locale-th
+FILES_popt-locale-th: /usr/share/locale/th
+FILES_INFO: {"/usr/share/locale/th/LC_MESSAGES/popt.mo": 3162}
+PKGSIZE_popt-locale-th: 3162

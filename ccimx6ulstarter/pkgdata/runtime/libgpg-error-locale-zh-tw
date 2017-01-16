@@ -1,0 +1,15 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-locale-zh-tw: Small library that defines common error values for all GnuPG components.  This package contains language translation files for the zh_TW locale.
+SUMMARY_libgpg-error-locale-zh-tw: Small library that defines common error values for all GnuPG components - zh_TW translations
+RPROVIDES_libgpg-error-locale-zh-tw: libgpg-error-locale zh-tw-translation
+RRECOMMENDS_libgpg-error-locale-zh-tw: virtual-locale-zh-tw
+SECTION: libs
+PKG_libgpg-error-locale-zh-tw: libgpg-error-locale-zh-tw
+FILES_libgpg-error-locale-zh-tw: /usr/share/locale/zh_TW
+FILES_INFO: {"/usr/share/locale/zh_TW/LC_MESSAGES/libgpg-error.mo": 19667}
+PKGSIZE_libgpg-error-locale-zh-tw: 19667

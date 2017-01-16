@@ -1,0 +1,16 @@
+PN: wpa-supplicant
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_wpa-supplicant-dev: Client for Wi-Fi Protected Access (WPA).  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_wpa-supplicant-dev: Client for Wi-Fi Protected Access (WPA) - Development files
+RDEPENDS_wpa-supplicant-dev: wpa-supplicant (= 2.4-r0.0)
+RRECOMMENDS_wpa-supplicant-dev: libnl-genl-dev glibc-dev libssl-dev dbus-lib-dev openssl-dev libcrypto-dev libnl-dev libgcrypt-dev dbus-dev
+SECTION_wpa-supplicant-dev: devel
+PKG_wpa-supplicant-dev: wpa-supplicant-dev
+ALLOW_EMPTY_wpa-supplicant-dev: 1
+FILES_wpa-supplicant-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wpa-supplicant/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_wpa-supplicant-dev: 0

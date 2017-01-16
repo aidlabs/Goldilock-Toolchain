@@ -1,0 +1,14 @@
+PN: libmbim
+PV: 1.12.2
+PR: r0
+PKGV: 1.12.2
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_libmbim-staticdev: libmbim is a glib-based library for talking to WWAN modems and devices which speak the Mobile Interface Broadband Model (MBIM) protocol  This package contains static libraries for software development.
+SUMMARY_libmbim-staticdev: libmbim is library for talking to WWAN devices by MBIM protocol - Development files (Static Libraries)
+RDEPENDS_libmbim-staticdev: libmbim-dev (= 1.12.2-r0.0)
+SECTION_libmbim-staticdev: devel
+PKG_libmbim-staticdev: libmbim-staticdev
+FILES_libmbim-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libmbim/*.a
+FILES_INFO: {"/usr/lib/libmbim-glib.a": 813592}
+PKGSIZE_libmbim-staticdev: 813592

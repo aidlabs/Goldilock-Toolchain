@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-tt-ru+iqtelif: binary locale definition for tt-ru+iqtelif
+SUMMARY_glibc-binary-localedata-tt-ru+iqtelif: binary locale definition for tt-ru+iqtelif
+SECTION: base
+PKG_glibc-binary-localedata-tt-ru+iqtelif: glibc-binary-localedata-tt-ru+iqtelif
+FILES_glibc-binary-localedata-tt-ru+iqtelif: /usr/lib/locale/tt_RU@iqtelif
+FILES_INFO: {"/usr/lib/locale/tt_RU@iqtelif/LC_MESSAGES/SYS_LC_MESSAGES": 61, "/usr/lib/locale/tt_RU@iqtelif/LC_PAPER": 34, "/usr/lib/locale/tt_RU@iqtelif/LC_TIME": 2434, "/usr/lib/locale/tt_RU@iqtelif/LC_NAME": 62, "/usr/lib/locale/tt_RU@iqtelif/LC_IDENTIFICATION": 486, "/usr/lib/locale/tt_RU@iqtelif/LC_TELEPHONE": 52, "/usr/lib/locale/tt_RU@iqtelif/LC_NUMERIC": 54, "/usr/lib/locale/tt_RU@iqtelif/LC_CTYPE": 134664, "/usr/lib/locale/tt_RU@iqtelif/LC_COLLATE": 1243822, "/usr/lib/locale/tt_RU@iqtelif/LC_MEASUREMENT": 23, "/usr/lib/locale/tt_RU@iqtelif/LC_ADDRESS": 139, "/usr/lib/locale/tt_RU@iqtelif/LC_MONETARY": 294}
+PKGSIZE_glibc-binary-localedata-tt-ru+iqtelif: 1382125

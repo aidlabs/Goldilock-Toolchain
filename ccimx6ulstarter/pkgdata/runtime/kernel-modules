@@ -1,0 +1,14 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION_kernel-modules: Kernel modules meta package
+SUMMARY: Linux kernel for Digi boards
+RDEPENDS_kernel-modules: kernel-module-cdc-ether kernel-module-asix kernel-module-gadgetfs kernel-module-usb-f-ss-lb kernel-module-snd-hwdep kernel-module-g-ether kernel-module-usb-f-acm kernel-module-cdc-subset kernel-module-tcrypt kernel-module-usb-f-obex kernel-module-net1080 kernel-module-usb-f-serial kernel-module-cdc-acm kernel-module-snd-usb-audio kernel-module-nls-iso8859-15 kernel-module-g-mass-storage kernel-module-configfs kernel-module-cdc-eem kernel-module-g-zero kernel-module-ftdi-sio kernel-module-snd-rawmidi kernel-module-libcomposite kernel-module-option kernel-module-usb-f-mass-storage kernel-module-crc-ccitt kernel-module-r8152 kernel-module-usb-f-eem kernel-module-usb-f-ecm kernel-module-pegasus kernel-module-crc7 kernel-module-mxc-dcic kernel-module-zaurus kernel-module-i2c-algo-pca kernel-module-serport kernel-module-usb-f-ncm kernel-module-evbug kernel-module-i2c-algo-pcf kernel-module-snd-usbmidi-lib kernel-module-usb-f-rndis kernel-module-libcrc32c kernel-module-usbserial kernel-module-ax88179-178a kernel-module-binfmt-misc kernel-module-g-ncm kernel-module-rtl8150 kernel-module-usb-wwan kernel-module-u-ether kernel-module-usb-f-ecm-subset kernel-module-usb-f-fs kernel-module-cdc-ncm kernel-module-u-serial kernel-module-psmouse kernel-module-crc-itu-t kernel-module-usbnet kernel-module-g-serial
+SECTION: base
+PKG_kernel-modules: kernel-modules
+ALLOW_EMPTY_kernel-modules: 1
+FILES_INFO: {}
+PKGSIZE_kernel-modules: 0

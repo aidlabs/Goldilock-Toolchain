@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-fur-it: binary locale definition for fur-it
+SUMMARY_glibc-binary-localedata-fur-it: binary locale definition for fur-it
+SECTION: base
+PKG_glibc-binary-localedata-fur-it: glibc-binary-localedata-fur-it
+FILES_glibc-binary-localedata-fur-it: /usr/lib/locale/fur_IT
+FILES_INFO: {"/usr/lib/locale/fur_IT/LC_MEASUREMENT": 23, "/usr/lib/locale/fur_IT/LC_TIME": 2314, "/usr/lib/locale/fur_IT/LC_PAPER": 34, "/usr/lib/locale/fur_IT/LC_COLLATE": 1243782, "/usr/lib/locale/fur_IT/LC_NAME": 62, "/usr/lib/locale/fur_IT/LC_CTYPE": 278308, "/usr/lib/locale/fur_IT/LC_MESSAGES/SYS_LC_MESSAGES": 58, "/usr/lib/locale/fur_IT/LC_IDENTIFICATION": 320, "/usr/lib/locale/fur_IT/LC_MONETARY": 294, "/usr/lib/locale/fur_IT/LC_NUMERIC": 54, "/usr/lib/locale/fur_IT/LC_TELEPHONE": 49, "/usr/lib/locale/fur_IT/LC_ADDRESS": 139}
+PKGSIZE_glibc-binary-localedata-fur-it: 1525437

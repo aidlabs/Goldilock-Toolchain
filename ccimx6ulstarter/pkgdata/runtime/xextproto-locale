@@ -1,0 +1,15 @@
+PN: xextproto
+PE: 1
+PV: 7.3.0
+PR: r0
+PKGE: 1
+PKGV: 7.3.0
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION: This package provides the wire protocol for several X extensions.  These protocol extensions include DOUBLE-BUFFER, DPMS, Extended-Visual-Information, LBX, MIT_SHM, MIT_SUNDRY-NONSTANDARD, Multi-Buffering, SECURITY, SHAPE, SYNC, TOG-CUP, XC-APPGROUP, XC-MISC, XTEST.  In addition a small set of utility functions are also available.
+SUMMARY: XExt: X Extension headers
+SECTION: x11/libs
+PKG_xextproto-locale: xextproto-locale
+FILES_xextproto-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_xextproto-locale: 0

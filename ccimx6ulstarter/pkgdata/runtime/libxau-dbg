@@ -1,0 +1,17 @@
+PN: libxau
+PE: 1
+PV: 1.0.8
+PR: r0
+PKGE: 1
+PKGV: 1.0.8
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_libxau-dbg: libxau provides the main interfaces to the X11 authorisation handling, which controls authorisation for X connections, both client-side and server-side.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libxau-dbg: Xau: X Authority Database library - Debugging files
+RRECOMMENDS_libxau-dbg: glibc-dbg
+SECTION_libxau-dbg: devel
+PKG_libxau-dbg: libxau-dbg
+ALLOW_EMPTY_libxau-dbg: 1
+FILES_libxau-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libxau/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libxau/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libxau/libxau/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/AuFileName.c": 2272, "/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/AuUnlock.c": 1714, "/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/AuLock.c": 3075, "/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/AuWrite.c": 2208, "/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/AuGetAddr.c": 3075, "/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/AuRead.c": 3079, "/usr/lib/.debug/libXau.so.6.0.0": 32688, "/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/include/X11/Xauth.h": 3817, "/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/AuGetBest.c": 4339, "/usr/src/debug/libxau/1_1.0.8-r0/libXau-1.0.8/AuDispose.c": 1575}
+PKGSIZE_libxau-dbg: 57842

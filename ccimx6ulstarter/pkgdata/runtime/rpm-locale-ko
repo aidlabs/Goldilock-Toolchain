@@ -1,0 +1,15 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-locale-ko: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains language translation files for the ko locale.
+SUMMARY_rpm-locale-ko: The RPM package management system - ko translations
+RPROVIDES_rpm-locale-ko: rpm-locale ko-translation
+RRECOMMENDS_rpm-locale-ko: virtual-locale-ko
+SECTION: base
+PKG_rpm-locale-ko: rpm-locale-ko
+FILES_rpm-locale-ko: /usr/share/locale/ko
+FILES_INFO: {"/usr/share/locale/ko/LC_MESSAGES/rpm.mo": 41574}
+PKGSIZE_rpm-locale-ko: 41574

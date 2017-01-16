@@ -1,0 +1,14 @@
+PN: ethtool
+PV: 4.0
+PR: r0
+PKGV: 4.0
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_ethtool-staticdev: A small utility for examining and tuning the settings of your ethernet-based network interfaces.  This package contains static libraries for software development.
+SUMMARY_ethtool-staticdev: Display or change ethernet card settings - Development files (Static Libraries)
+RDEPENDS_ethtool-staticdev: ethtool-dev (= 4.0-r0.0)
+SECTION_ethtool-staticdev: devel
+PKG_ethtool-staticdev: ethtool-staticdev
+FILES_ethtool-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ethtool/*.a
+FILES_INFO: {}
+PKGSIZE_ethtool-staticdev: 0

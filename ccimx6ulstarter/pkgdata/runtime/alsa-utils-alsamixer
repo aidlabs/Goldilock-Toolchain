@@ -1,0 +1,18 @@
+PN: alsa-utils
+PV: 1.0.29
+PR: r0
+PKGV: 1.0.29
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: ALSA sound utilities.
+SUMMARY_alsa-utils-alsamixer: ncurses-based control for ALSA mixer and settings
+RDEPENDS_alsa-utils-alsamixer: ncurses-libpanelw (>= 5.9) libasound (>= 1.0.29) ncurses-libtinfo (>= 5.9) ncurses-libmenuw (>= 5.9) glibc (>= 2.22) ncurses-libncursesw (>= 5.9) ncurses-libformw (>= 5.9)
+SECTION: console/utils
+PKG_alsa-utils-alsamixer: alsa-utils-alsamixer
+FILES_alsa-utils-alsamixer: /usr/bin/alsamixer
+FILERPROVIDESFLIST_alsa-utils-alsamixer: /usr/bin/alsamixer
+FILES_INFO: {"/usr/bin/alsamixer": 51832}
+FILERPROVIDES_/usr/bin/alsamixer_alsa-utils-alsamixer: elf(buildid) (= df9de4cdc63b3d5b675161e65f2fe16d9c9d8199)
+FILERDEPENDSFLIST_alsa-utils-alsamixer: /usr/bin/alsamixer
+FILERDEPENDS_/usr/bin/alsamixer_alsa-utils-alsamixer: libasound.so.2 libasound.so.2(ALSA_0.9) libc.so.6 libc.so.6(GLIBC_2.4) libformw.so.5 libm.so.6 libm.so.6(GLIBC_2.4) libmenuw.so.5 libncursesw.so.5 libpanelw.so.5 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_alsa-utils-alsamixer: 51832

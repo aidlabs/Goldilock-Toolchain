@@ -1,0 +1,22 @@
+PN: libice
+PE: 1
+PV: 1.0.9
+PR: r0
+PKGE: 1
+PKGV: 1.0.9
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION: The Inter-Client Exchange (ICE) protocol provides a generic framework for building protocols on top of reliable, byte-stream transport connections. It provides basic mechanisms for setting up and shutting down connections, for performing authentication, for negotiating versions, and for reporting errors. 
+SUMMARY: ICE: Inter-Client Exchange library
+RDEPENDS_libice: glibc (>= 2.22)
+RPROVIDES_libice:  libice (=1.0.9)
+SECTION: x11/libs
+PKG_libice: libice6
+FILES_libice: /usr/bin/* /usr/sbin/* /usr/lib/libice/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libice /usr/lib/libice/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libice: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libice: /usr/lib/libICE.so.6.3.0
+FILES_INFO: {"/usr/lib/libICE.so.6": 15, "/usr/lib/libICE.so.6.3.0": 76632}
+FILERPROVIDES_/usr/lib/libICE.so.6.3.0_libice: elf(buildid) (= e7dcf2e4d41f40e32ede6f97f9ed9cfbde107473) libICE.so.6
+FILERDEPENDSFLIST_libice: /usr/lib/libICE.so.6.3.0
+FILERDEPENDS_/usr/lib/libICE.so.6.3.0_libice: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libice: 76647

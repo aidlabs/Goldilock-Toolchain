@@ -1,0 +1,21 @@
+PN: libsamplerate0
+PV: 0.1.8
+PR: r1
+PKGV: 0.1.8
+PKGR: r1.0
+LICENSE: GPLv2+
+DESCRIPTION: Audio Sample Rate Conversion library.
+SUMMARY: Audio Sample Rate Conversion library
+RDEPENDS_libsamplerate0: libsndfile1 (>= 1.0.25) glibc (>= 2.22)
+SECTION: libs
+PKG_libsamplerate0: libsamplerate0
+FILES_libsamplerate0: /usr/bin/* /usr/sbin/* /usr/lib/libsamplerate0/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libsamplerate0 /usr/lib/libsamplerate0/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libsamplerate0: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libsamplerate0: /usr/bin/sndfile-resample /usr/lib/libsamplerate.so.0.1.8
+FILES_INFO: {"/usr/bin/sndfile-resample": 8028, "/usr/lib/libsamplerate.so.0": 22, "/usr/lib/libsamplerate.so.0.1.8": 1480924}
+FILERPROVIDES_/usr/bin/sndfile-resample_libsamplerate0: elf(buildid) (= 9f8238dcf7ca1a30d33e152f7d66c055dd2f0d47)
+FILERPROVIDES_/usr/lib/libsamplerate.so.0.1.8_libsamplerate0: elf(buildid) (= 0d3b81fe49018dd4e2f31d63db7ddffe14d8eea5) libsamplerate.so.0 libsamplerate.so.0(libsamplerate.so.0.0) libsamplerate.so.0(libsamplerate.so.0.1)
+FILERDEPENDSFLIST_libsamplerate0: /usr/bin/sndfile-resample /usr/lib/libsamplerate.so.0.1.8
+FILERDEPENDS_/usr/bin/sndfile-resample_libsamplerate0: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libsamplerate.so.0 libsamplerate.so.0(libsamplerate.so.0.0) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libsamplerate.so.0.1.8_libsamplerate0: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libsamplerate0: 1488974

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-et-ee: binary locale definition for et-ee
+SUMMARY_glibc-binary-localedata-et-ee: binary locale definition for et-ee
+SECTION: base
+PKG_glibc-binary-localedata-et-ee: glibc-binary-localedata-et-ee
+FILES_glibc-binary-localedata-et-ee: /usr/lib/locale/et_EE
+FILES_INFO: {"/usr/lib/locale/et_EE/LC_COLLATE": 105386, "/usr/lib/locale/et_EE/LC_MEASUREMENT": 23, "/usr/lib/locale/et_EE/LC_IDENTIFICATION": 367, "/usr/lib/locale/et_EE/LC_TELEPHONE": 52, "/usr/lib/locale/et_EE/LC_MESSAGES/SYS_LC_MESSAGES": 56, "/usr/lib/locale/et_EE/LC_CTYPE": 278308, "/usr/lib/locale/et_EE/LC_NUMERIC": 54, "/usr/lib/locale/et_EE/LC_PAPER": 34, "/usr/lib/locale/et_EE/LC_MONETARY": 294, "/usr/lib/locale/et_EE/LC_TIME": 2494, "/usr/lib/locale/et_EE/LC_NAME": 62, "/usr/lib/locale/et_EE/LC_ADDRESS": 185}
+PKGSIZE_glibc-binary-localedata-et-ee: 387315

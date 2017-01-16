@@ -1,0 +1,15 @@
+PN: libdaemon
+PV: 0.14
+PR: r0
+PKGV: 0.14
+PKGR: r0.0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libdaemon-dbg: Lightweight C library which eases the writing of UNIX daemons.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libdaemon-dbg: Lightweight C library which eases the writing of UNIX daemons - Debugging files
+RRECOMMENDS_libdaemon-dbg: glibc-dbg
+SECTION_libdaemon-dbg: devel
+PKG_libdaemon-dbg: libdaemon-dbg
+ALLOW_EMPTY_libdaemon-dbg: 1
+FILES_libdaemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libdaemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libdaemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libdaemon/libdaemon/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dpid.c": 5976, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dnonblock.c": 1086, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dexec.c": 5072, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dfork.c": 17080, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dpid.h": 2940, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dfork.h": 5377, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dsignal.c": 3411, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dlog.c": 2387, "/usr/lib/.debug/libdaemon.so.0.5.0": 52240, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dsignal.h": 2375, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dlog.h": 3610, "/usr/src/debug/libdaemon/0.14-r0/libdaemon-0.14/libdaemon/dnonblock.h": 1311}
+PKGSIZE_libdaemon-dbg: 102865

@@ -1,0 +1,16 @@
+PN: packagegroup-dey-network
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_packagegroup-dey-network-dev: Network applications packagegroup for DEY image.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_packagegroup-dey-network-dev: Network applications packagegroup for DEY image - Development files
+RDEPENDS_packagegroup-dey-network-dev: packagegroup-dey-network (= 1.0-r0.0)
+RRECOMMENDS_packagegroup-dey-network-dev: busybox-httpd-dev ppp-dev modemmanager-dev busybox-ntpd-dev iproute2-dev vsftpd-dev ethtool-dev
+SECTION_packagegroup-dey-network-dev: devel
+PKG_packagegroup-dey-network-dev: packagegroup-dey-network-dev
+ALLOW_EMPTY_packagegroup-dey-network-dev: 1
+FILES_packagegroup-dey-network-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-dey-network/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-network-dev: 0

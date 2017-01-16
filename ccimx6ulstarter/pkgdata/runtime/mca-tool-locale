@@ -1,0 +1,13 @@
+PN: mca-tool
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: CLOSED
+DESCRIPTION: MCA firmware management tool.
+SUMMARY: MCA firmware management tool
+SECTION: console/tools
+PKG_mca-tool-locale: mca-tool-locale
+FILES_mca-tool-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_mca-tool-locale: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-be-by.cp1251: binary locale definition for be-by.cp1251
+SUMMARY_glibc-binary-localedata-be-by.cp1251: binary locale definition for be-by.cp1251
+SECTION: base
+PKG_glibc-binary-localedata-be-by.cp1251: glibc-binary-localedata-be-by.cp1251
+FILES_glibc-binary-localedata-be-by.cp1251: /usr/lib/locale/be_BY.CP1251
+FILES_INFO: {"/usr/lib/locale/be_BY.CP1251/LC_TIME": 2427, "/usr/lib/locale/be_BY.CP1251/LC_NUMERIC": 55, "/usr/lib/locale/be_BY.CP1251/LC_MESSAGES/SYS_LC_MESSAGES": 57, "/usr/lib/locale/be_BY.CP1251/LC_CTYPE": 237624, "/usr/lib/locale/be_BY.CP1251/LC_MONETARY": 295, "/usr/lib/locale/be_BY.CP1251/LC_PAPER": 35, "/usr/lib/locale/be_BY.CP1251/LC_MEASUREMENT": 24, "/usr/lib/locale/be_BY.CP1251/LC_NAME": 63, "/usr/lib/locale/be_BY.CP1251/LC_COLLATE": 21883, "/usr/lib/locale/be_BY.CP1251/LC_TELEPHONE": 55, "/usr/lib/locale/be_BY.CP1251/LC_ADDRESS": 155, "/usr/lib/locale/be_BY.CP1251/LC_IDENTIFICATION": 309}
+PKGSIZE_glibc-binary-localedata-be-by.cp1251: 262982

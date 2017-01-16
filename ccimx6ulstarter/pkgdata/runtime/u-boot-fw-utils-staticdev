@@ -1,0 +1,14 @@
+PN: u-boot-fw-utils
+PV: v2015.07+gitAUTOINC+33711bdd4a
+PR: r0
+PKGV: v2015.07+git0+33711bdd4a
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-fw-utils-staticdev: U-Boot bootloader fw_printenv/setenv utilities.  This package contains static libraries for software development.
+SUMMARY_u-boot-fw-utils-staticdev: U-Boot bootloader fw_printenv/setenv utilities - Development files (Static Libraries)
+RDEPENDS_u-boot-fw-utils-staticdev: u-boot-fw-utils-dev (= v2015.07+git0+33711bdd4a-r0.0)
+SECTION_u-boot-fw-utils-staticdev: devel
+PKG_u-boot-fw-utils-staticdev: u-boot-fw-utils-staticdev
+FILES_u-boot-fw-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/u-boot-fw-utils/*.a
+FILES_INFO: {}
+PKGSIZE_u-boot-fw-utils-staticdev: 0

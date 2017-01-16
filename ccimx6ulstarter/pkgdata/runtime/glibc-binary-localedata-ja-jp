@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ja-jp: binary locale definition for ja-jp
+SUMMARY_glibc-binary-localedata-ja-jp: binary locale definition for ja-jp
+SECTION: base
+PKG_glibc-binary-localedata-ja-jp: glibc-binary-localedata-ja-jp
+FILES_glibc-binary-localedata-ja-jp: /usr/lib/locale/ja_JP
+FILES_INFO: {"/usr/lib/locale/ja_JP/LC_MESSAGES/SYS_LC_MESSAGES": 113, "/usr/lib/locale/ja_JP/LC_CTYPE": 549708, "/usr/lib/locale/ja_JP/LC_PAPER": 34, "/usr/lib/locale/ja_JP/LC_TIME": 5410, "/usr/lib/locale/ja_JP/LC_ADDRESS": 120, "/usr/lib/locale/ja_JP/LC_TELEPHONE": 51, "/usr/lib/locale/ja_JP/LC_NUMERIC": 54, "/usr/lib/locale/ja_JP/LC_COLLATE": 439686, "/usr/lib/locale/ja_JP/LC_MEASUREMENT": 23, "/usr/lib/locale/ja_JP/LC_MONETARY": 290, "/usr/lib/locale/ja_JP/LC_NAME": 76, "/usr/lib/locale/ja_JP/LC_IDENTIFICATION": 351}
+PKGSIZE_glibc-binary-localedata-ja-jp: 995916

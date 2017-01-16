@@ -1,0 +1,15 @@
+PN: kbproto
+PE: 1
+PV: 1.0.7
+PR: r0
+PKGE: 1
+PKGV: 1.0.7
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_kbproto-doc: This package provides the wire protocol for the X Keyboard extension.  This extension is used to control options related to keyboard handling and layout.  This package contains documentation.
+SUMMARY_kbproto-doc: XKB: X Keyboard extension headers - Documentation files
+SECTION_kbproto-doc: doc
+PKG_kbproto-doc: kbproto-doc
+FILES_kbproto-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/kbproto/XKBproto-4.svg": 26760, "/usr/share/doc/kbproto/XKBproto-6.svg": 36338, "/usr/share/doc/kbproto/XKBproto-8.svg": 6473, "/usr/share/doc/kbproto/XKBproto-1.svg": 54498, "/usr/share/doc/kbproto/ch02.xml": 14340, "/usr/share/doc/kbproto/XKBproto-5.svg": 27246, "/usr/share/doc/kbproto/ch14.xml": 3223, "/usr/share/doc/kbproto/ch08.xml": 5408, "/usr/share/doc/kbproto/ch15.xml": 7208, "/usr/share/doc/kbproto/ch16.xml": 227290, "/usr/share/doc/kbproto/ch12.xml": 33865, "/usr/share/doc/kbproto/xkbproto.xml": 4043, "/usr/share/doc/kbproto/appA.xml": 22361, "/usr/share/doc/kbproto/ch10.xml": 5246, "/usr/share/doc/kbproto/XKBproto-10.svg": 5150, "/usr/share/doc/kbproto/XKBproto-3.svg": 24187, "/usr/share/doc/kbproto/XKBproto-11.svg": 126010, "/usr/share/doc/kbproto/acknowledgements.xml": 2743, "/usr/share/doc/kbproto/appB.xml": 2981, "/usr/share/doc/kbproto/appC.xml": 15839, "/usr/share/doc/kbproto/ch13.xml": 13600, "/usr/share/doc/kbproto/ch11.xml": 13334, "/usr/share/doc/kbproto/ch07.xml": 20038, "/usr/share/doc/kbproto/ch06.xml": 44058, "/usr/share/doc/kbproto/XKBproto-7.svg": 22062, "/usr/share/doc/kbproto/XKBproto-2.svg": 23983, "/usr/share/doc/kbproto/ch09.xml": 16703, "/usr/share/doc/kbproto/ch04.xml": 25756, "/usr/share/doc/kbproto/ch05.xml": 3671, "/usr/share/doc/kbproto/ch01.xml": 3931, "/usr/share/doc/kbproto/appD.xml": 67191, "/usr/share/doc/kbproto/ch03.xml": 7401, "/usr/share/doc/kbproto/XKBproto-9.svg": 6473}
+PKGSIZE_kbproto-doc: 919410

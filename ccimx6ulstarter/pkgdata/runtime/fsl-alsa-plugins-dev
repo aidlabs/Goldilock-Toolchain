@@ -1,0 +1,16 @@
+PN: fsl-alsa-plugins
+PV: 1.0.25
+PR: r0
+PKGV: 1.0.25
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_fsl-alsa-plugins-dev: Freescale alsa-lib plugins  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_fsl-alsa-plugins-dev: fsl-alsa-plugins version 1.0.25-r0 - Development files
+RDEPENDS_fsl-alsa-plugins-dev: fsl-alsa-plugins (= 1.0.25-r0.0)
+RRECOMMENDS_fsl-alsa-plugins-dev: glibc-dev libasound-dev alsa-lib-dev
+SECTION_fsl-alsa-plugins-dev: devel
+PKG_fsl-alsa-plugins-dev: fsl-alsa-plugins-dev
+ALLOW_EMPTY_fsl-alsa-plugins-dev: 1
+FILES_fsl-alsa-plugins-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fsl-alsa-plugins/*.la /lib/*.la /usr/lib/alsa-lib/*.la
+FILES_INFO: {"/usr/lib/alsa-lib/libasound_module_rate_asrcrate.la": 1086}
+PKGSIZE_fsl-alsa-plugins-dev: 1086

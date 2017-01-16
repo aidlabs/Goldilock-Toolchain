@@ -1,0 +1,15 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-locale-id: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains language translation files for the id locale.
+SUMMARY_e2fsprogs-locale-id: Ext2 Filesystem Utilities - id translations
+RPROVIDES_e2fsprogs-locale-id: e2fsprogs-locale id-translation
+RRECOMMENDS_e2fsprogs-locale-id: virtual-locale-id
+SECTION: base
+PKG_e2fsprogs-locale-id: e2fsprogs-locale-id
+FILES_e2fsprogs-locale-id: /usr/share/locale/id
+FILES_INFO: {"/usr/share/locale/id/LC_MESSAGES/e2fsprogs.mo": 88298}
+PKGSIZE_e2fsprogs-locale-id: 88298

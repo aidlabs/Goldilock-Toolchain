@@ -1,0 +1,17 @@
+PN: xextproto
+PE: 1
+PV: 7.3.0
+PR: r0
+PKGE: 1
+PKGV: 7.3.0
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_xextproto-dev: This package provides the wire protocol for several X extensions.  These protocol extensions include DOUBLE-BUFFER, DPMS, Extended-Visual-Information, LBX, MIT_SHM, MIT_SUNDRY-NONSTANDARD, Multi-Buffering, SECURITY, SHAPE, SYNC, TOG-CUP, XC-APPGROUP, XC-MISC, XTEST.  In addition a small set of utility functions are also available.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_xextproto-dev: XExt: X Extension headers - Development files
+RRECOMMENDS_xextproto-dev: util-macros-dev
+SECTION_xextproto-dev: devel
+PKG_xextproto-dev: xextproto-dev
+ALLOW_EMPTY_xextproto-dev: 1
+FILES_xextproto-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xextproto/*.la /lib/*.la
+FILES_INFO: {"/usr/include/X11/extensions/ag.h": 1705, "/usr/include/X11/extensions/shapestr.h": 252, "/usr/include/X11/extensions/secur.h": 2141, "/usr/include/X11/extensions/lbxproto.h": 25824, "/usr/include/X11/extensions/dpmsconst.h": 1714, "/usr/include/X11/extensions/multibufconst.h": 2575, "/usr/include/X11/extensions/xtestproto.h": 3386, "/usr/include/X11/extensions/EVI.h": 1563, "/usr/include/X11/extensions/syncproto.h": 11528, "/usr/include/X11/extensions/xtestext1const.h": 5439, "/usr/include/X11/extensions/ge.h": 1782, "/usr/include/X11/extensions/mitmiscproto.h": 2269, "/usr/include/X11/extensions/shapeconst.h": 1878, "/usr/include/X11/extensions/syncconst.h": 6750, "/usr/include/X11/extensions/dbeproto.h": 7495, "/usr/include/X11/extensions/dpmsproto.h": 4890, "/usr/include/X11/extensions/lbx.h": 2236, "/usr/include/X11/extensions/dbe.h": 2159, "/usr/include/X11/extensions/shmstr.h": 2123, "/usr/include/X11/extensions/agproto.h": 5178, "/usr/include/X11/extensions/xtestext1proto.h": 7862, "/usr/include/X11/extensions/cup.h": 1353, "/usr/include/X11/extensions/xtestconst.h": 1392, "/usr/include/X11/extensions/shm.h": 1645, "/usr/include/X11/extensions/securproto.h": 3318, "/usr/include/X11/extensions/EVIproto.h": 3102, "/usr/include/X11/extensions/mitmiscconst.h": 1509, "/usr/lib/pkgconfig/xextproto.pc": 162, "/usr/include/X11/extensions/cupproto.h": 3193, "/usr/include/X11/extensions/shapeproto.h": 7034, "/usr/include/X11/extensions/shmproto.h": 6350, "/usr/include/X11/extensions/syncstr.h": 5611, "/usr/include/X11/extensions/geproto.h": 2413, "/usr/include/X11/extensions/multibufproto.h": 8997}
+PKGSIZE_xextproto-dev: 146828

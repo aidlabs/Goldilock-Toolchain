@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-nan-tw+latin: binary locale definition for nan-tw+latin
+SUMMARY_glibc-binary-localedata-nan-tw+latin: binary locale definition for nan-tw+latin
+SECTION: base
+PKG_glibc-binary-localedata-nan-tw+latin: glibc-binary-localedata-nan-tw+latin
+FILES_glibc-binary-localedata-nan-tw+latin: /usr/lib/locale/nan_TW@latin
+FILES_INFO: {"/usr/lib/locale/nan_TW@latin/LC_PAPER": 34, "/usr/lib/locale/nan_TW@latin/LC_MESSAGES/SYS_LC_MESSAGES": 62, "/usr/lib/locale/nan_TW@latin/LC_MEASUREMENT": 23, "/usr/lib/locale/nan_TW@latin/LC_CTYPE": 278308, "/usr/lib/locale/nan_TW@latin/LC_TELEPHONE": 57, "/usr/lib/locale/nan_TW@latin/LC_COLLATE": 1244086, "/usr/lib/locale/nan_TW@latin/LC_NAME": 98, "/usr/lib/locale/nan_TW@latin/LC_ADDRESS": 170, "/usr/lib/locale/nan_TW@latin/LC_IDENTIFICATION": 378, "/usr/lib/locale/nan_TW@latin/LC_MONETARY": 290, "/usr/lib/locale/nan_TW@latin/LC_NUMERIC": 54, "/usr/lib/locale/nan_TW@latin/LC_TIME": 2482}
+PKGSIZE_glibc-binary-localedata-nan-tw+latin: 1526042

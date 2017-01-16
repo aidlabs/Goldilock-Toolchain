@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-the-np: binary locale definition for the-np
+SUMMARY_glibc-binary-localedata-the-np: binary locale definition for the-np
+SECTION: base
+PKG_glibc-binary-localedata-the-np: glibc-binary-localedata-the-np
+FILES_glibc-binary-localedata-the-np: /usr/lib/locale/the_NP
+FILES_INFO: {"/usr/lib/locale/the_NP/LC_TELEPHONE": 51, "/usr/lib/locale/the_NP/LC_TIME": 3230, "/usr/lib/locale/the_NP/LC_MEASUREMENT": 23, "/usr/lib/locale/the_NP/LC_PAPER": 34, "/usr/lib/locale/the_NP/LC_MONETARY": 302, "/usr/lib/locale/the_NP/LC_CTYPE": 278308, "/usr/lib/locale/the_NP/LC_NAME": 73, "/usr/lib/locale/the_NP/LC_NUMERIC": 54, "/usr/lib/locale/the_NP/LC_ADDRESS": 109, "/usr/lib/locale/the_NP/LC_IDENTIFICATION": 388, "/usr/lib/locale/the_NP/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/the_NP/LC_COLLATE": 1243766}
+PKGSIZE_glibc-binary-localedata-the-np: 1526390

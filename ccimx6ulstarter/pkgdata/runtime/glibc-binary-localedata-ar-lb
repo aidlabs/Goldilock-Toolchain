@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ar-lb: binary locale definition for ar-lb
+SUMMARY_glibc-binary-localedata-ar-lb: binary locale definition for ar-lb
+SECTION: base
+PKG_glibc-binary-localedata-ar-lb: glibc-binary-localedata-ar-lb
+FILES_glibc-binary-localedata-ar-lb: /usr/lib/locale/ar_LB
+FILES_INFO: {"/usr/lib/locale/ar_LB/LC_MEASUREMENT": 23, "/usr/lib/locale/ar_LB/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/ar_LB/LC_TIME": 3138, "/usr/lib/locale/ar_LB/LC_ADDRESS": 125, "/usr/lib/locale/ar_LB/LC_MONETARY": 302, "/usr/lib/locale/ar_LB/LC_CTYPE": 278308, "/usr/lib/locale/ar_LB/LC_PAPER": 34, "/usr/lib/locale/ar_LB/LC_NUMERIC": 54, "/usr/lib/locale/ar_LB/LC_NAME": 77, "/usr/lib/locale/ar_LB/LC_IDENTIFICATION": 439, "/usr/lib/locale/ar_LB/LC_COLLATE": 1243766, "/usr/lib/locale/ar_LB/LC_TELEPHONE": 52}
+PKGSIZE_glibc-binary-localedata-ar-lb: 1526384

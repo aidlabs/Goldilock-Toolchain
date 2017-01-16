@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-csb-pl: binary locale definition for csb-pl
+SUMMARY_glibc-binary-localedata-csb-pl: binary locale definition for csb-pl
+SECTION: base
+PKG_glibc-binary-localedata-csb-pl: glibc-binary-localedata-csb-pl
+FILES_glibc-binary-localedata-csb-pl: /usr/lib/locale/csb_PL
+FILES_INFO: {"/usr/lib/locale/csb_PL/LC_MEASUREMENT": 23, "/usr/lib/locale/csb_PL/LC_CTYPE": 278308, "/usr/lib/locale/csb_PL/LC_TELEPHONE": 49, "/usr/lib/locale/csb_PL/LC_ADDRESS": 156, "/usr/lib/locale/csb_PL/LC_IDENTIFICATION": 362, "/usr/lib/locale/csb_PL/LC_TIME": 2478, "/usr/lib/locale/csb_PL/LC_NUMERIC": 54, "/usr/lib/locale/csb_PL/LC_PAPER": 34, "/usr/lib/locale/csb_PL/LC_COLLATE": 1243842, "/usr/lib/locale/csb_PL/LC_MONETARY": 294, "/usr/lib/locale/csb_PL/LC_NAME": 62, "/usr/lib/locale/csb_PL/LC_MESSAGES/SYS_LC_MESSAGES": 56}
+PKGSIZE_glibc-binary-localedata-csb-pl: 1525718

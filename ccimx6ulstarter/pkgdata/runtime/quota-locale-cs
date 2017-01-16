@@ -1,0 +1,15 @@
+PN: quota
+PV: 4.02
+PR: r0
+PKGV: 4.02
+PKGR: r0.0
+LICENSE: BSD & GPLv2+ & LGPLv2.1+
+DESCRIPTION_quota-locale-cs: Tools for monitoring & limiting user disk usage per filesystem.  This package contains language translation files for the cs locale.
+SUMMARY_quota-locale-cs: Tools for monitoring & limiting user disk usage per filesystem - cs translations
+RPROVIDES_quota-locale-cs: quota-locale cs-translation
+RRECOMMENDS_quota-locale-cs: virtual-locale-cs
+SECTION: base
+PKG_quota-locale-cs: quota-locale-cs
+FILES_quota-locale-cs: /usr/share/locale/cs
+FILES_INFO: {"/usr/share/locale/cs/LC_MESSAGES/quota.mo": 76791}
+PKGSIZE_quota-locale-cs: 76791

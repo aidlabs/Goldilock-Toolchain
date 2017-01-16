@@ -1,0 +1,17 @@
+PN: libsm
+PE: 1
+PV: 1.2.2
+PR: r0
+PKGE: 1
+PKGV: 1.2.2
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_libsm-dbg: The Session Management Library (SMlib) is a low-level \\"C\\" language interface to XSMP.  The purpose of the X Session Management Protocol (XSMP) is to provide a uniform mechanism for users to save and restore their sessions.  A session is a group of clients, each of which has a particular state.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libsm-dbg: SM: Session Management library - Debugging files
+RRECOMMENDS_libsm-dbg: glibc-dbg libice-dbg
+SECTION_libsm-dbg: devel
+PKG_libsm-dbg: libsm-dbg
+ALLOW_EMPTY_libsm-dbg: 1
+FILES_libsm-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libsm/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libsm/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libsm/libsm/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/src/sm_error.c": 7321, "/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/include/X11/SM/SMlib.h": 11268, "/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/src/sm_misc.c": 2774, "/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/include/X11/SM/SMproto.h": 4852, "/usr/lib/.debug/libSM.so.6.0.1": 98300, "/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/src/sm_process.c": 21425, "/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/src/sm_genid.c": 6177, "/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/src/sm_client.c": 14320, "/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/src/sm_manager.c": 7789, "/usr/src/debug/libsm/1_1.2.2-r0/libSM-1.2.2/src/SMlibint.h": 10253}
+PKGSIZE_libsm-dbg: 184479

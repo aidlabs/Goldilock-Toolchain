@@ -1,0 +1,18 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.
+SUMMARY: The Smart Package Manager
+RDEPENDS_python-smartpm-backend-rpm: python-rpm libpython2 (>= 2.7.9) glibc (>= 2.22)
+SECTION: devel/python
+PKG_python-smartpm-backend-rpm: python-smartpm-backend-rpm
+FILES_python-smartpm-backend-rpm: /usr/lib/python*/site-packages/smart/backends/rpm
+FILERPROVIDESFLIST_python-smartpm-backend-rpm: /usr/lib/python2.7/site-packages/smart/backends/rpm/crpmver.so
+FILES_INFO: {"/usr/lib/python2.7/site-packages/smart/backends/rpm/base.pyc": 17007, "/usr/lib/python2.7/site-packages/smart/backends/rpm/header.pyc": 40854, "/usr/lib/python2.7/site-packages/smart/backends/rpm/updateinfo.pyc": 5909, "/usr/lib/python2.7/site-packages/smart/backends/rpm/yast2.pyc": 12642, "/usr/lib/python2.7/site-packages/smart/backends/rpm/header.py": 28155, "/usr/lib/python2.7/site-packages/smart/backends/rpm/base.py": 17394, "/usr/lib/python2.7/site-packages/smart/backends/rpm/yast2.py": 11887, "/usr/lib/python2.7/site-packages/smart/backends/rpm/redcarpet.pyc": 17957, "/usr/lib/python2.7/site-packages/smart/backends/rpm/crpmver.so": 7304, "/usr/lib/python2.7/site-packages/smart/backends/rpm/rpmver.pyc": 4237, "/usr/lib/python2.7/site-packages/smart/backends/rpm/synthesis.py": 11880, "/usr/lib/python2.7/site-packages/smart/backends/rpm/metadata.pyc": 15969, "/usr/lib/python2.7/site-packages/smart/backends/rpm/pm.pyc": 13811, "/usr/lib/python2.7/site-packages/smart/backends/rpm/__init__.pyc": 776, "/usr/lib/python2.7/site-packages/smart/backends/rpm/redcarpet.py": 9904, "/usr/lib/python2.7/site-packages/smart/backends/rpm/__init__.py": 1061, "/usr/lib/python2.7/site-packages/smart/backends/rpm/descriptions.pyc": 3873, "/usr/lib/python2.7/site-packages/smart/backends/rpm/metadata.py": 15987, "/usr/lib/python2.7/site-packages/smart/backends/rpm/descriptions.py": 3577, "/usr/lib/python2.7/site-packages/smart/backends/rpm/synthesis.pyc": 13017, "/usr/lib/python2.7/site-packages/smart/backends/rpm/pm.py": 16576, "/usr/lib/python2.7/site-packages/smart/backends/rpm/updateinfo.py": 6516, "/usr/lib/python2.7/site-packages/smart/backends/rpm/rpmver.py": 3564}
+FILERPROVIDES_/usr/lib/python2.7/site-packages/smart/backends/rpm/crpmver.so_python-smartpm-backend-rpm: crpmver.so elf(buildid) (= 898389e27e64d1e903c8f4491e0a50927d24b9ef)
+FILERDEPENDSFLIST_python-smartpm-backend-rpm: /usr/lib/python2.7/site-packages/smart/backends/rpm/crpmver.so
+FILERDEPENDS_/usr/lib/python2.7/site-packages/smart/backends/rpm/crpmver.so_python-smartpm-backend-rpm: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-smartpm-backend-rpm: 279857

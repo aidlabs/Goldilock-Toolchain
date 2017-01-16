@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-zh-cn.gbk: binary locale definition for zh-cn.gbk
+SUMMARY_glibc-binary-localedata-zh-cn.gbk: binary locale definition for zh-cn.gbk
+SECTION: base
+PKG_glibc-binary-localedata-zh-cn.gbk: glibc-binary-localedata-zh-cn.gbk
+FILES_glibc-binary-localedata-zh-cn.gbk: /usr/lib/locale/zh_CN.GBK
+FILES_INFO: {"/usr/lib/locale/zh_CN.GBK/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/zh_CN.GBK/LC_CTYPE": 248572, "/usr/lib/locale/zh_CN.GBK/LC_NAME": 72, "/usr/lib/locale/zh_CN.GBK/LC_ADDRESS": 150, "/usr/lib/locale/zh_CN.GBK/LC_MEASUREMENT": 21, "/usr/lib/locale/zh_CN.GBK/LC_MONETARY": 288, "/usr/lib/locale/zh_CN.GBK/LC_COLLATE": 834776, "/usr/lib/locale/zh_CN.GBK/LC_IDENTIFICATION": 324, "/usr/lib/locale/zh_CN.GBK/LC_TIME": 2124, "/usr/lib/locale/zh_CN.GBK/LC_TELEPHONE": 55, "/usr/lib/locale/zh_CN.GBK/LC_PAPER": 32, "/usr/lib/locale/zh_CN.GBK/LC_NUMERIC": 52}
+PKGSIZE_glibc-binary-localedata-zh-cn.gbk: 1086518

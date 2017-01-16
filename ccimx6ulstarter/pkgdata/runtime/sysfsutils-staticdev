@@ -1,0 +1,14 @@
+PN: sysfsutils
+PV: 2.1.0
+PR: r5
+PKGV: 2.1.0
+PKGR: r5.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_sysfsutils-staticdev: Tools for working with the sysfs virtual filesystem.  The tool \'systool\' can query devices by bus, class and topology.  This package contains static libraries for software development.
+SUMMARY_sysfsutils-staticdev: Tools for working with sysfs - Development files (Static Libraries)
+RDEPENDS_sysfsutils-staticdev: sysfsutils-dev (= 2.1.0-r5.0)
+SECTION_sysfsutils-staticdev: devel
+PKG_sysfsutils-staticdev: sysfsutils-staticdev
+FILES_sysfsutils-staticdev: /lib/*.a /lib/*.a /lib/sysfsutils/*.a
+FILES_INFO: {"/lib/libsysfs.a": 167060}
+PKGSIZE_sysfsutils-staticdev: 167060

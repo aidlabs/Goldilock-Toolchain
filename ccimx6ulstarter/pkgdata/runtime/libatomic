@@ -1,0 +1,20 @@
+PN: gcc-runtime
+PV: 5.2.0
+PR: r0
+PKGV: 5.2.0
+PKGR: r0.0
+LICENSE_libatomic: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RDEPENDS_libatomic: glibc (>= 2.22)
+RPROVIDES_libatomic:  libatomic (=5.2.0)
+SECTION: devel
+PKG_libatomic: libatomic1
+FILES_libatomic: /usr/lib/libatomic.so.*
+pkg_postinst_libatomic: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libatomic: /usr/lib/libatomic.so.1.1.0
+FILES_INFO: {"/usr/lib/libatomic.so.1": 18, "/usr/lib/libatomic.so.1.1.0": 14972}
+FILERPROVIDES_/usr/lib/libatomic.so.1.1.0_libatomic: elf(buildid) (= 3d1f2acafd44cccc9f90148b024d2fc26183ae39) libatomic.so.1 libatomic.so.1(LIBATOMIC_1.0) libatomic.so.1(LIBATOMIC_1.1)
+FILERDEPENDSFLIST_libatomic: /usr/lib/libatomic.so.1.1.0
+FILERDEPENDS_/usr/lib/libatomic.so.1.1.0_libatomic: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libatomic: 14990

@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-pl: Library for parsing command line options.  This package contains language translation files for the pl locale.
+SUMMARY_popt-locale-pl: Library for parsing command line options - pl translations
+RPROVIDES_popt-locale-pl: popt-locale pl-translation popt-locale-pl (=1.16)
+RRECOMMENDS_popt-locale-pl: virtual-locale-pl
+SECTION: libs
+PKG_popt-locale-pl: libpopt-locale-pl
+FILES_popt-locale-pl: /usr/share/locale/pl
+FILES_INFO: {"/usr/share/locale/pl/LC_MESSAGES/popt.mo": 2116}
+PKGSIZE_popt-locale-pl: 2116

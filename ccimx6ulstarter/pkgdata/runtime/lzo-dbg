@@ -1,0 +1,16 @@
+PN: lzo
+PV: 2.09
+PR: r0
+PKGV: 2.09
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_lzo-dbg: Lossless data compression library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lzo-dbg: Lossless data compression library - Debugging files
+RPROVIDES_lzo-dbg:  lzo-dbg (=2.09)
+RRECOMMENDS_lzo-dbg: glibc-dbg
+SECTION_lzo-dbg: devel
+PKG_lzo-dbg: liblzo2-dbg
+ALLOW_EMPTY_lzo-dbg: 1
+FILES_lzo-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lzo/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lzo/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lzo/lzo/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_r.ch": 2916, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1c_9x.c": 11144, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_9x.c": 10492, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo2a_9x.c": 9672, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1f_9x.c": 9354, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1c_xx.c": 2347, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/compr1b.h": 1983, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo_supp.h": 118171, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1_99.c": 3311, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_tm.ch": 2269, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_cm.ch": 8606, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1.c": 18864, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/include/lzo/lzoconf.h": 15994, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_sm.ch": 6621, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_cc.h": 2562, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1a_cm.ch": 6896, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1a.c": 20615, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1c_cc.c": 4166, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo_ptr.c": 2181, "/usr/lib/.debug/liblzo2.so.2.0.0": 361584, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1c_cc.h": 2562, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1x_oo.ch": 11397, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_c.ch": 6686, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1x_c.ch": 11955, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_xx.c": 2347, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1f_d.ch": 5816, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1a_99.c": 3322, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo_mchw.ch": 5092, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1x_d.ch": 12758, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo_func.h": 20308, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_cr.ch": 3852, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo_util.c": 3973, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1x_d3.c": 2743, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo_crc.c": 6091, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/compr1c.h": 1983, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1f_1.c": 8101, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1x_9x.c": 24220, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1a_cr.ch": 3065, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo_init.c": 6811, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/include/lzo/lzodefs.h": 122223, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_cc.c": 4174, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo_swd.ch": 17045, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo1b_d.ch": 7435, "/usr/src/debug/lzo/2.09-r0/lzo-2.09/src/lzo2a_d.ch": 4373}
+PKGSIZE_lzo-dbg: 918080

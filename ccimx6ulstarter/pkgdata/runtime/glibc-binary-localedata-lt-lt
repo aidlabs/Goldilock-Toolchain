@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-lt-lt: binary locale definition for lt-lt
+SUMMARY_glibc-binary-localedata-lt-lt: binary locale definition for lt-lt
+SECTION: base
+PKG_glibc-binary-localedata-lt-lt: glibc-binary-localedata-lt-lt
+FILES_glibc-binary-localedata-lt-lt: /usr/lib/locale/lt_LT
+FILES_INFO: {"/usr/lib/locale/lt_LT/LC_MONETARY": 290, "/usr/lib/locale/lt_LT/LC_TELEPHONE": 50, "/usr/lib/locale/lt_LT/LC_COLLATE": 105202, "/usr/lib/locale/lt_LT/LC_NUMERIC": 54, "/usr/lib/locale/lt_LT/LC_PAPER": 34, "/usr/lib/locale/lt_LT/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/lt_LT/LC_MEASUREMENT": 23, "/usr/lib/locale/lt_LT/LC_IDENTIFICATION": 394, "/usr/lib/locale/lt_LT/LC_TIME": 2578, "/usr/lib/locale/lt_LT/LC_ADDRESS": 154, "/usr/lib/locale/lt_LT/LC_NAME": 62, "/usr/lib/locale/lt_LT/LC_CTYPE": 278308}
+PKGSIZE_glibc-binary-localedata-lt-lt: 387203

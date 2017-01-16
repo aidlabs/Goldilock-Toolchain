@@ -1,0 +1,13 @@
+PN: udev-rules-imx
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_udev-rules-imx-doc: udev rules for Freescale i.MX SOCs  This package contains documentation.
+SUMMARY_udev-rules-imx-doc: udev-rules-imx version 1.0-r0 - Documentation files
+SECTION_udev-rules-imx-doc: doc
+PKG_udev-rules-imx-doc: udev-rules-imx-doc
+FILES_udev-rules-imx-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_udev-rules-imx-doc: 0

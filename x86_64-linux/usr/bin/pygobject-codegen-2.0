@@ -1,0 +1,11 @@
+#!/bin/sh
+
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+datarootdir=${prefix}/share
+datadir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/share
+codegendir=${datadir}/pygobject/2.0/codegen
+
+PYTHONPATH=$codegendir
+export PYTHONPATH
+
+exec /home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/python-native/python $codegendir/codegen.py "$@"

@@ -1,0 +1,15 @@
+PN: imx-kobs
+PV: 5.4
+PR: r0
+PKGV: 5.4
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_imx-kobs-dbg: Nand boot write source.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_imx-kobs-dbg: Nand boot write source - Debugging files
+RRECOMMENDS_imx-kobs-dbg: glibc-dbg
+SECTION_imx-kobs-dbg: devel
+PKG_imx-kobs-dbg: imx-kobs-dbg
+ALLOW_EMPTY_imx-kobs-dbg: 1
+FILES_imx-kobs-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/imx-kobs/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/imx-kobs/.debug /usr/lib/matchbox-panel/.debug /usr/lib/imx-kobs/imx-kobs/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/rom_nand_hamming_code_ecc.c": 13840, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/rand.h": 394207, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/mtd.h": 10941, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/aeskey.c": 13757, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/mtd.c": 100351, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/aescrypt.c": 9787, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/BootControlBlocks.h": 16961, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/aesopt.h": 37534, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/bch.h": 3570, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/bch.c": 41124, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/aes.h": 4992, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/main.c": 19461, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/aestab.c": 5975, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/sha.h": 1975, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/ncb.c": 13581, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/bootstream.h": 3156, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/bootstream.c": 18649, "/usr/bin/.debug/kobs-ng": 260868, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/plat_boot_config.c": 7906, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/sha1.c": 5971, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/src/plat_boot_config.h": 1963, "/usr/src/debug/imx-kobs/5.4-r0/imx-kobs-5.4/include/autoversion.h": 89}
+PKGSIZE_imx-kobs-dbg: 986658

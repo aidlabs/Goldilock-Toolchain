@@ -1,0 +1,13 @@
+PN: libmbim
+PV: 1.12.2
+PR: r0
+PKGV: 1.12.2
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_libmbim-doc: libmbim is a glib-based library for talking to WWAN modems and devices which speak the Mobile Interface Broadband Model (MBIM) protocol  This package contains documentation.
+SUMMARY_libmbim-doc: libmbim is library for talking to WWAN devices by MBIM protocol - Documentation files
+SECTION_libmbim-doc: doc
+PKG_libmbim-doc: libmbim-doc
+FILES_libmbim-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/mbim-network.1": 1098, "/usr/share/man/man1/mbimcli.1": 4406}
+PKGSIZE_libmbim-doc: 5504

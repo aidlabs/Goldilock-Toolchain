@@ -1,0 +1,15 @@
+PN: mca-tool
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: CLOSED
+DESCRIPTION_mca-tool-dev: MCA firmware management tool.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_mca-tool-dev: MCA firmware management tool - Development files
+RDEPENDS_mca-tool-dev: mca-tool (= 1.0-r0.0)
+SECTION_mca-tool-dev: devel
+PKG_mca-tool-dev: mca-tool-dev
+ALLOW_EMPTY_mca-tool-dev: 1
+FILES_mca-tool-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mca-tool/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_mca-tool-dev: 0

@@ -1,0 +1,4 @@
+libip4tc.so.0:/usr/lib:1.4.21
+libip6tc.so.0:/usr/lib:1.4.21
+libxtables.so.10:/usr/lib:1.4.21
+libiptc.so.0:/usr/lib:1.4.21

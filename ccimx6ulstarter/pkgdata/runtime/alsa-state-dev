@@ -1,0 +1,16 @@
+PN: alsa-state
+PV: 0.2.0
+PR: r5
+PKGV: 0.2.0
+PKGR: r5.0
+LICENSE: MIT
+DESCRIPTION_alsa-state-dev: Alsa Scenario Files - an init script and state files to restore sound state at system boot and save it at system shut down.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_alsa-state-dev: Alsa scenario files to enable alsa state restoration - Development files
+RDEPENDS_alsa-state-dev: alsa-state (= 0.2.0-r5.0)
+RRECOMMENDS_alsa-state-dev: alsa-utils-alsactl-dev initscripts-functions-dev update-rc.d-dev initscripts-dev
+SECTION_alsa-state-dev: devel
+PKG_alsa-state-dev: alsa-state-dev
+ALLOW_EMPTY_alsa-state-dev: 1
+FILES_alsa-state-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/alsa-state/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_alsa-state-dev: 0

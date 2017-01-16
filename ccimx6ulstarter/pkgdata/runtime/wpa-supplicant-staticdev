@@ -1,0 +1,14 @@
+PN: wpa-supplicant
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_wpa-supplicant-staticdev: Client for Wi-Fi Protected Access (WPA).  This package contains static libraries for software development.
+SUMMARY_wpa-supplicant-staticdev: Client for Wi-Fi Protected Access (WPA) - Development files (Static Libraries)
+RDEPENDS_wpa-supplicant-staticdev: wpa-supplicant-dev (= 2.4-r0.0)
+SECTION_wpa-supplicant-staticdev: devel
+PKG_wpa-supplicant-staticdev: wpa-supplicant-staticdev
+FILES_wpa-supplicant-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/wpa-supplicant/*.a
+FILES_INFO: {}
+PKGSIZE_wpa-supplicant-staticdev: 0

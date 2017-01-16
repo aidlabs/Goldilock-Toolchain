@@ -1,0 +1,17 @@
+PN: xextproto
+PE: 1
+PV: 7.3.0
+PR: r0
+PKGE: 1
+PKGV: 7.3.0
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_xextproto-dbg: This package provides the wire protocol for several X extensions.  These protocol extensions include DOUBLE-BUFFER, DPMS, Extended-Visual-Information, LBX, MIT_SHM, MIT_SUNDRY-NONSTANDARD, Multi-Buffering, SECURITY, SHAPE, SYNC, TOG-CUP, XC-APPGROUP, XC-MISC, XTEST.  In addition a small set of utility functions are also available.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_xextproto-dbg: XExt: X Extension headers - Debugging files
+RRECOMMENDS_xextproto-dbg: xextproto-dev (= 1:7.3.0-r0.0)
+SECTION_xextproto-dbg: devel
+PKG_xextproto-dbg: xextproto-dbg
+ALLOW_EMPTY_xextproto-dbg: 1
+FILES_xextproto-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/xextproto/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/xextproto/.debug /usr/lib/matchbox-panel/.debug /usr/lib/xextproto/xextproto/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_xextproto-dbg: 0

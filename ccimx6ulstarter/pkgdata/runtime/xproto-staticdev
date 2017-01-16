@@ -1,0 +1,16 @@
+PN: xproto
+PE: 1
+PV: 7.0.28
+PR: r0
+PKGE: 1
+PKGV: 7.0.28
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_xproto-staticdev: This package provides the basic headers for the X Window System.  This package contains static libraries for software development.
+SUMMARY_xproto-staticdev: Xlib: C Language X interface headers - Development files (Static Libraries)
+RDEPENDS_xproto-staticdev: xproto-dev (= 1:7.0.28-r0.0)
+SECTION_xproto-staticdev: devel
+PKG_xproto-staticdev: xproto-staticdev
+FILES_xproto-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/xproto/*.a
+FILES_INFO: {}
+PKGSIZE_xproto-staticdev: 0

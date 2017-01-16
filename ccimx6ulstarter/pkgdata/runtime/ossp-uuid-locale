@@ -1,0 +1,14 @@
+PN: ossp-uuid
+PV: 1.6.2
+PR: r2
+PKGV: 1.6.2
+PKGR: r2.0
+LICENSE: MIT
+DESCRIPTION: OSSP uuid is a ISO-C:1999 application programming interface (API) and corresponding command line interface (CLI) for the generation of DCE 1.1, ISO/IEC 11578:1996 and RFC 4122 compliant Universally Unique Identifier (UUID). It supports DCE 1.1 variant UUIDs of version 1 (time and node based), version 3 (name based, MD5), version 4 (random number based) and version 5 (name based, SHA-1).
+SUMMARY: Universally Unique Identifier (UUID) library
+RPROVIDES_ossp-uuid-locale:  ossp-uuid-locale (=1.6.2)
+SECTION: libs
+PKG_ossp-uuid-locale: libossp-uuid-locale
+FILES_ossp-uuid-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ossp-uuid-locale: 0

@@ -1,0 +1,244 @@
+PN: iptables
+PV: 1.4.21
+PR: r0
+PKGV: 1.4.21
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: iptables is the userspace command line program used to configure and control network packet filtering code in Linux.
+SUMMARY: Tools for managing kernel packet filtering capabilities
+RDEPENDS_iptables: glibc (>= 2.22)
+RRECOMMENDS_iptables: kernel-module-x-tables                      kernel-module-ip-tables                      kernel-module-iptable-filter                      kernel-module-iptable-nat                      kernel-module-nf-defrag-ipv4                      kernel-module-nf-conntrack                      kernel-module-nf-conntrack-ipv4                      kernel-module-nf-nat                      kernel-module-ipt-masquerade
+SECTION: base
+PKG_iptables: iptables
+FILES_iptables: /usr/lib/xtables/ /usr/share/xtables /usr/bin/* /usr/sbin/* /usr/lib/iptables/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/iptables /usr/lib/iptables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_iptables: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_iptables: /usr/lib/libip6tc.so.0.1.0 /usr/lib/xtables/libxt@underscore@RATEEST.so /usr/lib/xtables/libxt@underscore@multiport.so /usr/lib/xtables/libxt@underscore@CT.so /usr/lib/xtables/libip6t@underscore@DNPT.so /usr/lib/xtables/libipt@underscore@TTL.so /usr/lib/xtables/libip6t@underscore@SNPT.so /usr/lib/xtables/libxt@underscore@CHECKSUM.so /usr/lib/xtables/libip6t@underscore@eui64.so /usr/lib/xtables/libip6t@underscore@ipv6header.so /usr/lib/xtables/libxt@underscore@DSCP.so /usr/lib/xtables/libxt@underscore@udp.so /usr/lib/xtables/libxt@underscore@policy.so /usr/lib/xtables/libipt@underscore@NETMAP.so /usr/lib/xtables/libip6t@underscore@MASQUERADE.so /usr/lib/xtables/libxt@underscore@TOS.so /usr/lib/xtables/libxt@underscore@SYNPROXY.so /usr/lib/xtables/libxt@underscore@bpf.so /usr/lib/xtables/libipt@underscore@SAME.so /usr/lib/xtables/libxt@underscore@NFLOG.so /usr/lib/xtables/libxt@underscore@string.so /usr/lib/xtables/libip6t@underscore@REJECT.so /usr/lib/xtables/libxt@underscore@u32.so /usr/lib/xtables/libxt@underscore@conntrack.so /usr/lib/xtables/libxt@underscore@sctp.so /usr/lib/xtables/libxt@underscore@dccp.so /usr/lib/xtables/libxt@underscore@osf.so /usr/lib/xtables/libipt@underscore@SNAT.so /usr/lib/xtables/libxt@underscore@HMARK.so /usr/lib/xtables/libip6t@underscore@dst.so /usr/lib/xtables/libxt@underscore@cluster.so /usr/lib/xtables/libipt@underscore@REJECT.so /usr/lib/xtables/libxt@underscore@rateest.so /usr/lib/xtables/libipt@underscore@LOG.so /usr/lib/xtables/libxt@underscore@tcpmss.so /usr/lib/xtables/libip6t@underscore@LOG.so /usr/lib/xtables/libipt@underscore@icmp.so /usr/lib/xtables/libipt@underscore@DNAT.so /usr/lib/xtables/libxt@underscore@CONNMARK.so /usr/lib/xtables/libxt@underscore@state.so /usr/lib/xtables/libxt@underscore@addrtype.so /usr/lib/xtables/libxt@underscore@TCPMSS.so /usr/lib/xtables/libxt@underscore@tcp.so /usr/lib/xtables/libxt@underscore@TEE.so /usr/lib/xtables/libip6t@underscore@hbh.so /usr/lib/xtables/libip6t@underscore@rt.so /usr/lib/xtables/libip6t@underscore@mh.so /usr/lib/xtables/libxt@underscore@SECMARK.so /usr/lib/xtables/libxt@underscore@hashlimit.so /usr/lib/libxtables.so.10.0.0 /usr/lib/xtables/libxt@underscore@time.so /usr/lib/xtables/libxt@underscore@set.so /usr/lib/xtables/libxt@underscore@ecn.so /usr/lib/xtables/libipt@underscore@ECN.so /usr/lib/xtables/libxt@underscore@TPROXY.so /usr/lib/xtables/libxt@underscore@connmark.so /usr/lib/xtables/libxt@underscore@NOTRACK.so /usr/lib/xtables/libxt@underscore@devgroup.so /usr/lib/xtables/libip6t@underscore@frag.so /usr/lib/xtables/libipt@underscore@ULOG.so /usr/lib/xtables/libipt@underscore@unclean.so /usr/lib/xtables/libxt@underscore@owner.so /usr/lib/xtables/libipt@underscore@MIRROR.so /usr/lib/xtables/libxt@underscore@recent.so /usr/lib/xtables/libip6t@underscore@HL.so /usr/lib/xtables/libxt@underscore@comment.so /usr/lib/xtables/libxt@underscore@standard.so /usr/lib/xtables/libxt@underscore@SET.so /usr/lib/xtables/libxt@underscore@quota.so /usr/lib/xtables/libxt@underscore@tos.so /usr/lib/xtables/libip6t@underscore@REDIRECT.so /usr/lib/xtables/libxt@underscore@statistic.so /usr/lib/xtables/libxt@underscore@cpu.so /usr/lib/xtables/libipt@underscore@REDIRECT.so /usr/lib/xtables/libipt@underscore@ah.so /usr/sbin/xtables-multi /usr/lib/xtables/libip6t@underscore@NETMAP.so /usr/lib/xtables/libxt@underscore@mac.so /usr/lib/xtables/libipt@underscore@ttl.so /usr/lib/xtables/libip6t@underscore@ah.so /usr/lib/xtables/libxt@underscore@connlimit.so /usr/lib/libip4tc.so.0.1.0 /usr/lib/xtables/libxt@underscore@pkttype.so /usr/lib/xtables/libxt@underscore@CONNSECMARK.so /usr/lib/xtables/libxt@underscore@TCPOPTSTRIP.so /usr/lib/xtables/libxt@underscore@IDLETIMER.so /usr/lib/xtables/libxt@underscore@mark.so /usr/lib/xtables/libxt@underscore@iprange.so /usr/lib/libiptc.so.0.0.0 /usr/lib/xtables/libxt@underscore@limit.so /usr/lib/xtables/libxt@underscore@TRACE.so /usr/lib/xtables/libip6t@underscore@hl.so /usr/lib/xtables/libxt@underscore@helper.so /usr/lib/xtables/libxt@underscore@NFQUEUE.so /usr/lib/xtables/libxt@underscore@nfacct.so /usr/lib/xtables/libipt@underscore@CLUSTERIP.so /usr/lib/xtables/libip6t@underscore@SNAT.so /usr/lib/xtables/libxt@underscore@length.so /usr/lib/xtables/libip6t@underscore@icmp6.so /usr/lib/xtables/libxt@underscore@connbytes.so /usr/lib/xtables/libipt@underscore@MASQUERADE.so /usr/lib/xtables/libxt@underscore@esp.so /usr/lib/xtables/libxt@underscore@socket.so /usr/lib/xtables/libxt@underscore@MARK.so /usr/lib/xtables/libxt@underscore@CLASSIFY.so /usr/lib/xtables/libxt@underscore@ipvs.so /usr/lib/xtables/libipt@underscore@realm.so /usr/lib/xtables/libip6t@underscore@DNAT.so /usr/lib/xtables/libxt@underscore@physdev.so /usr/lib/xtables/libxt@underscore@AUDIT.so /usr/lib/xtables/libxt@underscore@dscp.so /usr/lib/xtables/libxt@underscore@rpfilter.so /usr/lib/xtables/libxt@underscore@LED.so
+FILES_INFO: {"/usr/lib/libip6tc.so.0.1.0": 21440, "/usr/lib/xtables/libip6t_MASQUERADE.so": 4904, "/usr/lib/xtables/libxt_connlimit.so": 6384, "/usr/lib/xtables/libipt_MASQUERADE.so": 4920, "/usr/bin/iptables-xml": 23, "/usr/lib/xtables/libxt_connbytes.so": 6028, "/usr/lib/xtables/libxt_CT.so": 8360, "/usr/lib/xtables/libip6t_SNAT.so": 6444, "/usr/lib/xtables/libxt_tcpmss.so": 4164, "/usr/lib/xtables/libxt_comment.so": 3924, "/usr/lib/xtables/libxt_addrtype.so": 7272, "/usr/lib/libiptc.so.0": 16, "/usr/lib/xtables/libxt_socket.so": 4736, "/usr/lib/xtables/libip6t_ipv6header.so": 6292, "/usr/lib/xtables/libipt_ah.so": 4416, "/usr/lib/xtables/libxt_HMARK.so": 10636, "/usr/lib/xtables/libxt_set.so": 13180, "/usr/lib/xtables/libxt_string.so": 7488, "/usr/lib/xtables/libipt_REJECT.so": 6088, "/usr/lib/xtables/libxt_TRACE.so": 3352, "/usr/lib/libip4tc.so.0.1.0": 20856, "/usr/lib/xtables/libip6t_rt.so": 7108, "/usr/lib/xtables/libxt_length.so": 4208, "/usr/lib/libip4tc.so.0": 17, "/usr/lib/xtables/libxt_SYNPROXY.so": 4916, "/usr/lib/xtables/libip6t_DNPT.so": 4380, "/usr/lib/xtables/libxt_rateest.so": 10504, "/usr/lib/xtables/libxt_time.so": 10468, "/usr/lib/xtables/libipt_icmp.so": 7076, "/usr/lib/xtables/libxt_TOS.so": 6316, "/usr/lib/xtables/libip6t_ah.so": 4888, "/usr/lib/xtables/libxt_mac.so": 4072, "/usr/lib/xtables/libip6t_HL.so": 4504, "/usr/lib/xtables/libxt_CONNSECMARK.so": 4424, "/usr/lib/xtables/libipt_CLUSTERIP.so": 6148, "/usr/lib/xtables/libxt_connmark.so": 4492, "/usr/lib/xtables/libxt_NFLOG.so": 4720, "/usr/lib/xtables/libxt_nfacct.so": 4188, "/usr/lib/xtables/libxt_tcp.so": 8108, "/usr/lib/xtables/libipt_REDIRECT.so": 5040, "/usr/lib/xtables/libipt_NETMAP.so": 4160, "/usr/sbin/ip6tables": 13, "/usr/lib/xtables/libxt_SECMARK.so": 4108, "/usr/lib/xtables/libipt_realm.so": 5148, "/usr/lib/xtables/libip6t_frag.so": 6128, "/usr/lib/xtables/libxt_conntrack.so": 20724, "/usr/sbin/iptables-save": 13, "/usr/lib/xtables/libip6t_eui64.so": 3352, "/usr/lib/xtables/libipt_DNAT.so": 6528, "/usr/lib/xtables/libxt_hashlimit.so": 15260, "/usr/lib/xtables/libxt_quota.so": 3916, "/usr/lib/xtables/libxt_MARK.so": 6456, "/usr/lib/xtables/libxt_CONNMARK.so": 7736, "/usr/lib/xtables/libxt_cpu.so": 3932, "/usr/lib/xtables/libxt_rpfilter.so": 4592, "/usr/lib/xtables/libxt_ecn.so": 4852, "/usr/lib/xtables/libip6t_hl.so": 4500, "/usr/lib/xtables/libipt_ttl.so": 4648, "/usr/lib/xtables/libxt_dccp.so": 6848, "/usr/lib/xtables/libxt_CHECKSUM.so": 3936, "/usr/lib/xtables/libip6t_SNPT.so": 4368, "/usr/lib/libxtables.so.10.0.0": 39300, "/usr/lib/xtables/libxt_recent.so": 9264, "/usr/lib/xtables/libxt_udp.so": 5136, "/usr/lib/xtables/libxt_TEE.so": 4712, "/usr/lib/xtables/libipt_ULOG.so": 5096, "/usr/lib/xtables/libip6t_LOG.so": 6256, "/usr/lib/xtables/libipt_SNAT.so": 6512, "/usr/lib/xtables/libxt_cluster.so": 5268, "/usr/lib/xtables/libxt_esp.so": 4312, "/usr/lib/xtables/libxt_TCPMSS.so": 4636, "/usr/lib/xtables/libipt_LOG.so": 6256, "/usr/lib/xtables/libxt_SET.so": 10400, "/usr/sbin/iptables": 13, "/usr/lib/xtables/libxt_helper.so": 4068, "/usr/lib/xtables/libxt_TCPOPTSTRIP.so": 6044, "/usr/sbin/ip6tables-restore": 13, "/usr/lib/xtables/libipt_unclean.so": 3336, "/usr/lib/xtables/libxt_ipvs.so": 7728, "/usr/sbin/ip6tables-save": 13, "/usr/sbin/iptables-restore": 13, "/usr/lib/xtables/libip6t_NETMAP.so": 4236, "/usr/lib/xtables/libip6t_hbh.so": 5992, "/usr/lib/xtables/libxt_RATEEST.so": 6040, "/usr/lib/xtables/libxt_state.so": 20720, "/usr/lib/xtables/libip6t_dst.so": 5992, "/usr/lib/xtables/libipt_TTL.so": 4528, "/usr/lib/xtables/libxt_TPROXY.so": 5400, "/usr/lib/xtables/libxt_tos.so": 5436, "/usr/lib/xtables/libxt_sctp.so": 10324, "/usr/lib/xtables/libxt_bpf.so": 5252, "/usr/lib/xtables/libipt_MIRROR.so": 3344, "/usr/lib/libxtables.so.10": 20, "/usr/lib/xtables/libipt_ECN.so": 4808, "/usr/lib/xtables/libxt_NOTRACK.so": 8368, "/usr/lib/xtables/libxt_standard.so": 3504, "/usr/lib/xtables/libxt_LED.so": 5212, "/usr/lib/xtables/libxt_iprange.so": 7500, "/usr/sbin/xtables-multi": 73188, "/usr/lib/xtables/libipt_SAME.so": 6036, "/usr/lib/xtables/libip6t_REJECT.so": 5240, "/usr/lib/xtables/libxt_limit.so": 6020, "/usr/lib/xtables/libxt_policy.so": 10508, "/usr/lib/xtables/libxt_DSCP.so": 5272, "/usr/lib/xtables/libxt_NFQUEUE.so": 6360, "/usr/lib/xtables/libip6t_icmp6.so": 6568, "/usr/lib/xtables/libxt_pkttype.so": 4872, "/usr/lib/xtables/libxt_CLASSIFY.so": 4236, "/usr/lib/xtables/libip6t_REDIRECT.so": 5040, "/usr/lib/xtables/libxt_mark.so": 4424, "/usr/lib/xtables/libxt_multiport.so": 8660, "/usr/lib/xtables/libxt_physdev.so": 6100, "/usr/lib/xtables/libxt_AUDIT.so": 4336, "/usr/lib/xtables/libxt_osf.so": 4984, "/usr/lib/xtables/libxt_u32.so": 6672, "/usr/lib/xtables/libxt_owner.so": 10764, "/usr/lib/xtables/libip6t_DNAT.so": 6460, "/usr/lib/xtables/libxt_dscp.so": 5304, "/usr/lib/libip6tc.so.0": 17, "/usr/lib/xtables/libxt_IDLETIMER.so": 4032, "/usr/lib/xtables/libxt_statistic.so": 5420, "/usr/lib/xtables/libip6t_mh.so": 6088, "/usr/lib/xtables/libxt_devgroup.so": 6008, "/usr/lib/libiptc.so.0.0.0": 3060}
+FILERPROVIDES_/usr/lib/libip6tc.so.0.1.0_iptables: elf(buildid) (= d8d6edfed63372ba5e7ce54b8a49ef85c2fd5ef2) libip6tc.so.0
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@RATEEST.so_iptables: elf(buildid) (= b58250b0ae657404fd8ab25682a2e12b281b8602) libxt_RATEEST.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@multiport.so_iptables: elf(buildid) (= f26be4afc8424f7a70753173e58046e951ac3102) libxt_multiport.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@CT.so_iptables: elf(buildid) (= 2531d7693f0173fa0c3286f418d887596e945487) libxt_CT.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@DNPT.so_iptables: elf(buildid) (= 7999af1b5717a047aacc82689740aa5e61ced948) libip6t_DNPT.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@TTL.so_iptables: elf(buildid) (= 65aef77e8274aa4546b46aea93dba735cfb2021b) libipt_TTL.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@SNPT.so_iptables: elf(buildid) (= d00e9a0dd99bf08e0232b0dca6c490cb577558a8) libip6t_SNPT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@CHECKSUM.so_iptables: elf(buildid) (= e403f33d39f406093fd8f884c3991cd5d2a5e0d5) libxt_CHECKSUM.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@eui64.so_iptables: elf(buildid) (= 2c0bdd3109a1fe0945dc69ec5908b719ecee5b9b) libip6t_eui64.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@ipv6header.so_iptables: elf(buildid) (= 4f04e5ada72f7d6d2d65ba81d4f0be59e0cdb3d2) libip6t_ipv6header.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@DSCP.so_iptables: elf(buildid) (= ae4d0b5e87f3c4ec8e8990e6470e7f6c82fd5b11) libxt_DSCP.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@udp.so_iptables: elf(buildid) (= ce6e09177f19a2c052840950ae2e62b67cb8ce9b) libxt_udp.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@policy.so_iptables: elf(buildid) (= ec6082c8ec459e395d51e0e87013dc8bb0de4c75) libxt_policy.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@NETMAP.so_iptables: elf(buildid) (= 0535b0dd7f461a2c6e96dcf5135f4bb9caef1e24) libipt_NETMAP.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@MASQUERADE.so_iptables: elf(buildid) (= 186ebc72a306b6522ad5a3187203a8c2f523fba6) libip6t_MASQUERADE.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TOS.so_iptables: elf(buildid) (= 51d8c1c59021fea58b86c6fc987c774a312c6fad) libxt_TOS.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@SYNPROXY.so_iptables: elf(buildid) (= 80976ac5c944b534ef1d4115f93cb1716010e659) libxt_SYNPROXY.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@bpf.so_iptables: elf(buildid) (= 91f9f78a4fd34544282aa570ea2d77bbf0bdeb85) libxt_bpf.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@SAME.so_iptables: elf(buildid) (= 938b4050eb050134cdd5078ae26846a55ed79adf) libipt_SAME.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@NFLOG.so_iptables: elf(buildid) (= 3d55c133cd1e9dfad4f10f1a1edb5d5857efb1cc) libxt_NFLOG.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@string.so_iptables: elf(buildid) (= fa36d1cc185b134936e34c1e4b1a66aba555c723) libxt_string.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@REJECT.so_iptables: elf(buildid) (= b9cf4b7ff988fd02c68efcc4b3ef08d2968eb6e6) libip6t_REJECT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@u32.so_iptables: elf(buildid) (= 3b2f40f66e05cf956f8162080e8cc19c62e7c5a1) libxt_u32.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@conntrack.so_iptables: elf(buildid) (= b3dd5155dae9b51c0d1c2415f37218a5a88ca9dd) libxt_conntrack.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@sctp.so_iptables: elf(buildid) (= ab028d04a395fd568956dda4fca2896323a86792) libxt_sctp.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@dccp.so_iptables: elf(buildid) (= 96a6d0941686df02883159d260525623375f7d07) libxt_dccp.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@osf.so_iptables: elf(buildid) (= b8066f28c2b63585855f04ab71559c841dd24922) libxt_osf.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@SNAT.so_iptables: elf(buildid) (= 0eca3a67b9b97c58a3bafe6e228974ce8c2936ff) libipt_SNAT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@HMARK.so_iptables: elf(buildid) (= 98cae1fd91a5750104dd60abf145f4ea42c781ab) libxt_HMARK.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@dst.so_iptables: elf(buildid) (= 2d1fa5eebf5534509d7d030278662fefe0fc1919) libip6t_dst.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@cluster.so_iptables: elf(buildid) (= b8b50b408aa87859242bb20461c7c8a1b88fa203) libxt_cluster.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@REJECT.so_iptables: elf(buildid) (= ef18d6cae692000e11cbc01a1fc9ffe40ef6e8e0) libipt_REJECT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@rateest.so_iptables: elf(buildid) (= 51b766f6b9a1fd11bb991f187008ac03ad9f4b7f) libxt_rateest.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@LOG.so_iptables: elf(buildid) (= 4c90dd7ed9e980830309a3889ad4c6d54b5b28af) libipt_LOG.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@tcpmss.so_iptables: elf(buildid) (= 828b99e06e59c620d0454573f7d5a69604110b99) libxt_tcpmss.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@LOG.so_iptables: elf(buildid) (= 8133a21357ab34d6840d070c46c334ffe224f4ee) libip6t_LOG.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@icmp.so_iptables: elf(buildid) (= 6d6d2d3a91c652e2013a431181e37709ea2c67f6) libipt_icmp.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@DNAT.so_iptables: elf(buildid) (= fc5d54c4a002b5d5e15f6ecd81b06d1a08cafa47) libipt_DNAT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@CONNMARK.so_iptables: elf(buildid) (= ca4f739732b715648c6c799ce0caca26c6bbb1f2) libxt_CONNMARK.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@state.so_iptables: elf(buildid) (= b3dd5155dae9b51c0d1c2415f37218a5a88ca9dd) libxt_state.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@addrtype.so_iptables: elf(buildid) (= 8f60af135b1b6d083405f3a75a018d2d5efdded2) libxt_addrtype.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TCPMSS.so_iptables: elf(buildid) (= f71588cc3acdeb7193079360d7191632caf38ba4) libxt_TCPMSS.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@tcp.so_iptables: elf(buildid) (= 8b0ecf7eb5c6873ada9f7bf8a218ab6aef786695) libxt_tcp.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TEE.so_iptables: elf(buildid) (= e904bfff5ce48666f326a253a4b8e76c36b8e202) libxt_TEE.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@hbh.so_iptables: elf(buildid) (= 599ff8bcc46ac3aecbb3f292ff46036d6b8e29bf) libip6t_hbh.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@rt.so_iptables: elf(buildid) (= 24d968285fd26fc422b7786c1d26553bfc2bfefb) libip6t_rt.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@mh.so_iptables: elf(buildid) (= 735a814b5efd2a443f8c7e48c2d604b8831d235b) libip6t_mh.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@SECMARK.so_iptables: elf(buildid) (= 8efcf366cad501d3f927d1fd14fb15c8726dd16d) libxt_SECMARK.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@hashlimit.so_iptables: elf(buildid) (= b12c0e2a578e449cf1bd8671b42a2863fc0ca5dc) libxt_hashlimit.so
+FILERPROVIDES_/usr/lib/libxtables.so.10.0.0_iptables: elf(buildid) (= ebaaca23eb52f549840f449364891de5b76c68d3) libxtables.so.10
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@time.so_iptables: elf(buildid) (= cd58b156dcde19869eb7e584b439f3ec45c06a74) libxt_time.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@set.so_iptables: elf(buildid) (= 54a48f560a221df2b27b45615e15b8ff54f55427) libxt_set.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@ecn.so_iptables: elf(buildid) (= 1299bfa3135d2157827186654fe543a9fc07ba32) libxt_ecn.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@ECN.so_iptables: elf(buildid) (= 9bcc44648af51ffe3c941dd7c512102d0789b476) libipt_ECN.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TPROXY.so_iptables: elf(buildid) (= f6ca236708d6eb3547e9c9d7e37e5bf9bd75a033) libxt_TPROXY.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@connmark.so_iptables: elf(buildid) (= 2865a4bf77c7da96d7523d0c64548fccab9eec8e) libxt_connmark.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@NOTRACK.so_iptables: elf(buildid) (= 2531d7693f0173fa0c3286f418d887596e945487) libxt_NOTRACK.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@devgroup.so_iptables: elf(buildid) (= 2da4a7fc07538caeeacc574b80b550d18b2dc419) libxt_devgroup.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@frag.so_iptables: elf(buildid) (= 845c9d748d675738b043298235d5b4cbaebf955c) libip6t_frag.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@ULOG.so_iptables: elf(buildid) (= e3a33d2d4b1935873b00bb7447527c39b049bcc8) libipt_ULOG.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@unclean.so_iptables: elf(buildid) (= 66f31fddaa30dd0ab83fc7adf21bc214b0b76b16) libipt_unclean.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@owner.so_iptables: elf(buildid) (= b465ab7beee140af6bbddf1a2248e5f09cd8f245) libxt_owner.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@MIRROR.so_iptables: elf(buildid) (= 5ff3e46eb96b0fc7ed801d0d417654e2ccd00e2d) libipt_MIRROR.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@recent.so_iptables: elf(buildid) (= f6a86fb7f617620cd325a103cd438fcec1097ff0) libxt_recent.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@HL.so_iptables: elf(buildid) (= 0231497aee45197763e2382c16776cf2ad590e93) libip6t_HL.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@comment.so_iptables: elf(buildid) (= 7ae5d40610995cd47b2090da3f35baafa7cd01bd) libxt_comment.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@standard.so_iptables: elf(buildid) (= fff02d64e966be1ca32b266f77fdf52f43cbf336) libxt_standard.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@SET.so_iptables: elf(buildid) (= 493aa024ec1ef87e193baeb090cf0c9bb015051a) libxt_SET.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@quota.so_iptables: elf(buildid) (= 2a7cdba9342b406d820b6bf0ef6c7815ac4f95ee) libxt_quota.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@tos.so_iptables: elf(buildid) (= afcab7127317ac74cf83ef20cc0eaabb8e200e96) libxt_tos.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@REDIRECT.so_iptables: elf(buildid) (= 26089cd958be3a88da3be4cfe7e3d484f1a6f8b1) libip6t_REDIRECT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@statistic.so_iptables: elf(buildid) (= 1d042e177e5efc10b425349dbacf100cd52ba3e6) libxt_statistic.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@cpu.so_iptables: elf(buildid) (= 9f21637b96d1c88d4dc2c2d91b47dba1d3ff34e4) libxt_cpu.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@REDIRECT.so_iptables: elf(buildid) (= 4d19153b682506076408408107eef047056c1dd0) libipt_REDIRECT.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@ah.so_iptables: elf(buildid) (= da00ec79131a53ee61b349b92ca58724a482ceac) libipt_ah.so
+FILERPROVIDES_/usr/sbin/xtables-multi_iptables: elf(buildid) (= 62eebe0a15955cc06ba85b2f504fb923698ca684)
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@NETMAP.so_iptables: elf(buildid) (= 494047b9c65d3c855cc4a763f1c3617703248628) libip6t_NETMAP.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@mac.so_iptables: elf(buildid) (= 3dfc2030174c1184f4c3ade0911ca1a9f1353aba) libxt_mac.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@ttl.so_iptables: elf(buildid) (= 3dc29bc54c74966bfe6c34b3dd591aa75dfd44e9) libipt_ttl.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@ah.so_iptables: elf(buildid) (= 2202c624569646c931e832c60381ba38c7233deb) libip6t_ah.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@connlimit.so_iptables: elf(buildid) (= d9a6b5dec583370548a6e1857f87142e3abebf33) libxt_connlimit.so
+FILERPROVIDES_/usr/lib/libip4tc.so.0.1.0_iptables: elf(buildid) (= 52f5d1179093ca4667f0899f9047823a7e73cce9) libip4tc.so.0
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@pkttype.so_iptables: elf(buildid) (= 7f824d4e8e1c0e9ac9e6f75c1145bb265f65fd34) libxt_pkttype.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@CONNSECMARK.so_iptables: elf(buildid) (= bfc8d14fcbcb452f8508b3e69aaa37454ee03e61) libxt_CONNSECMARK.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TCPOPTSTRIP.so_iptables: elf(buildid) (= c747195b17a960edefc8fccc84a79a95f8ecbded) libxt_TCPOPTSTRIP.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@IDLETIMER.so_iptables: elf(buildid) (= 1be0658eb0b3149cebde075b64a9c1c227220f5b) libxt_IDLETIMER.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@mark.so_iptables: elf(buildid) (= 68041b19d1cfb10e38973e33b528f222d722233d) libxt_mark.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@iprange.so_iptables: elf(buildid) (= f16029d36d021d7330f687f199ad9e6b7966ed1d) libxt_iprange.so
+FILERPROVIDES_/usr/lib/libiptc.so.0.0.0_iptables: elf(buildid) (= 0f28ef78dcb6a8ddf269ff409a61e14471aa44f3) libiptc.so.0
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@limit.so_iptables: elf(buildid) (= 7426e787c6c1b5a6251436022431e95867f2d5bf) libxt_limit.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TRACE.so_iptables: elf(buildid) (= c6af5bd79b2d53b21fb2b2907495c894d2b7c7ba) libxt_TRACE.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@hl.so_iptables: elf(buildid) (= b59e3d8bd64d2dd46c218f799e82fac2c9949925) libip6t_hl.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@helper.so_iptables: elf(buildid) (= 312724200c16fede33521d6844cef1115dec9b9d) libxt_helper.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@NFQUEUE.so_iptables: elf(buildid) (= 65a243fa635ee69c11de94edb67184a56a4aab4d) libxt_NFQUEUE.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@nfacct.so_iptables: elf(buildid) (= 0d230125434fb4708249f1c743c129cf6d8a4084) libxt_nfacct.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@CLUSTERIP.so_iptables: elf(buildid) (= cb9413d7cba683b20f685f9bafd92e91b386b039) libipt_CLUSTERIP.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@SNAT.so_iptables: elf(buildid) (= 4ad540862ef58b358e8931aa1e4e836bed8566d8) libip6t_SNAT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@length.so_iptables: elf(buildid) (= 394a3ddd0b8ddf71eaa94dbaf4e40da7bef0789e) libxt_length.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@icmp6.so_iptables: elf(buildid) (= 8aa15cea09577f2599c584aa999cde62bb173ea1) libip6t_icmp6.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@connbytes.so_iptables: elf(buildid) (= a861a5e3f4843249f91fa5b216a00bfb5b8ac5ae) libxt_connbytes.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@MASQUERADE.so_iptables: elf(buildid) (= 6d43b80a8be19c1ee928d335b0ccdfae39b22b3b) libipt_MASQUERADE.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@esp.so_iptables: elf(buildid) (= 295c12b6d586636e67f361fd4b1930f9079d548d) libxt_esp.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@socket.so_iptables: elf(buildid) (= 437a48ba520cc221023982328968c20f9264c97f) libxt_socket.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@MARK.so_iptables: elf(buildid) (= 187ac4875c60ee64e281cd9b7b7f14b7468856ea) libxt_MARK.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@CLASSIFY.so_iptables: elf(buildid) (= e99b85b60018bf37c6704b410e08aaff14e66184) libxt_CLASSIFY.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@ipvs.so_iptables: elf(buildid) (= b512f9fa3d4244d61b09ff0e23bfaba5bd46770e) libxt_ipvs.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@realm.so_iptables: elf(buildid) (= 8ec15a754fb99f5b6a6c46ef8c7e31f8362dcb0b) libipt_realm.so
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@DNAT.so_iptables: elf(buildid) (= 7615406234bfd8399e8d6f380461fdeb3a0a6967) libip6t_DNAT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@physdev.so_iptables: elf(buildid) (= 1719d6d99b60457ee9555d6246fc60cb1b8f6d95) libxt_physdev.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@AUDIT.so_iptables: elf(buildid) (= 69b900d2ee79633d2c07eb1acd4bff5a10cdb05e) libxt_AUDIT.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@dscp.so_iptables: elf(buildid) (= 3484fce25b05d67f69b32bc849e547872fd74fa2) libxt_dscp.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@rpfilter.so_iptables: elf(buildid) (= 1e73afe276362038b0740821e0f3468709772e0a) libxt_rpfilter.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@LED.so_iptables: elf(buildid) (= 5fdb256d8daf85e52889453e08e1777416a11d8c) libxt_LED.so
+FILERDEPENDSFLIST_iptables: /usr/lib/libip6tc.so.0.1.0 /usr/lib/xtables/libxt@underscore@RATEEST.so /usr/lib/xtables/libxt@underscore@multiport.so /usr/lib/xtables/libxt@underscore@CT.so /usr/lib/xtables/libip6t@underscore@DNPT.so /usr/lib/xtables/libipt@underscore@TTL.so /usr/lib/xtables/libip6t@underscore@SNPT.so /usr/lib/xtables/libxt@underscore@CHECKSUM.so /usr/lib/xtables/libip6t@underscore@eui64.so /usr/lib/xtables/libip6t@underscore@ipv6header.so /usr/lib/xtables/libxt@underscore@DSCP.so /usr/lib/xtables/libxt@underscore@udp.so /usr/lib/xtables/libxt@underscore@policy.so /usr/lib/xtables/libipt@underscore@NETMAP.so /usr/lib/xtables/libip6t@underscore@MASQUERADE.so /usr/lib/xtables/libxt@underscore@TOS.so /usr/lib/xtables/libxt@underscore@SYNPROXY.so /usr/lib/xtables/libxt@underscore@bpf.so /usr/lib/xtables/libipt@underscore@SAME.so /usr/lib/xtables/libxt@underscore@NFLOG.so /usr/lib/xtables/libxt@underscore@string.so /usr/lib/xtables/libip6t@underscore@REJECT.so /usr/lib/xtables/libxt@underscore@u32.so /usr/lib/xtables/libxt@underscore@conntrack.so /usr/lib/xtables/libxt@underscore@sctp.so /usr/lib/xtables/libxt@underscore@dccp.so /usr/lib/xtables/libxt@underscore@osf.so /usr/lib/xtables/libipt@underscore@SNAT.so /usr/lib/xtables/libxt@underscore@HMARK.so /usr/lib/xtables/libip6t@underscore@dst.so /usr/lib/xtables/libxt@underscore@cluster.so /usr/lib/xtables/libipt@underscore@REJECT.so /usr/lib/xtables/libxt@underscore@rateest.so /usr/lib/xtables/libipt@underscore@LOG.so /usr/lib/xtables/libxt@underscore@tcpmss.so /usr/lib/xtables/libip6t@underscore@LOG.so /usr/lib/xtables/libipt@underscore@icmp.so /usr/lib/xtables/libipt@underscore@DNAT.so /usr/lib/xtables/libxt@underscore@CONNMARK.so /usr/lib/xtables/libxt@underscore@state.so /usr/lib/xtables/libxt@underscore@addrtype.so /usr/lib/xtables/libxt@underscore@TCPMSS.so /usr/lib/xtables/libxt@underscore@tcp.so /usr/lib/xtables/libxt@underscore@TEE.so /usr/lib/xtables/libip6t@underscore@hbh.so /usr/lib/xtables/libip6t@underscore@rt.so /usr/lib/xtables/libip6t@underscore@mh.so /usr/lib/xtables/libxt@underscore@SECMARK.so /usr/lib/xtables/libxt@underscore@hashlimit.so /usr/lib/libxtables.so.10.0.0 /usr/lib/xtables/libxt@underscore@time.so /usr/lib/xtables/libxt@underscore@set.so /usr/lib/xtables/libxt@underscore@ecn.so /usr/lib/xtables/libipt@underscore@ECN.so /usr/lib/xtables/libxt@underscore@TPROXY.so /usr/lib/xtables/libxt@underscore@connmark.so /usr/lib/xtables/libxt@underscore@NOTRACK.so /usr/lib/xtables/libxt@underscore@devgroup.so /usr/lib/xtables/libip6t@underscore@frag.so /usr/lib/xtables/libipt@underscore@ULOG.so /usr/lib/xtables/libipt@underscore@unclean.so /usr/lib/xtables/libxt@underscore@owner.so /usr/lib/xtables/libipt@underscore@MIRROR.so /usr/lib/xtables/libxt@underscore@recent.so /usr/lib/xtables/libip6t@underscore@HL.so /usr/lib/xtables/libxt@underscore@comment.so /usr/lib/xtables/libxt@underscore@standard.so /usr/lib/xtables/libxt@underscore@SET.so /usr/lib/xtables/libxt@underscore@quota.so /usr/lib/xtables/libxt@underscore@tos.so /usr/lib/xtables/libip6t@underscore@REDIRECT.so /usr/lib/xtables/libxt@underscore@statistic.so /usr/lib/xtables/libxt@underscore@cpu.so /usr/lib/xtables/libipt@underscore@REDIRECT.so /usr/lib/xtables/libipt@underscore@ah.so /usr/sbin/xtables-multi /usr/lib/xtables/libip6t@underscore@NETMAP.so /usr/lib/xtables/libxt@underscore@mac.so /usr/lib/xtables/libipt@underscore@ttl.so /usr/lib/xtables/libip6t@underscore@ah.so /usr/lib/xtables/libxt@underscore@connlimit.so /usr/lib/libip4tc.so.0.1.0 /usr/lib/xtables/libxt@underscore@pkttype.so /usr/lib/xtables/libxt@underscore@CONNSECMARK.so /usr/lib/xtables/libxt@underscore@TCPOPTSTRIP.so /usr/lib/xtables/libxt@underscore@IDLETIMER.so /usr/lib/xtables/libxt@underscore@mark.so /usr/lib/xtables/libxt@underscore@iprange.so /usr/lib/libiptc.so.0.0.0 /usr/lib/xtables/libxt@underscore@limit.so /usr/lib/xtables/libxt@underscore@TRACE.so /usr/lib/xtables/libip6t@underscore@hl.so /usr/lib/xtables/libxt@underscore@helper.so /usr/lib/xtables/libxt@underscore@NFQUEUE.so /usr/lib/xtables/libxt@underscore@nfacct.so /usr/lib/xtables/libipt@underscore@CLUSTERIP.so /usr/lib/xtables/libip6t@underscore@SNAT.so /usr/lib/xtables/libxt@underscore@length.so /usr/lib/xtables/libip6t@underscore@icmp6.so /usr/lib/xtables/libxt@underscore@connbytes.so /usr/lib/xtables/libipt@underscore@MASQUERADE.so /usr/lib/xtables/libxt@underscore@esp.so /usr/lib/xtables/libxt@underscore@socket.so /usr/lib/xtables/libxt@underscore@MARK.so /usr/lib/xtables/libxt@underscore@CLASSIFY.so /usr/lib/xtables/libxt@underscore@ipvs.so /usr/lib/xtables/libipt@underscore@realm.so /usr/lib/xtables/libip6t@underscore@DNAT.so /usr/lib/xtables/libxt@underscore@physdev.so /usr/lib/xtables/libxt@underscore@AUDIT.so /usr/lib/xtables/libxt@underscore@dscp.so /usr/lib/xtables/libxt@underscore@rpfilter.so /usr/lib/xtables/libxt@underscore@LED.so
+FILERDEPENDS_/usr/lib/libip6tc.so.0.1.0_iptables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@RATEEST.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@multiport.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@CT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@DNPT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@TTL.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@SNPT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@CHECKSUM.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@eui64.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@ipv6header.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@DSCP.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@udp.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@policy.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@NETMAP.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@MASQUERADE.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TOS.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@SYNPROXY.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@bpf.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@SAME.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@NFLOG.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@string.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@REJECT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@u32.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@conntrack.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@sctp.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@dccp.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@osf.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@SNAT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@HMARK.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@dst.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@cluster.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@REJECT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@rateest.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@LOG.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@tcpmss.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@LOG.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@icmp.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@DNAT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@CONNMARK.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@state.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@addrtype.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TCPMSS.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@tcp.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TEE.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@hbh.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@rt.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@mh.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@SECMARK.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@hashlimit.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libxtables.so.10.0.0_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdl.so.2 libdl.so.2(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@time.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@set.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@ecn.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@ECN.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TPROXY.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@connmark.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@NOTRACK.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@devgroup.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@frag.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@ULOG.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@unclean.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@owner.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@MIRROR.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@recent.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@HL.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@comment.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@standard.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@SET.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@quota.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@tos.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@REDIRECT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@statistic.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@cpu.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@REDIRECT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@ah.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/xtables-multi_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libip4tc.so.0 libip6tc.so.0 libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@NETMAP.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@mac.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@ttl.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@ah.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@connlimit.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libip4tc.so.0.1.0_iptables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@pkttype.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@CONNSECMARK.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TCPOPTSTRIP.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@IDLETIMER.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@mark.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@iprange.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libiptc.so.0.0.0_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libip4tc.so.0 libip6tc.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@limit.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TRACE.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@hl.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@helper.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@NFQUEUE.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@nfacct.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@CLUSTERIP.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@SNAT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@length.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@icmp6.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@connbytes.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@MASQUERADE.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@esp.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@socket.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@MARK.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@CLASSIFY.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@ipvs.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@realm.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@DNAT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@physdev.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@AUDIT.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@dscp.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@rpfilter.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@LED.so_iptables: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+PKGSIZE_iptables: 828439

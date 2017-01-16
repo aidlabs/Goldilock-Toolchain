@@ -1,0 +1,15 @@
+PN: sysfsutils
+PV: 2.1.0
+PR: r5
+PKGV: 2.1.0
+PKGR: r5.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_sysfsutils-dbg: Tools for working with the sysfs virtual filesystem.  The tool \'systool\' can query devices by bus, class and topology.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_sysfsutils-dbg: Tools for working with sysfs - Debugging files
+RRECOMMENDS_sysfsutils-dbg: glibc-dbg libsysfs-dbg
+SECTION_sysfsutils-dbg: devel
+PKG_sysfsutils-dbg: sysfsutils-dbg
+ALLOW_EMPTY_sysfsutils-dbg: 1
+FILES_sysfsutils-dbg: /usr/bin/.debug /usr/sbin/.debug /lib/sysfsutils/.debug /lib/.debug /bin/.debug /sbin/.debug /lib/.debug /lib/sysfsutils/.debug /lib/matchbox-panel/.debug /lib/sysfsutils/sysfsutils/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/sysfs_class.c": 13571, "/usr/bin/.debug/get_module": 13680, "/usr/bin/.debug/systool": 44944, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/include/libsysfs.h": 8819, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/test/get_module.c": 2030, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/sysfs_module.c": 6984, "/usr/bin/.debug/dlist_test": 20224, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/cmd/systool.c": 19476, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/sysfs_driver.c": 7296, "/usr/bin/.debug/get_driver": 14364, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/cmd/names.c": 8586, "/lib/.debug/libsysfs.so.2.0.1": 92452, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/cmd/names.h": 938, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/sysfs_device.c": 11039, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/sysfs_utils.c": 6691, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/include/dlist.h": 7471, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/sysfs_attr.c": 15804, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/test/get_driver.c": 2353, "/usr/bin/.debug/get_device": 12580, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/sysfs.h": 1943, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/test/get_device.c": 1550, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/test/dlist_test.c": 8271, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/dlist.c": 15180, "/usr/src/debug/sysfsutils/2.1.0-r5/sysfsutils-2.1.0/lib/sysfs_bus.c": 7766}
+PKGSIZE_sysfsutils-dbg: 344012

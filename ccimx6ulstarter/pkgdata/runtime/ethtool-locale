@@ -1,0 +1,13 @@
+PN: ethtool
+PV: 4.0
+PR: r0
+PKGV: 4.0
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: A small utility for examining and tuning the settings of your ethernet-based network interfaces.
+SUMMARY: Display or change ethernet card settings
+SECTION: console/network
+PKG_ethtool-locale: ethtool-locale
+FILES_ethtool-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ethtool-locale: 0

@@ -1,0 +1,17 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION: Linux kernel for Digi boards.
+SUMMARY: Linux kernel for Digi boards
+RPROVIDES_kernel-image:  kernel-image (=4.1)
+SECTION: base
+PKG_kernel-image: kernel-image-4.1.35-dey+g8dca338
+ALLOW_EMPTY_kernel-image: 1
+FILES_kernel-image: /boot/zImage* /boot/config-4.1.35-dey+g8dca338
+pkg_postinst_kernel-image: \tupdate-alternatives --install /boot/zImage zImage /boot/zImage-4.1.35-dey+g8dca338 40101 || true\n
+pkg_postrm_kernel-image: \tupdate-alternatives --remove zImage zImage-4.1.35-dey+g8dca338 || true\n
+FILES_INFO: {"/boot/config-4.1.35-dey+g8dca338": 102765, "/boot/zImage-4.1.35-dey+g8dca338": 5936960}
+PKGSIZE_kernel-image: 6039725

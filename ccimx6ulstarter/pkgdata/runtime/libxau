@@ -1,0 +1,22 @@
+PN: libxau
+PE: 1
+PV: 1.0.8
+PR: r0
+PKGE: 1
+PKGV: 1.0.8
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION: libxau provides the main interfaces to the X11 authorisation handling, which controls authorisation for X connections, both client-side and server-side.
+SUMMARY: Xau: X Authority Database library
+RDEPENDS_libxau: glibc (>= 2.22)
+RPROVIDES_libxau:  libxau (=1.0.8)
+SECTION: x11/libs
+PKG_libxau: libxau6
+FILES_libxau: /usr/bin/* /usr/sbin/* /usr/lib/libxau/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libxau /usr/lib/libxau/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libxau: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxau: /usr/lib/libXau.so.6.0.0
+FILES_INFO: {"/usr/lib/libXau.so.6": 15, "/usr/lib/libXau.so.6.0.0": 7340}
+FILERPROVIDES_/usr/lib/libXau.so.6.0.0_libxau: elf(buildid) (= c29e23a6b282724498ea8b83d2c92b72d043c70e) libXau.so.6
+FILERDEPENDSFLIST_libxau: /usr/lib/libXau.so.6.0.0
+FILERDEPENDS_/usr/lib/libXau.so.6.0.0_libxau: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libxau: 7355

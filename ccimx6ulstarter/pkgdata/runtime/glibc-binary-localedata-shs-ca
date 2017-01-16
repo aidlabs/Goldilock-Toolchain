@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-shs-ca: binary locale definition for shs-ca
+SUMMARY_glibc-binary-localedata-shs-ca: binary locale definition for shs-ca
+SECTION: base
+PKG_glibc-binary-localedata-shs-ca: glibc-binary-localedata-shs-ca
+FILES_glibc-binary-localedata-shs-ca: /usr/lib/locale/shs_CA
+FILES_INFO: {"/usr/lib/locale/shs_CA/LC_TELEPHONE": 51, "/usr/lib/locale/shs_CA/LC_ADDRESS": 150, "/usr/lib/locale/shs_CA/LC_TIME": 3070, "/usr/lib/locale/shs_CA/LC_MEASUREMENT": 23, "/usr/lib/locale/shs_CA/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/shs_CA/LC_NAME": 62, "/usr/lib/locale/shs_CA/LC_IDENTIFICATION": 371, "/usr/lib/locale/shs_CA/LC_PAPER": 34, "/usr/lib/locale/shs_CA/LC_COLLATE": 1243982, "/usr/lib/locale/shs_CA/LC_MONETARY": 286, "/usr/lib/locale/shs_CA/LC_CTYPE": 278308, "/usr/lib/locale/shs_CA/LC_NUMERIC": 54}
+PKGSIZE_glibc-binary-localedata-shs-ca: 1526450

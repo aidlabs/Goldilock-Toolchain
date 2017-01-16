@@ -1,0 +1,15 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-locale-eo: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains language translation files for the eo locale.
+SUMMARY_rpm-locale-eo: The RPM package management system - eo translations
+RPROVIDES_rpm-locale-eo: rpm-locale eo-translation
+RRECOMMENDS_rpm-locale-eo: virtual-locale-eo
+SECTION: base
+PKG_rpm-locale-eo: rpm-locale-eo
+FILES_rpm-locale-eo: /usr/share/locale/eo
+FILES_INFO: {"/usr/share/locale/eo/LC_MESSAGES/rpm.mo": 127356}
+PKGSIZE_rpm-locale-eo: 127356

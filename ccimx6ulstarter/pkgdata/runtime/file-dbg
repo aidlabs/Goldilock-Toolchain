@@ -1,0 +1,15 @@
+PN: file
+PV: 5.24
+PR: r0
+PKGV: 5.24
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_file-dbg: File attempts to classify files depending on their contents and prints a description if a match is found.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_file-dbg: File classification tool - Debugging files
+RRECOMMENDS_file-dbg: glibc-dbg zlib-dbg
+SECTION_file-dbg: devel
+PKG_file-dbg: file-dbg
+ALLOW_EMPTY_file-dbg: 1
+FILES_file-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/file/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/file/.debug /usr/lib/matchbox-panel/.debug /usr/lib/file/file/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/file/5.24-r0/git/src/file_opts.h": 3616, "/usr/src/debug/file/5.24-r0/git/src/apprentice.c": 70501, "/usr/src/debug/file/5.24-r0/git/src/is_tar.c": 4460, "/usr/src/debug/file/5.24-r0/git/src/print.c": 7401, "/usr/src/debug/file/5.24-r0/git/src/apptype.c": 4527, "/usr/src/debug/file/5.24-r0/git/src/tar.h": 2623, "/usr/src/debug/file/5.24-r0/git/src/encoding.c": 17987, "/usr/src/debug/file/5.24-r0/git/src/elfclass.h": 3100, "/usr/src/debug/file/5.24-r0/git/src/compress.c": 12706, "/usr/src/debug/file/5.24-r0/git/src/cdf_time.c": 4474, "/usr/src/debug/file/5.24-r0/git/src/readcdf.c": 17764, "/usr/bin/.debug/file": 26456, "/usr/src/debug/file/5.24-r0/git/src/strlcpy.c": 1641, "/usr/src/debug/file/5.24-r0/git/src/file.h": 17800, "/usr/src/debug/file/5.24-r0/git/src/fmtcheck.c": 5279, "/usr/src/debug/file/5.24-r0/git/src/softmagic.c": 49958, "/usr/src/debug/file/5.24-r0/git/src/file.c": 13621, "/usr/src/debug/file/5.24-r0/build/src/magic.h": 4958, "/usr/src/debug/file/5.24-r0/git/src/strlcat.c": 1752, "/usr/src/debug/file/5.24-r0/git/src/funcs.c": 12903, "/usr/src/debug/file/5.24-r0/git/src/readelf.c": 36091, "/usr/src/debug/file/5.24-r0/git/src/cdf.h": 11401, "/usr/src/debug/file/5.24-r0/git/src/cdf.c": 39187, "/usr/src/debug/file/5.24-r0/git/src/readelf.h": 9300, "/usr/src/debug/file/5.24-r0/git/src/magic.c": 14406, "/usr/src/debug/file/5.24-r0/git/src/ascmagic.c": 9746, "/usr/lib/.debug/libmagic.so.1.0.0": 312112, "/usr/src/debug/file/5.24-r0/git/src/fsmagic.c": 10533}
+PKGSIZE_file-dbg: 726303

@@ -1,0 +1,11 @@
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+libdir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 21
+Libs: -L${libdir} -lkmod
+Libs.private:  -L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -lz
+Cflags: -I${includedir}

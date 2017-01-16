@@ -1,0 +1,17 @@
+PN: kbproto
+PE: 1
+PV: 1.0.7
+PR: r0
+PKGE: 1
+PKGV: 1.0.7
+PKGR: r0.0
+LICENSE: MIT-style
+DESCRIPTION_kbproto-dbg: This package provides the wire protocol for the X Keyboard extension.  This extension is used to control options related to keyboard handling and layout.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_kbproto-dbg: XKB: X Keyboard extension headers - Debugging files
+RRECOMMENDS_kbproto-dbg: kbproto-dev (= 1:1.0.7-r0.0)
+SECTION_kbproto-dbg: devel
+PKG_kbproto-dbg: kbproto-dbg
+ALLOW_EMPTY_kbproto-dbg: 1
+FILES_kbproto-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/kbproto/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/kbproto/.debug /usr/lib/matchbox-panel/.debug /usr/lib/kbproto/kbproto/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_kbproto-dbg: 0

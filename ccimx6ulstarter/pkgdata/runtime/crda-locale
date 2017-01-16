@@ -1,0 +1,13 @@
+PN: crda
+PV: 3.18
+PR: r0
+PKGV: 3.18
+PKGR: r0.0
+LICENSE: copyleft-next-0.3.0 & ISC
+DESCRIPTION: Wireless Central Regulatory Domain Agent.
+SUMMARY: Wireless Central Regulatory Domain Agent
+SECTION: net
+PKG_crda-locale: crda-locale
+FILES_crda-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_crda-locale: 0

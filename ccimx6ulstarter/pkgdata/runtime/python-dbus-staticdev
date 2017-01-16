@@ -1,0 +1,14 @@
+PN: python-dbus
+PV: 1.2.0
+PR: r0
+PKGV: 1.2.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_python-dbus-staticdev: Python bindings for the DBus inter-process communication system.  This package contains static libraries for software development.
+SUMMARY_python-dbus-staticdev: Python bindings for the DBus inter-process communication system - Development files (Static Libraries)
+RDEPENDS_python-dbus-staticdev: python-dbus-dev (= 1.2.0-r0.0)
+SECTION_python-dbus-staticdev: devel
+PKG_python-dbus-staticdev: python-dbus-staticdev
+FILES_python-dbus-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/python-dbus/*.a   /usr/lib/python2.7/site-packages/*.a 
+FILES_INFO: {}
+PKGSIZE_python-dbus-staticdev: 0

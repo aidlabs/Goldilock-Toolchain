@@ -1,0 +1,13 @@
+PN: ethtool
+PV: 4.0
+PR: r0
+PKGV: 4.0
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_ethtool-doc: A small utility for examining and tuning the settings of your ethernet-based network interfaces.  This package contains documentation.
+SUMMARY_ethtool-doc: Display or change ethernet card settings - Documentation files
+SECTION_ethtool-doc: doc
+PKG_ethtool-doc: ethtool-doc
+FILES_ethtool-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/ethtool.8": 23514}
+PKGSIZE_ethtool-doc: 23514

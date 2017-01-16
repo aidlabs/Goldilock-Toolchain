@@ -1,0 +1,15 @@
+PN: sysinfo
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION: Digi\'s system info utility.
+SUMMARY: Digi\'s system info utility
+SECTION: base
+PKG_sysinfo: sysinfo
+FILES_sysinfo: /usr/bin/* /usr/sbin/* /usr/lib/sysinfo/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/sysinfo /usr/lib/sysinfo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/bin/sysinfo": 8337}
+FILERDEPENDSFLIST_sysinfo: /usr/bin/sysinfo
+FILERDEPENDS_/usr/bin/sysinfo_sysinfo: /bin/sh
+PKGSIZE_sysinfo: 8337

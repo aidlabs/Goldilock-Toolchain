@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-hu-hu: binary locale definition for hu-hu
+SUMMARY_glibc-binary-localedata-hu-hu: binary locale definition for hu-hu
+SECTION: base
+PKG_glibc-binary-localedata-hu-hu: glibc-binary-localedata-hu-hu
+FILES_glibc-binary-localedata-hu-hu: /usr/lib/locale/hu_HU
+FILES_INFO: {"/usr/lib/locale/hu_HU/LC_MONETARY": 290, "/usr/lib/locale/hu_HU/LC_MEASUREMENT": 23, "/usr/lib/locale/hu_HU/LC_TIME": 2558, "/usr/lib/locale/hu_HU/LC_CTYPE": 278812, "/usr/lib/locale/hu_HU/LC_COLLATE": 1257922, "/usr/lib/locale/hu_HU/LC_IDENTIFICATION": 359, "/usr/lib/locale/hu_HU/LC_TELEPHONE": 51, "/usr/lib/locale/hu_HU/LC_ADDRESS": 141, "/usr/lib/locale/hu_HU/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/hu_HU/LC_NUMERIC": 54, "/usr/lib/locale/hu_HU/LC_PAPER": 34, "/usr/lib/locale/hu_HU/LC_NAME": 62}
+PKGSIZE_glibc-binary-localedata-hu-hu: 1540360

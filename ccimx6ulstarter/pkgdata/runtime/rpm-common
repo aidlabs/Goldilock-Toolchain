@@ -1,0 +1,19 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-common: The rpm-common package contains paths, scripts, documentation and configuration common between RPM Package Manager.
+SUMMARY_rpm-common: Common RPM paths, scripts, documentation and configuration
+RDEPENDS_rpm-common: beecrypt (>= 4.2.1) libbz2 (>= 1.0.6) rpm-libs (>= 5.4.14) file (>= 5.24) glibc (>= 2.22) zlib (>= 1.2.8) db (>= 6.0.30) libpcreposix (>= 8.38) libstdc++ (>= 5.2.0) libacl (>= 2.2.52) libcrypto (>= 1.0.2h) libgcc (>= 5.2.0) libelf (>= 0.163) popt (>= 1.16) libpcre (>= 8.38) libattr (>= 2.4.47) ossp-uuid (>= 1.6.2) libssl (>= 1.0.2h)
+SECTION: base
+PKG_rpm-common: rpm-common
+FILES_rpm-common: /usr/bin/rpm2cpio \t\t/usr/bin/gendiff \t\t/etc/rpm \t\t/var/spool/repackage \t\t
+FILERPROVIDESFLIST_rpm-common: /usr/bin/rpm2cpio
+FILES_INFO: {"/usr/bin/rpm2cpio": 7016, "/usr/bin/gendiff": 963}
+FILERPROVIDES_/usr/bin/rpm2cpio_rpm-common: elf(buildid) (= bd506777fe4811f06033845c7d57ade8810fae8e)
+FILERDEPENDSFLIST_rpm-common: /usr/bin/rpm2cpio /usr/bin/gendiff
+FILERDEPENDS_/usr/bin/rpm2cpio_rpm-common: ld-linux-armhf.so.3 ld-linux-armhf.so.3(GLIBC_2.4) libacl.so.1 libattr.so.1 libbeecrypt.so.7 libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libdb-6.0.so libdl.so.2 libelf.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libmagic.so.1 libossp-uuid.so.16 libpcre.so.1 libpcreposix.so.0 libpopt.so.0 libpthread.so.0 librpm-5.4.so librpm-5.4.so(LIBRPM_0) librpmdb-5.4.so librpmdb-5.4.so(LIBRPMDB_0) librpmio-5.4.so librpmio-5.4.so(LIBRPMIO_0) librpmmisc-5.4.so librt.so.1 libssl.so.1.0.0 libstdc++.so.6 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gendiff_rpm-common: /bin/sh
+PKGSIZE_rpm-common: 7979

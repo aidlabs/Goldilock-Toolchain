@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-ga: Library for parsing command line options.  This package contains language translation files for the ga locale.
+SUMMARY_popt-locale-ga: Library for parsing command line options - ga translations
+RPROVIDES_popt-locale-ga: popt-locale ga-translation popt-locale-ga (=1.16)
+RRECOMMENDS_popt-locale-ga: virtual-locale-ga
+SECTION: libs
+PKG_popt-locale-ga: libpopt-locale-ga
+FILES_popt-locale-ga: /usr/share/locale/ga
+FILES_INFO: {"/usr/share/locale/ga/LC_MESSAGES/popt.mo": 2267}
+PKGSIZE_popt-locale-ga: 2267

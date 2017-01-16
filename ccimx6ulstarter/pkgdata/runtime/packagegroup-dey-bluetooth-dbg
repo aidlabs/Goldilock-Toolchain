@@ -1,0 +1,15 @@
+PN: packagegroup-dey-bluetooth
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_packagegroup-dey-bluetooth-dbg: Bluetooth packagegroup for DEY image.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_packagegroup-dey-bluetooth-dbg: Bluetooth packagegroup for DEY image - Debugging files
+RRECOMMENDS_packagegroup-dey-bluetooth-dbg: bluez5-obex-dbg bluez5-noinst-tools-dbg bluez5-testtools-dbg libasound-module-bluez-dbg bluez5-dbg
+SECTION_packagegroup-dey-bluetooth-dbg: devel
+PKG_packagegroup-dey-bluetooth-dbg: packagegroup-dey-bluetooth-dbg
+ALLOW_EMPTY_packagegroup-dey-bluetooth-dbg: 1
+FILES_packagegroup-dey-bluetooth-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/packagegroup-dey-bluetooth/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/packagegroup-dey-bluetooth/.debug /usr/lib/matchbox-panel/.debug /usr/lib/packagegroup-dey-bluetooth/packagegroup-dey-bluetooth/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-bluetooth-dbg: 0

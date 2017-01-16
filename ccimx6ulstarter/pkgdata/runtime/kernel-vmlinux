@@ -1,0 +1,15 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION: Linux kernel for Digi boards.
+SUMMARY: Linux kernel for Digi boards
+SECTION: base
+PKG_kernel-vmlinux: kernel-vmlinux
+FILES_kernel-vmlinux: /boot/vmlinux*
+FILERPROVIDESFLIST_kernel-vmlinux: /boot/vmlinux-4.1.35-dey+g8dca338
+FILES_INFO: {"/boot/vmlinux-4.1.35-dey+g8dca338": 14884180}
+FILERPROVIDES_/boot/vmlinux-4.1.35-dey+g8dca338_kernel-vmlinux: elf(buildid) (= f8ae5c3942cfc931c7065cc0c127db9bda2f25e4)
+PKGSIZE_kernel-vmlinux: 14884180

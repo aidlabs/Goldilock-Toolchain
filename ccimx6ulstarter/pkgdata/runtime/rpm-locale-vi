@@ -1,0 +1,15 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-locale-vi: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains language translation files for the vi locale.
+SUMMARY_rpm-locale-vi: The RPM package management system - vi translations
+RPROVIDES_rpm-locale-vi: rpm-locale vi-translation
+RRECOMMENDS_rpm-locale-vi: virtual-locale-vi
+SECTION: base
+PKG_rpm-locale-vi: rpm-locale-vi
+FILES_rpm-locale-vi: /usr/share/locale/vi
+FILES_INFO: {"/usr/share/locale/vi/LC_MESSAGES/rpm.mo": 154741}
+PKGSIZE_rpm-locale-vi: 154741

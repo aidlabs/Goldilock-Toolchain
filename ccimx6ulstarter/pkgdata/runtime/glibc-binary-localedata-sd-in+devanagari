@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sd-in+devanagari: binary locale definition for sd-in+devanagari
+SUMMARY_glibc-binary-localedata-sd-in+devanagari: binary locale definition for sd-in+devanagari
+SECTION: base
+PKG_glibc-binary-localedata-sd-in+devanagari: glibc-binary-localedata-sd-in+devanagari
+FILES_glibc-binary-localedata-sd-in+devanagari: /usr/lib/locale/sd_IN@devanagari
+FILES_INFO: {"/usr/lib/locale/sd_IN@devanagari/LC_MONETARY": 302, "/usr/lib/locale/sd_IN@devanagari/LC_NAME": 128, "/usr/lib/locale/sd_IN@devanagari/LC_CTYPE": 278308, "/usr/lib/locale/sd_IN@devanagari/LC_PAPER": 34, "/usr/lib/locale/sd_IN@devanagari/LC_COLLATE": 1243766, "/usr/lib/locale/sd_IN@devanagari/LC_ADDRESS": 111, "/usr/lib/locale/sd_IN@devanagari/LC_MEASUREMENT": 23, "/usr/lib/locale/sd_IN@devanagari/LC_IDENTIFICATION": 526, "/usr/lib/locale/sd_IN@devanagari/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/sd_IN@devanagari/LC_TIME": 3242, "/usr/lib/locale/sd_IN@devanagari/LC_TELEPHONE": 53, "/usr/lib/locale/sd_IN@devanagari/LC_NUMERIC": 54}
+PKGSIZE_glibc-binary-localedata-sd-in+devanagari: 1526599

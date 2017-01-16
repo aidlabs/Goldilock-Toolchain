@@ -1,0 +1,15 @@
+PN: u-boot-dey
+PV: 2015.04
+PR: r0
+PKGV: 2015.04
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-dey-dev: Bootloader for Digi platforms  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_u-boot-dey-dev: Universal Boot Loader for embedded devices - Development files
+RDEPENDS_u-boot-dey-dev: u-boot-dey (= 2015.04-r0.0)
+SECTION_u-boot-dey-dev: devel
+PKG_u-boot-dey-dev: u-boot-dey-dev
+ALLOW_EMPTY_u-boot-dey-dev: 1
+FILES_u-boot-dey-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/u-boot-dey/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_u-boot-dey-dev: 0

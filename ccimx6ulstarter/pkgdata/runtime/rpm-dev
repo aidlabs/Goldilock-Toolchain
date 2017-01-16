@@ -1,0 +1,18 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-dev: This package contains the RPM C library and header files. These development files will simplify the process of writing programs that manipulate RPM packages and databases. These files are intended to simplify the process of creating graphical package managers or any other tools that need an intimate knowledge of RPM packages in order to function.
+SUMMARY_rpm-dev: Development files for manipulating RPM packages
+RDEPENDS_rpm-dev: rpm (= 5.4.14-r0.0) rpm-libs bash
+RRECOMMENDS_rpm-dev: zlib-dev base-files-dev file-dev libgcc-dev acl-dev glibc-dev bzip2-dev python-dev ossp-uuid-dev beecrypt-dev openssl-dev libpcre-dev db-dev perl-dev libbz2-dev bash-dev popt-dev elfutils-dev libssl-dev libcrypto-dev libstdc++-dev libacl-dev libattr-dev attr-dev libpython2-dev libelf-dev rpm-libs-dev run-postinsts-dev libpcreposix-dev
+SECTION_rpm-dev: devel
+PKG_rpm-dev: rpm-dev
+ALLOW_EMPTY_rpm-dev: 1
+FILES_rpm-dev: /usr/include/rpm \t\t/usr/lib/librpm.la \t\t/usr/lib/librpm.so \t\t/usr/lib/librpmconstant.la \t\t/usr/lib/librpmconstant.so \t\t/usr/lib/librpmdb.la \t\t/usr/lib/librpmdb.so \t\t/usr/lib/librpmio.la \t\t/usr/lib/librpmio.so \t\t/usr/lib/librpmmisc.la \t\t/usr/lib/librpmmisc.so \t\t/usr/lib/librpmbuild.la \t\t/usr/lib/librpmbuild.so \t\t/usr/lib/rpm/lib/liblua.la \t\t/usr/lib/pkgconfig/rpm.pc \t\t/usr/lib/rpm/rpmdb_loadcvt \t\t
+FILES_INFO: {"/usr/include/rpm/rpmpgp.h": 62967, "/usr/include/rpm/rpmmacro.h": 10535, "/usr/include/rpm/rpmbf.h": 4890, "/usr/include/rpm/rpmbuild.h": 19953, "/usr/include/rpm/rpmrc.h": 1874, "/usr/include/rpm/rpmcli.h": 25440, "/usr/include/rpm/rpmgi.h": 5526, "/usr/include/rpm/rpmsw.h": 3663, "/usr/lib/librpmconstant.la": 1456, "/usr/lib/librpmdb.la": 1372, "/usr/include/rpm/argv.h": 5639, "/usr/lib/pkgconfig/rpm.pc": 553, "/usr/lib/librpmbuild.la": 1435, "/usr/lib/librpmmisc.la": 1340, "/usr/include/rpm/rpmio.h": 21234, "/usr/include/rpm/rpmversion.h": 6357, "/usr/include/rpm/mire.h": 9465, "/usr/lib/librpmbuild.so": 18, "/usr/include/rpm/rpmspec.h": 9248, "/usr/lib/librpmmisc.so": 17, "/usr/include/rpm/rpmte.h": 23002, "/usr/include/rpm/rpmiotypes.h": 19813, "/usr/lib/librpm.so": 13, "/usr/include/rpm/rpmtag.h": 39434, "/usr/include/rpm/rpmds.h": 24900, "/usr/include/rpm/rpmfi.h": 24343, "/usr/include/rpm/yarn.h": 8140, "/usr/lib/librpmio.so": 15, "/usr/include/rpm/rpmps.h": 8725, "/usr/include/rpm/rpmevr.h": 6486, "/usr/include/rpm/rpmcb.h": 713, "/usr/include/rpm/rpmns.h": 4749, "/usr/lib/librpmdb.so": 15, "/usr/lib/librpmio.la": 1350, "/usr/include/rpm/rpmlog.h": 9626, "/usr/lib/rpm/rpmdb_loadcvt": 1467, "/usr/include/rpm/rpm46compat.h": 7674, "/usr/include/rpm/rpmconstant.h": 4365, "/usr/include/rpm/rpm4compat.h": 10856, "/usr/include/rpm/rpmzlog.h": 2062, "/usr/lib/librpm.la": 1380, "/usr/include/rpm/rpmdb.h": 45821, "/usr/lib/librpmconstant.so": 21, "/usr/include/rpm/rpmtypes.h": 3055, "/usr/include/rpm/pkgio.h": 2878, "/usr/include/rpm/rpmts.h": 35222}
+FILERDEPENDSFLIST_rpm-dev: /usr/lib/rpm/rpmdb@underscore@loadcvt
+FILERDEPENDS_/usr/lib/rpm/rpmdb@underscore@loadcvt_rpm-dev: /bin/bash
+PKGSIZE_rpm-dev: 479107

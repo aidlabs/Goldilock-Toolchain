@@ -1,0 +1,15 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-locale-en+quot: Utilities and libraries for handling compiled object files.  This package contains language translation files for the en@quot locale.
+SUMMARY_elfutils-locale-en+quot: Utilities and libraries for handling compiled object files - en@quot translations
+RPROVIDES_elfutils-locale-en+quot: elfutils-locale en+quot-translation
+RRECOMMENDS_elfutils-locale-en+quot: virtual-locale-en+quot
+SECTION: base
+PKG_elfutils-locale-en+quot: elfutils-locale-en+quot
+FILES_elfutils-locale-en+quot: /usr/share/locale/en@quot
+FILES_INFO: {"/usr/share/locale/en@quot/LC_MESSAGES/elfutils.mo": 147186}
+PKGSIZE_elfutils-locale-en+quot: 147186

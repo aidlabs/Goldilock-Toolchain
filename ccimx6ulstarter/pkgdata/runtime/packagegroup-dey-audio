@@ -1,0 +1,15 @@
+PN: packagegroup-dey-audio
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Audio packagegroup for DEY image.
+SUMMARY: Audio packagegroup for DEY image
+RDEPENDS_packagegroup-dey-audio: alsa-states alsa-utils-alsamixer alsa-utils-alsactl alsa-lib alsa-utils-amixer alsa-utils-speakertest alsa-state alsa-utils-aplay
+SECTION: base
+PKG_packagegroup-dey-audio: packagegroup-dey-audio
+ALLOW_EMPTY_packagegroup-dey-audio: 1
+FILES_packagegroup-dey-audio: /usr/bin/* /usr/sbin/* /usr/lib/packagegroup-dey-audio/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/packagegroup-dey-audio /usr/lib/packagegroup-dey-audio/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-audio: 0

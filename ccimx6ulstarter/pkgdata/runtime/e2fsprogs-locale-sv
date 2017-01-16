@@ -1,0 +1,15 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-locale-sv: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains language translation files for the sv locale.
+SUMMARY_e2fsprogs-locale-sv: Ext2 Filesystem Utilities - sv translations
+RPROVIDES_e2fsprogs-locale-sv: e2fsprogs-locale sv-translation
+RRECOMMENDS_e2fsprogs-locale-sv: virtual-locale-sv
+SECTION: base
+PKG_e2fsprogs-locale-sv: e2fsprogs-locale-sv
+FILES_e2fsprogs-locale-sv: /usr/share/locale/sv
+FILES_INFO: {"/usr/share/locale/sv/LC_MESSAGES/e2fsprogs.mo": 134129}
+PKGSIZE_e2fsprogs-locale-sv: 134129

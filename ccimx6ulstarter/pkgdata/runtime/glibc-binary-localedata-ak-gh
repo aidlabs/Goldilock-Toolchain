@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ak-gh: binary locale definition for ak-gh
+SUMMARY_glibc-binary-localedata-ak-gh: binary locale definition for ak-gh
+SECTION: base
+PKG_glibc-binary-localedata-ak-gh: glibc-binary-localedata-ak-gh
+FILES_glibc-binary-localedata-ak-gh: /usr/lib/locale/ak_GH
+FILES_INFO: {"/usr/lib/locale/ak_GH/LC_MESSAGES/SYS_LC_MESSAGES": 62, "/usr/lib/locale/ak_GH/LC_MONETARY": 298, "/usr/lib/locale/ak_GH/LC_TELEPHONE": 57, "/usr/lib/locale/ak_GH/LC_PAPER": 34, "/usr/lib/locale/ak_GH/LC_NUMERIC": 54, "/usr/lib/locale/ak_GH/LC_TIME": 2974, "/usr/lib/locale/ak_GH/LC_ADDRESS": 155, "/usr/lib/locale/ak_GH/LC_COLLATE": 1243766, "/usr/lib/locale/ak_GH/LC_CTYPE": 278308, "/usr/lib/locale/ak_GH/LC_MEASUREMENT": 23, "/usr/lib/locale/ak_GH/LC_NAME": 62, "/usr/lib/locale/ak_GH/LC_IDENTIFICATION": 321}
+PKGSIZE_glibc-binary-localedata-ak-gh: 1526114

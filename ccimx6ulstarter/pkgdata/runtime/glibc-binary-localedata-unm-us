@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-unm-us: binary locale definition for unm-us
+SUMMARY_glibc-binary-localedata-unm-us: binary locale definition for unm-us
+SECTION: base
+PKG_glibc-binary-localedata-unm-us: glibc-binary-localedata-unm-us
+FILES_glibc-binary-localedata-unm-us: /usr/lib/locale/unm_US
+FILES_INFO: {"/usr/lib/locale/unm_US/LC_PAPER": 34, "/usr/lib/locale/unm_US/LC_NUMERIC": 58, "/usr/lib/locale/unm_US/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/unm_US/LC_MEASUREMENT": 23, "/usr/lib/locale/unm_US/LC_IDENTIFICATION": 324, "/usr/lib/locale/unm_US/LC_TIME": 2498, "/usr/lib/locale/unm_US/LC_COLLATE": 1243766, "/usr/lib/locale/unm_US/LC_ADDRESS": 146, "/usr/lib/locale/unm_US/LC_NAME": 62, "/usr/lib/locale/unm_US/LC_CTYPE": 278308, "/usr/lib/locale/unm_US/LC_TELEPHONE": 59, "/usr/lib/locale/unm_US/LC_MONETARY": 286}
+PKGSIZE_glibc-binary-localedata-unm-us: 1525618

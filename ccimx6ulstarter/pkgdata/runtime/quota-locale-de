@@ -1,0 +1,15 @@
+PN: quota
+PV: 4.02
+PR: r0
+PKGV: 4.02
+PKGR: r0.0
+LICENSE: BSD & GPLv2+ & LGPLv2.1+
+DESCRIPTION_quota-locale-de: Tools for monitoring & limiting user disk usage per filesystem.  This package contains language translation files for the de locale.
+SUMMARY_quota-locale-de: Tools for monitoring & limiting user disk usage per filesystem - de translations
+RPROVIDES_quota-locale-de: quota-locale de-translation
+RRECOMMENDS_quota-locale-de: virtual-locale-de
+SECTION: base
+PKG_quota-locale-de: quota-locale-de
+FILES_quota-locale-de: /usr/share/locale/de
+FILES_INFO: {"/usr/share/locale/de/LC_MESSAGES/quota.mo": 75172}
+PKGSIZE_quota-locale-de: 75172

@@ -1,0 +1,13 @@
+PN: imx-kobs
+PV: 5.4
+PR: r0
+PKGV: 5.4
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: Nand boot write source.
+SUMMARY: Nand boot write source
+SECTION: base
+PKG_imx-kobs-locale: imx-kobs-locale
+FILES_imx-kobs-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_imx-kobs-locale: 0

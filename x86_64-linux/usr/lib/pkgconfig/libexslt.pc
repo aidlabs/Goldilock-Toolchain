@@ -1,0 +1,12 @@
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+libdir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include
+
+
+Name: libexslt
+Version: 0.8.17
+Description: EXSLT Extension library
+Requires: libxml-2.0
+Libs: -lexslt -L${libdir} -lexslt -lxslt -L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -lxml2 -lm 
+Cflags: -I${includedir}

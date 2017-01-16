@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-gu-in: binary locale definition for gu-in
+SUMMARY_glibc-binary-localedata-gu-in: binary locale definition for gu-in
+SECTION: base
+PKG_glibc-binary-localedata-gu-in: glibc-binary-localedata-gu-in
+FILES_glibc-binary-localedata-gu-in: /usr/lib/locale/gu_IN
+FILES_INFO: {"/usr/lib/locale/gu_IN/LC_NAME": 145, "/usr/lib/locale/gu_IN/LC_MONETARY": 294, "/usr/lib/locale/gu_IN/LC_TIME": 3006, "/usr/lib/locale/gu_IN/LC_PAPER": 34, "/usr/lib/locale/gu_IN/LC_COLLATE": 1243766, "/usr/lib/locale/gu_IN/LC_IDENTIFICATION": 321, "/usr/lib/locale/gu_IN/LC_TELEPHONE": 53, "/usr/lib/locale/gu_IN/LC_MEASUREMENT": 23, "/usr/lib/locale/gu_IN/LC_ADDRESS": 132, "/usr/lib/locale/gu_IN/LC_NUMERIC": 54, "/usr/lib/locale/gu_IN/LC_CTYPE": 280924, "/usr/lib/locale/gu_IN/LC_MESSAGES/SYS_LC_MESSAGES": 54}
+PKGSIZE_glibc-binary-localedata-gu-in: 1528806

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-so-so: binary locale definition for so-so
+SUMMARY_glibc-binary-localedata-so-so: binary locale definition for so-so
+SECTION: base
+PKG_glibc-binary-localedata-so-so: glibc-binary-localedata-so-so
+FILES_glibc-binary-localedata-so-so: /usr/lib/locale/so_SO
+FILES_INFO: {"/usr/lib/locale/so_SO/LC_MEASUREMENT": 23, "/usr/lib/locale/so_SO/LC_TIME": 2978, "/usr/lib/locale/so_SO/LC_NAME": 68, "/usr/lib/locale/so_SO/LC_CTYPE": 278308, "/usr/lib/locale/so_SO/LC_PAPER": 34, "/usr/lib/locale/so_SO/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/so_SO/LC_MONETARY": 286, "/usr/lib/locale/so_SO/LC_NUMERIC": 54, "/usr/lib/locale/so_SO/LC_COLLATE": 1243766, "/usr/lib/locale/so_SO/LC_IDENTIFICATION": 355, "/usr/lib/locale/so_SO/LC_TELEPHONE": 54, "/usr/lib/locale/so_SO/LC_ADDRESS": 131}
+PKGSIZE_glibc-binary-localedata-so-so: 1526109

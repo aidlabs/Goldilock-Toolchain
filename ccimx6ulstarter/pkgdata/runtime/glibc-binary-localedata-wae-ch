@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-wae-ch: binary locale definition for wae-ch
+SUMMARY_glibc-binary-localedata-wae-ch: binary locale definition for wae-ch
+SECTION: base
+PKG_glibc-binary-localedata-wae-ch: glibc-binary-localedata-wae-ch
+FILES_glibc-binary-localedata-wae-ch: /usr/lib/locale/wae_CH
+FILES_INFO: {"/usr/lib/locale/wae_CH/LC_ADDRESS": 156, "/usr/lib/locale/wae_CH/LC_NUMERIC": 54, "/usr/lib/locale/wae_CH/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/wae_CH/LC_MEASUREMENT": 23, "/usr/lib/locale/wae_CH/LC_IDENTIFICATION": 337, "/usr/lib/locale/wae_CH/LC_TIME": 2498, "/usr/lib/locale/wae_CH/LC_COLLATE": 1243766, "/usr/lib/locale/wae_CH/LC_PAPER": 34, "/usr/lib/locale/wae_CH/LC_NAME": 86, "/usr/lib/locale/wae_CH/LC_CTYPE": 278468, "/usr/lib/locale/wae_CH/LC_TELEPHONE": 49, "/usr/lib/locale/wae_CH/LC_MONETARY": 294}
+PKGSIZE_glibc-binary-localedata-wae-ch: 1525824

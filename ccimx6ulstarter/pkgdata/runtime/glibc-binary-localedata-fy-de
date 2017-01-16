@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-fy-de: binary locale definition for fy-de
+SUMMARY_glibc-binary-localedata-fy-de: binary locale definition for fy-de
+SECTION: base
+PKG_glibc-binary-localedata-fy-de: glibc-binary-localedata-fy-de
+FILES_glibc-binary-localedata-fy-de: /usr/lib/locale/fy_DE
+FILES_INFO: {"/usr/lib/locale/fy_DE/LC_COLLATE": 1243766, "/usr/lib/locale/fy_DE/LC_IDENTIFICATION": 388, "/usr/lib/locale/fy_DE/LC_TELEPHONE": 56, "/usr/lib/locale/fy_DE/LC_ADDRESS": 145, "/usr/lib/locale/fy_DE/LC_MONETARY": 294, "/usr/lib/locale/fy_DE/LC_NUMERIC": 54, "/usr/lib/locale/fy_DE/LC_TIME": 2390, "/usr/lib/locale/fy_DE/LC_NAME": 83, "/usr/lib/locale/fy_DE/LC_CTYPE": 278308, "/usr/lib/locale/fy_DE/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/fy_DE/LC_MEASUREMENT": 23, "/usr/lib/locale/fy_DE/LC_PAPER": 34}
+PKGSIZE_glibc-binary-localedata-fy-de: 1525595

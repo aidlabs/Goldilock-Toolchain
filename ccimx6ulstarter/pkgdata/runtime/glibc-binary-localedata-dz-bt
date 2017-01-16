@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-dz-bt: binary locale definition for dz-bt
+SUMMARY_glibc-binary-localedata-dz-bt: binary locale definition for dz-bt
+SECTION: base
+PKG_glibc-binary-localedata-dz-bt: glibc-binary-localedata-dz-bt
+FILES_glibc-binary-localedata-dz-bt: /usr/lib/locale/dz_BT
+FILES_INFO: {"/usr/lib/locale/dz_BT/LC_MEASUREMENT": 23, "/usr/lib/locale/dz_BT/LC_TIME": 4138, "/usr/lib/locale/dz_BT/LC_NAME": 80, "/usr/lib/locale/dz_BT/LC_CTYPE": 278308, "/usr/lib/locale/dz_BT/LC_PAPER": 34, "/usr/lib/locale/dz_BT/LC_MESSAGES/SYS_LC_MESSAGES": 76, "/usr/lib/locale/dz_BT/LC_MONETARY": 366, "/usr/lib/locale/dz_BT/LC_NUMERIC": 54, "/usr/lib/locale/dz_BT/LC_COLLATE": 1244666, "/usr/lib/locale/dz_BT/LC_IDENTIFICATION": 336, "/usr/lib/locale/dz_BT/LC_TELEPHONE": 47, "/usr/lib/locale/dz_BT/LC_ADDRESS": 178}
+PKGSIZE_glibc-binary-localedata-dz-bt: 1528306

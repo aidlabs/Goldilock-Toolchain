@@ -1,0 +1,35 @@
+PN: neard
+PV: 0.15
+PR: r0
+PKGV: 0.15
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: A daemon for the Linux Near Field Communication stack
+SUMMARY: Linux NFC daemon
+RDEPENDS_neard: python-pygobject glibc (>= 2.22) python dbus dbus-lib (>= 1.8.20) glib-2.0 (>= 2.44.1) python-dbus libnl-genl (>= 3.2.25) libnl (>= 3.2.25)
+RRECOMMENDS_neard:                      bluez5                      wpa-supplicant                      update-rc.d
+SECTION: base
+PKG_neard: neard
+FILES_neard: /usr/bin/* /usr/sbin/* /usr/lib/neard/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/neard /usr/lib/neard/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_neard: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT neard defaults 64\nfi\n
+pkg_postrm_neard: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT neard remove\nfi\n
+pkg_preinst_neard: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/neard" ]; then\n\t/etc/init.d/neard stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT neard remove\nfi\n
+pkg_prerm_neard: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/neard stop\nfi\n
+FILERPROVIDESFLIST_neard: /usr/lib/neard/nfctool /usr/bin/nfctool /usr/lib/neard/nfc/neard
+FILES_INFO: {"/usr/lib/neard/nfc/neard": 217468, "/usr/lib/neard/bt-handover": 4078, "/usr/lib/neard/test-adapter": 2364, "/usr/lib/neard/handover-agent": 3519, "/usr/lib/neard/neardutils.py": 2996, "/usr/lib/neard/nfctool": 39592, "/etc/dbus-1/system.d/org.neard.conf": 686, "/usr/lib/neard/phdc-simple-manager": 5522, "/etc/init.d/neard": 834, "/usr/lib/neard/test-device": 3618, "/usr/lib/neard/test-tag": 3786, "/usr/lib/neard/monitor-near": 1371, "/usr/bin/nfctool": 39592}
+FILERPROVIDES_/usr/lib/neard/nfctool_neard: elf(buildid) (= ce6521d209bb4173bc95eff8d8319f7b64daadf8)
+FILERPROVIDES_/usr/bin/nfctool_neard: elf(buildid) (= ce6521d209bb4173bc95eff8d8319f7b64daadf8)
+FILERPROVIDES_/usr/lib/neard/nfc/neard_neard: elf(buildid) (= 639a7228e1976ed236a626673a7142d3087be0b0)
+FILERDEPENDSFLIST_neard: /usr/lib/neard/nfc/neard /usr/lib/neard/bt-handover /usr/lib/neard/test-adapter /usr/lib/neard/handover-agent /usr/lib/neard/nfctool /usr/lib/neard/phdc-simple-manager /etc/init.d/neard /usr/lib/neard/test-device /usr/lib/neard/test-tag /usr/lib/neard/monitor-near /usr/bin/nfctool
+FILERDEPENDS_/usr/lib/neard/nfc/neard_neard: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdbus-1.so.3 libdl.so.2 libdl.so.2(GLIBC_2.4) libglib-2.0.so.0 libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/neard/bt-handover_neard: /usr/bin/python
+FILERDEPENDS_/usr/lib/neard/test-adapter_neard: /usr/bin/python
+FILERDEPENDS_/usr/lib/neard/handover-agent_neard: /usr/bin/python
+FILERDEPENDS_/usr/lib/neard/nfctool_neard: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/neard/phdc-simple-manager_neard: /usr/bin/env
+FILERDEPENDS_/etc/init.d/neard_neard: /bin/sh
+FILERDEPENDS_/usr/lib/neard/test-device_neard: /usr/bin/python
+FILERDEPENDS_/usr/lib/neard/test-tag_neard: /usr/bin/python
+FILERDEPENDS_/usr/lib/neard/monitor-near_neard: /usr/bin/python
+FILERDEPENDS_/usr/bin/nfctool_neard: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_neard: 325426

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ta-lk: binary locale definition for ta-lk
+SUMMARY_glibc-binary-localedata-ta-lk: binary locale definition for ta-lk
+SECTION: base
+PKG_glibc-binary-localedata-ta-lk: glibc-binary-localedata-ta-lk
+FILES_glibc-binary-localedata-ta-lk: /usr/lib/locale/ta_LK
+FILES_INFO: {"/usr/lib/locale/ta_LK/LC_MEASUREMENT": 23, "/usr/lib/locale/ta_LK/LC_TIME": 2874, "/usr/lib/locale/ta_LK/LC_NAME": 115, "/usr/lib/locale/ta_LK/LC_CTYPE": 280924, "/usr/lib/locale/ta_LK/LC_PAPER": 34, "/usr/lib/locale/ta_LK/LC_MESSAGES/SYS_LC_MESSAGES": 96, "/usr/lib/locale/ta_LK/LC_MONETARY": 294, "/usr/lib/locale/ta_LK/LC_NUMERIC": 54, "/usr/lib/locale/ta_LK/LC_COLLATE": 1243766, "/usr/lib/locale/ta_LK/LC_IDENTIFICATION": 431, "/usr/lib/locale/ta_LK/LC_TELEPHONE": 60, "/usr/lib/locale/ta_LK/LC_ADDRESS": 111}
+PKGSIZE_glibc-binary-localedata-ta-lk: 1528782

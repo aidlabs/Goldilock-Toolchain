@@ -1,0 +1,15 @@
+PN: beecrypt
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_beecrypt-staticdev: A general-purpose cryptography library.  This package contains static libraries for software development.
+SUMMARY_beecrypt-staticdev: A general-purpose cryptography library - Development files (Static Libraries)
+RDEPENDS_beecrypt-staticdev: beecrypt-dev (= 4.2.1-r3.0)
+RPROVIDES_beecrypt-staticdev:  beecrypt-staticdev (=4.2.1)
+SECTION_beecrypt-staticdev: devel
+PKG_beecrypt-staticdev: libbeecrypt-staticdev
+FILES_beecrypt-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/beecrypt/*.a /usr/lib/beecrypt/*.a
+FILES_INFO: {"/usr/lib/libbeecrypt.a": 931252}
+PKGSIZE_beecrypt-staticdev: 931252

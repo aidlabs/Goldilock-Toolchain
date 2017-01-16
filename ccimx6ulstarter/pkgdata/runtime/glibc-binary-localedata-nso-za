@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-nso-za: binary locale definition for nso-za
+SUMMARY_glibc-binary-localedata-nso-za: binary locale definition for nso-za
+SECTION: base
+PKG_glibc-binary-localedata-nso-za: glibc-binary-localedata-nso-za
+FILES_glibc-binary-localedata-nso-za: /usr/lib/locale/nso_ZA
+FILES_INFO: {"/usr/lib/locale/nso_ZA/LC_ADDRESS": 165, "/usr/lib/locale/nso_ZA/LC_IDENTIFICATION": 465, "/usr/lib/locale/nso_ZA/LC_COLLATE": 1243766, "/usr/lib/locale/nso_ZA/LC_CTYPE": 248252, "/usr/lib/locale/nso_ZA/LC_MEASUREMENT": 23, "/usr/lib/locale/nso_ZA/LC_TELEPHONE": 58, "/usr/lib/locale/nso_ZA/LC_NAME": 62, "/usr/lib/locale/nso_ZA/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/nso_ZA/LC_MONETARY": 286, "/usr/lib/locale/nso_ZA/LC_NUMERIC": 54, "/usr/lib/locale/nso_ZA/LC_PAPER": 34, "/usr/lib/locale/nso_ZA/LC_TIME": 2454}
+PKGSIZE_glibc-binary-localedata-nso-za: 1495671

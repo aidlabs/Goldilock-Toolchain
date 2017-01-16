@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-staticdev: Library for parsing command line options.  This package contains static libraries for software development.
+SUMMARY_popt-staticdev: Library for parsing command line options - Development files (Static Libraries)
+RDEPENDS_popt-staticdev: popt-dev (= 1.16-r3.0)
+RPROVIDES_popt-staticdev:  popt-staticdev (=1.16)
+SECTION_popt-staticdev: devel
+PKG_popt-staticdev: libpopt-staticdev
+FILES_popt-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/popt/*.a
+FILES_INFO: {"/usr/lib/libpopt.a": 201116}
+PKGSIZE_popt-staticdev: 201116

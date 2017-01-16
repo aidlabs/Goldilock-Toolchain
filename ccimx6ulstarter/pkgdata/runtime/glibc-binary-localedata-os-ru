@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-os-ru: binary locale definition for os-ru
+SUMMARY_glibc-binary-localedata-os-ru: binary locale definition for os-ru
+SECTION: base
+PKG_glibc-binary-localedata-os-ru: glibc-binary-localedata-os-ru
+FILES_glibc-binary-localedata-os-ru: /usr/lib/locale/os_RU
+FILES_INFO: {"/usr/lib/locale/os_RU/LC_ADDRESS": 139, "/usr/lib/locale/os_RU/LC_MESSAGES/SYS_LC_MESSAGES": 60, "/usr/lib/locale/os_RU/LC_COLLATE": 1243710, "/usr/lib/locale/os_RU/LC_CTYPE": 278308, "/usr/lib/locale/os_RU/LC_MEASUREMENT": 23, "/usr/lib/locale/os_RU/LC_NAME": 62, "/usr/lib/locale/os_RU/LC_IDENTIFICATION": 302, "/usr/lib/locale/os_RU/LC_MONETARY": 302, "/usr/lib/locale/os_RU/LC_TELEPHONE": 52, "/usr/lib/locale/os_RU/LC_PAPER": 34, "/usr/lib/locale/os_RU/LC_NUMERIC": 54, "/usr/lib/locale/os_RU/LC_TIME": 2546}
+PKGSIZE_glibc-binary-localedata-os-ru: 1525592

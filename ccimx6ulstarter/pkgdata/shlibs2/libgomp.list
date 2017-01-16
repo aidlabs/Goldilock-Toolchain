@@ -1,0 +1,2 @@
+libgomp-plugin-host_nonshm.so.1:/usr/lib:5.2.0
+libgomp.so.1:/usr/lib:5.2.0

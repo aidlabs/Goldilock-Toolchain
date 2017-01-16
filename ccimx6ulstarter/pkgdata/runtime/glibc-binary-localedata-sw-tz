@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sw-tz: binary locale definition for sw-tz
+SUMMARY_glibc-binary-localedata-sw-tz: binary locale definition for sw-tz
+SECTION: base
+PKG_glibc-binary-localedata-sw-tz: glibc-binary-localedata-sw-tz
+FILES_glibc-binary-localedata-sw-tz: /usr/lib/locale/sw_TZ
+FILES_INFO: {"/usr/lib/locale/sw_TZ/LC_COLLATE": 1243766, "/usr/lib/locale/sw_TZ/LC_IDENTIFICATION": 321, "/usr/lib/locale/sw_TZ/LC_TELEPHONE": 57, "/usr/lib/locale/sw_TZ/LC_ADDRESS": 160, "/usr/lib/locale/sw_TZ/LC_MONETARY": 290, "/usr/lib/locale/sw_TZ/LC_NUMERIC": 54, "/usr/lib/locale/sw_TZ/LC_TIME": 2554, "/usr/lib/locale/sw_TZ/LC_NAME": 66, "/usr/lib/locale/sw_TZ/LC_CTYPE": 278308, "/usr/lib/locale/sw_TZ/LC_MESSAGES/SYS_LC_MESSAGES": 56, "/usr/lib/locale/sw_TZ/LC_MEASUREMENT": 23, "/usr/lib/locale/sw_TZ/LC_PAPER": 34}
+PKGSIZE_glibc-binary-localedata-sw-tz: 1525689

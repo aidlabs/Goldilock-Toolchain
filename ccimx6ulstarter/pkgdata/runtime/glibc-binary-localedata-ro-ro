@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ro-ro: binary locale definition for ro-ro
+SUMMARY_glibc-binary-localedata-ro-ro: binary locale definition for ro-ro
+SECTION: base
+PKG_glibc-binary-localedata-ro-ro: glibc-binary-localedata-ro-ro
+FILES_glibc-binary-localedata-ro-ro: /usr/lib/locale/ro_RO
+FILES_INFO: {"/usr/lib/locale/ro_RO/LC_ADDRESS": 166, "/usr/lib/locale/ro_RO/LC_TIME": 2374, "/usr/lib/locale/ro_RO/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/ro_RO/LC_PAPER": 34, "/usr/lib/locale/ro_RO/LC_NAME": 79, "/usr/lib/locale/ro_RO/LC_NUMERIC": 54, "/usr/lib/locale/ro_RO/LC_MONETARY": 294, "/usr/lib/locale/ro_RO/LC_MEASUREMENT": 23, "/usr/lib/locale/ro_RO/LC_COLLATE": 1243806, "/usr/lib/locale/ro_RO/LC_CTYPE": 278372, "/usr/lib/locale/ro_RO/LC_IDENTIFICATION": 357, "/usr/lib/locale/ro_RO/LC_TELEPHONE": 49}
+PKGSIZE_glibc-binary-localedata-ro-ro: 1525662

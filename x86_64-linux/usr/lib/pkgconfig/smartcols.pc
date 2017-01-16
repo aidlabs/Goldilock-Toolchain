@@ -1,0 +1,10 @@
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+libdir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.26.0
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols

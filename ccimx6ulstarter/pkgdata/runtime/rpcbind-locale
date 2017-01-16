@@ -1,0 +1,13 @@
+PN: rpcbind
+PV: 0.2.3
+PR: r0
+PKGV: 0.2.3
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION: The rpcbind utility is a server that converts RPC                program numbers into universal addresses.
+SUMMARY: Universal Addresses to RPC Program Number Mapper
+SECTION: console/network
+PKG_rpcbind-locale: rpcbind-locale
+FILES_rpcbind-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_rpcbind-locale: 0

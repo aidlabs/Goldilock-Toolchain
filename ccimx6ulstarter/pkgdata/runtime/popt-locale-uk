@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-uk: Library for parsing command line options.  This package contains language translation files for the uk locale.
+SUMMARY_popt-locale-uk: Library for parsing command line options - uk translations
+RPROVIDES_popt-locale-uk: popt-locale uk-translation popt-locale-uk (=1.16)
+RRECOMMENDS_popt-locale-uk: virtual-locale-uk
+SECTION: libs
+PKG_popt-locale-uk: libpopt-locale-uk
+FILES_popt-locale-uk: /usr/share/locale/uk
+FILES_INFO: {"/usr/share/locale/uk/LC_MESSAGES/popt.mo": 547}
+PKGSIZE_popt-locale-uk: 547

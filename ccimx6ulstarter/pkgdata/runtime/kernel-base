@@ -1,0 +1,16 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION: Linux kernel for Digi boards.
+SUMMARY: Linux kernel for Digi boards
+RPROVIDES_kernel-base:  kernel-4.1.35-dey+g8dca338 kernel-base (=4.1)
+SECTION: base
+PKG_kernel-base: kernel-4.1.35-dey+g8dca338
+ALLOW_EMPTY_kernel-base: 1
+FILES_kernel-base: /lib/modules/4.1.35-dey+g8dca338/modules.order /lib/modules/4.1.35-dey+g8dca338/modules.builtin
+pkg_postinst_kernel-base: \tif [ ! -e "$D/lib/modules/4.1.35-dey+g8dca338" ]; then\n\t\tmkdir -p $D/lib/modules/4.1.35-dey+g8dca338\n\tfi\n\tif [ -n "$D" ]; then\n\t\tdepmodwrapper -a -b $D 4.1.35-dey+g8dca338\n\telse\n\t\tdepmod -a 4.1.35-dey+g8dca338\n\tfi\n
+FILES_INFO: {"/lib/modules/4.1.35-dey+g8dca338/modules.builtin": 13153, "/lib/modules/4.1.35-dey+g8dca338/modules.order": 2122}
+PKGSIZE_kernel-base: 15275

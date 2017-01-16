@@ -1,0 +1,62 @@
+PN: bluez5
+PV: 5.33
+PR: r0
+PKGV: 5.33
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.
+SUMMARY: Linux Bluetooth Stack Userland V5
+RDEPENDS_bluez5: libudev (>= 182) glibc (>= 2.22) dbus-lib (>= 1.8.20) readline (>= 6.3) glib-2.0 (>= 2.44.1)
+RPROVIDES_bluez5:  bluez-hcidump
+RRECOMMENDS_bluez5:  update-rc.d
+RCONFLICTS_bluez5: bluez4
+SECTION: libs
+PKG_bluez5: bluez5
+FILES_bluez5: /usr/bin/* /usr/sbin/* /usr/lib/bluez5/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/bluez5 /usr/lib/bluez5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/bluetooth/plugins/*.so /lib/udev/ /lib/udev/ /lib/systemd/ /usr/share/dbus-1
+pkg_postinst_bluez5: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT bluez start 10 5 .\nfi\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+pkg_postrm_bluez5: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT bluez remove\nfi\n
+pkg_preinst_bluez5: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/bluez" ]; then\n\t/etc/init.d/bluez stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT bluez remove\nfi\n
+pkg_prerm_bluez5: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/bluez stop\nfi\n
+FILERPROVIDESFLIST_bluez5: /lib/udev/hid2hci /usr/bin/hex2hcd /usr/bin/rctest /usr/bin/hcitool /usr/bin/bccmd /usr/bin/l2test /usr/bin/hcidump /usr/bin/bluetoothctl /usr/bin/hciattach /usr/bin/ciptool /usr/bin/rfcomm /usr/bin/hciconfig /usr/bin/l2ping /usr/lib/libbluetooth.so.3.18.6 /usr/bin/mpris-proxy /usr/lib/bluez5/bluetooth/bluetoothd /usr/bin/btmon /usr/bin/sdptool /usr/bin/bluemoon
+FILES_INFO: {"/usr/bin/l2test": 78772, "/usr/lib/libbluetooth.so.3": 22, "/usr/bin/mpris-proxy": 60356, "/lib/udev/rules.d/97-hid2hci.rules": 1357, "/usr/bin/hciconfig": 140088, "/usr/bin/l2ping": 66316, "/etc/bluetooth/input.conf": 397, "/usr/bin/hcidump": 320656, "/usr/bin/rctest": 99040, "/usr/lib/libbluetooth.so.3.18.6": 105460, "/usr/bin/bccmd": 140272, "/etc/init.d/bluez": 5819, "/usr/bin/sdptool": 140732, "/usr/bin/hex2hcd": 8528, "/usr/bin/hcitool": 96828, "/etc/dbus-1/system.d/bluetooth.conf": 1489, "/usr/lib/bluez5/bluetooth/bluetoothd": 769772, "/usr/bin/btmon": 342560, "/usr/bin/bluemoon": 22344, "/lib/udev/hid2hci": 8484, "/usr/bin/bluetoothctl": 81516, "/usr/bin/hciattach": 117044, "/usr/bin/ciptool": 95080, "/usr/bin/rfcomm": 70740, "/etc/bluetooth/network.conf": 120}
+FILERPROVIDES_/lib/udev/hid2hci_bluez5: elf(buildid) (= b993c6f9ed84c1f1ee8d7595452cc2f3846dbed7)
+FILERPROVIDES_/usr/bin/hex2hcd_bluez5: elf(buildid) (= e9bf13908bd119389ede7ef5e260b1378273f647)
+FILERPROVIDES_/usr/bin/rctest_bluez5: elf(buildid) (= 7a4e0eb3b19b0ca5af91ff66d54b70033ac6e0e0)
+FILERPROVIDES_/usr/bin/hcitool_bluez5: elf(buildid) (= 825795cbb79093018e32d8059053d028ed29f66b)
+FILERPROVIDES_/usr/bin/bccmd_bluez5: elf(buildid) (= 891d80662b459e31d94f6da89709871ec5bbb6a5)
+FILERPROVIDES_/usr/bin/l2test_bluez5: elf(buildid) (= e50fe966469100097ee9598517366544066afb3a)
+FILERPROVIDES_/usr/bin/hcidump_bluez5: elf(buildid) (= d40a4dfba0fef2b1956e497fba9b912acf4ee786)
+FILERPROVIDES_/usr/bin/bluetoothctl_bluez5: elf(buildid) (= 68a5acd3a216edf942ce1dc936c13e2d45db9a1c)
+FILERPROVIDES_/usr/bin/hciattach_bluez5: elf(buildid) (= 96bac3c1bbe6e983d06992f7af8e0a29033b015a)
+FILERPROVIDES_/usr/bin/ciptool_bluez5: elf(buildid) (= 3a421072605dfc11ef5a128cdfc3689b9ada53bd)
+FILERPROVIDES_/usr/bin/rfcomm_bluez5: elf(buildid) (= c3edba714b97aad3b689f2cdab0adcc6491e2087)
+FILERPROVIDES_/usr/bin/hciconfig_bluez5: elf(buildid) (= c908782fa532b75fae22fd4bf06b1ed879c48520)
+FILERPROVIDES_/usr/bin/l2ping_bluez5: elf(buildid) (= 13658c2b0694b2ab6bdea17d3712653fd59ca2bf)
+FILERPROVIDES_/usr/lib/libbluetooth.so.3.18.6_bluez5: elf(buildid) (= 636046223bf32d51c9f5b318f4c96aae748fc908) libbluetooth.so.3
+FILERPROVIDES_/usr/bin/mpris-proxy_bluez5: elf(buildid) (= 7324215725a6b37735fb0bb76d8f606c0f5907b9)
+FILERPROVIDES_/usr/lib/bluez5/bluetooth/bluetoothd_bluez5: elf(buildid) (= 67050fba8150b36b13850c0ec7b3310f34770cc9)
+FILERPROVIDES_/usr/bin/btmon_bluez5: elf(buildid) (= 62b25f4f5a7eb8f59a5e0a53b1d9e296125e3557)
+FILERPROVIDES_/usr/bin/sdptool_bluez5: elf(buildid) (= c83db0daf6d1f2c71f18e1654b54df49a5d1a73d)
+FILERPROVIDES_/usr/bin/bluemoon_bluez5: elf(buildid) (= 56771c40007f5f8ad0f1bee7a3b9c06ee855a609)
+FILERDEPENDSFLIST_bluez5: /lib/udev/hid2hci /usr/bin/hex2hcd /usr/bin/rctest /usr/bin/hcitool /usr/bin/bccmd /usr/bin/l2test /usr/bin/hcidump /usr/bin/bluetoothctl /usr/bin/hciattach /usr/bin/ciptool /usr/bin/rfcomm /usr/bin/hciconfig /usr/bin/l2ping /usr/lib/libbluetooth.so.3.18.6 /usr/bin/mpris-proxy /usr/lib/bluez5/bluetooth/bluetoothd /usr/bin/btmon /etc/init.d/bluez /usr/bin/sdptool /usr/bin/bluemoon
+FILERDEPENDS_/lib/udev/hid2hci_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) libudev.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/hex2hcd_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/rctest_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/hcitool_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/bccmd_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/l2test_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/hcidump_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/bluetoothctl_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdbus-1.so.3 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libreadline.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/hciattach_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ciptool_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/rfcomm_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/hciconfig_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/l2ping_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libbluetooth.so.3.18.6_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mpris-proxy_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) libdbus-1.so.3 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bluez5/bluetooth/bluetoothd_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdbus-1.so.3 libdl.so.2 libdl.so.2(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/btmon_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.9) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/bluez_bluez5: /bin/sh
+FILERDEPENDS_/usr/bin/sdptool_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/bluemoon_bluez5: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.9) rtld(GNU_HASH)
+PKGSIZE_bluez5: 2773792

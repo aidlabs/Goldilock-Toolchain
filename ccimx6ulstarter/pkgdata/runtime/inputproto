@@ -1,0 +1,15 @@
+PN: inputproto
+PE: 1
+PV: 2.3.1
+PR: r0
+PKGE: 1
+PKGV: 2.3.1
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION: This package provides the wire protocol for the X Input extension.  The extension supports input devices other then the core X keyboard and pointer.
+SUMMARY: XI: X Input extension headers
+SECTION: x11/libs
+PKG_inputproto: inputproto
+FILES_inputproto: /usr/bin/* /usr/sbin/* /usr/lib/inputproto/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/inputproto /usr/lib/inputproto/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_inputproto: 0

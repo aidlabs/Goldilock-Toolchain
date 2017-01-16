@@ -1,0 +1,15 @@
+PN: rpcbind
+PV: 0.2.3
+PR: r0
+PKGV: 0.2.3
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_rpcbind-dbg: The rpcbind utility is a server that converts RPC                program numbers into universal addresses.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_rpcbind-dbg: Universal Addresses to RPC Program Number Mapper - Debugging files
+RRECOMMENDS_rpcbind-dbg: libtirpc-dbg glibc-dbg
+SECTION_rpcbind-dbg: devel
+PKG_rpcbind-dbg: rpcbind-dbg
+ALLOW_EMPTY_rpcbind-dbg: 1
+FILES_rpcbind-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/rpcbind/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/rpcbind/.debug /usr/lib/matchbox-panel/.debug /usr/lib/rpcbind/rpcbind/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/rpcbind.h": 4986, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/rpcb_stat.c": 5071, "/usr/sbin/.debug/rpcinfo": 51604, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/rpcb_svc_com.c": 38038, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/warmstart.c": 5735, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/rpcbind.c": 23576, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/security.c": 8269, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/util.c": 10365, "/usr/sbin/.debug/rpcbind": 153544, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/check_bound.c": 5979, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/xlog.c": 4226, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/rpcinfo.c": 48306, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/rpcb_svc_4.c": 12767, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/rpcb_svc.c": 7009, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/xlog.h": 1292, "/usr/src/debug/rpcbind/0.2.3-r0/rpcbind-0.2.3/src/pmap_svc.c": 10034}
+PKGSIZE_rpcbind-dbg: 390801

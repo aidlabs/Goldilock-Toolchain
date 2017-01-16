@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sq-mk: binary locale definition for sq-mk
+SUMMARY_glibc-binary-localedata-sq-mk: binary locale definition for sq-mk
+SECTION: base
+PKG_glibc-binary-localedata-sq-mk: glibc-binary-localedata-sq-mk
+FILES_glibc-binary-localedata-sq-mk: /usr/lib/locale/sq_MK
+FILES_INFO: {"/usr/lib/locale/sq_MK/LC_MESSAGES/SYS_LC_MESSAGES": 56, "/usr/lib/locale/sq_MK/LC_MONETARY": 294, "/usr/lib/locale/sq_MK/LC_NUMERIC": 54, "/usr/lib/locale/sq_MK/LC_PAPER": 34, "/usr/lib/locale/sq_MK/LC_IDENTIFICATION": 395, "/usr/lib/locale/sq_MK/LC_TELEPHONE": 57, "/usr/lib/locale/sq_MK/LC_ADDRESS": 156, "/usr/lib/locale/sq_MK/LC_MEASUREMENT": 23, "/usr/lib/locale/sq_MK/LC_TIME": 2594, "/usr/lib/locale/sq_MK/LC_NAME": 72, "/usr/lib/locale/sq_MK/LC_CTYPE": 278308, "/usr/lib/locale/sq_MK/LC_COLLATE": 1247082}
+PKGSIZE_glibc-binary-localedata-sq-mk: 1529125

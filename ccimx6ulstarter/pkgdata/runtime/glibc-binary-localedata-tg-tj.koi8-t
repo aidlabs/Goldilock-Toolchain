@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-tg-tj.koi8-t: binary locale definition for tg-tj.koi8-t
+SUMMARY_glibc-binary-localedata-tg-tj.koi8-t: binary locale definition for tg-tj.koi8-t
+SECTION: base
+PKG_glibc-binary-localedata-tg-tj.koi8-t: glibc-binary-localedata-tg-tj.koi8-t
+FILES_glibc-binary-localedata-tg-tj.koi8-t: /usr/lib/locale/tg_TJ.KOI8-T
+FILES_INFO: {"/usr/lib/locale/tg_TJ.KOI8-T/LC_NUMERIC": 55, "/usr/lib/locale/tg_TJ.KOI8-T/LC_ADDRESS": 140, "/usr/lib/locale/tg_TJ.KOI8-T/LC_TELEPHONE": 52, "/usr/lib/locale/tg_TJ.KOI8-T/LC_NAME": 63, "/usr/lib/locale/tg_TJ.KOI8-T/LC_TIME": 2371, "/usr/lib/locale/tg_TJ.KOI8-T/LC_PAPER": 35, "/usr/lib/locale/tg_TJ.KOI8-T/LC_IDENTIFICATION": 367, "/usr/lib/locale/tg_TJ.KOI8-T/LC_COLLATE": 21275, "/usr/lib/locale/tg_TJ.KOI8-T/LC_CTYPE": 237508, "/usr/lib/locale/tg_TJ.KOI8-T/LC_MEASUREMENT": 24, "/usr/lib/locale/tg_TJ.KOI8-T/LC_MONETARY": 295, "/usr/lib/locale/tg_TJ.KOI8-T/LC_MESSAGES/SYS_LC_MESSAGES": 66}
+PKGSIZE_glibc-binary-localedata-tg-tj.koi8-t: 262251

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-bg-bg: binary locale definition for bg-bg
+SUMMARY_glibc-binary-localedata-bg-bg: binary locale definition for bg-bg
+SECTION: base
+PKG_glibc-binary-localedata-bg-bg: glibc-binary-localedata-bg-bg
+FILES_glibc-binary-localedata-bg-bg: /usr/lib/locale/bg_BG
+FILES_INFO: {"/usr/lib/locale/bg_BG/LC_NUMERIC": 54, "/usr/lib/locale/bg_BG/LC_MONETARY": 298, "/usr/lib/locale/bg_BG/LC_MEASUREMENT": 23, "/usr/lib/locale/bg_BG/LC_TIME": 2534, "/usr/lib/locale/bg_BG/LC_CTYPE": 278308, "/usr/lib/locale/bg_BG/LC_COLLATE": 1243838, "/usr/lib/locale/bg_BG/LC_IDENTIFICATION": 361, "/usr/lib/locale/bg_BG/LC_TELEPHONE": 62, "/usr/lib/locale/bg_BG/LC_ADDRESS": 181, "/usr/lib/locale/bg_BG/LC_MESSAGES/SYS_LC_MESSAGES": 70, "/usr/lib/locale/bg_BG/LC_PAPER": 34, "/usr/lib/locale/bg_BG/LC_NAME": 96}
+PKGSIZE_glibc-binary-localedata-bg-bg: 1525859

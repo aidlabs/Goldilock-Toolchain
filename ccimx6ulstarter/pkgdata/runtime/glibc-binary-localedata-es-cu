@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-es-cu: binary locale definition for es-cu
+SUMMARY_glibc-binary-localedata-es-cu: binary locale definition for es-cu
+SECTION: base
+PKG_glibc-binary-localedata-es-cu: glibc-binary-localedata-es-cu
+FILES_glibc-binary-localedata-es-cu: /usr/lib/locale/es_CU
+FILES_INFO: {"/usr/lib/locale/es_CU/LC_NAME": 62, "/usr/lib/locale/es_CU/LC_CTYPE": 278308, "/usr/lib/locale/es_CU/LC_MESSAGES/SYS_LC_MESSAGES": 58, "/usr/lib/locale/es_CU/LC_MEASUREMENT": 23, "/usr/lib/locale/es_CU/LC_PAPER": 34, "/usr/lib/locale/es_CU/LC_COLLATE": 1243766, "/usr/lib/locale/es_CU/LC_IDENTIFICATION": 381, "/usr/lib/locale/es_CU/LC_TELEPHONE": 49, "/usr/lib/locale/es_CU/LC_ADDRESS": 143, "/usr/lib/locale/es_CU/LC_MONETARY": 286, "/usr/lib/locale/es_CU/LC_NUMERIC": 54, "/usr/lib/locale/es_CU/LC_TIME": 2378}
+PKGSIZE_glibc-binary-localedata-es-cu: 1525542

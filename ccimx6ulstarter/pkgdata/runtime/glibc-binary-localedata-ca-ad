@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ca-ad: binary locale definition for ca-ad
+SUMMARY_glibc-binary-localedata-ca-ad: binary locale definition for ca-ad
+SECTION: base
+PKG_glibc-binary-localedata-ca-ad: glibc-binary-localedata-ca-ad
+FILES_glibc-binary-localedata-ca-ad: /usr/lib/locale/ca_AD
+FILES_INFO: {"/usr/lib/locale/ca_AD/LC_TELEPHONE": 50, "/usr/lib/locale/ca_AD/LC_ADDRESS": 146, "/usr/lib/locale/ca_AD/LC_MEASUREMENT": 23, "/usr/lib/locale/ca_AD/LC_PAPER": 34, "/usr/lib/locale/ca_AD/LC_MONETARY": 294, "/usr/lib/locale/ca_AD/LC_CTYPE": 278308, "/usr/lib/locale/ca_AD/LC_IDENTIFICATION": 291, "/usr/lib/locale/ca_AD/LC_TIME": 2342, "/usr/lib/locale/ca_AD/LC_NAME": 62, "/usr/lib/locale/ca_AD/LC_NUMERIC": 54, "/usr/lib/locale/ca_AD/LC_COLLATE": 1243782, "/usr/lib/locale/ca_AD/LC_MESSAGES/SYS_LC_MESSAGES": 54}
+PKGSIZE_glibc-binary-localedata-ca-ad: 1525440

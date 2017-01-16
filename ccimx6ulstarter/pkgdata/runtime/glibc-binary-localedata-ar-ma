@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ar-ma: binary locale definition for ar-ma
+SUMMARY_glibc-binary-localedata-ar-ma: binary locale definition for ar-ma
+SECTION: base
+PKG_glibc-binary-localedata-ar-ma: glibc-binary-localedata-ar-ma
+FILES_glibc-binary-localedata-ar-ma: /usr/lib/locale/ar_MA
+FILES_INFO: {"/usr/lib/locale/ar_MA/LC_CTYPE": 278308, "/usr/lib/locale/ar_MA/LC_MEASUREMENT": 23, "/usr/lib/locale/ar_MA/LC_NAME": 77, "/usr/lib/locale/ar_MA/LC_PAPER": 34, "/usr/lib/locale/ar_MA/LC_TIME": 2554, "/usr/lib/locale/ar_MA/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/ar_MA/LC_NUMERIC": 54, "/usr/lib/locale/ar_MA/LC_IDENTIFICATION": 439, "/usr/lib/locale/ar_MA/LC_TELEPHONE": 52, "/usr/lib/locale/ar_MA/LC_MONETARY": 302, "/usr/lib/locale/ar_MA/LC_ADDRESS": 125, "/usr/lib/locale/ar_MA/LC_COLLATE": 1243766}
+PKGSIZE_glibc-binary-localedata-ar-ma: 1525800

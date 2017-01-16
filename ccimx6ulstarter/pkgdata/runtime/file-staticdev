@@ -1,0 +1,14 @@
+PN: file
+PV: 5.24
+PR: r0
+PKGV: 5.24
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_file-staticdev: File attempts to classify files depending on their contents and prints a description if a match is found.  This package contains static libraries for software development.
+SUMMARY_file-staticdev: File classification tool - Development files (Static Libraries)
+RDEPENDS_file-staticdev: file-dev (= 5.24-r0.0)
+SECTION_file-staticdev: devel
+PKG_file-staticdev: file-staticdev
+FILES_file-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/file/*.a
+FILES_INFO: {}
+PKGSIZE_file-staticdev: 0

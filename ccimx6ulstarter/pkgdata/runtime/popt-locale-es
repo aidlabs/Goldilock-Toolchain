@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-es: Library for parsing command line options.  This package contains language translation files for the es locale.
+SUMMARY_popt-locale-es: Library for parsing command line options - es translations
+RPROVIDES_popt-locale-es: popt-locale es-translation popt-locale-es (=1.16)
+RRECOMMENDS_popt-locale-es: virtual-locale-es
+SECTION: libs
+PKG_popt-locale-es: libpopt-locale-es
+FILES_popt-locale-es: /usr/share/locale/es
+FILES_INFO: {"/usr/share/locale/es/LC_MESSAGES/popt.mo": 1537}
+PKGSIZE_popt-locale-es: 1537

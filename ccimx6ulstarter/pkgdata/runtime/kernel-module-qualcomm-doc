@@ -1,0 +1,13 @@
+PN: kernel-module-qualcomm
+PV: v4.2.74.63
+PR: r0
+PKGV: v4.2.74.63
+PKGR: r0.0
+LICENSE: ISC
+DESCRIPTION_kernel-module-qualcomm-doc: qcacld-2.0 module.bbclass mechanism.  This package contains documentation.
+SUMMARY_kernel-module-qualcomm-doc: Qualcomm\'s wireless driver for qca6564 - Documentation files
+SECTION_kernel-module-qualcomm-doc: doc
+PKG_kernel-module-qualcomm-doc: kernel-module-qualcomm-doc
+FILES_kernel-module-qualcomm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_kernel-module-qualcomm-doc: 0

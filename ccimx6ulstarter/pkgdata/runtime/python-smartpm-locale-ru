@@ -1,0 +1,15 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_python-smartpm-locale-ru: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.  This package contains language translation files for the ru locale.
+SUMMARY_python-smartpm-locale-ru: The Smart Package Manager - ru translations
+RPROVIDES_python-smartpm-locale-ru: python-smartpm-locale ru-translation
+RRECOMMENDS_python-smartpm-locale-ru: virtual-locale-ru
+SECTION: devel/python
+PKG_python-smartpm-locale-ru: python-smartpm-locale-ru
+FILES_python-smartpm-locale-ru: /usr/share/locale/ru
+FILES_INFO: {"/usr/share/locale/ru/LC_MESSAGES/smart.mo": 24927}
+PKGSIZE_python-smartpm-locale-ru: 24927

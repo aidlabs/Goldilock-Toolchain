@@ -1,0 +1,19 @@
+PN: ossp-uuid
+PV: 1.6.2
+PR: r2
+PKGV: 1.6.2
+PKGR: r2.0
+LICENSE: MIT
+DESCRIPTION_ossp-uuid-doc: OSSP uuid is a ISO-C:1999 application programming interface (API) and corresponding command line interface (CLI) for the generation of DCE 1.1, ISO/IEC 11578:1996 and RFC 4122 compliant Universally Unique Identifier (UUID). It supports DCE 1.1 variant UUIDs of version 1 (time and node based), version 3 (name based, MD5), version 4 (random number based) and version 5 (name based, SHA-1).  This package contains documentation.
+SUMMARY_ossp-uuid-doc: Universally Unique Identifier (UUID) library - Documentation files
+RDEPENDS_ossp-uuid-doc: update-alternatives-opkg
+RPROVIDES_ossp-uuid-doc:  ossp-uuid-doc (=1.6.2)
+SECTION_ossp-uuid-doc: doc
+PKG_ossp-uuid-doc: libossp-uuid-doc
+FILES_ossp-uuid-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+pkg_postinst_ossp-uuid-doc: #!/bin/sh\n\tupdate-alternatives --install /usr/share/man/man3/uuid.3 uuid.3 /usr/share/man/man3/uuid.3.ossp-uuid 200\n
+pkg_prerm_ossp-uuid-doc: #!/bin/sh\n\tupdate-alternatives --remove  uuid.3 /usr/share/man/man3/uuid.3.ossp-uuid\n
+FILERPROVIDESFLIST_ossp-uuid-doc:  /usr/share/man/man3/uuid.3.ossp-uuid
+FILES_INFO: {"/usr/share/man/man1/uuid.1": 10798, "/usr/share/man/man3/uuid.3.ossp-uuid": 28713, "/usr/share/man/man1/uuid-config.1": 7197}
+FILERPROVIDES_/usr/share/man/man3/uuid.3.ossp-uuid_ossp-uuid-doc:  /usr/share/man/man3/uuid.3
+PKGSIZE_ossp-uuid-doc: 46708

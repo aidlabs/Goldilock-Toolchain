@@ -1,0 +1,15 @@
+PN: packagegroup-dey-wireless
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_packagegroup-dey-wireless-dbg: Wireless packagegroup for DEY image.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_packagegroup-dey-wireless-dbg: Wireless packagegroup for DEY image - Debugging files
+RRECOMMENDS_packagegroup-dey-wireless-dbg: wpa-supplicant-dbg hostapd-dbg wireless-tools-dbg crda-dbg wpa-supplicant-cli-dbg wpa-supplicant-passphrase-dbg iw-dbg
+SECTION_packagegroup-dey-wireless-dbg: devel
+PKG_packagegroup-dey-wireless-dbg: packagegroup-dey-wireless-dbg
+ALLOW_EMPTY_packagegroup-dey-wireless-dbg: 1
+FILES_packagegroup-dey-wireless-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/packagegroup-dey-wireless/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/packagegroup-dey-wireless/.debug /usr/lib/matchbox-panel/.debug /usr/lib/packagegroup-dey-wireless/packagegroup-dey-wireless/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-wireless-dbg: 0

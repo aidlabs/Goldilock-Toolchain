@@ -1,0 +1,16 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-i2c-algo-pcf: i2c-algo-pcf kernel module; I2C-Bus PCF8584 algorithm
+SUMMARY_kernel-module-i2c-algo-pcf: i2c-algo-pcf kernel module
+RDEPENDS_kernel-module-i2c-algo-pcf: kernel-4.1.35-dey+g8dca338
+SECTION: base
+PKG_kernel-module-i2c-algo-pcf: kernel-module-i2c-algo-pcf
+FILES_kernel-module-i2c-algo-pcf: /lib/modules/4.1.35-dey+g8dca338/kernel/drivers/i2c/algos/i2c-algo-pcf.ko /etc/modules-load.d/i2c-algo-pcf.conf /etc/modprobe.d/i2c-algo-pcf.conf
+pkg_postinst_kernel-module-i2c-algo-pcf: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-i2c-algo-pcf: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\tdepmodwrapper -a -b $D 4.1.35-dey+g8dca338\nfi\n\n
+FILES_INFO: {"/lib/modules/4.1.35-dey+g8dca338/kernel/drivers/i2c/algos/i2c-algo-pcf.ko": 9560}
+PKGSIZE_kernel-module-i2c-algo-pcf: 9560

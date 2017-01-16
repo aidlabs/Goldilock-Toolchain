@@ -1,0 +1,14 @@
+PN: fsl-alsa-plugins
+PV: 1.0.25
+PR: r0
+PKGV: 1.0.25
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_fsl-alsa-plugins-staticdev: Freescale alsa-lib plugins  This package contains static libraries for software development.
+SUMMARY_fsl-alsa-plugins-staticdev: fsl-alsa-plugins version 1.0.25-r0 - Development files (Static Libraries)
+RDEPENDS_fsl-alsa-plugins-staticdev: fsl-alsa-plugins-dev (= 1.0.25-r0.0)
+SECTION_fsl-alsa-plugins-staticdev: devel
+PKG_fsl-alsa-plugins-staticdev: fsl-alsa-plugins-staticdev
+FILES_fsl-alsa-plugins-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/fsl-alsa-plugins/*.a
+FILES_INFO: {}
+PKGSIZE_fsl-alsa-plugins-staticdev: 0

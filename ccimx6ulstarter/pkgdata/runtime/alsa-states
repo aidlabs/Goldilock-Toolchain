@@ -1,0 +1,13 @@
+PN: alsa-state
+PV: 0.2.0
+PR: r5
+PKGV: 0.2.0
+PKGR: r5.0
+LICENSE: MIT
+DESCRIPTION: Alsa Scenario Files - an init script and state files to restore sound state at system boot and save it at system shut down.
+SUMMARY: Alsa scenario files to enable alsa state restoration
+SECTION: base
+PKG_alsa-states: alsa-states
+FILES_alsa-states: /var/lib/alsa/*.state
+FILES_INFO: {"/var/lib/alsa/asound.micro_play.state": 2134, "/var/lib/alsa/asound.play.state": 2134, "/var/lib/alsa/asound.micro.state": 2134, "/var/lib/alsa/asound.inline.state": 2139, "/var/lib/alsa/asound.inline_play.state": 2135, "/var/lib/alsa/asound.state": 23}
+PKGSIZE_alsa-states: 10699

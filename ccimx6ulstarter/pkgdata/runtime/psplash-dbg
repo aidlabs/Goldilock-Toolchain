@@ -1,0 +1,15 @@
+PN: psplash
+PV: 0.1+gitAUTOINC+14c8f7b705
+PR: r15
+PKGV: 0.1+git0+14c8f7b705
+PKGR: r15.0
+LICENSE: GPLv2+
+DESCRIPTION_psplash-dbg: PSplash is a userspace graphical boot splash screen for mainly embedded Linux devices supporting a 16bpp or 32bpp framebuffer. It has few dependencies (just libc), supports basic images and text and handles rotation. Its visual look is configurable by basic source changes. Also included is a \'client\' command utility for sending information to psplash such as boot progress information.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_psplash-dbg: Userspace framebuffer boot logo based on usplash - Debugging files
+RRECOMMENDS_psplash-dbg: glibc-dbg
+SECTION_psplash-dbg: devel
+PKG_psplash-dbg: psplash-dbg
+ALLOW_EMPTY_psplash-dbg: 1
+FILES_psplash-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/psplash/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/psplash/.debug /usr/lib/matchbox-panel/.debug /usr/lib/psplash/psplash/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/psplash/0.1+gitAUTOINC+14c8f7b705-r15/git/radeon-font.h": 81780, "/usr/src/debug/psplash/0.1+gitAUTOINC+14c8f7b705-r15/git/psplash-console.c": 4526, "/usr/bin/.debug/psplash-write": 12112, "/usr/src/debug/psplash/0.1+gitAUTOINC+14c8f7b705-r15/git/psplash-console.h": 791, "/usr/src/debug/psplash/0.1+gitAUTOINC+14c8f7b705-r15/git/psplash-write.c": 1494, "/usr/src/debug/psplash/0.1+gitAUTOINC+14c8f7b705-r15/git/psplash.h": 1986, "/usr/src/debug/psplash/0.1+gitAUTOINC+14c8f7b705-r15/git/psplash-fb.c": 12357, "/usr/bin/.debug/psplash-default": 41824, "/usr/src/debug/psplash/0.1+gitAUTOINC+14c8f7b705-r15/git/psplash-fb.h": 2408, "/usr/src/debug/psplash/0.1+gitAUTOINC+14c8f7b705-r15/git/psplash.c": 6812}
+PKGSIZE_psplash-dbg: 166090

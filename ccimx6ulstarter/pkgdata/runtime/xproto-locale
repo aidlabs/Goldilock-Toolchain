@@ -1,0 +1,15 @@
+PN: xproto
+PE: 1
+PV: 7.0.28
+PR: r0
+PKGE: 1
+PKGV: 7.0.28
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION: This package provides the basic headers for the X Window System.
+SUMMARY: Xlib: C Language X interface headers
+SECTION: x11/libs
+PKG_xproto-locale: xproto-locale
+FILES_xproto-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_xproto-locale: 0

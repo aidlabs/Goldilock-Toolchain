@@ -1,0 +1,16 @@
+PN: ofono
+PV: 1.16
+PR: r0
+PKGV: 1.16
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_ofono-dev: oFono is a stack for mobile telephony devices on Linux. oFono supports speaking to telephony devices through specific drivers, or with generic AT commands.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ofono-dev: open source telephony - Development files
+RDEPENDS_ofono-dev: ofono (= 1.16-r0.0)
+RRECOMMENDS_ofono-dev: python-pygobject-dev glibc-dev udev-dev dbus-lib-dev update-rc.d-dev bluez5-dev python-dbus-dev libudev-dev glib-2.0-dev initscripts-dev dbus-dev python-dev mobile-broadband-provider-info-dev
+SECTION_ofono-dev: devel
+PKG_ofono-dev: ofono-dev
+ALLOW_EMPTY_ofono-dev: 1
+FILES_ofono-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ofono/*.la /lib/*.la
+FILES_INFO: {"/usr/include/ofono/cdma-voicecall.h": 2959, "/usr/include/ofono/sim-auth.h": 1928, "/usr/include/ofono/log.h": 2141, "/usr/include/ofono/stk.h": 2466, "/usr/include/ofono/ussd.h": 2319, "/usr/include/ofono/ctm.h": 2041, "/usr/include/ofono/handsfree.h": 3500, "/usr/include/ofono/handsfree-audio.h": 2770, "/usr/include/ofono/audio-settings.h": 2132, "/usr/include/ofono/plugin.h": 2640, "/usr/include/ofono/cdma-connman.h": 2703, "/usr/include/ofono/cdma-sms.h": 2101, "/usr/include/ofono/call-meter.h": 3079, "/usr/include/ofono/call-settings.h": 3130, "/usr/include/ofono/location-reporting.h": 2670, "/usr/include/ofono/sms.h": 2880, "/usr/include/ofono/emulator.h": 3622, "/usr/include/ofono/types.h": 3118, "/usr/include/ofono/call-volume.h": 2507, "/usr/include/ofono/call-barring.h": 2467, "/usr/include/ofono/siri.h": 1891, "/usr/include/ofono/version.h": 974, "/usr/include/ofono/phonebook.h": 2366, "/usr/include/ofono/message-waiting.h": 1251, "/usr/include/ofono/cdma-netreg.h": 2653, "/usr/include/ofono/call-forwarding.h": 3004, "/usr/include/ofono/sim.h": 9017, "/usr/include/ofono/gprs-provision.h": 1654, "/usr/include/ofono/history.h": 2474, "/usr/include/ofono/nettime.h": 1511, "/usr/include/ofono/devinfo.h": 2212, "/usr/include/ofono/netreg.h": 4226, "/usr/include/ofono/radio-settings.h": 4432, "/usr/include/ofono/cdma-provision.h": 1282, "/usr/include/ofono/gnss.h": 2111, "/usr/include/ofono/private-network.h": 1539, "/usr/include/ofono/cbs.h": 1951, "/usr/lib/pkgconfig/ofono.pc": 295, "/usr/include/ofono/dbus.h": 4416, "/usr/include/ofono/voicecall.h": 6448, "/usr/include/ofono/modem.h": 4089, "/usr/include/ofono/gprs.h": 2697, "/usr/include/ofono/gprs-context.h": 4206}
+PKGSIZE_ofono-dev: 119872

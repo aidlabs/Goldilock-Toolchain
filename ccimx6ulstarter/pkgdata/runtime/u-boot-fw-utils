@@ -1,0 +1,20 @@
+PN: u-boot-fw-utils
+PV: v2015.07+gitAUTOINC+33711bdd4a
+PR: r0
+PKGV: v2015.07+git0+33711bdd4a
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: U-Boot bootloader fw_printenv/setenv utilities.
+SUMMARY: U-Boot bootloader fw_printenv/setenv utilities
+RDEPENDS_u-boot-fw-utils: glibc (>= 2.22)
+SECTION: bootloader
+PKG_u-boot-fw-utils: u-boot-fw-utils
+FILES_u-boot-fw-utils: /usr/bin/* /usr/sbin/* /usr/lib/u-boot-fw-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/u-boot-fw-utils /usr/lib/u-boot-fw-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_u-boot-fw-utils: /sbin/fw@underscore@setenv /sbin/fw@underscore@printenv
+FILES_INFO: {"/sbin/fw_setenv": 32652, "/etc/fw_env.config": 271, "/sbin/fw_printenv": 32652}
+FILERPROVIDES_/sbin/fw@underscore@setenv_u-boot-fw-utils: elf(buildid) (= 9618e9504f44bf82b9784fb54d1f7ae9dfd759f1)
+FILERPROVIDES_/sbin/fw@underscore@printenv_u-boot-fw-utils: elf(buildid) (= 9618e9504f44bf82b9784fb54d1f7ae9dfd759f1)
+FILERDEPENDSFLIST_u-boot-fw-utils: /sbin/fw@underscore@setenv /sbin/fw@underscore@printenv
+FILERDEPENDS_/sbin/fw@underscore@setenv_u-boot-fw-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/fw@underscore@printenv_u-boot-fw-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_u-boot-fw-utils: 65575

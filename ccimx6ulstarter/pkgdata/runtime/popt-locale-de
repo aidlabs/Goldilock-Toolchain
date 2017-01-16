@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-de: Library for parsing command line options.  This package contains language translation files for the de locale.
+SUMMARY_popt-locale-de: Library for parsing command line options - de translations
+RPROVIDES_popt-locale-de: popt-locale de-translation popt-locale-de (=1.16)
+RRECOMMENDS_popt-locale-de: virtual-locale-de
+SECTION: libs
+PKG_popt-locale-de: libpopt-locale-de
+FILES_popt-locale-de: /usr/share/locale/de
+FILES_INFO: {"/usr/share/locale/de/LC_MESSAGES/popt.mo": 2200}
+PKGSIZE_popt-locale-de: 2200

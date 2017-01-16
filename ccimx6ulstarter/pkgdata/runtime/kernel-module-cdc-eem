@@ -1,0 +1,16 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-cdc-eem: cdc-eem kernel module; USB CDC EEM
+SUMMARY_kernel-module-cdc-eem: cdc-eem kernel module
+RDEPENDS_kernel-module-cdc-eem: kernel-module-usbnet kernel-4.1.35-dey+g8dca338
+SECTION: base
+PKG_kernel-module-cdc-eem: kernel-module-cdc-eem
+FILES_kernel-module-cdc-eem: /lib/modules/4.1.35-dey+g8dca338/kernel/drivers/net/usb/cdc_eem.ko /etc/modules-load.d/cdc_eem.conf /etc/modprobe.d/cdc_eem.conf
+pkg_postinst_kernel-module-cdc-eem: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-cdc-eem: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\tdepmodwrapper -a -b $D 4.1.35-dey+g8dca338\nfi\n\n
+FILES_INFO: {"/lib/modules/4.1.35-dey+g8dca338/kernel/drivers/net/usb/cdc_eem.ko": 8352}
+PKGSIZE_kernel-module-cdc-eem: 8352

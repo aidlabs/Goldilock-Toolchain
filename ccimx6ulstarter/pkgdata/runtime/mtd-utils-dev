@@ -1,0 +1,16 @@
+PN: mtd-utils
+PV: 1.5.1+gitAUTOINC+9f107132a6
+PR: r0
+PKGV: 1.5.1+git0+9f107132a6
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_mtd-utils-dev: Tools for managing memory technology devices.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_mtd-utils-dev: Tools for managing memory technology devices - Development files
+RDEPENDS_mtd-utils-dev: mtd-utils (= 1.5.1+git0+9f107132a6-r0.0)
+RRECOMMENDS_mtd-utils-dev: glibc-dev zlib-dev util-linux-libuuid-dev lzo-dev e2fsprogs-dev acl-dev util-linux-dev
+SECTION_mtd-utils-dev: devel
+PKG_mtd-utils-dev: mtd-utils-dev
+ALLOW_EMPTY_mtd-utils-dev: 1
+FILES_mtd-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mtd-utils/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_mtd-utils-dev: 0

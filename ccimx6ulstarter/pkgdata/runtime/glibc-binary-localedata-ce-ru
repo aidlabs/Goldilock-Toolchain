@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ce-ru: binary locale definition for ce-ru
+SUMMARY_glibc-binary-localedata-ce-ru: binary locale definition for ce-ru
+SECTION: base
+PKG_glibc-binary-localedata-ce-ru: glibc-binary-localedata-ce-ru
+FILES_glibc-binary-localedata-ce-ru: /usr/lib/locale/ce_RU
+FILES_INFO: {"/usr/lib/locale/ce_RU/LC_NUMERIC": 54, "/usr/lib/locale/ce_RU/LC_COLLATE": 1243766, "/usr/lib/locale/ce_RU/LC_MEASUREMENT": 23, "/usr/lib/locale/ce_RU/LC_IDENTIFICATION": 345, "/usr/lib/locale/ce_RU/LC_TELEPHONE": 52, "/usr/lib/locale/ce_RU/LC_MESSAGES/SYS_LC_MESSAGES": 60, "/usr/lib/locale/ce_RU/LC_CTYPE": 278308, "/usr/lib/locale/ce_RU/LC_MONETARY": 302, "/usr/lib/locale/ce_RU/LC_PAPER": 34, "/usr/lib/locale/ce_RU/LC_TIME": 2522, "/usr/lib/locale/ce_RU/LC_NAME": 62, "/usr/lib/locale/ce_RU/LC_ADDRESS": 162}
+PKGSIZE_glibc-binary-localedata-ce-ru: 1525690

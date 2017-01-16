@@ -1,0 +1,16 @@
+PN: ethtool
+PV: 4.0
+PR: r0
+PKGV: 4.0
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_ethtool-dev: A small utility for examining and tuning the settings of your ethernet-based network interfaces.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ethtool-dev: Display or change ethernet card settings - Development files
+RDEPENDS_ethtool-dev: ethtool (= 4.0-r0.0)
+RRECOMMENDS_ethtool-dev: glibc-dev
+SECTION_ethtool-dev: devel
+PKG_ethtool-dev: ethtool-dev
+ALLOW_EMPTY_ethtool-dev: 1
+FILES_ethtool-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ethtool/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ethtool-dev: 0

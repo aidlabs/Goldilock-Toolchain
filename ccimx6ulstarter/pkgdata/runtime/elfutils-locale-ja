@@ -1,0 +1,15 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-locale-ja: Utilities and libraries for handling compiled object files.  This package contains language translation files for the ja locale.
+SUMMARY_elfutils-locale-ja: Utilities and libraries for handling compiled object files - ja translations
+RPROVIDES_elfutils-locale-ja: elfutils-locale ja-translation
+RRECOMMENDS_elfutils-locale-ja: virtual-locale-ja
+SECTION: base
+PKG_elfutils-locale-ja: elfutils-locale-ja
+FILES_elfutils-locale-ja: /usr/share/locale/ja
+FILES_INFO: {"/usr/share/locale/ja/LC_MESSAGES/elfutils.mo": 84896}
+PKGSIZE_elfutils-locale-ja: 84896

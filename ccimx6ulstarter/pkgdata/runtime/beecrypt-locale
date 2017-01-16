@@ -1,0 +1,14 @@
+PN: beecrypt
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: A general-purpose cryptography library.
+SUMMARY: A general-purpose cryptography library
+RPROVIDES_beecrypt-locale:  beecrypt-locale (=4.2.1)
+SECTION: base
+PKG_beecrypt-locale: libbeecrypt-locale
+FILES_beecrypt-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_beecrypt-locale: 0

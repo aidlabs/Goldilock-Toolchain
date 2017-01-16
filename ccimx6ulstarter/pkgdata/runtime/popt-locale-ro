@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-ro: Library for parsing command line options.  This package contains language translation files for the ro locale.
+SUMMARY_popt-locale-ro: Library for parsing command line options - ro translations
+RPROVIDES_popt-locale-ro: popt-locale ro-translation popt-locale-ro (=1.16)
+RRECOMMENDS_popt-locale-ro: virtual-locale-ro
+SECTION: libs
+PKG_popt-locale-ro: libpopt-locale-ro
+FILES_popt-locale-ro: /usr/share/locale/ro
+FILES_INFO: {"/usr/share/locale/ro/LC_MESSAGES/popt.mo": 1082}
+PKGSIZE_popt-locale-ro: 1082

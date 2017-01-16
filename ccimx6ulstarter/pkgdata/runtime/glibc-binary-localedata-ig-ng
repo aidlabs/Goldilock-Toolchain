@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ig-ng: binary locale definition for ig-ng
+SUMMARY_glibc-binary-localedata-ig-ng: binary locale definition for ig-ng
+SECTION: base
+PKG_glibc-binary-localedata-ig-ng: glibc-binary-localedata-ig-ng
+FILES_glibc-binary-localedata-ig-ng: /usr/lib/locale/ig_NG
+FILES_INFO: {"/usr/lib/locale/ig_NG/LC_MESSAGES/SYS_LC_MESSAGES": 64, "/usr/lib/locale/ig_NG/LC_MONETARY": 294, "/usr/lib/locale/ig_NG/LC_TELEPHONE": 60, "/usr/lib/locale/ig_NG/LC_PAPER": 34, "/usr/lib/locale/ig_NG/LC_NUMERIC": 54, "/usr/lib/locale/ig_NG/LC_TIME": 2458, "/usr/lib/locale/ig_NG/LC_ADDRESS": 154, "/usr/lib/locale/ig_NG/LC_COLLATE": 1252862, "/usr/lib/locale/ig_NG/LC_CTYPE": 278308, "/usr/lib/locale/ig_NG/LC_MEASUREMENT": 23, "/usr/lib/locale/ig_NG/LC_NAME": 62, "/usr/lib/locale/ig_NG/LC_IDENTIFICATION": 289}
+PKGSIZE_glibc-binary-localedata-ig-ng: 1534662

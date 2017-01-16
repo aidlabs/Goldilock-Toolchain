@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-cs: Library for parsing command line options.  This package contains language translation files for the cs locale.
+SUMMARY_popt-locale-cs: Library for parsing command line options - cs translations
+RPROVIDES_popt-locale-cs: popt-locale cs-translation popt-locale-cs (=1.16)
+RRECOMMENDS_popt-locale-cs: virtual-locale-cs
+SECTION: libs
+PKG_popt-locale-cs: libpopt-locale-cs
+FILES_popt-locale-cs: /usr/share/locale/cs
+FILES_INFO: {"/usr/share/locale/cs/LC_MESSAGES/popt.mo": 2184}
+PKGSIZE_popt-locale-cs: 2184

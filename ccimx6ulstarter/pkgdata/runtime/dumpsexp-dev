@@ -1,0 +1,19 @@
+PN: libgcrypt
+PV: 1.6.3
+PR: r1
+PKGV: 1.6.3
+PKGR: r1.0
+LICENSE_dumpsexp-dev: GPLv3+
+DESCRIPTION: General purpose cryptographic library based on the code from GnuPG.
+SUMMARY: General purpose cryptographic library based on the code from GnuPG
+RDEPENDS_dumpsexp-dev: glibc (>= 2.22)
+RRECOMMENDS_dumpsexp-dev: libgpg-error-dev libcap-dev
+SECTION: libs
+PKG_dumpsexp-dev: dumpsexp-dev
+FILES_dumpsexp-dev:  /usr/bin/dumpsexp
+FILERPROVIDESFLIST_dumpsexp-dev: /usr/bin/dumpsexp
+FILES_INFO: {"/usr/bin/dumpsexp": 9976}
+FILERPROVIDES_/usr/bin/dumpsexp_dumpsexp-dev: elf(buildid) (= a35f08299a12b83aa25cb44e1d2241e794842918)
+FILERDEPENDSFLIST_dumpsexp-dev: /usr/bin/dumpsexp
+FILERDEPENDS_/usr/bin/dumpsexp_dumpsexp-dev: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_dumpsexp-dev: 9976

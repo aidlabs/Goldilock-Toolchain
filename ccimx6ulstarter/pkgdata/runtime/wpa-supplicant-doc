@@ -1,0 +1,13 @@
+PN: wpa-supplicant
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_wpa-supplicant-doc: Client for Wi-Fi Protected Access (WPA).  This package contains documentation.
+SUMMARY_wpa-supplicant-doc: Client for Wi-Fi Protected Access (WPA) - Documentation files
+SECTION_wpa-supplicant-doc: doc
+PKG_wpa-supplicant-doc: wpa-supplicant-doc
+FILES_wpa-supplicant-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/wpa_supplicant/README": 39001, "/usr/share/doc/wpa_supplicant/wpa_supplicant.conf": 27948}
+PKGSIZE_wpa-supplicant-doc: 66949

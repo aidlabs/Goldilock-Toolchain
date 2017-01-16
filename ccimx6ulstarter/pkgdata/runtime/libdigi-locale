@@ -1,0 +1,13 @@
+PN: libdigi
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION: Digi\'s utilities library.
+SUMMARY: Digi\'s utilities library
+SECTION: libs
+PKG_libdigi-locale: libdigi-locale
+FILES_libdigi-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libdigi-locale: 0

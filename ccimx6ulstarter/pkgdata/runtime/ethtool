@@ -1,0 +1,18 @@
+PN: ethtool
+PV: 4.0
+PR: r0
+PKGV: 4.0
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: A small utility for examining and tuning the settings of your ethernet-based network interfaces.
+SUMMARY: Display or change ethernet card settings
+RDEPENDS_ethtool: glibc (>= 2.22)
+SECTION: console/network
+PKG_ethtool: ethtool
+FILES_ethtool: /usr/bin/* /usr/sbin/* /usr/lib/ethtool/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ethtool /usr/lib/ethtool/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ethtool: /usr/sbin/ethtool
+FILES_INFO: {"/usr/sbin/ethtool": 228012}
+FILERPROVIDES_/usr/sbin/ethtool_ethtool: elf(buildid) (= 2d3bff65707d5fbb4bc9c44ac68989a330e3c3b8)
+FILERDEPENDSFLIST_ethtool: /usr/sbin/ethtool
+FILERDEPENDS_/usr/sbin/ethtool_ethtool: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ethtool: 228012

@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-ru: Library for parsing command line options.  This package contains language translation files for the ru locale.
+SUMMARY_popt-locale-ru: Library for parsing command line options - ru translations
+RPROVIDES_popt-locale-ru: popt-locale ru-translation popt-locale-ru (=1.16)
+RRECOMMENDS_popt-locale-ru: virtual-locale-ru
+SECTION: libs
+PKG_popt-locale-ru: libpopt-locale-ru
+FILES_popt-locale-ru: /usr/share/locale/ru
+FILES_INFO: {"/usr/share/locale/ru/LC_MESSAGES/popt.mo": 2853}
+PKGSIZE_popt-locale-ru: 2853

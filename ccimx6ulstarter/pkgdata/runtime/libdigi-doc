@@ -1,0 +1,13 @@
+PN: libdigi
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION_libdigi-doc: Digi\'s utilities library.  This package contains documentation.
+SUMMARY_libdigi-doc: Digi\'s utilities library - Documentation files
+SECTION_libdigi-doc: doc
+PKG_libdigi-doc: libdigi-doc
+FILES_libdigi-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libdigi-doc: 0

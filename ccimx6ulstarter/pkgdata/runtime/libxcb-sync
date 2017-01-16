@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-sync: XCB library module for sync
+SUMMARY_libxcb-sync: XCB library module for sync
+RDEPENDS_libxcb-sync: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-sync:  libxcb-sync (=1.11)
+SECTION: x11/libs
+PKG_libxcb-sync: libxcb-sync1
+FILES_libxcb-sync: /usr/lib/libxcb-sync.so.1 /usr/lib/libxcb-sync.so.1.0.0
+pkg_postinst_libxcb-sync: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-sync: /usr/lib/libxcb-sync.so.1.0.0
+FILES_INFO: {"/usr/lib/libxcb-sync.so.1.0.0": 15272, "/usr/lib/libxcb-sync.so.1": 20}
+FILERPROVIDES_/usr/lib/libxcb-sync.so.1.0.0_libxcb-sync: elf(buildid) (= 5844390a0958aef505ea69440d9c7290b0fa7feb) libxcb-sync.so.1
+FILERDEPENDSFLIST_libxcb-sync: /usr/lib/libxcb-sync.so.1.0.0
+FILERDEPENDS_/usr/lib/libxcb-sync.so.1.0.0_libxcb-sync: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-sync: 15292

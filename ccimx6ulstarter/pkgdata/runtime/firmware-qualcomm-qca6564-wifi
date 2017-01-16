@@ -1,0 +1,13 @@
+PN: firmware-qualcomm
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: Proprietary
+DESCRIPTION: Qualcomm firmware files for Digi\'s platforms..
+SUMMARY: Qualcomm firmware files for Digi\'s platforms.
+SECTION: base
+PKG_firmware-qualcomm-qca6564-wifi: firmware-qualcomm-qca6564-wifi
+FILES_firmware-qualcomm-qca6564-wifi: /lib/firmware
+FILES_INFO: {"/lib/firmware/LICENCE.atheros_firmware": 1946, "/lib/firmware/utf30.bin": 265293, "/lib/firmware/wlan/qcom_cfg.ini": 8089, "/lib/firmware/bdwlan30_US.bin": 8124, "/lib/firmware/utfbd30.bin": 8124, "/lib/firmware/otp30.bin": 23773, "/lib/firmware/wlan/cfg.dat": 10298, "/lib/firmware/bdwlan30_World.bin": 8124, "/lib/firmware/qwlan30.bin": 503752}
+PKGSIZE_firmware-qualcomm-qca6564-wifi: 837523

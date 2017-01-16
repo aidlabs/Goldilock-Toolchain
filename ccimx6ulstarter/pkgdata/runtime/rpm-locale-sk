@@ -1,0 +1,15 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-locale-sk: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains language translation files for the sk locale.
+SUMMARY_rpm-locale-sk: The RPM package management system - sk translations
+RPROVIDES_rpm-locale-sk: rpm-locale sk-translation
+RRECOMMENDS_rpm-locale-sk: virtual-locale-sk
+SECTION: base
+PKG_rpm-locale-sk: rpm-locale-sk
+FILES_rpm-locale-sk: /usr/share/locale/sk
+FILES_INFO: {"/usr/share/locale/sk/LC_MESSAGES/rpm.mo": 23093}
+PKGSIZE_rpm-locale-sk: 23093

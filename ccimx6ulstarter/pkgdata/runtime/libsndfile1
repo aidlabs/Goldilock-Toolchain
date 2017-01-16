@@ -1,0 +1,19 @@
+PN: libsndfile1
+PV: 1.0.25
+PR: r2
+PKGV: 1.0.25
+PKGR: r2.0
+LICENSE: LGPLv2.1
+DESCRIPTION: Audio format Conversion library.
+SUMMARY: Audio format Conversion library
+RDEPENDS_libsndfile1: glibc (>= 2.22)
+SECTION: libs/multimedia
+PKG_libsndfile1: libsndfile1
+FILES_libsndfile1: /usr/bin/* /usr/sbin/* /usr/lib/libsndfile1/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libsndfile1 /usr/lib/libsndfile1/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libsndfile1: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libsndfile1: /usr/lib/libsndfile.so.1.0.25
+FILES_INFO: {"/usr/lib/libsndfile.so.1": 20, "/usr/lib/libsndfile.so.1.0.25": 333632}
+FILERPROVIDES_/usr/lib/libsndfile.so.1.0.25_libsndfile1: elf(buildid) (= 5a0cee8a36483ec0f9e6d261cfb91ba3407cf19b) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0)
+FILERDEPENDSFLIST_libsndfile1: /usr/lib/libsndfile.so.1.0.25
+FILERDEPENDS_/usr/lib/libsndfile.so.1.0.25_libsndfile1: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libsndfile1: 333652

@@ -1,0 +1,15 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-dbg: Small library that defines common error values for all GnuPG components.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libgpg-error-dbg: Small library that defines common error values for all GnuPG components - Debugging files
+RRECOMMENDS_libgpg-error-dbg: glibc-dbg
+SECTION_libgpg-error-dbg: devel
+PKG_libgpg-error-dbg: libgpg-error-dbg
+ALLOW_EMPTY_libgpg-error-dbg: 1
+FILES_libgpg-error-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libgpg-error/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libgpg-error/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libgpg-error/libgpg-error/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/strerror-sym.c": 1637, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/gpgrt-int.h": 9305, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/posix-thread.c": 1515, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/posix-lock.c": 6312, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/code-from-errno.c": 1861, "/usr/src/debug/libgpg-error/1.19-r0/build/src/errnos-sym.h": 6168, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/version.c": 3174, "/usr/lib/.debug/libgpg-error.so.0.15.0": 219768, "/usr/src/debug/libgpg-error/1.19-r0/build/src/code-to-errno.h": 13820, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/strsource.c": 1252, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/err-codes.h": 22622, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/init.c": 10809, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/code-to-errno.c": 1349, "/usr/src/debug/libgpg-error/1.19-r0/build/src/err-codes-sym.h": 17327, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/visibility.c": 13355, "/usr/bin/.debug/gpg-error": 44440, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/posix-lock-obj.h": 1019, "/usr/src/debug/libgpg-error/1.19-r0/build/src/err-sources-sym.h": 2225, "/usr/src/debug/libgpg-error/1.19-r0/build/src/code-from-errno.h": 3735, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/gpg-error.c": 12000, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/estream-printf.c": 52915, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/estream-printf.h": 6304, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/strsource-sym.c": 1408, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/estream.c": 104562, "/usr/src/debug/libgpg-error/1.19-r0/build/src/gpg-error.h": 46330, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/err-sources.h": 2313, "/usr/src/debug/libgpg-error/1.19-r0/libgpg-error-1.19/src/strerror.c": 4645}
+PKGSIZE_libgpg-error-dbg: 612170

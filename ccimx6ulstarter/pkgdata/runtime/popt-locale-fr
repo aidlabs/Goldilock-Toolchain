@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-fr: Library for parsing command line options.  This package contains language translation files for the fr locale.
+SUMMARY_popt-locale-fr: Library for parsing command line options - fr translations
+RPROVIDES_popt-locale-fr: popt-locale fr-translation popt-locale-fr (=1.16)
+RRECOMMENDS_popt-locale-fr: virtual-locale-fr
+SECTION: libs
+PKG_popt-locale-fr: libpopt-locale-fr
+FILES_popt-locale-fr: /usr/share/locale/fr
+FILES_INFO: {"/usr/share/locale/fr/LC_MESSAGES/popt.mo": 1868}
+PKGSIZE_popt-locale-fr: 1868

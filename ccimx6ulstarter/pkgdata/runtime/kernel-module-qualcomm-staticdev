@@ -1,0 +1,14 @@
+PN: kernel-module-qualcomm
+PV: v4.2.74.63
+PR: r0
+PKGV: v4.2.74.63
+PKGR: r0.0
+LICENSE: ISC
+DESCRIPTION_kernel-module-qualcomm-staticdev: qcacld-2.0 module.bbclass mechanism.  This package contains static libraries for software development.
+SUMMARY_kernel-module-qualcomm-staticdev: Qualcomm\'s wireless driver for qca6564 - Development files (Static Libraries)
+RDEPENDS_kernel-module-qualcomm-staticdev: kernel-module-qualcomm-dev (= v4.2.74.63-r0.0)
+SECTION_kernel-module-qualcomm-staticdev: devel
+PKG_kernel-module-qualcomm-staticdev: kernel-module-qualcomm-staticdev
+FILES_kernel-module-qualcomm-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/kernel-module-qualcomm/*.a
+FILES_INFO: {}
+PKGSIZE_kernel-module-qualcomm-staticdev: 0

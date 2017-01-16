@@ -1,0 +1,16 @@
+PN: dosfstools
+PV: 3.0.28
+PR: r0
+PKGV: 3.0.28
+PKGR: r0.0
+LICENSE: GPLv3
+DESCRIPTION_dosfstools-dev: DOS FAT Filesystem Utilities.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_dosfstools-dev: DOS FAT Filesystem Utilities - Development files
+RDEPENDS_dosfstools-dev: dosfstools (= 3.0.28-r0.0)
+RRECOMMENDS_dosfstools-dev: glibc-dev
+SECTION_dosfstools-dev: devel
+PKG_dosfstools-dev: dosfstools-dev
+ALLOW_EMPTY_dosfstools-dev: 1
+FILES_dosfstools-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dosfstools/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_dosfstools-dev: 0

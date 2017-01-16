@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-uz-uz+cyrillic: binary locale definition for uz-uz+cyrillic
+SUMMARY_glibc-binary-localedata-uz-uz+cyrillic: binary locale definition for uz-uz+cyrillic
+SECTION: base
+PKG_glibc-binary-localedata-uz-uz+cyrillic: glibc-binary-localedata-uz-uz+cyrillic
+FILES_glibc-binary-localedata-uz-uz+cyrillic: /usr/lib/locale/uz_UZ@cyrillic
+FILES_INFO: {"/usr/lib/locale/uz_UZ@cyrillic/LC_TIME": 2494, "/usr/lib/locale/uz_UZ@cyrillic/LC_NAME": 98, "/usr/lib/locale/uz_UZ@cyrillic/LC_ADDRESS": 173, "/usr/lib/locale/uz_UZ@cyrillic/LC_COLLATE": 1244218, "/usr/lib/locale/uz_UZ@cyrillic/LC_CTYPE": 280268, "/usr/lib/locale/uz_UZ@cyrillic/LC_TELEPHONE": 49, "/usr/lib/locale/uz_UZ@cyrillic/LC_MONETARY": 302, "/usr/lib/locale/uz_UZ@cyrillic/LC_NUMERIC": 54, "/usr/lib/locale/uz_UZ@cyrillic/LC_PAPER": 34, "/usr/lib/locale/uz_UZ@cyrillic/LC_IDENTIFICATION": 383, "/usr/lib/locale/uz_UZ@cyrillic/LC_MESSAGES/SYS_LC_MESSAGES": 70, "/usr/lib/locale/uz_UZ@cyrillic/LC_MEASUREMENT": 23}
+PKGSIZE_glibc-binary-localedata-uz-uz+cyrillic: 1528166

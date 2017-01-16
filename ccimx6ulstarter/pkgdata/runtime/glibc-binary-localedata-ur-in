@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ur-in: binary locale definition for ur-in
+SUMMARY_glibc-binary-localedata-ur-in: binary locale definition for ur-in
+SECTION: base
+PKG_glibc-binary-localedata-ur-in: glibc-binary-localedata-ur-in
+FILES_glibc-binary-localedata-ur-in: /usr/lib/locale/ur_IN
+FILES_INFO: {"/usr/lib/locale/ur_IN/LC_TELEPHONE": 53, "/usr/lib/locale/ur_IN/LC_TIME": 2706, "/usr/lib/locale/ur_IN/LC_MEASUREMENT": 23, "/usr/lib/locale/ur_IN/LC_MONETARY": 294, "/usr/lib/locale/ur_IN/LC_MESSAGES/SYS_LC_MESSAGES": 70, "/usr/lib/locale/ur_IN/LC_NAME": 96, "/usr/lib/locale/ur_IN/LC_NUMERIC": 54, "/usr/lib/locale/ur_IN/LC_PAPER": 34, "/usr/lib/locale/ur_IN/LC_IDENTIFICATION": 392, "/usr/lib/locale/ur_IN/LC_COLLATE": 1243766, "/usr/lib/locale/ur_IN/LC_CTYPE": 278308, "/usr/lib/locale/ur_IN/LC_ADDRESS": 111}
+PKGSIZE_glibc-binary-localedata-ur-in: 1525907

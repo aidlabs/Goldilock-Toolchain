@@ -1,0 +1,18 @@
+PN: libx11
+PE: 1
+PV: 1.6.3
+PR: r0
+PKGE: 1
+PKGV: 1.6.3
+PKGR: r0.0
+LICENSE: MIT & MIT-style & BSD
+DESCRIPTION_libx11-dev: This package provides a client interface to the X Window System, otherwise known as \'Xlib\'.  It provides a complete API for the basic functions of the window system.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libx11-dev: Xlib: C Language X Interface library - Development files
+RDEPENDS_libx11-dev: libx11 (= 1:1.6.3-r0.0) libx11-xcb
+RRECOMMENDS_libx11-dev: glibc-dev libx11-xcb-dev xtrans-dev libxcb-dev libxau-dev xproto-dev libxdmcp-dev inputproto-dev xextproto-dev kbproto-dev util-macros-dev
+SECTION_libx11-dev: devel
+PKG_libx11-dev: libx11-dev
+ALLOW_EMPTY_libx11-dev: 1
+FILES_libx11-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libx11/*.la /lib/*.la
+FILES_INFO: {"/usr/include/X11/Xlibint.h": 37121, "/usr/include/X11/Xresource.h": 10628, "/usr/lib/libX11-xcb.so": 19, "/usr/include/X11/Xregion.h": 5949, "/usr/include/X11/Xlocale.h": 1297, "/usr/lib/pkgconfig/x11.pc": 270, "/usr/include/X11/ImUtil.h": 459, "/usr/lib/libX11.so": 15, "/usr/include/X11/Xutil.h": 21353, "/usr/include/X11/cursorfont.h": 3118, "/usr/include/X11/XKBlib.h": 30995, "/usr/lib/libX11.la": 1012, "/usr/lib/libX11-xcb.la": 1060, "/usr/include/X11/XlibConf.h": 1567, "/usr/lib/pkgconfig/x11-xcb.pc": 206, "/usr/include/X11/Xlib-xcb.h": 506, "/usr/include/X11/Xlib.h": 99498, "/usr/include/X11/Xcms.h": 21346}
+PKGSIZE_libx11-dev: 236419

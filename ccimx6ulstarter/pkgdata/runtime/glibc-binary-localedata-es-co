@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-es-co: binary locale definition for es-co
+SUMMARY_glibc-binary-localedata-es-co: binary locale definition for es-co
+SECTION: base
+PKG_glibc-binary-localedata-es-co: glibc-binary-localedata-es-co
+FILES_glibc-binary-localedata-es-co: /usr/lib/locale/es_CO
+FILES_INFO: {"/usr/lib/locale/es_CO/LC_MONETARY": 286, "/usr/lib/locale/es_CO/LC_MEASUREMENT": 23, "/usr/lib/locale/es_CO/LC_TIME": 2454, "/usr/lib/locale/es_CO/LC_CTYPE": 278308, "/usr/lib/locale/es_CO/LC_COLLATE": 1243766, "/usr/lib/locale/es_CO/LC_IDENTIFICATION": 359, "/usr/lib/locale/es_CO/LC_TELEPHONE": 52, "/usr/lib/locale/es_CO/LC_ADDRESS": 147, "/usr/lib/locale/es_CO/LC_NUMERIC": 54, "/usr/lib/locale/es_CO/LC_MESSAGES/SYS_LC_MESSAGES": 58, "/usr/lib/locale/es_CO/LC_PAPER": 34, "/usr/lib/locale/es_CO/LC_NAME": 62}
+PKGSIZE_glibc-binary-localedata-es-co: 1525603

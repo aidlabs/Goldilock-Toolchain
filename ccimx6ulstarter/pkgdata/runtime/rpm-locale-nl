@@ -1,0 +1,15 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-locale-nl: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains language translation files for the nl locale.
+SUMMARY_rpm-locale-nl: The RPM package management system - nl translations
+RPROVIDES_rpm-locale-nl: rpm-locale nl-translation
+RRECOMMENDS_rpm-locale-nl: virtual-locale-nl
+SECTION: base
+PKG_rpm-locale-nl: rpm-locale-nl
+FILES_rpm-locale-nl: /usr/share/locale/nl
+FILES_INFO: {"/usr/share/locale/nl/LC_MESSAGES/rpm.mo": 105155}
+PKGSIZE_rpm-locale-nl: 105155

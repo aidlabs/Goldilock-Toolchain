@@ -1,0 +1,13 @@
+PN: firmware-qualcomm
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: Proprietary
+DESCRIPTION: Qualcomm firmware files for Digi\'s platforms..
+SUMMARY: Qualcomm firmware files for Digi\'s platforms.
+SECTION: base
+PKG_firmware-qualcomm-qca6564-bt: firmware-qualcomm-qca6564-bt
+FILES_firmware-qualcomm-qca6564-bt: /lib/firmware/qca
+FILES_INFO: {"/lib/firmware/qca/rampatch_tlv_3.0.tlv": 54000, "/lib/firmware/qca/rampatch_tlv_3.2.tlv": 48664, "/lib/firmware/qca/nvm_tlv_3.0.bin": 1937, "/lib/firmware/qca/nvm_tlv_3.2.bin": 1968}
+PKGSIZE_firmware-qualcomm-qca6564-bt: 106569

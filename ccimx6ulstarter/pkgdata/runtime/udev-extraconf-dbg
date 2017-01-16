@@ -1,0 +1,14 @@
+PN: udev-extraconf
+PV: 1.1
+PR: r0
+PKGV: 1.1
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_udev-extraconf-dbg: Extra machine specific configuration files for udev, specifically blacklist information.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_udev-extraconf-dbg: Extra machine specific configuration files - Debugging files
+SECTION_udev-extraconf-dbg: devel
+PKG_udev-extraconf-dbg: udev-extraconf-dbg
+ALLOW_EMPTY_udev-extraconf-dbg: 1
+FILES_udev-extraconf-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/udev-extraconf/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/udev-extraconf/.debug /usr/lib/matchbox-panel/.debug /usr/lib/udev-extraconf/udev-extraconf/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_udev-extraconf-dbg: 0

@@ -1,0 +1,12 @@
+PN: packagegroup-dey-audio
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Audio packagegroup for DEY image.
+SUMMARY: Audio packagegroup for DEY image
+SECTION: base
+PKG_packagegroup-dey-audio-ptest: packagegroup-dey-audio-ptest
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-audio-ptest: 0

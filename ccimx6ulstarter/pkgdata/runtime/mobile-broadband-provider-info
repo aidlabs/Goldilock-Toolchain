@@ -1,0 +1,15 @@
+PN: mobile-broadband-provider-info
+PE: 1
+PV: 20140618+gitrAUTOINC+d06ebd314a
+PR: r0
+PKGE: 1
+PKGV: 20140618+gitr0+d06ebd314a
+PKGR: r0.0
+LICENSE: PD
+DESCRIPTION: Mobile Broadband Service Provider Database.
+SUMMARY: Mobile Broadband Service Provider Database
+SECTION: network
+PKG_mobile-broadband-provider-info: mobile-broadband-provider-info
+FILES_mobile-broadband-provider-info: /usr/bin/* /usr/sbin/* /usr/lib/mobile-broadband-provider-info/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mobile-broadband-provider-info /usr/lib/mobile-broadband-provider-info/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/share/mobile-broadband-provider-info/serviceproviders.xml": 328308, "/usr/share/mobile-broadband-provider-info/serviceproviders.2.dtd": 4410}
+PKGSIZE_mobile-broadband-provider-info: 332718

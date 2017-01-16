@@ -1,0 +1,13 @@
+PN: dosfstools
+PV: 3.0.28
+PR: r0
+PKGV: 3.0.28
+PKGR: r0.0
+LICENSE: GPLv3
+DESCRIPTION_dosfstools-doc: DOS FAT Filesystem Utilities.  This package contains documentation.
+SUMMARY_dosfstools-doc: DOS FAT Filesystem Utilities - Documentation files
+SECTION_dosfstools-doc: doc
+PKG_dosfstools-doc: dosfstools-doc
+FILES_dosfstools-doc: /usr/share/man /usr/share/doc
+FILES_INFO: {"/usr/share/man/de/man8/fatlabel.8": 2565, "/usr/share/man/man8/mkfs.vfat.8": 10, "/usr/share/doc/dosfstools/ChangeLog.dosfsck": 413, "/usr/share/man/man8/fsck.vfat.8": 10, "/usr/share/doc/dosfstools/ChangeLog.mkdosfs": 751, "/usr/share/man/man8/fsck.msdos.8": 10, "/usr/share/doc/dosfstools/ChangeLog": 67448, "/usr/share/doc/dosfstools/TODO.dosfstools-2.x": 551, "/usr/share/man/de/man8/mkfs.fat.8": 8796, "/usr/share/doc/dosfstools/README.dosfsck": 2377, "/usr/share/man/man8/mkdosfs.8": 10, "/usr/share/doc/dosfstools/ChangeLog.dosfstools-2.x": 6655, "/usr/share/man/man8/fatlabel.8": 2347, "/usr/share/man/man8/fsck.fat.8": 7548, "/usr/share/doc/dosfstools/README.mkdosfs": 2164, "/usr/share/man/man8/dosfsck.8": 10, "/usr/share/doc/dosfstools/ANNOUNCE.mkdosfs": 1265, "/usr/share/man/man8/mkfs.fat.8": 8509, "/usr/share/man/de/man8/fsck.fat.8": 7736, "/usr/share/doc/dosfstools/README.dosfstools-2.x": 2912, "/usr/share/man/man8/mkfs.msdos.8": 10, "/usr/share/man/man8/dosfslabel.8": 10}
+PKGSIZE_dosfstools-doc: 122107

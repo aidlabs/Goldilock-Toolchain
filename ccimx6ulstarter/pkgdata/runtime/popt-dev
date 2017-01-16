@@ -1,0 +1,17 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-dev: Library for parsing command line options.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_popt-dev: Library for parsing command line options - Development files
+RDEPENDS_popt-dev: popt (= 1.16-r3.0)
+RPROVIDES_popt-dev:  popt-dev (=1.16)
+RRECOMMENDS_popt-dev: glibc-dev
+SECTION_popt-dev: devel
+PKG_popt-dev: libpopt-dev
+ALLOW_EMPTY_popt-dev: 1
+FILES_popt-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/popt/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libpopt.la": 910, "/usr/lib/pkgconfig/popt.pc": 159, "/usr/lib/libpopt.so": 16, "/usr/include/popt.h": 22621}
+PKGSIZE_popt-dev: 23706

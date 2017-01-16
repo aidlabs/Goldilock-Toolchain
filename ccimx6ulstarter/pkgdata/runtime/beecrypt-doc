@@ -1,0 +1,14 @@
+PN: beecrypt
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_beecrypt-doc: A general-purpose cryptography library.  This package contains documentation.
+SUMMARY_beecrypt-doc: A general-purpose cryptography library - Documentation files
+RPROVIDES_beecrypt-doc:  beecrypt-doc (=4.2.1)
+SECTION_beecrypt-doc: doc
+PKG_beecrypt-doc: libbeecrypt-doc
+FILES_beecrypt-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_beecrypt-doc: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-id-id: binary locale definition for id-id
+SUMMARY_glibc-binary-localedata-id-id: binary locale definition for id-id
+SECTION: base
+PKG_glibc-binary-localedata-id-id: glibc-binary-localedata-id-id
+FILES_glibc-binary-localedata-id-id: /usr/lib/locale/id_ID
+FILES_INFO: {"/usr/lib/locale/id_ID/LC_NAME": 62, "/usr/lib/locale/id_ID/LC_NUMERIC": 54, "/usr/lib/locale/id_ID/LC_PAPER": 34, "/usr/lib/locale/id_ID/LC_IDENTIFICATION": 312, "/usr/lib/locale/id_ID/LC_COLLATE": 1243766, "/usr/lib/locale/id_ID/LC_CTYPE": 278308, "/usr/lib/locale/id_ID/LC_MONETARY": 290, "/usr/lib/locale/id_ID/LC_TELEPHONE": 49, "/usr/lib/locale/id_ID/LC_TIME": 2314, "/usr/lib/locale/id_ID/LC_MEASUREMENT": 23, "/usr/lib/locale/id_ID/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/id_ID/LC_ADDRESS": 161}
+PKGSIZE_glibc-binary-localedata-id-id: 1525427

@@ -1,0 +1,13 @@
+PN: libqmi
+PV: 1.12.6
+PR: r0
+PKGV: 1.12.6
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: libqmi is a glib-based library for talking to WWAN modems and devices which speak the Qualcomm MSM Interface (QMI) protocol
+SUMMARY: libqmi is a library for talking to WWAN devices by QMI protocol
+SECTION: base
+PKG_libqmi-locale: libqmi-locale
+FILES_libqmi-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libqmi-locale: 0

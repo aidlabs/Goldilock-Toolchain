@@ -1,0 +1,20 @@
+PN: python-pygobject
+PV: 2.28.3
+PR: r0
+PKGV: 2.28.3
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION: Python GObject bindings.
+SUMMARY: Python GObject bindings
+RDEPENDS_python-pygobject-lib: libffi (>= 3.2.1) glibc (>= 2.22) glib-2.0 (>= 2.44.1)
+RPROVIDES_python-pygobject-lib:  python-pygobject-lib (=2.28.3)
+SECTION: devel/python
+PKG_python-pygobject-lib: libpyglib-2.0-python0
+FILES_python-pygobject-lib: /usr/lib/lib*.so.*
+pkg_postinst_python-pygobject-lib: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_python-pygobject-lib: /usr/lib/libpyglib-2.0-python.so.0.0.0
+FILES_INFO: {"/usr/lib/libpyglib-2.0-python.so.0": 29, "/usr/lib/libpyglib-2.0-python.so.0.0.0": 11884}
+FILERPROVIDES_/usr/lib/libpyglib-2.0-python.so.0.0.0_python-pygobject-lib: elf(buildid) (= f210cc76ebf79a2500852f4d53185840728fa1a3) libpyglib-2.0-python.so.0
+FILERDEPENDSFLIST_python-pygobject-lib: /usr/lib/libpyglib-2.0-python.so.0.0.0
+FILERDEPENDS_/usr/lib/libpyglib-2.0-python.so.0.0.0_python-pygobject-lib: libc.so.6 libc.so.6(GLIBC_2.4) libffi.so.6 libglib-2.0.so.0 libgobject-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 rtld(GNU_HASH)
+PKGSIZE_python-pygobject-lib: 11913

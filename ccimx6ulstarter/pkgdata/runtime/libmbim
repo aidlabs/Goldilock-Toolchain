@@ -1,0 +1,24 @@
+PN: libmbim
+PV: 1.12.2
+PR: r0
+PKGV: 1.12.2
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: libmbim is a glib-based library for talking to WWAN modems and devices which speak the Mobile Interface Broadband Model (MBIM) protocol
+SUMMARY: libmbim is library for talking to WWAN devices by MBIM protocol
+RDEPENDS_libmbim: libudev (>= 182) glibc (>= 2.22) zlib (>= 1.2.8) glib-2.0 (>= 2.44.1) libffi (>= 3.2.1) libgudev (>= 182)
+SECTION: base
+PKG_libmbim: libmbim
+FILES_libmbim: /usr/bin/* /usr/sbin/* /usr/lib/libmbim/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libmbim /usr/lib/libmbim/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libmbim: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libmbim: /usr/lib/libmbim-glib.so.4.1.0 /usr/bin/mbimcli /usr/lib/libmbim/mbim-proxy
+FILES_INFO: {"/usr/lib/libmbim/mbim-proxy": 7652, "/usr/lib/libmbim-glib.so.4.1.0": 164276, "/usr/bin/mbimcli": 44628, "/usr/lib/libmbim-glib.so.4": 21, "/usr/bin/mbim-network": 7405}
+FILERPROVIDES_/usr/lib/libmbim-glib.so.4.1.0_libmbim: elf(buildid) (= a3867f783df5f8f27f5b1ff1dbc693327528d63b) libmbim-glib.so.4
+FILERPROVIDES_/usr/bin/mbimcli_libmbim: elf(buildid) (= 0ef1f828fbc20963bc2e7cf53ded474563ae4a9b)
+FILERPROVIDES_/usr/lib/libmbim/mbim-proxy_libmbim: elf(buildid) (= 72c9ffba396bc644440c873bac3669d477007a68)
+FILERDEPENDSFLIST_libmbim: /usr/lib/libmbim-glib.so.4.1.0 /usr/bin/mbimcli /usr/lib/libmbim/mbim-proxy /usr/bin/mbim-network
+FILERDEPENDS_/usr/lib/libmbim-glib.so.4.1.0_libmbim: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libffi.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libgudev-1.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libresolv.so.2 librt.so.1 libudev.so.0 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mbimcli_libmbim: libc.so.6 libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libmbim-glib.so.4 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libmbim/mbim-proxy_libmbim: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libgobject-2.0.so.0 libmbim-glib.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mbim-network_libmbim: /bin/sh
+PKGSIZE_libmbim: 223982

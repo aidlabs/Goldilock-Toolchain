@@ -1,0 +1,14 @@
+PN: quota
+PV: 4.02
+PR: r0
+PKGV: 4.02
+PKGR: r0.0
+LICENSE: BSD & GPLv2+ & LGPLv2.1+
+DESCRIPTION_quota-staticdev: Tools for monitoring & limiting user disk usage per filesystem.  This package contains static libraries for software development.
+SUMMARY_quota-staticdev: Tools for monitoring & limiting user disk usage per filesystem - Development files (Static Libraries)
+RDEPENDS_quota-staticdev: quota-dev (= 4.02-r0.0)
+SECTION_quota-staticdev: devel
+PKG_quota-staticdev: quota-staticdev
+FILES_quota-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quota/*.a
+FILES_INFO: {}
+PKGSIZE_quota-staticdev: 0

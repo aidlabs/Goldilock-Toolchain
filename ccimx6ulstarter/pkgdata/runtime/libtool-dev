@@ -1,0 +1,16 @@
+PN: libtool
+PV: 2.4.6
+PR: r0
+PKGV: 2.4.6
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_libtool-dev: This is GNU libtool, a generic library support script. Libtool hides the complexity of generating special library types (such as shared libraries) behind a consistent interface.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libtool-dev: Generic library support script - Development files
+RDEPENDS_libtool-dev: libltdl libtool (= 2.4.6-r0.0)
+RRECOMMENDS_libtool-dev: bash-dev libltdl-dev glibc-dev
+SECTION_libtool-dev: devel
+PKG_libtool-dev: libtool-dev
+ALLOW_EMPTY_libtool-dev: 1
+FILES_libtool-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /lib/*.o /usr/lib/libtool/*.la /lib/*.la
+FILES_INFO: {"/usr/include/ltdl.h": 5709, "/usr/include/libltdl/lt_system.h": 5342, "/usr/include/libltdl/lt_dlloader.h": 3211, "/usr/lib/libltdl.la": 916, "/usr/include/libltdl/lt_error.h": 3647, "/usr/lib/libltdl.so": 16}
+PKGSIZE_libtool-dev: 18841

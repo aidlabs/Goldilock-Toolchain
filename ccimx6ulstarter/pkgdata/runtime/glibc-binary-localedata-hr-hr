@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-hr-hr: binary locale definition for hr-hr
+SUMMARY_glibc-binary-localedata-hr-hr: binary locale definition for hr-hr
+SECTION: base
+PKG_glibc-binary-localedata-hr-hr: glibc-binary-localedata-hr-hr
+FILES_glibc-binary-localedata-hr-hr: /usr/lib/locale/hr_HR
+FILES_INFO: {"/usr/lib/locale/hr_HR/LC_NUMERIC": 54, "/usr/lib/locale/hr_HR/LC_ADDRESS": 147, "/usr/lib/locale/hr_HR/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/hr_HR/LC_MEASUREMENT": 23, "/usr/lib/locale/hr_HR/LC_IDENTIFICATION": 350, "/usr/lib/locale/hr_HR/LC_TIME": 2414, "/usr/lib/locale/hr_HR/LC_NAME": 62, "/usr/lib/locale/hr_HR/LC_CTYPE": 278308, "/usr/lib/locale/hr_HR/LC_COLLATE": 106454, "/usr/lib/locale/hr_HR/LC_MONETARY": 290, "/usr/lib/locale/hr_HR/LC_PAPER": 34, "/usr/lib/locale/hr_HR/LC_TELEPHONE": 52}
+PKGSIZE_glibc-binary-localedata-hr-hr: 388242

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-km-kh: binary locale definition for km-kh
+SUMMARY_glibc-binary-localedata-km-kh: binary locale definition for km-kh
+SECTION: base
+PKG_glibc-binary-localedata-km-kh: glibc-binary-localedata-km-kh
+FILES_glibc-binary-localedata-km-kh: /usr/lib/locale/km_KH
+FILES_INFO: {"/usr/lib/locale/km_KH/LC_IDENTIFICATION": 332, "/usr/lib/locale/km_KH/LC_TELEPHONE": 59, "/usr/lib/locale/km_KH/LC_MONETARY": 294, "/usr/lib/locale/km_KH/LC_ADDRESS": 194, "/usr/lib/locale/km_KH/LC_PAPER": 34, "/usr/lib/locale/km_KH/LC_COLLATE": 30854, "/usr/lib/locale/km_KH/LC_CTYPE": 53284, "/usr/lib/locale/km_KH/LC_MEASUREMENT": 23, "/usr/lib/locale/km_KH/LC_NAME": 70, "/usr/lib/locale/km_KH/LC_TIME": 2990, "/usr/lib/locale/km_KH/LC_MESSAGES/SYS_LC_MESSAGES": 84, "/usr/lib/locale/km_KH/LC_NUMERIC": 54}
+PKGSIZE_glibc-binary-localedata-km-kh: 88272

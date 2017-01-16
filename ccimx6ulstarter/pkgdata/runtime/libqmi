@@ -1,0 +1,24 @@
+PN: libqmi
+PV: 1.12.6
+PR: r0
+PKGV: 1.12.6
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: libqmi is a glib-based library for talking to WWAN modems and devices which speak the Qualcomm MSM Interface (QMI) protocol
+SUMMARY: libqmi is a library for talking to WWAN devices by QMI protocol
+RDEPENDS_libqmi: libffi (>= 3.2.1) glibc (>= 2.22) zlib (>= 1.2.8) glib-2.0 (>= 2.44.1)
+SECTION: base
+PKG_libqmi: libqmi
+FILES_libqmi: /usr/bin/* /usr/sbin/* /usr/lib/libqmi/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libqmi /usr/lib/libqmi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libqmi: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libqmi: /usr/bin/qmicli /usr/lib/libqmi-glib.so.1.3.0 /usr/lib/libqmi/qmi-proxy
+FILES_INFO: {"/usr/bin/qmicli": 175388, "/usr/bin/qmi-network": 6487, "/usr/lib/libqmi-glib.so.1.3.0": 1366884, "/usr/lib/libqmi/qmi-proxy": 7264, "/usr/lib/libqmi-glib.so.1": 20}
+FILERPROVIDES_/usr/bin/qmicli_libqmi: elf(buildid) (= 79113c5c58c6148ed7a08c44a45e0acab0af5a18)
+FILERPROVIDES_/usr/lib/libqmi-glib.so.1.3.0_libqmi: elf(buildid) (= e22a38909636eebde892001391ee3d78d8844535) libqmi-glib.so.1
+FILERPROVIDES_/usr/lib/libqmi/qmi-proxy_libqmi: elf(buildid) (= 6c3d75fabaf80e1227b6ab8382f38496d6a6867c)
+FILERDEPENDSFLIST_libqmi: /usr/bin/qmicli /usr/bin/qmi-network /usr/lib/libqmi-glib.so.1.3.0 /usr/lib/libqmi/qmi-proxy
+FILERDEPENDS_/usr/bin/qmicli_libqmi: libc.so.6 libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi-glib.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/qmi-network_libqmi: /bin/sh
+FILERDEPENDS_/usr/lib/libqmi-glib.so.1.3.0_libqmi: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libffi.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libresolv.so.2 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libqmi/qmi-proxy_libqmi: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libgobject-2.0.so.0 libqmi-glib.so.1 rtld(GNU_HASH)
+PKGSIZE_libqmi: 1556043

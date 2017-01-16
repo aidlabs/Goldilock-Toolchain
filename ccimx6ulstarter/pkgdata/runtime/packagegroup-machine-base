@@ -1,0 +1,15 @@
+PN: packagegroup-base
+PV: 1.0
+PR: r83
+PKGV: 1.0
+PKGR: r83.0
+LICENSE: MIT
+DESCRIPTION: Merge machine and distro options to create a basic machine task/package.
+SUMMARY_packagegroup-machine-base: Extra packages required to fully support ccimx6ulstarter hardware
+RDEPENDS_packagegroup-machine-base: imx-kobs mca-tool mtd-utils-ubifs u-boot-fw-utils
+RRECOMMENDS_packagegroup-machine-base: kernel-modules udev-extraconf udev-rules-imx  firmware-qualcomm-qca6564-bt firmware-qualcomm-qca6564-wifi  kernel-module-qualcomm fsl-alsa-plugins cryptodev-module
+SECTION: base
+PKG_packagegroup-machine-base: packagegroup-machine-base
+ALLOW_EMPTY_packagegroup-machine-base: 1
+FILES_INFO: {}
+PKGSIZE_packagegroup-machine-base: 0

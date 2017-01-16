@@ -1,0 +1,14 @@
+PN: bluez5
+PV: 5.33
+PR: r0
+PKGV: 5.33
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.
+SUMMARY: Linux Bluetooth Stack Userland V5
+SECTION: libs
+PKG_libasound-module-bluez: libasound-module-bluez
+ALLOW_EMPTY_libasound-module-bluez: 1
+FILES_libasound-module-bluez: /usr/lib/alsa-lib/lib*.so /usr/share/alsa
+FILES_INFO: {}
+PKGSIZE_libasound-module-bluez: 0

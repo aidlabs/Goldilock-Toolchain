@@ -1,0 +1,14 @@
+PN: mca-tool
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: CLOSED
+DESCRIPTION_mca-tool-dbg: MCA firmware management tool.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_mca-tool-dbg: MCA firmware management tool - Debugging files
+SECTION_mca-tool-dbg: devel
+PKG_mca-tool-dbg: mca-tool-dbg
+ALLOW_EMPTY_mca-tool-dbg: 1
+FILES_mca-tool-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/mca-tool/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/mca-tool/.debug /usr/lib/matchbox-panel/.debug /usr/lib/mca-tool/mca-tool/.debug /usr/src/debug
+FILES_INFO: {"/sbin/.debug/mca_tool": 28416}
+PKGSIZE_mca-tool-dbg: 28416

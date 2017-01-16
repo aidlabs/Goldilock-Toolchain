@@ -1,0 +1,14 @@
+PN: libdigi
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION_libdigi-dbg: Digi\'s utilities library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libdigi-dbg: Digi\'s utilities library - Debugging files
+SECTION_libdigi-dbg: devel
+PKG_libdigi-dbg: libdigi-dbg
+ALLOW_EMPTY_libdigi-dbg: 1
+FILES_libdigi-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libdigi/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libdigi/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libdigi/libdigi/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_libdigi-dbg: 0

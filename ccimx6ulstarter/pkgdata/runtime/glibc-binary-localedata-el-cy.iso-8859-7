@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-el-cy.iso-8859-7: binary locale definition for el-cy.iso-8859-7
+SUMMARY_glibc-binary-localedata-el-cy.iso-8859-7: binary locale definition for el-cy.iso-8859-7
+SECTION: base
+PKG_glibc-binary-localedata-el-cy.iso-8859-7: glibc-binary-localedata-el-cy.iso-8859-7
+FILES_glibc-binary-localedata-el-cy.iso-8859-7: /usr/lib/locale/el_CY.ISO-8859-7
+FILES_INFO: {"/usr/lib/locale/el_CY.ISO-8859-7/LC_CTYPE": 237780, "/usr/lib/locale/el_CY.ISO-8859-7/LC_MESSAGES/SYS_LC_MESSAGES": 61, "/usr/lib/locale/el_CY.ISO-8859-7/LC_MONETARY": 291, "/usr/lib/locale/el_CY.ISO-8859-7/LC_NUMERIC": 59, "/usr/lib/locale/el_CY.ISO-8859-7/LC_COLLATE": 20795, "/usr/lib/locale/el_CY.ISO-8859-7/LC_TIME": 2571, "/usr/lib/locale/el_CY.ISO-8859-7/LC_NAME": 67, "/usr/lib/locale/el_CY.ISO-8859-7/LC_IDENTIFICATION": 382, "/usr/lib/locale/el_CY.ISO-8859-7/LC_TELEPHONE": 57, "/usr/lib/locale/el_CY.ISO-8859-7/LC_ADDRESS": 152, "/usr/lib/locale/el_CY.ISO-8859-7/LC_MEASUREMENT": 28, "/usr/lib/locale/el_CY.ISO-8859-7/LC_PAPER": 39}
+PKGSIZE_glibc-binary-localedata-el-cy.iso-8859-7: 262282

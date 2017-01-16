@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-li-nl: binary locale definition for li-nl
+SUMMARY_glibc-binary-localedata-li-nl: binary locale definition for li-nl
+SECTION: base
+PKG_glibc-binary-localedata-li-nl: glibc-binary-localedata-li-nl
+FILES_glibc-binary-localedata-li-nl: /usr/lib/locale/li_NL
+FILES_INFO: {"/usr/lib/locale/li_NL/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/li_NL/LC_MONETARY": 294, "/usr/lib/locale/li_NL/LC_TELEPHONE": 49, "/usr/lib/locale/li_NL/LC_PAPER": 34, "/usr/lib/locale/li_NL/LC_NUMERIC": 54, "/usr/lib/locale/li_NL/LC_TIME": 2466, "/usr/lib/locale/li_NL/LC_ADDRESS": 149, "/usr/lib/locale/li_NL/LC_COLLATE": 1243766, "/usr/lib/locale/li_NL/LC_CTYPE": 278308, "/usr/lib/locale/li_NL/LC_MEASUREMENT": 23, "/usr/lib/locale/li_NL/LC_NAME": 62, "/usr/lib/locale/li_NL/LC_IDENTIFICATION": 384}
+PKGSIZE_glibc-binary-localedata-li-nl: 1525643

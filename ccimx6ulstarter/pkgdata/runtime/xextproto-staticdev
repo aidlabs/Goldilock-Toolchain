@@ -1,0 +1,16 @@
+PN: xextproto
+PE: 1
+PV: 7.3.0
+PR: r0
+PKGE: 1
+PKGV: 7.3.0
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_xextproto-staticdev: This package provides the wire protocol for several X extensions.  These protocol extensions include DOUBLE-BUFFER, DPMS, Extended-Visual-Information, LBX, MIT_SHM, MIT_SUNDRY-NONSTANDARD, Multi-Buffering, SECURITY, SHAPE, SYNC, TOG-CUP, XC-APPGROUP, XC-MISC, XTEST.  In addition a small set of utility functions are also available.  This package contains static libraries for software development.
+SUMMARY_xextproto-staticdev: XExt: X Extension headers - Development files (Static Libraries)
+RDEPENDS_xextproto-staticdev: xextproto-dev (= 1:7.3.0-r0.0)
+SECTION_xextproto-staticdev: devel
+PKG_xextproto-staticdev: xextproto-staticdev
+FILES_xextproto-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/xextproto/*.a
+FILES_INFO: {}
+PKGSIZE_xextproto-staticdev: 0

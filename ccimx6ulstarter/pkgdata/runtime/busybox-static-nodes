@@ -1,0 +1,20 @@
+PN: busybox
+PV: 1.23.2
+PR: r0
+PKGV: 1.23.2
+PKGR: r0.0
+LICENSE: GPLv2 & bzip2
+DESCRIPTION: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+SUMMARY: Tiny versions of many common UNIX utilities in a single small executable
+RRECOMMENDS_busybox-static-nodes:  update-rc.d
+SECTION: base
+PKG_busybox-static-nodes: busybox-static-nodes
+FILES_busybox-static-nodes: /etc/init.d/busybox-static-nodes
+pkg_postinst_busybox-static-nodes: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT busybox-static-nodes start 07 S .\nfi\n
+pkg_postrm_busybox-static-nodes: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT busybox-static-nodes remove\nfi\n
+pkg_preinst_busybox-static-nodes: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/busybox-static-nodes" ]; then\n\t/etc/init.d/busybox-static-nodes stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT busybox-static-nodes remove\nfi\n
+pkg_prerm_busybox-static-nodes: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/busybox-static-nodes stop\nfi\n
+FILES_INFO: {"/etc/init.d/busybox-static-nodes": 749}
+FILERDEPENDSFLIST_busybox-static-nodes: /etc/init.d/busybox-static-nodes
+FILERDEPENDS_/etc/init.d/busybox-static-nodes_busybox-static-nodes: /bin/sh
+PKGSIZE_busybox-static-nodes: 749

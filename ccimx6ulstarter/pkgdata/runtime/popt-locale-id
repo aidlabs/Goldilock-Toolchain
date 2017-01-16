@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-id: Library for parsing command line options.  This package contains language translation files for the id locale.
+SUMMARY_popt-locale-id: Library for parsing command line options - id translations
+RPROVIDES_popt-locale-id: popt-locale id-translation popt-locale-id (=1.16)
+RRECOMMENDS_popt-locale-id: virtual-locale-id
+SECTION: libs
+PKG_popt-locale-id: libpopt-locale-id
+FILES_popt-locale-id: /usr/share/locale/id
+FILES_INFO: {"/usr/share/locale/id/LC_MESSAGES/popt.mo": 2178}
+PKGSIZE_popt-locale-id: 2178

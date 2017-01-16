@@ -1,0 +1,11 @@
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+libdir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include
+
+Name: libarchive
+Description: library that can create and read several streaming archive formats
+Version: 3.1.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -larchive
+Libs.private: -lbz2 -lz  -L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -lxml2

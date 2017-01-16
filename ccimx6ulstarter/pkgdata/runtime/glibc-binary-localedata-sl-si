@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sl-si: binary locale definition for sl-si
+SUMMARY_glibc-binary-localedata-sl-si: binary locale definition for sl-si
+SECTION: base
+PKG_glibc-binary-localedata-sl-si: glibc-binary-localedata-sl-si
+FILES_glibc-binary-localedata-sl-si: /usr/lib/locale/sl_SI
+FILES_INFO: {"/usr/lib/locale/sl_SI/LC_IDENTIFICATION": 347, "/usr/lib/locale/sl_SI/LC_TIME": 2366, "/usr/lib/locale/sl_SI/LC_NAME": 62, "/usr/lib/locale/sl_SI/LC_ADDRESS": 152, "/usr/lib/locale/sl_SI/LC_NUMERIC": 54, "/usr/lib/locale/sl_SI/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/sl_SI/LC_TELEPHONE": 50, "/usr/lib/locale/sl_SI/LC_MEASUREMENT": 23, "/usr/lib/locale/sl_SI/LC_COLLATE": 105206, "/usr/lib/locale/sl_SI/LC_PAPER": 34, "/usr/lib/locale/sl_SI/LC_MONETARY": 294, "/usr/lib/locale/sl_SI/LC_CTYPE": 278308}
+PKGSIZE_glibc-binary-localedata-sl-si: 386950

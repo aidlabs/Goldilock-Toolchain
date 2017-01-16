@@ -1,0 +1,15 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_python-smartpm-locale-it: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.  This package contains language translation files for the it locale.
+SUMMARY_python-smartpm-locale-it: The Smart Package Manager - it translations
+RPROVIDES_python-smartpm-locale-it: python-smartpm-locale it-translation
+RRECOMMENDS_python-smartpm-locale-it: virtual-locale-it
+SECTION: devel/python
+PKG_python-smartpm-locale-it: python-smartpm-locale-it
+FILES_python-smartpm-locale-it: /usr/share/locale/it
+FILES_INFO: {"/usr/share/locale/it/LC_MESSAGES/smart.mo": 79796}
+PKGSIZE_python-smartpm-locale-it: 79796

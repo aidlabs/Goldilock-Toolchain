@@ -1,0 +1,15 @@
+PN: xproto
+PE: 1
+PV: 7.0.28
+PR: r0
+PKGE: 1
+PKGV: 7.0.28
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_xproto-doc: This package provides the basic headers for the X Window System.  This package contains documentation.
+SUMMARY_xproto-doc: Xlib: C Language X interface headers - Documentation files
+SECTION_xproto-doc: doc
+PKG_xproto-doc: xproto-doc
+FILES_xproto-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_xproto-doc: 0

@@ -1,0 +1,18 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_python-rpm: The rpm-python package contains a module that permits applications written in the Python programming language to use the interface supplied by the RPM Package Manager libraries.
+SUMMARY_python-rpm: Python bindings for apps which will manupulate RPM packages
+RDEPENDS_python-rpm: beecrypt (>= 4.2.1) libbz2 (>= 1.0.6) rpm-libs (>= 5.4.14) file (>= 5.24) libpython2 (>= 2.7.9) ossp-uuid (>= 1.6.2) glibc (>= 2.22) zlib (>= 1.2.8) db (>= 6.0.30) libpcreposix (>= 8.38) libstdc++ (>= 5.2.0) libacl (>= 2.2.52) libcrypto (>= 1.0.2h) libgcc (>= 5.2.0) libelf (>= 0.163) popt (>= 1.16) libpcre (>= 8.38) libattr (>= 2.4.47) rpm libssl (>= 1.0.2h)
+SECTION: base
+PKG_python-rpm: python-rpm
+FILES_python-rpm: /usr/lib/python*/site-packages/rpm
+FILERPROVIDESFLIST_python-rpm: /usr/lib/python2.7/site-packages/rpm/@underscore@rpmmodule.so
+FILES_INFO: {"/usr/lib/python2.7/site-packages/rpm/__init__.py": 119, "/usr/lib/python2.7/site-packages/rpm/_rpmmodule.so": 123632, "/usr/lib/python2.7/site-packages/rpm/_rpmmodule.la": 1482}
+FILERPROVIDES_/usr/lib/python2.7/site-packages/rpm/@underscore@rpmmodule.so_python-rpm: _rpmmodule.so elf(buildid) (= c146d7f2ee064b2686fcbc381b57885c821bb3f6)
+FILERDEPENDSFLIST_python-rpm: /usr/lib/python2.7/site-packages/rpm/@underscore@rpmmodule.so
+FILERDEPENDS_/usr/lib/python2.7/site-packages/rpm/@underscore@rpmmodule.so_python-rpm: ld-linux-armhf.so.3 ld-linux-armhf.so.3(GLIBC_2.4) libacl.so.1 libattr.so.1 libbeecrypt.so.7 libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libdb-6.0.so libdl.so.2 libelf.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libmagic.so.1 libossp-uuid.so.16 libpcre.so.1 libpcreposix.so.0 libpopt.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libpython2.7.so.1.0 librpm-5.4.so librpm-5.4.so(LIBRPM_0) librpmbuild-5.4.so librpmbuild-5.4.so(LIBRPMBUILD_0) librpmdb-5.4.so librpmdb-5.4.so(LIBRPMDB_0) librpmio-5.4.so librpmio-5.4.so(LIBRPMIO_0) librpmmisc-5.4.so librt.so.1 libssl.so.1.0.0 libstdc++.so.6 libz.so.1 rtld(GNU_HASH)
+PKGSIZE_python-rpm: 125233

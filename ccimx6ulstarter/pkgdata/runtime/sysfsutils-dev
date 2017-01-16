@@ -1,0 +1,16 @@
+PN: sysfsutils
+PV: 2.1.0
+PR: r5
+PKGV: 2.1.0
+PKGR: r5.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_sysfsutils-dev: Tools for working with the sysfs virtual filesystem.  The tool \'systool\' can query devices by bus, class and topology.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_sysfsutils-dev: Tools for working with sysfs - Development files
+RDEPENDS_sysfsutils-dev: libsysfs sysfsutils (= 2.1.0-r5.0)
+RRECOMMENDS_sysfsutils-dev: libsysfs-dev glibc-dev
+SECTION_sysfsutils-dev: devel
+PKG_sysfsutils-dev: sysfsutils-dev
+ALLOW_EMPTY_sysfsutils-dev: 1
+FILES_sysfsutils-dev: /usr/include /lib/lib*.so /lib/lib*.so /lib/*.la /lib/*.o /lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /lib/sysfsutils/*.la /lib/*.la
+FILES_INFO: {"/lib/libsysfs.la": 913, "/lib/libsysfs.so": 17, "/usr/include/sysfs/dlist.h": 7471, "/usr/include/sysfs/libsysfs.h": 8819}
+PKGSIZE_sysfsutils-dev: 17220

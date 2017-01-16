@@ -1,0 +1,16 @@
+PN: libmbim
+PV: 1.12.2
+PR: r0
+PKGV: 1.12.2
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_libmbim-dev: libmbim is a glib-based library for talking to WWAN modems and devices which speak the Mobile Interface Broadband Model (MBIM) protocol  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libmbim-dev: libmbim is library for talking to WWAN devices by MBIM protocol - Development files
+RDEPENDS_libmbim-dev: libmbim (= 1.12.2-r0.0)
+RRECOMMENDS_libmbim-dev: glibc-dev zlib-dev libffi-dev libgudev-dev glib-2.0-dev libudev-dev
+SECTION_libmbim-dev: devel
+PKG_libmbim-dev: libmbim-dev
+ALLOW_EMPTY_libmbim-dev: 1
+FILES_libmbim-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libmbim/*.la /lib/*.la
+FILES_INFO: {"/usr/include/libmbim-glib/mbim-ussd.h": 2223, "/usr/include/libmbim-glib/mbim-stk.h": 3508, "/usr/include/libmbim-glib/mbim-dss.h": 1681, "/usr/include/libmbim-glib/mbim-utils.h": 1736, "/usr/include/libmbim-glib/mbim-enums.h": 34672, "/usr/include/libmbim-glib/mbim-ms-firmware-id.h": 1676, "/usr/include/libmbim-glib/mbim-proxy.h": 2289, "/usr/include/libmbim-glib/mbim-compat.h": 2802, "/usr/include/libmbim-glib/mbim-device.h": 6280, "/usr/lib/libmbim-glib.so": 21, "/usr/include/libmbim-glib/libmbim-glib.h": 1685, "/usr/include/libmbim-glib/mbim-uuid.h": 7293, "/usr/include/libmbim-glib/mbim-ms-host-shutdown.h": 1403, "/usr/include/libmbim-glib/mbim-errors.h": 10706, "/usr/lib/libmbim-glib.la": 1272, "/usr/include/libmbim-glib/mbim-error-types.h": 1281, "/usr/include/libmbim-glib/mbim-auth.h": 3057, "/usr/include/libmbim-glib/mbim-cid.h": 8277, "/usr/include/libmbim-glib/mbim-proxy-control.h": 1722, "/usr/include/libmbim-glib/mbim-enum-types.h": 29276, "/usr/include/libmbim-glib/mbim-basic-connect.h": 28224, "/usr/lib/pkgconfig/mbim-glib.pc": 269, "/usr/include/libmbim-glib/mbim-message.h": 10424, "/usr/include/libmbim-glib/mbim-version.h": 2321, "/usr/include/libmbim-glib/mbim-sms.h": 7414, "/usr/include/libmbim-glib/mbim-phonebook.h": 4254}
+PKGSIZE_libmbim-dev: 175766

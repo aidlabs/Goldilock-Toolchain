@@ -1,0 +1,14 @@
+PN: sysinfo
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION_sysinfo-dbg: Digi\'s system info utility.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_sysinfo-dbg: Digi\'s system info utility - Debugging files
+SECTION_sysinfo-dbg: devel
+PKG_sysinfo-dbg: sysinfo-dbg
+ALLOW_EMPTY_sysinfo-dbg: 1
+FILES_sysinfo-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sysinfo/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sysinfo/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sysinfo/sysinfo/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_sysinfo-dbg: 0

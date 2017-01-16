@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-vi: Library for parsing command line options.  This package contains language translation files for the vi locale.
+SUMMARY_popt-locale-vi: Library for parsing command line options - vi translations
+RPROVIDES_popt-locale-vi: popt-locale vi-translation popt-locale-vi (=1.16)
+RRECOMMENDS_popt-locale-vi: virtual-locale-vi
+SECTION: libs
+PKG_popt-locale-vi: libpopt-locale-vi
+FILES_popt-locale-vi: /usr/share/locale/vi
+FILES_INFO: {"/usr/share/locale/vi/LC_MESSAGES/popt.mo": 2507}
+PKGSIZE_popt-locale-vi: 2507

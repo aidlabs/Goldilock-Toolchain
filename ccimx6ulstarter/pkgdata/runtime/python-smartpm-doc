@@ -1,0 +1,13 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_python-smartpm-doc: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.  This package contains documentation.
+SUMMARY_python-smartpm-doc: The Smart Package Manager - Documentation files
+SECTION_python-smartpm-doc: doc
+PKG_python-smartpm-doc: python-smartpm-doc
+FILES_python-smartpm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/smart.8": 1805}
+PKGSIZE_python-smartpm-doc: 1805

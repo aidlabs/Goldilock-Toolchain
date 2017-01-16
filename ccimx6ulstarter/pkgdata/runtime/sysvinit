@@ -1,0 +1,46 @@
+PN: sysvinit
+PV: 2.88dsf
+PR: r14
+PKGV: 2.88dsf
+PKGR: r14.0
+LICENSE: GPLv2+
+DESCRIPTION: This package is required to boot in most configurations.  It provides the /sbin/init program.  This is the first process started on boot, and the last process terminated before the system halts.
+SUMMARY: System-V like init
+RDEPENDS_sysvinit: update-alternatives-opkg initscripts-functions sysvinit-pidof sysvinit-inittab glibc (>= 2.22)
+SECTION: base
+PKG_sysvinit: sysvinit
+FILES_sysvinit: /usr/bin/* /usr/sbin/* /usr/lib/sysvinit/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/sysvinit /usr/lib/sysvinit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /sbin/* /bin/*
+pkg_postinst_sysvinit: #!/bin/sh\n\tupdate-alternatives --install /sbin/init init /sbin/init.sysvinit 50\n\tupdate-alternatives --install /bin/mountpoint mountpoint /bin/mountpoint.sysvinit 200\n\tupdate-alternatives --install /sbin/halt halt /sbin/halt.sysvinit 200\n\tupdate-alternatives --install /sbin/reboot reboot /sbin/reboot.sysvinit 200\n\tupdate-alternatives --install /sbin/runlevel runlevel /sbin/runlevel.sysvinit 200\n\tupdate-alternatives --install /sbin/shutdown shutdown /sbin/shutdown.sysvinit 200\n\tupdate-alternatives --install /sbin/poweroff poweroff /sbin/poweroff.sysvinit 200\n\tupdate-alternatives --install /usr/bin/last last /usr/bin/last.sysvinit 200\n\tupdate-alternatives --install /usr/bin/lastb lastb /usr/bin/lastb.sysvinit 200\n\tupdate-alternatives --install /usr/bin/mesg mesg /usr/bin/mesg.sysvinit 200\n\tupdate-alternatives --install /usr/bin/utmpdump utmpdump /usr/bin/utmpdump.sysvinit 200\n\tupdate-alternatives --install /usr/bin/wall wall /usr/bin/wall.sysvinit 200\n
+pkg_prerm_sysvinit: #!/bin/sh\n\tupdate-alternatives --remove  init /sbin/init.sysvinit\n\tupdate-alternatives --remove  mountpoint /bin/mountpoint.sysvinit\n\tupdate-alternatives --remove  halt /sbin/halt.sysvinit\n\tupdate-alternatives --remove  reboot /sbin/reboot.sysvinit\n\tupdate-alternatives --remove  runlevel /sbin/runlevel.sysvinit\n\tupdate-alternatives --remove  shutdown /sbin/shutdown.sysvinit\n\tupdate-alternatives --remove  poweroff /sbin/poweroff.sysvinit\n\tupdate-alternatives --remove  last /usr/bin/last.sysvinit\n\tupdate-alternatives --remove  lastb /usr/bin/lastb.sysvinit\n\tupdate-alternatives --remove  mesg /usr/bin/mesg.sysvinit\n\tupdate-alternatives --remove  utmpdump /usr/bin/utmpdump.sysvinit\n\tupdate-alternatives --remove  wall /usr/bin/wall.sysvinit\n
+FILERPROVIDESFLIST_sysvinit: /sbin/init.sysvinit /sbin/bootlogd /usr/bin/mesg.sysvinit /sbin/shutdown.sysvinit /usr/bin/wall.sysvinit /sbin/halt.sysvinit /usr/bin/last.sysvinit /sbin/runlevel.sysvinit /sbin/fstab-decode /bin/mountpoint.sysvinit /usr/bin/utmpdump.sysvinit /sbin/reboot.sysvinit /sbin/poweroff.sysvinit /usr/bin/lastb.sysvinit
+FILES_INFO: {"/etc/default/rcS": 1040, "/etc/init.d/bootlogd": 1997, "/usr/bin/lastb.sysvinit": 13, "/sbin/init.sysvinit": 28764, "/etc/init.d/stop-bootlogd": 8, "/sbin/bootlogd": 12192, "/usr/bin/mesg.sysvinit": 4536, "/sbin/shutdown.sysvinit": 18452, "/usr/bin/wall.sysvinit": 8320, "/etc/init.d/rc": 4457, "/sbin/halt.sysvinit": 11068, "/usr/bin/last.sysvinit": 12168, "/sbin/reboot.sysvinit": 13, "/sbin/telinit": 4, "/sbin/runlevel.sysvinit": 3460, "/sbin/poweroff.sysvinit": 13, "/usr/bin/utmpdump.sysvinit": 7244, "/etc/init.d/rcS": 525, "/bin/mountpoint.sysvinit": 4728, "/etc/default/volatiles/01_bootlogd": 36, "/sbin/fstab-decode": 3784}
+FILERPROVIDES_/sbin/init.sysvinit_sysvinit: elf(buildid) (= 1f0e9a54588c7a79c24479eb0738031ef0f1efcd) /sbin/init
+FILERPROVIDES_/sbin/bootlogd_sysvinit: elf(buildid) (= 38302c76eca5ac89576b2d86d10a03810547a98c)
+FILERPROVIDES_/usr/bin/mesg.sysvinit_sysvinit: elf(buildid) (= a5017cb78d00443db43f6935d36972f7314b4364) /usr/bin/mesg
+FILERPROVIDES_/sbin/shutdown.sysvinit_sysvinit: elf(buildid) (= b865093b9bf58f2946386eea8feeb47649f67b6a) /sbin/shutdown
+FILERPROVIDES_/usr/bin/wall.sysvinit_sysvinit: elf(buildid) (= 020f1cd05d7b0a3f92a00a7b3e803d56c4c0c4d5) /usr/bin/wall
+FILERPROVIDES_/sbin/halt.sysvinit_sysvinit: elf(buildid) (= 0b085c17ef88e7db6a7454fa61b339a958c0f5ab) /sbin/halt
+FILERPROVIDES_/usr/bin/last.sysvinit_sysvinit: elf(buildid) (= f17a96d084411577124d25b93f765a910ee42af4) /usr/bin/last
+FILERPROVIDES_/sbin/runlevel.sysvinit_sysvinit: elf(buildid) (= ed1548bbe0ddd400a2d67f915f561a12d73a1956) /sbin/runlevel
+FILERPROVIDES_/sbin/fstab-decode_sysvinit: elf(buildid) (= 515382f97651b28991a9ce18ca271d5e03d1951b)
+FILERPROVIDES_/bin/mountpoint.sysvinit_sysvinit: elf(buildid) (= 59fe47d8d404336079382a18f5870dd12d3b7fc6) /bin/mountpoint
+FILERPROVIDES_/usr/bin/utmpdump.sysvinit_sysvinit: elf(buildid) (= c88e697d25205582c14bd48aa3d095302fce73a3) /usr/bin/utmpdump
+FILERPROVIDES_/sbin/reboot.sysvinit_sysvinit:  /sbin/reboot
+FILERPROVIDES_/sbin/poweroff.sysvinit_sysvinit:  /sbin/poweroff
+FILERPROVIDES_/usr/bin/lastb.sysvinit_sysvinit:  /usr/bin/lastb
+FILERDEPENDSFLIST_sysvinit: /sbin/init.sysvinit /sbin/bootlogd /usr/bin/mesg.sysvinit /sbin/shutdown.sysvinit /usr/bin/wall.sysvinit /etc/init.d/rc /etc/init.d/bootlogd /usr/bin/last.sysvinit /sbin/runlevel.sysvinit /sbin/fstab-decode /sbin/halt.sysvinit /etc/init.d/rcS /bin/mountpoint.sysvinit /usr/bin/utmpdump.sysvinit
+FILERDEPENDS_/sbin/init.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/bootlogd_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) libutil.so.1 libutil.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mesg.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/shutdown.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/wall.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/rc_sysvinit: /bin/sh
+FILERDEPENDS_/etc/init.d/bootlogd_sysvinit: /bin/sh
+FILERDEPENDS_/usr/bin/last.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/runlevel.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/fstab-decode_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/halt.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/rcS_sysvinit: /bin/sh
+FILERDEPENDS_/bin/mountpoint.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/utmpdump.sysvinit_sysvinit: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_sysvinit: 122822

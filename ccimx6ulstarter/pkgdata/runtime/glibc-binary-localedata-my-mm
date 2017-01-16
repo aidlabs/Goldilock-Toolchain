@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-my-mm: binary locale definition for my-mm
+SUMMARY_glibc-binary-localedata-my-mm: binary locale definition for my-mm
+SECTION: base
+PKG_glibc-binary-localedata-my-mm: glibc-binary-localedata-my-mm
+FILES_glibc-binary-localedata-my-mm: /usr/lib/locale/my_MM
+FILES_INFO: {"/usr/lib/locale/my_MM/LC_MESSAGES/SYS_LC_MESSAGES": 103, "/usr/lib/locale/my_MM/LC_MONETARY": 290, "/usr/lib/locale/my_MM/LC_NUMERIC": 54, "/usr/lib/locale/my_MM/LC_PAPER": 34, "/usr/lib/locale/my_MM/LC_IDENTIFICATION": 376, "/usr/lib/locale/my_MM/LC_TELEPHONE": 55, "/usr/lib/locale/my_MM/LC_ADDRESS": 176, "/usr/lib/locale/my_MM/LC_MEASUREMENT": 23, "/usr/lib/locale/my_MM/LC_COLLATE": 1243766, "/usr/lib/locale/my_MM/LC_TIME": 4426, "/usr/lib/locale/my_MM/LC_NAME": 95, "/usr/lib/locale/my_MM/LC_CTYPE": 250868}
+PKGSIZE_glibc-binary-localedata-my-mm: 1500266

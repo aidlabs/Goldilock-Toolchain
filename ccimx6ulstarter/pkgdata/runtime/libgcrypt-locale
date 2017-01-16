@@ -1,0 +1,13 @@
+PN: libgcrypt
+PV: 1.6.3
+PR: r1
+PKGV: 1.6.3
+PKGR: r1.0
+LICENSE: GPLv2+ & LGPLv2.1+ & GPLv3+
+DESCRIPTION: General purpose cryptographic library based on the code from GnuPG.
+SUMMARY: General purpose cryptographic library based on the code from GnuPG
+SECTION: libs
+PKG_libgcrypt-locale: libgcrypt-locale
+FILES_libgcrypt-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libgcrypt-locale: 0

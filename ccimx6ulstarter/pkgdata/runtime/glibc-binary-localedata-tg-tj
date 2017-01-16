@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-tg-tj: binary locale definition for tg-tj
+SUMMARY_glibc-binary-localedata-tg-tj: binary locale definition for tg-tj
+SECTION: base
+PKG_glibc-binary-localedata-tg-tj: glibc-binary-localedata-tg-tj
+FILES_glibc-binary-localedata-tg-tj: /usr/lib/locale/tg_TJ
+FILES_INFO: {"/usr/lib/locale/tg_TJ/LC_IDENTIFICATION": 366, "/usr/lib/locale/tg_TJ/LC_TIME": 2550, "/usr/lib/locale/tg_TJ/LC_NAME": 62, "/usr/lib/locale/tg_TJ/LC_ADDRESS": 139, "/usr/lib/locale/tg_TJ/LC_NUMERIC": 54, "/usr/lib/locale/tg_TJ/LC_MESSAGES/SYS_LC_MESSAGES": 78, "/usr/lib/locale/tg_TJ/LC_TELEPHONE": 51, "/usr/lib/locale/tg_TJ/LC_MEASUREMENT": 23, "/usr/lib/locale/tg_TJ/LC_COLLATE": 1243774, "/usr/lib/locale/tg_TJ/LC_PAPER": 34, "/usr/lib/locale/tg_TJ/LC_MONETARY": 302, "/usr/lib/locale/tg_TJ/LC_CTYPE": 278308}
+PKGSIZE_glibc-binary-localedata-tg-tj: 1525741

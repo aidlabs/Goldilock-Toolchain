@@ -1,0 +1,43 @@
+PN: mtd-utils
+PV: 1.5.1+gitAUTOINC+9f107132a6
+PR: r0
+PKGV: 1.5.1+git0+9f107132a6
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: Tools for managing memory technology devices
+RDEPENDS_mtd-utils: glibc (>= 2.22)
+SECTION: base
+PKG_mtd-utils: mtd-utils
+FILES_mtd-utils: /usr/bin/* /usr/sbin/* /usr/lib/mtd-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mtd-utils /usr/lib/mtd-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_mtd-utils: /usr/sbin/flash@underscore@otp@underscore@write /usr/sbin/flash@underscore@otp@underscore@dump /usr/sbin/nanddump /usr/sbin/nandwrite /usr/sbin/mtdinfo /usr/sbin/flash@underscore@otp@underscore@info /usr/sbin/flash@underscore@otp@underscore@lock /usr/sbin/flash@underscore@erase /usr/sbin/nandtest /usr/sbin/flash@underscore@lock /usr/sbin/flashcp /usr/sbin/flash@underscore@unlock /usr/sbin/mtd@underscore@debug
+FILES_INFO: {"/usr/sbin/flash_lock": 4564, "/usr/sbin/flash_unlock": 4572, "/usr/sbin/flash_erase": 30552, "/usr/sbin/flash_otp_write": 4912, "/usr/sbin/flash_eraseall": 150, "/usr/sbin/nanddump": 32240, "/usr/sbin/mtd_debug": 8192, "/usr/sbin/nandwrite": 32972, "/usr/sbin/mtdinfo": 37932, "/usr/sbin/flash_otp_dump": 3996, "/usr/sbin/flash_otp_info": 4076, "/usr/sbin/flash_otp_lock": 4956, "/usr/sbin/nandtest": 8084, "/usr/sbin/flashcp": 8604}
+FILERPROVIDES_/usr/sbin/flash@underscore@otp@underscore@write_mtd-utils: elf(buildid) (= dd7c882e4d4452c1df5040de27f295e9f098d32b)
+FILERPROVIDES_/usr/sbin/flash@underscore@otp@underscore@dump_mtd-utils: elf(buildid) (= 6341dca7f8fba5d26d68b3fb4f25acad055f86f4)
+FILERPROVIDES_/usr/sbin/nanddump_mtd-utils: elf(buildid) (= fab083446cb90d61340f3d3932d39ccf3ae80b35)
+FILERPROVIDES_/usr/sbin/nandwrite_mtd-utils: elf(buildid) (= 3c68751afc8ed617d588a071e842faf6617d9874)
+FILERPROVIDES_/usr/sbin/mtdinfo_mtd-utils: elf(buildid) (= f3fe558b89227764026142381122a2953a54d327)
+FILERPROVIDES_/usr/sbin/flash@underscore@otp@underscore@info_mtd-utils: elf(buildid) (= 04b4266ecf9523eb84ae7fc6c68b550b1c48ea1f)
+FILERPROVIDES_/usr/sbin/flash@underscore@otp@underscore@lock_mtd-utils: elf(buildid) (= 53bf5eb7dc2cdfd895452c10e89ca551185c0e04)
+FILERPROVIDES_/usr/sbin/flash@underscore@erase_mtd-utils: elf(buildid) (= 1b02a4e7c83c3a25dabb870e71644b5d2276f90f)
+FILERPROVIDES_/usr/sbin/nandtest_mtd-utils: elf(buildid) (= 4eafd3b2b00830fe60abb74f5c2cf6e2ebc9a8f0)
+FILERPROVIDES_/usr/sbin/flash@underscore@lock_mtd-utils: elf(buildid) (= d6e63579cef3f7ea0c1cb8a36391725d33c99621)
+FILERPROVIDES_/usr/sbin/flashcp_mtd-utils: elf(buildid) (= 76669eefe749c67eb1b1364ffcfa48977110ed17)
+FILERPROVIDES_/usr/sbin/flash@underscore@unlock_mtd-utils: elf(buildid) (= f7dfcfae1381994f1d435e65b65c997ed4951d33)
+FILERPROVIDES_/usr/sbin/mtd@underscore@debug_mtd-utils: elf(buildid) (= df173066d77df591f629f83362bb82100b855902)
+FILERDEPENDSFLIST_mtd-utils: /usr/sbin/flash@underscore@otp@underscore@write /usr/sbin/flash@underscore@eraseall /usr/sbin/flash@underscore@otp@underscore@dump /usr/sbin/nanddump /usr/sbin/nandwrite /usr/sbin/mtdinfo /usr/sbin/flash@underscore@otp@underscore@info /usr/sbin/flash@underscore@otp@underscore@lock /usr/sbin/flash@underscore@erase /usr/sbin/nandtest /usr/sbin/flash@underscore@lock /usr/sbin/flashcp /usr/sbin/flash@underscore@unlock /usr/sbin/mtd@underscore@debug
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@write_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@eraseall_mtd-utils: /bin/sh
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@dump_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nanddump_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nandwrite_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mtdinfo_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@info_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@lock_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@erase_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nandtest_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@lock_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flashcp_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@unlock_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mtd@underscore@debug_mtd-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_mtd-utils: 185802

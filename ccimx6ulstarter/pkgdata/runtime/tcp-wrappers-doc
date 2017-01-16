@@ -1,0 +1,13 @@
+PN: tcp-wrappers
+PV: 7.6
+PR: r10
+PKGV: 7.6
+PKGR: r10.0
+LICENSE: BSD
+DESCRIPTION_tcp-wrappers-doc: Tools for monitoring and filtering incoming requests for tcp                services.  This package contains documentation.
+SUMMARY_tcp-wrappers-doc: Security tool that is a wrapper for TCP daemons - Documentation files
+SECTION_tcp-wrappers-doc: doc
+PKG_tcp-wrappers-doc: tcp-wrappers-doc
+FILES_tcp-wrappers-doc: /usr/share/man/man8
+FILES_INFO: {"/usr/share/man/man8/try-from.8": 671, "/usr/share/man/man8/tcpdchk.8": 2386, "/usr/share/man/man8/tcpdmatch.8": 3179, "/usr/share/man/man8/safe_finger.8": 1184, "/usr/share/man/man8/tcpd.8": 7244}
+PKGSIZE_tcp-wrappers-doc: 14664

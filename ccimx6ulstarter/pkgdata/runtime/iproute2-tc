@@ -1,0 +1,20 @@
+PN: iproute2
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.
+SUMMARY: TCP / IP networking and traffic control utilities
+RDEPENDS_iproute2-tc: iptables (>= 1.4.21) glibc (>= 2.22) libelf (>= 0.163)
+SECTION: base
+PKG_iproute2-tc: iproute2-tc
+FILES_iproute2-tc: /sbin/tc*                   /usr/lib/tc/*.so
+FILERPROVIDESFLIST_iproute2-tc: /usr/lib/tc/m@underscore@xt.so /sbin/tc
+FILES_INFO: {"/usr/lib/tc/m_xt.so": 7996, "/usr/lib/tc/m_ipt.so": 7, "/sbin/tc": 278584}
+FILERPROVIDES_/usr/lib/tc/m@underscore@xt.so_iproute2-tc: elf(buildid) (= 7715af8cc12e24d3c8faf3063d4e91e2ead8cffa) m_xt.so
+FILERPROVIDES_/sbin/tc_iproute2-tc: elf(buildid) (= a8f5b4c694590b94d5137ecb5ede82b226c0b723)
+FILERDEPENDSFLIST_iproute2-tc: /usr/lib/tc/m@underscore@xt.so /sbin/tc
+FILERDEPENDS_/usr/lib/tc/m@underscore@xt.so_iproute2-tc: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.10 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/tc_iproute2-tc: libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libelf.so.1 libelf.so.1(ELFUTILS_1.0) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_iproute2-tc: 286587

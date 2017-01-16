@@ -1,0 +1,12 @@
+PN: packagegroup-dey-bluetooth
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Bluetooth packagegroup for DEY image.
+SUMMARY: Bluetooth packagegroup for DEY image
+SECTION: base
+PKG_packagegroup-dey-bluetooth-ptest: packagegroup-dey-bluetooth-ptest
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-bluetooth-ptest: 0

@@ -1,0 +1,16 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-snd-usb-audio: snd-usb-audio kernel module; USB Audio
+SUMMARY_kernel-module-snd-usb-audio: snd-usb-audio kernel module
+RDEPENDS_kernel-module-snd-usb-audio: kernel-module-snd-hwdep kernel-module-snd-usbmidi-lib kernel-4.1.35-dey+g8dca338 kernel-module-snd-rawmidi
+SECTION: base
+PKG_kernel-module-snd-usb-audio: kernel-module-snd-usb-audio
+FILES_kernel-module-snd-usb-audio: /lib/modules/4.1.35-dey+g8dca338/kernel/sound/usb/snd-usb-audio.ko /etc/modules-load.d/snd-usb-audio.conf /etc/modprobe.d/snd-usb-audio.conf
+pkg_postinst_kernel-module-snd-usb-audio: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-snd-usb-audio: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\tdepmodwrapper -a -b $D 4.1.35-dey+g8dca338\nfi\n\n
+FILES_INFO: {"/lib/modules/4.1.35-dey+g8dca338/kernel/sound/usb/snd-usb-audio.ko": 196436}
+PKGSIZE_kernel-module-snd-usb-audio: 196436

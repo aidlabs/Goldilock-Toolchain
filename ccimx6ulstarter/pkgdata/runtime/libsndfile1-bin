@@ -1,0 +1,39 @@
+PN: libsndfile1
+PV: 1.0.25
+PR: r2
+PKGV: 1.0.25
+PKGR: r2.0
+LICENSE: LGPLv2.1
+DESCRIPTION: Audio format Conversion library.
+SUMMARY: Audio format Conversion library
+RDEPENDS_libsndfile1-bin: libsqlite3 (>= 3.8.10.2) libasound (>= 1.0.29) libsndfile1 (>= 1.0.25) glibc (>= 2.22)
+RPROVIDES_libsndfile1-bin:  libsndfile1-bin (=1.0.25)
+SECTION: libs/multimedia
+PKG_libsndfile1-bin: libsndfile-bin
+FILES_libsndfile1-bin: /usr/bin/* /usr/sbin/*
+FILERPROVIDESFLIST_libsndfile1-bin: /usr/bin/sndfile-info /usr/bin/sndfile-play /usr/bin/sndfile-regtest /usr/bin/sndfile-convert /usr/bin/sndfile-interleave /usr/bin/sndfile-metadata-get /usr/bin/sndfile-salvage /usr/bin/sndfile-metadata-set /usr/bin/sndfile-cmp /usr/bin/sndfile-deinterleave /usr/bin/sndfile-concat
+FILES_INFO: {"/usr/bin/sndfile-info": 15364, "/usr/bin/sndfile-play": 15224, "/usr/bin/sndfile-regtest": 11212, "/usr/bin/sndfile-convert": 12060, "/usr/bin/sndfile-interleave": 10132, "/usr/bin/sndfile-metadata-get": 12164, "/usr/bin/sndfile-salvage": 9120, "/usr/bin/sndfile-metadata-set": 13088, "/usr/bin/sndfile-cmp": 10228, "/usr/bin/sndfile-concat": 10036, "/usr/bin/sndfile-deinterleave": 10128}
+FILERPROVIDES_/usr/bin/sndfile-info_libsndfile1-bin: elf(buildid) (= b07fbd9b92e626cb78ad282e29517b31337f3463)
+FILERPROVIDES_/usr/bin/sndfile-play_libsndfile1-bin: elf(buildid) (= 32df9f3f7a1e98ea2ae8c435a8d7911ef4e7f59d)
+FILERPROVIDES_/usr/bin/sndfile-regtest_libsndfile1-bin: elf(buildid) (= 3d2c1016be675a7ca44bd1d07a19dc4a9f85d117)
+FILERPROVIDES_/usr/bin/sndfile-convert_libsndfile1-bin: elf(buildid) (= 51a548f0471971d0efd4e692f2b07007ec0b833b)
+FILERPROVIDES_/usr/bin/sndfile-interleave_libsndfile1-bin: elf(buildid) (= fd4f626700b10abcfebd055d09cfa67bb0b93d8d)
+FILERPROVIDES_/usr/bin/sndfile-metadata-get_libsndfile1-bin: elf(buildid) (= 087839b75e499c56f45107a19db986e5b82effeb)
+FILERPROVIDES_/usr/bin/sndfile-salvage_libsndfile1-bin: elf(buildid) (= 1d4fd5046f2d959830bd698031261ad8a755c79d)
+FILERPROVIDES_/usr/bin/sndfile-metadata-set_libsndfile1-bin: elf(buildid) (= 17ed96a464ec9589662ab0a999fb9069aadce4ad)
+FILERPROVIDES_/usr/bin/sndfile-cmp_libsndfile1-bin: elf(buildid) (= 1c5234b2814d94de95cdc072c90204b4c201f183)
+FILERPROVIDES_/usr/bin/sndfile-deinterleave_libsndfile1-bin: elf(buildid) (= 0578464cff54f2200f28fb6454aa49d0929e84cd)
+FILERPROVIDES_/usr/bin/sndfile-concat_libsndfile1-bin: elf(buildid) (= c64c4e2a6ba078df5f3fc5acc0e22a3294c17f82)
+FILERDEPENDSFLIST_libsndfile1-bin: /usr/bin/sndfile-info /usr/bin/sndfile-play /usr/bin/sndfile-regtest /usr/bin/sndfile-convert /usr/bin/sndfile-interleave /usr/bin/sndfile-metadata-get /usr/bin/sndfile-salvage /usr/bin/sndfile-metadata-set /usr/bin/sndfile-cmp /usr/bin/sndfile-deinterleave /usr/bin/sndfile-concat
+FILERDEPENDS_/usr/bin/sndfile-info_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-play_libsndfile1-bin: libasound.so.2 libasound.so.2(ALSA_0.9) libasound.so.2(ALSA_0.9.0rc4) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-regtest_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) libsqlite3.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-convert_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-interleave_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-metadata-get_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-salvage_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-metadata-set_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-cmp_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-deinterleave_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sndfile-concat_libsndfile1-bin: libc.so.6 libc.so.6(GLIBC_2.4) libsndfile.so.1 libsndfile.so.1(libsndfile.so.1.0) rtld(GNU_HASH)
+PKGSIZE_libsndfile1-bin: 128756

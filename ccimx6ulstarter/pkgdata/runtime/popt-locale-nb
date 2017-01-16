@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-nb: Library for parsing command line options.  This package contains language translation files for the nb locale.
+SUMMARY_popt-locale-nb: Library for parsing command line options - nb translations
+RPROVIDES_popt-locale-nb: popt-locale nb-translation popt-locale-nb (=1.16)
+RRECOMMENDS_popt-locale-nb: virtual-locale-nb
+SECTION: libs
+PKG_popt-locale-nb: libpopt-locale-nb
+FILES_popt-locale-nb: /usr/share/locale/nb
+FILES_INFO: {"/usr/share/locale/nb/LC_MESSAGES/popt.mo": 1744}
+PKGSIZE_popt-locale-nb: 1744

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ar-iq: binary locale definition for ar-iq
+SUMMARY_glibc-binary-localedata-ar-iq: binary locale definition for ar-iq
+SECTION: base
+PKG_glibc-binary-localedata-ar-iq: glibc-binary-localedata-ar-iq
+FILES_glibc-binary-localedata-ar-iq: /usr/lib/locale/ar_IQ
+FILES_INFO: {"/usr/lib/locale/ar_IQ/LC_MEASUREMENT": 23, "/usr/lib/locale/ar_IQ/LC_TIME": 2554, "/usr/lib/locale/ar_IQ/LC_ADDRESS": 125, "/usr/lib/locale/ar_IQ/LC_MONETARY": 302, "/usr/lib/locale/ar_IQ/LC_CTYPE": 278308, "/usr/lib/locale/ar_IQ/LC_PAPER": 34, "/usr/lib/locale/ar_IQ/LC_NUMERIC": 54, "/usr/lib/locale/ar_IQ/LC_NAME": 77, "/usr/lib/locale/ar_IQ/LC_IDENTIFICATION": 433, "/usr/lib/locale/ar_IQ/LC_COLLATE": 1243766, "/usr/lib/locale/ar_IQ/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/ar_IQ/LC_TELEPHONE": 52}
+PKGSIZE_glibc-binary-localedata-ar-iq: 1525794

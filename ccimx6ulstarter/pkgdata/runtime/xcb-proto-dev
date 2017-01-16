@@ -1,0 +1,14 @@
+PN: xcb-proto
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_xcb-proto-dev: Function prototypes for the X protocol C-language Binding (XCB).  XCB is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_xcb-proto-dev: XCB: The X protocol C binding headers - Development files
+SECTION_xcb-proto-dev: devel
+PKG_xcb-proto-dev: xcb-proto-dev
+ALLOW_EMPTY_xcb-proto-dev: 1
+FILES_xcb-proto-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xcb-proto/*.la /lib/*.la /usr/share/xcb/*.xml /usr/share/xcb/*.xsd
+FILES_INFO: {"/usr/share/xcb/render.xml": 20155, "/usr/share/xcb/xproto.xml": 192621, "/usr/share/xcb/ge.xml": 1863, "/usr/share/xcb/glx.xml": 44966, "/usr/share/xcb/xfixes.xml": 12074, "/usr/share/xcb/xf86dri.xml": 5900, "/usr/share/xcb/shm.xml": 4779, "/usr/share/xcb/screensaver.xml": 4312, "/usr/share/xcb/xvmc.xml": 5363, "/usr/share/xcb/xtest.xml": 3968, "/usr/share/xcb/xevie.xml": 2958, "/usr/share/xcb/damage.xml": 3299, "/usr/share/xcb/xf86vidmode.xml": 14673, "/usr/share/xcb/xkb.xml": 91907, "/usr/share/xcb/dri2.xml": 9488, "/usr/share/xcb/sync.xml": 8368, "/usr/share/xcb/xv.xml": 16009, "/usr/share/xcb/xselinux.xml": 8216, "/usr/share/xcb/composite.xml": 3473, "/usr/share/xcb/xprint.xml": 11351, "/usr/share/xcb/bigreq.xml": 1705, "/usr/share/xcb/record.xml": 5924, "/usr/lib/pkgconfig/xcb-proto.pc": 241, "/usr/share/xcb/xcb.xsd": 14777, "/usr/share/xcb/xinerama.xml": 3453, "/usr/share/xcb/xinput.xml": 85876, "/usr/share/xcb/present.xml": 7074, "/usr/share/xcb/dpms.xml": 3155, "/usr/share/xcb/dri3.xml": 3313, "/usr/share/xcb/res.xml": 5438, "/usr/share/xcb/shape.xml": 6039, "/usr/share/xcb/randr.xml": 27931, "/usr/share/xcb/xc_misc.xml": 1162}
+PKGSIZE_xcb-proto-dev: 631831

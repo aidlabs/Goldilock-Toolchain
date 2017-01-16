@@ -1,0 +1,15 @@
+PN: gcc-runtime
+PV: 5.2.0
+PR: r0
+PKGV: 5.2.0
+PKGR: r0.0
+LICENSE_libgomp-dev: GPLv3
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RDEPENDS_libgomp-dev: libgomp
+RRECOMMENDS_libgomp-dev: libgcc-dev glibc-dev
+SECTION: devel
+PKG_libgomp-dev: libgomp-dev
+FILES_libgomp-dev:     /usr/lib/libgomp*.so     /usr/lib/libgomp*.la     /usr/lib/libgomp.spec     /usr/lib/gcc/arm-dey-linux-gnueabi/5.2.0/include/omp.h      /usr/lib/gcc/arm-dey-linux-gnueabi/5.2.0/include/openacc.h 
+FILES_INFO: {"/usr/lib/libgomp-plugin-host_nonshm.la": 1049, "/usr/lib/libgomp.la": 944, "/usr/lib/gcc/arm-dey-linux-gnueabi/5.2.0/include/omp.h": 4355, "/usr/lib/libgomp-plugin-host_nonshm.so": 35, "/usr/lib/gcc/arm-dey-linux-gnueabi/5.2.0/include/openacc.h": 4299, "/usr/lib/libgomp.spec": 169, "/usr/lib/libgomp.so": 16}
+PKGSIZE_libgomp-dev: 10867

@@ -1,0 +1,14 @@
+PN: packagegroup-base
+PV: 1.0
+PR: r83
+PKGV: 1.0
+PKGR: r83.0
+LICENSE: MIT
+DESCRIPTION: Merge machine and distro options to create a basic machine task/package.
+SUMMARY_packagegroup-base-vfat: FAT filesystem support
+RRECOMMENDS_packagegroup-base-vfat:     kernel-module-msdos     kernel-module-vfat     kernel-module-nls-iso8859-1     kernel-module-nls-cp437     dosfstools
+SECTION: base
+PKG_packagegroup-base-vfat: packagegroup-base-vfat
+ALLOW_EMPTY_packagegroup-base-vfat: 1
+FILES_INFO: {}
+PKGSIZE_packagegroup-base-vfat: 0

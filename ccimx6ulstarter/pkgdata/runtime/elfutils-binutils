@@ -1,0 +1,28 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION: Utilities and libraries for handling compiled object files.
+SUMMARY: Utilities and libraries for handling compiled object files
+RDEPENDS_elfutils-binutils: libstdc++ (>= 5.2.0) glibc (>= 2.22) libdw (>= 0.163) libelf (>= 0.163)
+SECTION: base
+PKG_elfutils-binutils: elfutils-binutils
+FILES_elfutils-binutils:     /usr/bin/eu-addr2line     /usr/bin/eu-ld     /usr/bin/eu-nm     /usr/bin/eu-readelf     /usr/bin/eu-size     /usr/bin/eu-strip
+FILERPROVIDESFLIST_elfutils-binutils: /usr/bin/eu-nm /usr/bin/eu-ld /usr/bin/eu-strip /usr/bin/eu-size /usr/bin/eu-readelf /usr/bin/eu-addr2line
+FILES_INFO: {"/usr/bin/eu-ld": 160204, "/usr/bin/eu-strip": 41216, "/usr/bin/eu-nm": 33396, "/usr/bin/eu-size": 12636, "/usr/bin/eu-readelf": 164044, "/usr/bin/eu-addr2line": 15968}
+FILERPROVIDES_/usr/bin/eu-nm_elfutils-binutils: elf(buildid) (= 6dbfa06848b838fc2c2ebff6cdd48af6f7613554)
+FILERPROVIDES_/usr/bin/eu-ld_elfutils-binutils: elf(buildid) (= c612e9500476cecb1df9e8fc48c946ae15122fa6)
+FILERPROVIDES_/usr/bin/eu-strip_elfutils-binutils: elf(buildid) (= cdfce63835ca16416068a5389e4930f5af70adef)
+FILERPROVIDES_/usr/bin/eu-size_elfutils-binutils: elf(buildid) (= 00ba769ef1f00903bf3e403c4c9440d07c938e92)
+FILERPROVIDES_/usr/bin/eu-readelf_elfutils-binutils: elf(buildid) (= a7db13880ffe367789dad68a87d3231980fb7d26)
+FILERPROVIDES_/usr/bin/eu-addr2line_elfutils-binutils: elf(buildid) (= c3faa00f07998956a877ff2e59a77d2111b2aa55)
+FILERDEPENDSFLIST_elfutils-binutils: /usr/bin/eu-nm /usr/bin/eu-ld /usr/bin/eu-strip /usr/bin/eu-size /usr/bin/eu-readelf /usr/bin/eu-addr2line
+FILERDEPENDS_/usr/bin/eu-nm_elfutils-binutils: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libdw.so.1 libdw.so.1(ELFUTILS_0.122) libelf.so.1 libelf.so.1(ELFUTILS_1.0) libelf.so.1(ELFUTILS_1.5) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-ld_elfutils-binutils: libc.so.6 libc.so.6(GLIBC_2.22) libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libelf.so.1 libelf.so.1(ELFUTILS_1.0) libelf.so.1(ELFUTILS_1.2) libelf.so.1(ELFUTILS_1.5) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-strip_elfutils-binutils: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libdl.so.2 libdl.so.2(GLIBC_2.4) libelf.so.1 libelf.so.1(ELFUTILS_1.0) libelf.so.1(ELFUTILS_1.5) libelf.so.1(ELFUTILS_1.6) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-size_elfutils-binutils: libc.so.6 libc.so.6(GLIBC_2.4) libelf.so.1 libelf.so.1(ELFUTILS_1.0) libelf.so.1(ELFUTILS_1.5) libelf.so.1(ELFUTILS_1.6) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-readelf_elfutils-binutils: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libdw.so.1 libdw.so.1(ELFUTILS_0.122) libdw.so.1(ELFUTILS_0.148) libdw.so.1(ELFUTILS_0.158) libelf.so.1 libelf.so.1(ELFUTILS_1.0) libelf.so.1(ELFUTILS_1.1) libelf.so.1(ELFUTILS_1.1.1) libelf.so.1(ELFUTILS_1.3) libelf.so.1(ELFUTILS_1.4) libelf.so.1(ELFUTILS_1.5) libelf.so.1(ELFUTILS_1.6) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-addr2line_elfutils-binutils: libc.so.6 libc.so.6(GLIBC_2.4) libdw.so.1 libdw.so.1(ELFUTILS_0.122) libdw.so.1(ELFUTILS_0.127) libdw.so.1(ELFUTILS_0.148) libdw.so.1(ELFUTILS_0.149) libdw.so.1(ELFUTILS_0.158) libelf.so.1 libelf.so.1(ELFUTILS_1.0) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) rtld(GNU_HASH)
+PKGSIZE_elfutils-binutils: 427464

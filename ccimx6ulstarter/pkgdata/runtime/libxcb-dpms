@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-dpms: XCB library module for dpms
+SUMMARY_libxcb-dpms: XCB library module for dpms
+RDEPENDS_libxcb-dpms: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-dpms:  libxcb-dpms (=1.11)
+SECTION: x11/libs
+PKG_libxcb-dpms: libxcb-dpms0
+FILES_libxcb-dpms: /usr/lib/libxcb-dpms.so.0 /usr/lib/libxcb-dpms.so.0.0.0
+pkg_postinst_libxcb-dpms: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-dpms: /usr/lib/libxcb-dpms.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-dpms.so.0": 20, "/usr/lib/libxcb-dpms.so.0.0.0": 5988}
+FILERPROVIDES_/usr/lib/libxcb-dpms.so.0.0.0_libxcb-dpms: elf(buildid) (= 910d1db54dbd89614a2425ab7dcdeb6e04faf2be) libxcb-dpms.so.0
+FILERDEPENDSFLIST_libxcb-dpms: /usr/lib/libxcb-dpms.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-dpms.so.0.0.0_libxcb-dpms: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-dpms: 6008

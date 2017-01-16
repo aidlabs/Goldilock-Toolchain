@@ -1,0 +1,16 @@
+PN: crda
+PV: 3.18
+PR: r0
+PKGV: 3.18
+PKGR: r0.0
+LICENSE: copyleft-next-0.3.0 & ISC
+DESCRIPTION_crda-dev: Wireless Central Regulatory Domain Agent.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_crda-dev: Wireless Central Regulatory Domain Agent - Development files
+RDEPENDS_crda-dev: crda (= 3.18-r0.0)
+RRECOMMENDS_crda-dev: udev-dev glibc-dev libnl-genl-dev libgcrypt-dev libnl-dev
+SECTION_crda-dev: devel
+PKG_crda-dev: crda-dev
+ALLOW_EMPTY_crda-dev: 1
+FILES_crda-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/crda/*.la /lib/*.la
+FILES_INFO: {"/usr/include/reglib/reglib.h": 7240, "/usr/include/reglib/regdb.h": 4149, "/usr/include/reglib/nl80211.h": 169149}
+PKGSIZE_crda-dev: 180538

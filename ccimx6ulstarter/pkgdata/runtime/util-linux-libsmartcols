@@ -1,0 +1,20 @@
+PN: util-linux
+PV: 2.26.2
+PR: r0
+PKGV: 2.26.2
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD
+DESCRIPTION_util-linux-libsmartcols: util-linux libsmartcols
+SUMMARY_util-linux-libsmartcols: util-linux libsmartcols
+RDEPENDS_util-linux-libsmartcols: glibc (>= 2.22)
+RPROVIDES_util-linux-libsmartcols:  util-linux-libsmartcols (=2.26.2)
+SECTION: base
+PKG_util-linux-libsmartcols: libsmartcols1
+FILES_util-linux-libsmartcols: /lib/libsmartcols.so.1 /lib/libsmartcols.so.1.1.0
+pkg_postinst_util-linux-libsmartcols: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_util-linux-libsmartcols: /lib/libsmartcols.so.1.1.0
+FILES_INFO: {"/lib/libsmartcols.so.1.1.0": 110104, "/lib/libsmartcols.so.1": 21}
+FILERPROVIDES_/lib/libsmartcols.so.1.1.0_util-linux-libsmartcols: elf(buildid) (= 245e005124a62cec9e0baf285efdf00d06e9d107) libsmartcols.so.1 libsmartcols.so.1(SMARTCOLS_2.25)
+FILERDEPENDSFLIST_util-linux-libsmartcols: /lib/libsmartcols.so.1.1.0
+FILERDEPENDS_/lib/libsmartcols.so.1.1.0_util-linux-libsmartcols: ld-linux-armhf.so.3 ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+PKGSIZE_util-linux-libsmartcols: 110125

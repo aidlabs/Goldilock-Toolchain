@@ -1,0 +1,14 @@
+PN: hostapd
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: GPLv2 | BSD
+DESCRIPTION_hostapd-staticdev: User space daemon for extended IEEE 802.11 management.  This package contains static libraries for software development.
+SUMMARY_hostapd-staticdev: User space daemon for extended IEEE 802.11 management - Development files (Static Libraries)
+RDEPENDS_hostapd-staticdev: hostapd-dev (= 2.4-r0.0)
+SECTION_hostapd-staticdev: devel
+PKG_hostapd-staticdev: hostapd-staticdev
+FILES_hostapd-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/hostapd/*.a
+FILES_INFO: {}
+PKGSIZE_hostapd-staticdev: 0

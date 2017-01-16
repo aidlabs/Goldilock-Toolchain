@@ -1,0 +1,15 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-locale-en+boldquot: Utilities and libraries for handling compiled object files.  This package contains language translation files for the en@boldquot locale.
+SUMMARY_elfutils-locale-en+boldquot: Utilities and libraries for handling compiled object files - en@boldquot translations
+RPROVIDES_elfutils-locale-en+boldquot: elfutils-locale en+boldquot-translation
+RRECOMMENDS_elfutils-locale-en+boldquot: virtual-locale-en+boldquot
+SECTION: base
+PKG_elfutils-locale-en+boldquot: elfutils-locale-en+boldquot
+FILES_elfutils-locale-en+boldquot: /usr/share/locale/en@boldquot
+FILES_INFO: {"/usr/share/locale/en@boldquot/LC_MESSAGES/elfutils.mo": 149054}
+PKGSIZE_elfutils-locale-en+boldquot: 149054

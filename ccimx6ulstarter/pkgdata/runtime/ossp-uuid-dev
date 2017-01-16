@@ -1,0 +1,19 @@
+PN: ossp-uuid
+PV: 1.6.2
+PR: r2
+PKGV: 1.6.2
+PKGR: r2.0
+LICENSE: MIT
+DESCRIPTION_ossp-uuid-dev: OSSP uuid is a ISO-C:1999 application programming interface (API) and corresponding command line interface (CLI) for the generation of DCE 1.1, ISO/IEC 11578:1996 and RFC 4122 compliant Universally Unique Identifier (UUID). It supports DCE 1.1 variant UUIDs of version 1 (time and node based), version 3 (name based, MD5), version 4 (random number based) and version 5 (name based, SHA-1).  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ossp-uuid-dev: Universally Unique Identifier (UUID) library - Development files
+RDEPENDS_ossp-uuid-dev: ossp-uuid (= 1.6.2-r2.0)
+RPROVIDES_ossp-uuid-dev:  ossp-uuid-dev (=1.6.2)
+RRECOMMENDS_ossp-uuid-dev: update-alternatives-opkg-dev glibc-dev
+SECTION_ossp-uuid-dev: devel
+PKG_ossp-uuid-dev: libossp-uuid-dev
+ALLOW_EMPTY_ossp-uuid-dev: 1
+FILES_ossp-uuid-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ossp-uuid/*.la /lib/*.la /usr/bin/uuid-config
+FILES_INFO: {"/usr/bin/uuid-config": 4245, "/usr/lib/libossp-uuid.so": 23, "/usr/lib/pkgconfig/ossp-uuid.pc": 1686, "/usr/include/ossp/uuid.h": 4383, "/usr/lib/libossp-uuid.la": 951}
+FILERDEPENDSFLIST_ossp-uuid-dev: /usr/bin/uuid-config
+FILERDEPENDS_/usr/bin/uuid-config_ossp-uuid-dev: /bin/sh
+PKGSIZE_ossp-uuid-dev: 11288

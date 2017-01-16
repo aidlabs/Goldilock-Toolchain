@@ -1,0 +1,16 @@
+PN: kernel-module-qualcomm
+PV: v4.2.74.63
+PR: r0
+PKGV: v4.2.74.63
+PKGR: r0.0
+LICENSE: ISC
+DESCRIPTION_kernel-module-qualcomm-dev: qcacld-2.0 module.bbclass mechanism.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_kernel-module-qualcomm-dev: Qualcomm\'s wireless driver for qca6564 - Development files
+RDEPENDS_kernel-module-qualcomm-dev: kernel-module-qualcomm (= v4.2.74.63-r0.0)
+RRECOMMENDS_kernel-module-qualcomm-dev: kernel-4.1.35-dey+g8dca338-dev kernel-module-wlan-dev
+SECTION_kernel-module-qualcomm-dev: devel
+PKG_kernel-module-qualcomm-dev: kernel-module-qualcomm-dev
+ALLOW_EMPTY_kernel-module-qualcomm-dev: 1
+FILES_kernel-module-qualcomm-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/kernel-module-qualcomm/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_kernel-module-qualcomm-dev: 0

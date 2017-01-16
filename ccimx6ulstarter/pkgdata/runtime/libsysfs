@@ -1,0 +1,20 @@
+PN: sysfsutils
+PV: 2.1.0
+PR: r5
+PKGV: 2.1.0
+PKGR: r5.0
+LICENSE_libsysfs: LGPLv2.1
+DESCRIPTION: Tools for working with the sysfs virtual filesystem.  The tool \'systool\' can query devices by bus, class and topology.
+SUMMARY: Tools for working with sysfs
+RDEPENDS_libsysfs: glibc (>= 2.22)
+RPROVIDES_libsysfs:  libsysfs (=2.1.0)
+SECTION: base
+PKG_libsysfs: libsysfs2
+FILES_libsysfs: /lib/lib*.so.*
+pkg_postinst_libsysfs: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libsysfs: /lib/libsysfs.so.2.0.1
+FILES_INFO: {"/lib/libsysfs.so.2": 17, "/lib/libsysfs.so.2.0.1": 27468}
+FILERPROVIDES_/lib/libsysfs.so.2.0.1_libsysfs: elf(buildid) (= 654c85ee6ac470cea43d72ab00eccf937a7c623a) libsysfs.so.2
+FILERDEPENDSFLIST_libsysfs: /lib/libsysfs.so.2.0.1
+FILERDEPENDS_/lib/libsysfs.so.2.0.1_libsysfs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libsysfs: 27485

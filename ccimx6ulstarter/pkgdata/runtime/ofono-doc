@@ -1,0 +1,13 @@
+PN: ofono
+PV: 1.16
+PR: r0
+PKGV: 1.16
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_ofono-doc: oFono is a stack for mobile telephony devices on Linux. oFono supports speaking to telephony devices through specific drivers, or with generic AT commands.  This package contains documentation.
+SUMMARY_ofono-doc: open source telephony - Documentation files
+SECTION_ofono-doc: doc
+PKG_ofono-doc: ofono-doc
+FILES_ofono-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/ofonod.8": 1093}
+PKGSIZE_ofono-doc: 1093

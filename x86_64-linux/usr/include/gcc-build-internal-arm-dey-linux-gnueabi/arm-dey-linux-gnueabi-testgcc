@@ -1,0 +1,142 @@
+#!/usr/bin/env sh
+AR='ar'
+AR_FOR_TARGET='arm-dey-linux-gnueabi-ar'
+AS='as '
+BUILD_AR='ar'
+BUILD_AS='as '
+BUILD_CC='gcc '
+BUILD_CCLD='gcc '
+BUILD_CFLAGS='-isystem/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe'
+BUILD_CPP='gcc  -E'
+BUILD_CPPFLAGS='-isystem/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include'
+BUILD_CXX='g++ '
+BUILD_CXXFLAGS='-isystem/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe'
+BUILD_FC='gfortran '
+BUILD_LD='ld '
+BUILD_LDFLAGS='-L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-O1'
+BUILD_NM='nm'
+BUILD_RANLIB='ranlib'
+BUILD_STRIP='strip'
+CC='gcc '
+CCACHE_DIR='/home/simon'
+CCACHE_DISABLE='1'
+CCLD='gcc '
+CC_FOR_BUILD='gcc '
+CC_FOR_TARGET=' arm-dey-linux-gnueabi-gcc'
+CFLAGS='-isystem/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe'
+CFLAGS_FOR_BUILD='-isystem/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe'
+CFLAGS_FOR_TARGET=' -O2 -pipe -g -feliminate-unused-debug-types'
+CONFIG_SITE='/usr/local/dey-2.0/sources/poky/meta/site/endian-little /usr/local/dey-2.0/sources/poky/meta/site/common-linux /usr/local/dey-2.0/sources/poky/meta/site/common-glibc /usr/local/dey-2.0/sources/poky/meta/site/x86_64-linux /usr/local/dey-2.0/sources/poky/meta/site/common /usr/local/dey-2.0/sources/meta-openembedded/meta-oe/site/endian-little /home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi/aclocal-copy/glibc_config '
+CPP='gcc -E '
+CPPFLAGS=''
+CPPFLAGS_FOR_BUILD='-isystem/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include'
+CPPFLAGS_FOR_TARGET=''
+CPP_FOR_BUILD='gcc  -E'
+CXX='g++ '
+CXXFLAGS='-isystem/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe'
+CXXFLAGS_FOR_BUILD='-isystem/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe'
+CXXFLAGS_FOR_TARGET=' -O2 -pipe -g -feliminate-unused-debug-types'
+CXX_FOR_BUILD='g++ '
+FC='gfortran '
+LD='ld '
+LDFLAGS='-L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-O1'
+LDFLAGS_FOR_BUILD='-L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -L/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib -Wl,-O1'
+LDFLAGS_FOR_TARGET='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed'
+LD_FOR_BUILD='ld '
+LD_FOR_TARGET='arm-dey-linux-gnueabi-ld'
+MAKE='make'
+NM='nm'
+NM_FOR_TARGET='arm-dey-linux-gnueabi-nm'
+OBJCOPY='objcopy'
+OBJDUMP='objdump'
+OLDPWD='/home/simon/work/goldilocks'
+PATH='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/texinfo-dummy-native:/usr/local/dey-2.0/sources/poky/scripts:/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/arm-dey-linux-gnueabi:/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/arm-dey-linux-gnueabi/crossscripts:/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/sbin:/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin:/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/sbin:/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/bin:/usr/local/dey-2.0/sources/poky/scripts:/usr/local/dey-2.0/sources/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'
+PS1='$ '
+PS2='> '
+PWD='/home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi'
+RANLIB='ranlib'
+RANLIB_FOR_TARGET='arm-dey-linux-gnueabi-ranlib'
+STRINGS='strings'
+STRIP='strip'
+TARGET_CFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types'
+TARGET_CPPFLAGS=''
+TARGET_CXXFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types'
+TARGET_LDFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed'
+base_bindir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/arm-dey-linux-gnueabi'
+base_libdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib'
+base_prefix='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux'
+base_sbindir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/arm-dey-linux-gnueabi'
+bindir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/arm-dey-linux-gnueabi'
+datadir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/share'
+docdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/share/doc'
+exec_prefix='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr'
+gcc_cv_collect2_libs='none required'
+includedir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include'
+infodir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/share/info'
+libdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib/arm-dey-linux-gnueabi'
+libexecdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/libexec/arm-dey-linux-gnueabi'
+localstatedir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/var'
+lt_cv_sys_lib_dlsearch_path_spec='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib/arm-dey-linux-gnueabi /home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib'
+mandir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/share/man'
+nonarch_base_libdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib'
+nonarch_libdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib'
+oldincludedir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include'
+prefix='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr'
+sbindir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/bin/arm-dey-linux-gnueabi'
+servicedir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/srv'
+sharedstatedir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/com'
+sysconfdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/etc'
+systemd_system_unitdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib/systemd/system'
+systemd_unitdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib/systemd'
+systemd_user_unitdir='/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib/systemd/user'
+target="$1"
+usage () {
+	echo "Usage:"
+	echo "$0 user@target 'extra options to dejagnu'"
+	echo "$0 target 'extra options to dejagnu'"
+	echo "$0 target"
+	echo "e.g. $0 192.168.7.2 ' dg.exp=visibility-d.c'"
+	echo "will only run visibility-d.c test case"
+	echo "e.g. $0 192.168.7.2 '/-mthumb dg.exp=visibility-d.c'"
+	echo "will only run visibility-d.c test case in thumb mode"
+	echo "You need to have dejagnu autogen expect installed"
+	echo "on the build host"
+    }
+if [ "x$target" = "x" ]
+then
+	echo "Please specify the target machine and remote user in form of user@target\n"
+	usage
+	exit 1;
+fi
+
+shift
+
+echo "$target" | grep "@" 2>&1 > /dev/null
+if [ "x$?" = "x0" ]
+then
+   user=$(echo $target | cut -d '@' -f 1)
+   target=$(echo $target | cut -d '@' -f 2)
+else
+   user=$USER
+fi
+ssh $user@$target date 2>&1 > /dev/null
+if [ "x$?" != "x0" ]
+then
+	echo "Failed connecting to $user@$target it could be because"
+	echo "you don't have passwordless ssh setup to access $target"
+	echo "or sometimes host key has been changed"
+	echo "in such case do something like below on build host"
+	echo "ssh-keygen -f "~/.ssh/known_hosts" -R $target"
+	echo "and then try ssh $user@$target"
+
+	usage
+	exit 1
+fi
+	echo "lappend boards_dir [pwd]/../../.." > /home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi/site.exp
+	echo "load_generic_config \"unix\"" > /home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi/x86_64.exp
+	echo "set_board_info username $user" >> /home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi/x86_64.exp
+	echo "set_board_info rsh_prog ssh" >> /home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi/x86_64.exp
+	echo "set_board_info rcp_prog scp" >> /home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi/x86_64.exp
+	echo "set_board_info hostname $target" >> /home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi/x86_64.exp
+	DEJAGNU=/home/simon/work/goldilocks/tmp/work/x86_64-linux/gcc-cross-arm/5.2.0-r0/gcc-5.2.0/build.x86_64-linux.arm-dey-linux-gnueabi/site.exp make -k check RUNTESTFLAGS="--target_board=x86_64$@"
+

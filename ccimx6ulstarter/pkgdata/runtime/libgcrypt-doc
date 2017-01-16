@@ -1,0 +1,13 @@
+PN: libgcrypt
+PV: 1.6.3
+PR: r1
+PKGV: 1.6.3
+PKGR: r1.0
+LICENSE: GPLv2+ & LGPLv2.1+ & GPLv3+
+DESCRIPTION_libgcrypt-doc: General purpose cryptographic library based on the code from GnuPG.  This package contains documentation.
+SUMMARY_libgcrypt-doc: General purpose cryptographic library based on the code from GnuPG - Documentation files
+SECTION_libgcrypt-doc: doc
+PKG_libgcrypt-doc: libgcrypt-doc
+FILES_libgcrypt-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/info/gcrypt.info": 308404, "/usr/share/man/man1/hmac256.1": 1215}
+PKGSIZE_libgcrypt-doc: 309619

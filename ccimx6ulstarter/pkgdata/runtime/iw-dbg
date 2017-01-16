@@ -1,0 +1,15 @@
+PN: iw
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_iw-dbg: iw is a new nl80211 based CLI configuration utility for wireless devices. It supports almost all new drivers that have been added to the kernel recently.   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_iw-dbg: nl80211 based CLI configuration utility for wireless devices - Debugging files
+RRECOMMENDS_iw-dbg: glibc-dbg libnl-genl-dbg libnl-dbg
+SECTION_iw-dbg: devel
+PKG_iw-dbg: iw-dbg
+ALLOW_EMPTY_iw-dbg: 1
+FILES_iw-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/iw/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/iw/.debug /usr/lib/matchbox-panel/.debug /usr/lib/iw/iw/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/iw/4.1-r0/iw-4.1/connect.c": 4776, "/usr/src/debug/iw/4.1-r0/iw-4.1/cqm.c": 1188, "/usr/src/debug/iw/4.1-r0/iw-4.1/sections.c": 45, "/usr/sbin/.debug/iw": 447020, "/usr/src/debug/iw/4.1-r0/iw-4.1/vendor.c": 1804, "/usr/src/debug/iw/4.1-r0/iw-4.1/genl.c": 2445, "/usr/src/debug/iw/4.1-r0/iw-4.1/ps.c": 1815, "/usr/src/debug/iw/4.1-r0/iw-4.1/coalesce.c": 7367, "/usr/src/debug/iw/4.1-r0/iw-4.1/survey.c": 2841, "/usr/src/debug/iw/4.1-r0/iw-4.1/iw.c": 11615, "/usr/src/debug/iw/4.1-r0/iw-4.1/iw.h": 5696, "/usr/src/debug/iw/4.1-r0/iw-4.1/event.c": 20971, "/usr/src/debug/iw/4.1-r0/iw-4.1/scan.c": 52786, "/usr/src/debug/iw/4.1-r0/build/version.c": 49, "/usr/src/debug/iw/4.1-r0/iw-4.1/phy.c": 12254, "/usr/src/debug/iw/4.1-r0/iw-4.1/station.c": 15293, "/usr/src/debug/iw/4.1-r0/iw-4.1/wowlan.c": 12891, "/usr/src/debug/iw/4.1-r0/iw-4.1/interface.c": 14349, "/usr/src/debug/iw/4.1-r0/iw-4.1/nl80211.h": 192085, "/usr/src/debug/iw/4.1-r0/iw-4.1/link.c": 7775, "/usr/src/debug/iw/4.1-r0/iw-4.1/ocb.c": 1546, "/usr/src/debug/iw/4.1-r0/iw-4.1/offch.c": 894, "/usr/src/debug/iw/4.1-r0/iw-4.1/info.c": 25713, "/usr/src/debug/iw/4.1-r0/iw-4.1/roc.c": 863, "/usr/src/debug/iw/4.1-r0/iw-4.1/mpath.c": 5218, "/usr/src/debug/iw/4.1-r0/iw-4.1/status.c": 3732, "/usr/src/debug/iw/4.1-r0/iw-4.1/p2p.c": 765, "/usr/src/debug/iw/4.1-r0/iw-4.1/bitrate.c": 6723, "/usr/src/debug/iw/4.1-r0/iw-4.1/reason.c": 2893, "/usr/src/debug/iw/4.1-r0/iw-4.1/util.c": 18848, "/usr/src/debug/iw/4.1-r0/iw-4.1/mpp.c": 2058, "/usr/src/debug/iw/4.1-r0/iw-4.1/mesh.c": 15294, "/usr/src/debug/iw/4.1-r0/iw-4.1/reg.c": 7373, "/usr/src/debug/iw/4.1-r0/iw-4.1/ibss.c": 4797, "/usr/src/debug/iw/4.1-r0/iw-4.1/ieee80211.h": 1594}
+PKGSIZE_iw-dbg: 913376

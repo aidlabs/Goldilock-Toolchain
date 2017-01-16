@@ -1,0 +1,22 @@
+PN: crda
+PV: 3.18
+PR: r0
+PKGV: 3.18
+PKGR: r0.0
+LICENSE: copyleft-next-0.3.0 & ISC
+DESCRIPTION: Wireless Central Regulatory Domain Agent.
+SUMMARY: Wireless Central Regulatory Domain Agent
+RDEPENDS_crda: glibc (>= 2.22) libnl-genl (>= 3.2.25) libnl (>= 3.2.25) udev libgcrypt (>= 1.6.3)
+SECTION: net
+PKG_crda: crda
+FILES_crda: /usr/bin/* /usr/sbin/* /usr/lib/crda/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/crda /usr/lib/crda/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/libcrda/regulatory.bin                 /lib/udev/rules.d/85-regulatory.rules 
+FILERPROVIDESFLIST_crda: /usr/sbin/crda /usr/sbin/regdbdump /usr/lib/crda/libreg.so
+FILES_INFO: {"/usr/lib/crda/regulatory.bin": 4968, "/lib/udev/rules.d/85-regulatory.rules": 225, "/usr/sbin/crda": 7744, "/usr/sbin/regdbdump": 4376, "/usr/lib/crda/libreg.so": 14860}
+FILERPROVIDES_/usr/sbin/crda_crda: elf(buildid) (= d84fc3fefc9f30573956d45257e3d1bff7d377cc)
+FILERPROVIDES_/usr/sbin/regdbdump_crda: elf(buildid) (= 446ebc1cb347a8b48c4dd56dbdfca0554a28a8d5)
+FILERPROVIDES_/usr/lib/crda/libreg.so_crda: elf(buildid) (= 3609bf9e73a0ec5d07ff024474a622c8a9401174) libreg.so
+FILERDEPENDSFLIST_crda: /usr/sbin/crda /usr/sbin/regdbdump /usr/lib/crda/libreg.so
+FILERDEPENDS_/usr/sbin/crda_crda: libc.so.6 libc.so.6(GLIBC_2.4) libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) libreg.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/regdbdump_crda: libc.so.6 libc.so.6(GLIBC_2.4) libreg.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/crda/libreg.so_crda: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libgcrypt.so.20 libgcrypt.so.20(GCRYPT_1.6) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_crda: 32173

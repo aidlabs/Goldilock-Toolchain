@@ -1,0 +1,14 @@
+PN: python-pygobject
+PV: 2.28.3
+PR: r0
+PKGV: 2.28.3
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_python-pygobject-staticdev: Python GObject bindings.  This package contains static libraries for software development.
+SUMMARY_python-pygobject-staticdev: Python GObject bindings - Development files (Static Libraries)
+RDEPENDS_python-pygobject-staticdev: python-pygobject-dev (= 2.28.3-r0.0)
+SECTION_python-pygobject-staticdev: devel
+PKG_python-pygobject-staticdev: python-pygobject-staticdev
+FILES_python-pygobject-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/python-pygobject/*.a   /usr/lib/python2.7/site-packages/*.a 
+FILES_INFO: {}
+PKGSIZE_python-pygobject-staticdev: 0

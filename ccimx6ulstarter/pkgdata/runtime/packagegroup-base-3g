@@ -1,0 +1,15 @@
+PN: packagegroup-base
+PV: 1.0
+PR: r83
+PKGV: 1.0
+PKGR: r83.0
+LICENSE: MIT
+DESCRIPTION: Merge machine and distro options to create a basic machine task/package.
+SUMMARY_packagegroup-base-3g: Cellular data support
+RDEPENDS_packagegroup-base-3g: ofono
+RRECOMMENDS_packagegroup-base-3g:     kernel-module-cdc-acm     kernel-module-cdc-wdm
+SECTION: base
+PKG_packagegroup-base-3g: packagegroup-base-3g
+ALLOW_EMPTY_packagegroup-base-3g: 1
+FILES_INFO: {}
+PKGSIZE_packagegroup-base-3g: 0

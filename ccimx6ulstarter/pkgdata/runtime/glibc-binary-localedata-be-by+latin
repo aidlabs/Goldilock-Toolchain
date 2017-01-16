@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-be-by+latin: binary locale definition for be-by+latin
+SUMMARY_glibc-binary-localedata-be-by+latin: binary locale definition for be-by+latin
+SECTION: base
+PKG_glibc-binary-localedata-be-by+latin: glibc-binary-localedata-be-by+latin
+FILES_glibc-binary-localedata-be-by+latin: /usr/lib/locale/be_BY@latin
+FILES_INFO: {"/usr/lib/locale/be_BY@latin/LC_PAPER": 34, "/usr/lib/locale/be_BY@latin/LC_COLLATE": 1243766, "/usr/lib/locale/be_BY@latin/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/be_BY@latin/LC_NAME": 62, "/usr/lib/locale/be_BY@latin/LC_CTYPE": 248252, "/usr/lib/locale/be_BY@latin/LC_TIME": 2486, "/usr/lib/locale/be_BY@latin/LC_ADDRESS": 156, "/usr/lib/locale/be_BY@latin/LC_MEASUREMENT": 23, "/usr/lib/locale/be_BY@latin/LC_TELEPHONE": 54, "/usr/lib/locale/be_BY@latin/LC_IDENTIFICATION": 393, "/usr/lib/locale/be_BY@latin/LC_MONETARY": 294, "/usr/lib/locale/be_BY@latin/LC_NUMERIC": 54}
+PKGSIZE_glibc-binary-localedata-be-by+latin: 1495628

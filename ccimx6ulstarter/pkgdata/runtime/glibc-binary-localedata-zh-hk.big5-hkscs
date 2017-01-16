@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-zh-hk.big5-hkscs: binary locale definition for zh-hk.big5-hkscs
+SUMMARY_glibc-binary-localedata-zh-hk.big5-hkscs: binary locale definition for zh-hk.big5-hkscs
+SECTION: base
+PKG_glibc-binary-localedata-zh-hk.big5-hkscs: glibc-binary-localedata-zh-hk.big5-hkscs
+FILES_glibc-binary-localedata-zh-hk.big5-hkscs: /usr/lib/locale/zh_HK.BIG5-HKSCS
+FILES_INFO: {"/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_TELEPHONE": 60, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_IDENTIFICATION": 450, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_CTYPE": 317504, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_NUMERIC": 59, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_PAPER": 39, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_MEASUREMENT": 28, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_COLLATE": 679799, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_MONETARY": 295, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_ADDRESS": 116, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_NAME": 79, "/usr/lib/locale/zh_HK.BIG5-HKSCS/LC_TIME": 2127}
+PKGSIZE_glibc-binary-localedata-zh-hk.big5-hkscs: 1000615

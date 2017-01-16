@@ -1,0 +1,14 @@
+PN: sysinfo
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION_sysinfo-staticdev: Digi\'s system info utility.  This package contains static libraries for software development.
+SUMMARY_sysinfo-staticdev: Digi\'s system info utility - Development files (Static Libraries)
+RDEPENDS_sysinfo-staticdev: sysinfo-dev (= 1.0-r0.0)
+SECTION_sysinfo-staticdev: devel
+PKG_sysinfo-staticdev: sysinfo-staticdev
+FILES_sysinfo-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/sysinfo/*.a
+FILES_INFO: {}
+PKGSIZE_sysinfo-staticdev: 0

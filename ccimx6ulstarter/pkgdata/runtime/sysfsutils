@@ -1,0 +1,26 @@
+PN: sysfsutils
+PV: 2.1.0
+PR: r5
+PKGV: 2.1.0
+PKGR: r5.0
+LICENSE_sysfsutils: GPLv2
+DESCRIPTION: Tools for working with the sysfs virtual filesystem.  The tool \'systool\' can query devices by bus, class and topology.
+SUMMARY: Tools for working with sysfs
+RDEPENDS_sysfsutils: glibc (>= 2.22) libsysfs (>= 2.1.0)
+SECTION: base
+PKG_sysfsutils: sysfsutils
+FILES_sysfsutils: /usr/bin/* /usr/sbin/* /lib/sysfsutils/* /lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/sysfsutils /lib/sysfsutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /lib/bonobo/servers
+FILERPROVIDESFLIST_sysfsutils: /usr/bin/get@underscore@device /usr/bin/systool /usr/bin/dlist@underscore@test /usr/bin/get@underscore@driver /usr/bin/get@underscore@module
+FILES_INFO: {"/usr/bin/dlist_test": 7552, "/usr/bin/systool": 18328, "/usr/bin/get_driver": 5052, "/usr/bin/get_device": 4028, "/usr/bin/get_module": 4692}
+FILERPROVIDES_/usr/bin/get@underscore@device_sysfsutils: elf(buildid) (= 6cf2362b50dc0e1cc027dd0f4a6b2c24f7d6daab)
+FILERPROVIDES_/usr/bin/systool_sysfsutils: elf(buildid) (= 4a719a3b8e6684f2a0d5d0c34c792de1ccb2e5ac)
+FILERPROVIDES_/usr/bin/dlist@underscore@test_sysfsutils: elf(buildid) (= 99b14bc71ff16bb0429dede3ea64b9602c165938)
+FILERPROVIDES_/usr/bin/get@underscore@driver_sysfsutils: elf(buildid) (= da2a74a6f274fbd3f3518075bed9535f7be674d4)
+FILERPROVIDES_/usr/bin/get@underscore@module_sysfsutils: elf(buildid) (= fc67ca5f4226f68d963c98bd486e27308d0451ed)
+FILERDEPENDSFLIST_sysfsutils: /usr/bin/get@underscore@device /usr/bin/systool /usr/bin/dlist@underscore@test /usr/bin/get@underscore@driver /usr/bin/get@underscore@module
+FILERDEPENDS_/usr/bin/get@underscore@device_sysfsutils: libc.so.6 libc.so.6(GLIBC_2.4) libsysfs.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/systool_sysfsutils: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libsysfs.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/dlist@underscore@test_sysfsutils: libc.so.6 libc.so.6(GLIBC_2.4) libsysfs.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/get@underscore@driver_sysfsutils: libc.so.6 libc.so.6(GLIBC_2.4) libsysfs.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/get@underscore@module_sysfsutils: libc.so.6 libc.so.6(GLIBC_2.4) libsysfs.so.2 rtld(GNU_HASH)
+PKGSIZE_sysfsutils: 39652

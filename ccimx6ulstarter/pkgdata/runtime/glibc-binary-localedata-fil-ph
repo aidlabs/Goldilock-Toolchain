@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-fil-ph: binary locale definition for fil-ph
+SUMMARY_glibc-binary-localedata-fil-ph: binary locale definition for fil-ph
+SECTION: base
+PKG_glibc-binary-localedata-fil-ph: glibc-binary-localedata-fil-ph
+FILES_glibc-binary-localedata-fil-ph: /usr/lib/locale/fil_PH
+FILES_INFO: {"/usr/lib/locale/fil_PH/LC_MEASUREMENT": 23, "/usr/lib/locale/fil_PH/LC_TIME": 2490, "/usr/lib/locale/fil_PH/LC_ADDRESS": 145, "/usr/lib/locale/fil_PH/LC_MESSAGES/SYS_LC_MESSAGES": 61, "/usr/lib/locale/fil_PH/LC_CTYPE": 278308, "/usr/lib/locale/fil_PH/LC_MONETARY": 294, "/usr/lib/locale/fil_PH/LC_NUMERIC": 54, "/usr/lib/locale/fil_PH/LC_PAPER": 34, "/usr/lib/locale/fil_PH/LC_NAME": 74, "/usr/lib/locale/fil_PH/LC_IDENTIFICATION": 371, "/usr/lib/locale/fil_PH/LC_COLLATE": 1244182, "/usr/lib/locale/fil_PH/LC_TELEPHONE": 59}
+PKGSIZE_glibc-binary-localedata-fil-ph: 1526095

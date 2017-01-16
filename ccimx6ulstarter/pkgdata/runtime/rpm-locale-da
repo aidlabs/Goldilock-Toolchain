@@ -1,0 +1,15 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-locale-da: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains language translation files for the da locale.
+SUMMARY_rpm-locale-da: The RPM package management system - da translations
+RPROVIDES_rpm-locale-da: rpm-locale da-translation
+RRECOMMENDS_rpm-locale-da: virtual-locale-da
+SECTION: base
+PKG_rpm-locale-da: rpm-locale-da
+FILES_rpm-locale-da: /usr/share/locale/da
+FILES_INFO: {"/usr/share/locale/da/LC_MESSAGES/rpm.mo": 125190}
+PKGSIZE_rpm-locale-da: 125190

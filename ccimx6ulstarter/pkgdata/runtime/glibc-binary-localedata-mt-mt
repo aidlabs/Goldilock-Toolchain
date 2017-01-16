@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-mt-mt: binary locale definition for mt-mt
+SUMMARY_glibc-binary-localedata-mt-mt: binary locale definition for mt-mt
+SECTION: base
+PKG_glibc-binary-localedata-mt-mt: glibc-binary-localedata-mt-mt
+FILES_glibc-binary-localedata-mt-mt: /usr/lib/locale/mt_MT
+FILES_INFO: {"/usr/lib/locale/mt_MT/LC_MEASUREMENT": 23, "/usr/lib/locale/mt_MT/LC_IDENTIFICATION": 437, "/usr/lib/locale/mt_MT/LC_CTYPE": 278308, "/usr/lib/locale/mt_MT/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/mt_MT/LC_TELEPHONE": 49, "/usr/lib/locale/mt_MT/LC_NUMERIC": 54, "/usr/lib/locale/mt_MT/LC_TIME": 2658, "/usr/lib/locale/mt_MT/LC_ADDRESS": 116, "/usr/lib/locale/mt_MT/LC_PAPER": 34, "/usr/lib/locale/mt_MT/LC_COLLATE": 1244658, "/usr/lib/locale/mt_MT/LC_MONETARY": 290, "/usr/lib/locale/mt_MT/LC_NAME": 73}
+PKGSIZE_glibc-binary-localedata-mt-mt: 1526759

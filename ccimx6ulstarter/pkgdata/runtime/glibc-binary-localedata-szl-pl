@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-szl-pl: binary locale definition for szl-pl
+SUMMARY_glibc-binary-localedata-szl-pl: binary locale definition for szl-pl
+SECTION: base
+PKG_glibc-binary-localedata-szl-pl: glibc-binary-localedata-szl-pl
+FILES_glibc-binary-localedata-szl-pl: /usr/lib/locale/szl_PL
+FILES_INFO: {"/usr/lib/locale/szl_PL/LC_TELEPHONE": 49, "/usr/lib/locale/szl_PL/LC_COLLATE": 1243806, "/usr/lib/locale/szl_PL/LC_MONETARY": 294, "/usr/lib/locale/szl_PL/LC_ADDRESS": 154, "/usr/lib/locale/szl_PL/LC_IDENTIFICATION": 365, "/usr/lib/locale/szl_PL/LC_PAPER": 34, "/usr/lib/locale/szl_PL/LC_CTYPE": 278308, "/usr/lib/locale/szl_PL/LC_MEASUREMENT": 23, "/usr/lib/locale/szl_PL/LC_TIME": 2442, "/usr/lib/locale/szl_PL/LC_NAME": 62, "/usr/lib/locale/szl_PL/LC_NUMERIC": 54, "/usr/lib/locale/szl_PL/LC_MESSAGES/SYS_LC_MESSAGES": 56}
+PKGSIZE_glibc-binary-localedata-szl-pl: 1525647

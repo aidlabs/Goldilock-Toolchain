@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ar-dz: binary locale definition for ar-dz
+SUMMARY_glibc-binary-localedata-ar-dz: binary locale definition for ar-dz
+SECTION: base
+PKG_glibc-binary-localedata-ar-dz: glibc-binary-localedata-ar-dz
+FILES_glibc-binary-localedata-ar-dz: /usr/lib/locale/ar_DZ
+FILES_INFO: {"/usr/lib/locale/ar_DZ/LC_MEASUREMENT": 23, "/usr/lib/locale/ar_DZ/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/ar_DZ/LC_TIME": 2554, "/usr/lib/locale/ar_DZ/LC_ADDRESS": 125, "/usr/lib/locale/ar_DZ/LC_MONETARY": 302, "/usr/lib/locale/ar_DZ/LC_CTYPE": 278308, "/usr/lib/locale/ar_DZ/LC_PAPER": 34, "/usr/lib/locale/ar_DZ/LC_NUMERIC": 54, "/usr/lib/locale/ar_DZ/LC_NAME": 77, "/usr/lib/locale/ar_DZ/LC_IDENTIFICATION": 439, "/usr/lib/locale/ar_DZ/LC_COLLATE": 1243766, "/usr/lib/locale/ar_DZ/LC_TELEPHONE": 54}
+PKGSIZE_glibc-binary-localedata-ar-dz: 1525802

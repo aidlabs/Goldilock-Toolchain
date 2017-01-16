@@ -1,0 +1,13 @@
+PN: xcb-proto
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Function prototypes for the X protocol C-language Binding (XCB).  XCB is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.
+SUMMARY: XCB: The X protocol C binding headers
+SECTION: x11/libs
+PKG_python-xcbgen: python-xcbgen
+FILES_python-xcbgen: /usr/lib/python*
+FILES_INFO: {"/usr/lib/python2.7/site-packages/xcbgen/state.pyo": 7096, "/usr/lib/python2.7/site-packages/xcbgen/error.py": 116, "/usr/lib/python2.7/site-packages/xcbgen/expr.py": 4724, "/usr/lib/python2.7/site-packages/xcbgen/error.pyo": 435, "/usr/lib/python2.7/site-packages/xcbgen/xtypes.pyo": 25221, "/usr/lib/python2.7/site-packages/xcbgen/__init__.pyo": 138, "/usr/lib/python2.7/site-packages/xcbgen/__init__.py": 1, "/usr/lib/python2.7/site-packages/xcbgen/xtypes.py": 25288, "/usr/lib/python2.7/site-packages/xcbgen/expr.pyo": 4086, "/usr/lib/python2.7/site-packages/xcbgen/state.py": 5473, "/usr/lib/python2.7/site-packages/xcbgen/matcher.pyo": 5201, "/usr/lib/python2.7/site-packages/xcbgen/matcher.py": 3694}
+PKGSIZE_python-xcbgen: 81473

@@ -1,0 +1,30 @@
+PN: glib-2.0
+PE: 1
+PV: 2.44.1
+PR: r0
+PKGE: 1
+PKGV: 2.44.1
+PKGR: r0.0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.
+SUMMARY: A general-purpose utility library
+RDEPENDS_glib-2.0: libffi (>= 3.2.1) glibc (>= 2.22) zlib (>= 1.2.8)
+RPROVIDES_glib-2.0:  glib-2.0 (=2.44.1)
+SECTION: libs
+PKG_glib-2.0: libglib-2.0-0
+FILES_glib-2.0: /usr/lib/lib*.so.* /usr/lib/gio /usr/share/glib-2.0/schemas                /usr/share/glib-2.0/gettext/mkinstalldirs /usr/share/glib-2.0/gettext/po/Makefile.in.in
+pkg_postinst_glib-2.0: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_glib-2.0: /usr/lib/libgobject-2.0.so.0.4400.1 /usr/lib/libgio-2.0.so.0.4400.1 /usr/lib/libgmodule-2.0.so.0.4400.1 /usr/lib/libglib-2.0.so.0.4400.1 /usr/lib/libgthread-2.0.so.0.4400.1
+FILES_INFO: {"/usr/lib/libgobject-2.0.so.0.4400.1": 296228, "/usr/lib/libgthread-2.0.so.0.4400.1": 3804, "/usr/lib/libgmodule-2.0.so.0": 26, "/usr/lib/libgio-2.0.so.0.4400.1": 1278044, "/usr/lib/libglib-2.0.so.0.4400.1": 1138468, "/usr/lib/libgio-2.0.so.0": 22, "/usr/lib/libgobject-2.0.so.0": 26, "/usr/lib/libgmodule-2.0.so.0.4400.1": 9972, "/usr/lib/libglib-2.0.so.0": 23, "/usr/lib/libgthread-2.0.so.0": 26, "/usr/share/glib-2.0/schemas/gschema.dtd": 2839}
+FILERPROVIDES_/usr/lib/libgobject-2.0.so.0.4400.1_glib-2.0: elf(buildid) (= c06e10988e1047fb9aa17dd63b425c9e6aabdad0) libgobject-2.0.so.0
+FILERPROVIDES_/usr/lib/libgio-2.0.so.0.4400.1_glib-2.0: elf(buildid) (= 7131296adca943444dc239b67c004d3dfc00a4d4) libgio-2.0.so.0
+FILERPROVIDES_/usr/lib/libgmodule-2.0.so.0.4400.1_glib-2.0: elf(buildid) (= f328af0be2fd925ed6b9782e9c788c4c2968d746) libgmodule-2.0.so.0
+FILERPROVIDES_/usr/lib/libglib-2.0.so.0.4400.1_glib-2.0: elf(buildid) (= b5ebb1fb1e56c1be566209206ba0043a9ae71d63) libglib-2.0.so.0
+FILERPROVIDES_/usr/lib/libgthread-2.0.so.0.4400.1_glib-2.0: elf(buildid) (= 753666c8ee6d24fb5cacf214ee3adc6c6d9c02cd) libgthread-2.0.so.0
+FILERDEPENDSFLIST_glib-2.0: /usr/lib/libgobject-2.0.so.0.4400.1 /usr/lib/libgio-2.0.so.0.4400.1 /usr/lib/libgmodule-2.0.so.0.4400.1 /usr/lib/libglib-2.0.so.0.4400.1 /usr/lib/libgthread-2.0.so.0.4400.1
+FILERDEPENDS_/usr/lib/libgobject-2.0.so.0.4400.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.4) libffi.so.6 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgio-2.0.so.0.4400.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.5) libc.so.6(GLIBC_2.9) libdl.so.2 libffi.so.6 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libresolv.so.2 libresolv.so.2(GLIBC_2.4) libz.so.1 libz.so.1(ZLIB_1.2.2) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgmodule-2.0.so.0.4400.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libglib-2.0.so.0.4400.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.9) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgthread-2.0.so.0.4400.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 rtld(GNU_HASH)
+PKGSIZE_glib-2.0: 2729478

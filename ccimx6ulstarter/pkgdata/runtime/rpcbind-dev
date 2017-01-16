@@ -1,0 +1,16 @@
+PN: rpcbind
+PV: 0.2.3
+PR: r0
+PKGV: 0.2.3
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_rpcbind-dev: The rpcbind utility is a server that converts RPC                program numbers into universal addresses.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_rpcbind-dev: Universal Addresses to RPC Program Number Mapper - Development files
+RDEPENDS_rpcbind-dev: rpcbind (= 0.2.3-r0.0)
+RRECOMMENDS_rpcbind-dev: quota-dev shadow-dev shadow-sysroot-dev base-files-dev initscripts-functions-dev update-rc.d-dev libtirpc-dev base-passwd-dev glibc-dev initscripts-dev
+SECTION_rpcbind-dev: devel
+PKG_rpcbind-dev: rpcbind-dev
+ALLOW_EMPTY_rpcbind-dev: 1
+FILES_rpcbind-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rpcbind/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_rpcbind-dev: 0

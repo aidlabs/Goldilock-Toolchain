@@ -1,0 +1,13 @@
+PN: sysinfo
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION_sysinfo-doc: Digi\'s system info utility.  This package contains documentation.
+SUMMARY_sysinfo-doc: Digi\'s system info utility - Documentation files
+SECTION_sysinfo-doc: doc
+PKG_sysinfo-doc: sysinfo-doc
+FILES_sysinfo-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_sysinfo-doc: 0

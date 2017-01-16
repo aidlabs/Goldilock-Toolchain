@@ -1,0 +1,16 @@
+PN: packagegroup-dey-core
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Core packagegroup for DEY image.
+SUMMARY: Core packagegroup for DEY image
+RDEPENDS_packagegroup-dey-core: busybox modutils-initscripts mca-tool busybox-hwclock sysvinit update-alternatives-opkg mtd-utils-ubifs busybox-acpid usbutils udev u-boot-fw-utils os-release busybox-static-nodes imx-kobs netbase base-files init-ifupdown shadow sysinfo base-passwd initscripts
+RRECOMMENDS_packagegroup-dey-core:          kernel-modules udev-extraconf udev-rules-imx  firmware-qualcomm-qca6564-bt firmware-qualcomm-qca6564-wifi  kernel-module-qualcomm fsl-alsa-plugins cryptodev-module 
+SECTION: base
+PKG_packagegroup-dey-core: packagegroup-dey-core
+ALLOW_EMPTY_packagegroup-dey-core: 1
+FILES_packagegroup-dey-core: /usr/bin/* /usr/sbin/* /usr/lib/packagegroup-dey-core/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/packagegroup-dey-core /usr/lib/packagegroup-dey-core/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-core: 0

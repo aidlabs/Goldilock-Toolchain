@@ -1,0 +1,13 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-doc: Small library that defines common error values for all GnuPG components.  This package contains documentation.
+SUMMARY_libgpg-error-doc: Small library that defines common error values for all GnuPG components - Documentation files
+SECTION_libgpg-error-doc: doc
+PKG_libgpg-error-doc: libgpg-error-doc
+FILES_libgpg-error-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/gpg-error-config.1": 1765, "/usr/share/info/gpgrt.info": 60668}
+PKGSIZE_libgpg-error-doc: 62433

@@ -1,0 +1,14 @@
+PN: neard
+PV: 0.15
+PR: r0
+PKGV: 0.15
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: A daemon for the Linux Near Field Communication stack
+SUMMARY: Linux NFC daemon
+RDEPENDS_neard-tests: python python-dbus python-pygobject
+SECTION: base
+PKG_neard-tests: neard-tests
+FILES_neard-tests: /usr/lib/neard/*-test
+FILES_INFO: {}
+PKGSIZE_neard-tests: 0

@@ -1,0 +1,14 @@
+PN: libdigi
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: GPL-2.0
+DESCRIPTION_libdigi-dev: Digi\'s utilities library.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libdigi-dev: Digi\'s utilities library - Development files
+SECTION_libdigi-dev: devel
+PKG_libdigi-dev: libdigi-dev
+ALLOW_EMPTY_libdigi-dev: 1
+FILES_libdigi-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libdigi/*.la /lib/*.la
+FILES_INFO: {"/usr/include/libdigi/mem.h": 580, "/usr/include/libdigi/log.h": 758, "/usr/include/libdigi/cmdopt.h": 1899, "/usr/include/libdigi/digi-platforms.h": 4137, "/usr/include/libdigi/misc_helper.h": 1524, "/usr/include/libdigi/crc32.h": 561}
+PKGSIZE_libdigi-dev: 9459

@@ -1,0 +1,4 @@
+#!/bin/bash
+realpath=`readlink -fn $0`
+export MKE2FS_CONFIG=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/etc/mke2fs.conf
+exec -a `dirname $realpath`/mke2fs `dirname $realpath`/mke2fs.real "$@"

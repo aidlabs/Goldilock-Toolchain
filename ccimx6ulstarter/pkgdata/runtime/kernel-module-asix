@@ -1,0 +1,16 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-asix: asix kernel module; ASIX AX8817X based USB 2.0 Ethernet Devices
+SUMMARY_kernel-module-asix: asix kernel module
+RDEPENDS_kernel-module-asix: kernel-module-usbnet kernel-4.1.35-dey+g8dca338
+SECTION: base
+PKG_kernel-module-asix: kernel-module-asix
+FILES_kernel-module-asix: /lib/modules/4.1.35-dey+g8dca338/kernel/drivers/net/usb/asix.ko /etc/modules-load.d/asix.conf /etc/modprobe.d/asix.conf
+pkg_postinst_kernel-module-asix: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-asix: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\tdepmodwrapper -a -b $D 4.1.35-dey+g8dca338\nfi\n\n
+FILES_INFO: {"/lib/modules/4.1.35-dey+g8dca338/kernel/drivers/net/usb/asix.ko": 36360}
+PKGSIZE_kernel-module-asix: 36360

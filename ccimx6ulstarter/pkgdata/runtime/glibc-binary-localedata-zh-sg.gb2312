@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-zh-sg.gb2312: binary locale definition for zh-sg.gb2312
+SUMMARY_glibc-binary-localedata-zh-sg.gb2312: binary locale definition for zh-sg.gb2312
+SECTION: base
+PKG_glibc-binary-localedata-zh-sg.gb2312: glibc-binary-localedata-zh-sg.gb2312
+FILES_glibc-binary-localedata-zh-sg.gb2312: /usr/lib/locale/zh_SG.GB2312
+FILES_INFO: {"/usr/lib/locale/zh_SG.GB2312/LC_NUMERIC": 55, "/usr/lib/locale/zh_SG.GB2312/LC_ADDRESS": 112, "/usr/lib/locale/zh_SG.GB2312/LC_TELEPHONE": 50, "/usr/lib/locale/zh_SG.GB2312/LC_NAME": 74, "/usr/lib/locale/zh_SG.GB2312/LC_TIME": 2155, "/usr/lib/locale/zh_SG.GB2312/LC_PAPER": 35, "/usr/lib/locale/zh_SG.GB2312/LC_IDENTIFICATION": 477, "/usr/lib/locale/zh_SG.GB2312/LC_COLLATE": 395195, "/usr/lib/locale/zh_SG.GB2312/LC_CTYPE": 266852, "/usr/lib/locale/zh_SG.GB2312/LC_MEASUREMENT": 24, "/usr/lib/locale/zh_SG.GB2312/LC_MONETARY": 287, "/usr/lib/locale/zh_SG.GB2312/LC_MESSAGES/SYS_LC_MESSAGES": 54}
+PKGSIZE_glibc-binary-localedata-zh-sg.gb2312: 665370

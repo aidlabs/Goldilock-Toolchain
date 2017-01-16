@@ -1,0 +1,21 @@
+PN: alsa-state
+PV: 0.2.0
+PR: r5
+PKGV: 0.2.0
+PKGR: r5.0
+LICENSE: MIT
+DESCRIPTION: Alsa Scenario Files - an init script and state files to restore sound state at system boot and save it at system shut down.
+SUMMARY: Alsa scenario files to enable alsa state restoration
+RDEPENDS_alsa-state: initscripts-functions alsa-utils-alsactl
+RRECOMMENDS_alsa-state: alsa-states update-rc.d
+SECTION: base
+PKG_alsa-state: alsa-state
+FILES_alsa-state: /etc/init.d /etc/asound.conf
+pkg_postinst_alsa-state: \tif test -z "$D"\n\tthen\n\t\tif test -x /usr/sbin/alsactl\n\t\tthen\n\t\t\t/usr/sbin/alsactl -f /var/lib/alsa/asound.state restore\n\t\tfi\n\tfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT alsa-state start 39 S . stop 31 0 6 .\nfi\n
+pkg_postrm_alsa-state: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT alsa-state remove\nfi\n
+pkg_preinst_alsa-state: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/alsa-state" ]; then\n\t/etc/init.d/alsa-state stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT alsa-state remove\nfi\n
+pkg_prerm_alsa-state: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/alsa-state stop\nfi\n
+FILES_INFO: {"/etc/init.d/alsa-state": 811, "/etc/asound.conf": 647}
+FILERDEPENDSFLIST_alsa-state: /etc/init.d/alsa-state
+FILERDEPENDS_/etc/init.d/alsa-state_alsa-state: /bin/sh
+PKGSIZE_alsa-state: 1458

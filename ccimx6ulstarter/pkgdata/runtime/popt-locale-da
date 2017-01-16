@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-da: Library for parsing command line options.  This package contains language translation files for the da locale.
+SUMMARY_popt-locale-da: Library for parsing command line options - da translations
+RPROVIDES_popt-locale-da: popt-locale da-translation popt-locale-da (=1.16)
+RRECOMMENDS_popt-locale-da: virtual-locale-da
+SECTION: libs
+PKG_popt-locale-da: libpopt-locale-da
+FILES_popt-locale-da: /usr/share/locale/da
+FILES_INFO: {"/usr/share/locale/da/LC_MESSAGES/popt.mo": 2143}
+PKGSIZE_popt-locale-da: 2143

@@ -1,0 +1,16 @@
+PN: linux-dey
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0.1
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-g-serial: g-serial kernel module; Gadget Serial v2.4
+SUMMARY_kernel-module-g-serial: g-serial kernel module
+RDEPENDS_kernel-module-g-serial: kernel-4.1.35-dey+g8dca338 kernel-module-configfs kernel-module-libcomposite
+SECTION: base
+PKG_kernel-module-g-serial: kernel-module-g-serial
+FILES_kernel-module-g-serial: /lib/modules/4.1.35-dey+g8dca338/kernel/drivers/usb/gadget/legacy/g_serial.ko /etc/modules-load.d/g_serial.conf /etc/modprobe.d/g_serial.conf
+pkg_postinst_kernel-module-g-serial: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-g-serial: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\tdepmodwrapper -a -b $D 4.1.35-dey+g8dca338\nfi\n\n
+FILES_INFO: {"/lib/modules/4.1.35-dey+g8dca338/kernel/drivers/usb/gadget/legacy/g_serial.ko": 10896}
+PKGSIZE_kernel-module-g-serial: 10896

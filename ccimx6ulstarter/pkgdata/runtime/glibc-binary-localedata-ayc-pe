@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ayc-pe: binary locale definition for ayc-pe
+SUMMARY_glibc-binary-localedata-ayc-pe: binary locale definition for ayc-pe
+SECTION: base
+PKG_glibc-binary-localedata-ayc-pe: glibc-binary-localedata-ayc-pe
+FILES_glibc-binary-localedata-ayc-pe: /usr/lib/locale/ayc_PE
+FILES_INFO: {"/usr/lib/locale/ayc_PE/LC_COLLATE": 1243766, "/usr/lib/locale/ayc_PE/LC_TELEPHONE": 49, "/usr/lib/locale/ayc_PE/LC_ADDRESS": 148, "/usr/lib/locale/ayc_PE/LC_IDENTIFICATION": 326, "/usr/lib/locale/ayc_PE/LC_TIME": 2442, "/usr/lib/locale/ayc_PE/LC_MONETARY": 290, "/usr/lib/locale/ayc_PE/LC_NUMERIC": 54, "/usr/lib/locale/ayc_PE/LC_NAME": 62, "/usr/lib/locale/ayc_PE/LC_CTYPE": 278308, "/usr/lib/locale/ayc_PE/LC_MEASUREMENT": 23, "/usr/lib/locale/ayc_PE/LC_MESSAGES/SYS_LC_MESSAGES": 72, "/usr/lib/locale/ayc_PE/LC_PAPER": 34}
+PKGSIZE_glibc-binary-localedata-ayc-pe: 1525574

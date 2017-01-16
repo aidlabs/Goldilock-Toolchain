@@ -1,0 +1,15 @@
+PN: crda
+PV: 3.18
+PR: r0
+PKGV: 3.18
+PKGR: r0.0
+LICENSE: copyleft-next-0.3.0 & ISC
+DESCRIPTION_crda-dbg: Wireless Central Regulatory Domain Agent.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_crda-dbg: Wireless Central Regulatory Domain Agent - Debugging files
+RRECOMMENDS_crda-dbg: libnl-dbg libnl-genl-dbg glibc-dbg libgcrypt-dbg
+SECTION_crda-dbg: devel
+PKG_crda-dbg: crda-dbg
+ALLOW_EMPTY_crda-dbg: 1
+FILES_crda-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/crda/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/crda/.debug /usr/lib/matchbox-panel/.debug /usr/lib/crda/crda/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/crda/.debug/libreg.so": 42340, "/usr/src/debug/crda/3.18-r0/crda-3.18/keys-gcrypt.c": 3715, "/usr/src/debug/crda/3.18-r0/crda-3.18/regdbdump.c": 900, "/usr/sbin/.debug/crda": 31660, "/usr/src/debug/crda/3.18-r0/crda-3.18/crda.c": 6458, "/usr/src/debug/crda/3.18-r0/crda-3.18/nl80211.h": 169149, "/usr/src/debug/crda/3.18-r0/crda-3.18/reglib.c": 31614, "/usr/sbin/.debug/regdbdump": 13944, "/usr/src/debug/crda/3.18-r0/crda-3.18/regdb.h": 4149, "/usr/src/debug/crda/3.18-r0/crda-3.18/reglib.h": 7240}
+PKGSIZE_crda-dbg: 311169

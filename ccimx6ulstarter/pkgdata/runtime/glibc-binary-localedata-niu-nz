@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-niu-nz: binary locale definition for niu-nz
+SUMMARY_glibc-binary-localedata-niu-nz: binary locale definition for niu-nz
+SECTION: base
+PKG_glibc-binary-localedata-niu-nz: glibc-binary-localedata-niu-nz
+FILES_glibc-binary-localedata-niu-nz: /usr/lib/locale/niu_NZ
+FILES_INFO: {"/usr/lib/locale/niu_NZ/LC_NAME": 62, "/usr/lib/locale/niu_NZ/LC_IDENTIFICATION": 417, "/usr/lib/locale/niu_NZ/LC_PAPER": 34, "/usr/lib/locale/niu_NZ/LC_COLLATE": 1243766, "/usr/lib/locale/niu_NZ/LC_MONETARY": 286, "/usr/lib/locale/niu_NZ/LC_CTYPE": 278308, "/usr/lib/locale/niu_NZ/LC_TELEPHONE": 49, "/usr/lib/locale/niu_NZ/LC_ADDRESS": 137, "/usr/lib/locale/niu_NZ/LC_TIME": 2550, "/usr/lib/locale/niu_NZ/LC_MEASUREMENT": 23, "/usr/lib/locale/niu_NZ/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/niu_NZ/LC_NUMERIC": 54}
+PKGSIZE_glibc-binary-localedata-niu-nz: 1525752

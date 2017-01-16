@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ff-sn: binary locale definition for ff-sn
+SUMMARY_glibc-binary-localedata-ff-sn: binary locale definition for ff-sn
+SECTION: base
+PKG_glibc-binary-localedata-ff-sn: glibc-binary-localedata-ff-sn
+FILES_glibc-binary-localedata-ff-sn: /usr/lib/locale/ff_SN
+FILES_INFO: {"/usr/lib/locale/ff_SN/LC_COLLATE": 1243766, "/usr/lib/locale/ff_SN/LC_IDENTIFICATION": 326, "/usr/lib/locale/ff_SN/LC_MONETARY": 290, "/usr/lib/locale/ff_SN/LC_MESSAGES/SYS_LC_MESSAGES": 56, "/usr/lib/locale/ff_SN/LC_CTYPE": 278308, "/usr/lib/locale/ff_SN/LC_TELEPHONE": 56, "/usr/lib/locale/ff_SN/LC_NAME": 87, "/usr/lib/locale/ff_SN/LC_TIME": 2470, "/usr/lib/locale/ff_SN/LC_ADDRESS": 157, "/usr/lib/locale/ff_SN/LC_MEASUREMENT": 23, "/usr/lib/locale/ff_SN/LC_NUMERIC": 54, "/usr/lib/locale/ff_SN/LC_PAPER": 34}
+PKGSIZE_glibc-binary-localedata-ff-sn: 1525627

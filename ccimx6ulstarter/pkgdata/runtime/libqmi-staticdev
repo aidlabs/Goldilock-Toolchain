@@ -1,0 +1,14 @@
+PN: libqmi
+PV: 1.12.6
+PR: r0
+PKGV: 1.12.6
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_libqmi-staticdev: libqmi is a glib-based library for talking to WWAN modems and devices which speak the Qualcomm MSM Interface (QMI) protocol  This package contains static libraries for software development.
+SUMMARY_libqmi-staticdev: libqmi is a library for talking to WWAN devices by QMI protocol - Development files (Static Libraries)
+RDEPENDS_libqmi-staticdev: libqmi-dev (= 1.12.6-r0.0)
+SECTION_libqmi-staticdev: devel
+PKG_libqmi-staticdev: libqmi-staticdev
+FILES_libqmi-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libqmi/*.a
+FILES_INFO: {"/usr/lib/libqmi-glib.a": 6024548}
+PKGSIZE_libqmi-staticdev: 6024548

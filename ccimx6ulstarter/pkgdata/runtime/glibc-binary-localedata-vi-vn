@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-vi-vn: binary locale definition for vi-vn
+SUMMARY_glibc-binary-localedata-vi-vn: binary locale definition for vi-vn
+SECTION: base
+PKG_glibc-binary-localedata-vi-vn: glibc-binary-localedata-vi-vn
+FILES_glibc-binary-localedata-vi-vn: /usr/lib/locale/vi_VN
+FILES_INFO: {"/usr/lib/locale/vi_VN/LC_MONETARY": 294, "/usr/lib/locale/vi_VN/LC_ADDRESS": 135, "/usr/lib/locale/vi_VN/LC_NUMERIC": 54, "/usr/lib/locale/vi_VN/LC_CTYPE": 278308, "/usr/lib/locale/vi_VN/LC_NAME": 69, "/usr/lib/locale/vi_VN/LC_TIME": 2750, "/usr/lib/locale/vi_VN/LC_PAPER": 34, "/usr/lib/locale/vi_VN/LC_COLLATE": 1243514, "/usr/lib/locale/vi_VN/LC_IDENTIFICATION": 382, "/usr/lib/locale/vi_VN/LC_TELEPHONE": 53, "/usr/lib/locale/vi_VN/LC_MESSAGES/SYS_LC_MESSAGES": 67, "/usr/lib/locale/vi_VN/LC_MEASUREMENT": 23}
+PKGSIZE_glibc-binary-localedata-vi-vn: 1525683

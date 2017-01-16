@@ -1,0 +1,14 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-staticdev: Utilities and libraries for handling compiled object files.  This package contains static libraries for software development.
+SUMMARY_elfutils-staticdev: Utilities and libraries for handling compiled object files - Development files (Static Libraries)
+RDEPENDS_elfutils-staticdev: elfutils-dev (= 0.163-r0.0)
+SECTION_elfutils-staticdev: devel
+PKG_elfutils-staticdev: elfutils-staticdev
+FILES_elfutils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/elfutils/*.a
+FILES_INFO: {"/usr/lib/libebl.a": 784684, "/usr/lib/libdw.a": 3711296, "/usr/lib/libelf.a": 1783086, "/usr/lib/libasm.a": 332430}
+PKGSIZE_elfutils-staticdev: 6611496

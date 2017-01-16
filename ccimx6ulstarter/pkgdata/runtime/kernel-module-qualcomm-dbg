@@ -1,0 +1,14 @@
+PN: kernel-module-qualcomm
+PV: v4.2.74.63
+PR: r0
+PKGV: v4.2.74.63
+PKGR: r0.0
+LICENSE: ISC
+DESCRIPTION_kernel-module-qualcomm-dbg: qcacld-2.0 module.bbclass mechanism.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_kernel-module-qualcomm-dbg: Qualcomm\'s wireless driver for qca6564 - Debugging files
+SECTION_kernel-module-qualcomm-dbg: devel
+PKG_kernel-module-qualcomm-dbg: kernel-module-qualcomm-dbg
+ALLOW_EMPTY_kernel-module-qualcomm-dbg: 1
+FILES_kernel-module-qualcomm-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/kernel-module-qualcomm/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/kernel-module-qualcomm/.debug /usr/lib/matchbox-panel/.debug /usr/lib/kernel-module-qualcomm/kernel-module-qualcomm/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_kernel-module-qualcomm-dbg: 0

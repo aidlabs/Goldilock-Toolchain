@@ -1,0 +1,14 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-staticdev: The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.  This package contains static libraries for software development.
+SUMMARY_libxcb-staticdev: XCB: The X protocol C binding library - Development files (Static Libraries)
+RDEPENDS_libxcb-staticdev: libxcb-dev (= 1.11-r0.0)
+SECTION_libxcb-staticdev: devel
+PKG_libxcb-staticdev: libxcb-staticdev
+FILES_libxcb-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libxcb/*.a
+FILES_INFO: {"/usr/lib/libxcb-record.a": 16596, "/usr/lib/libxcb-shm.a": 10294, "/usr/lib/libxcb-xprint.a": 39502, "/usr/lib/libxcb-xfixes.a": 36188, "/usr/lib/libxcb-randr.a": 78656, "/usr/lib/libxcb-damage.a": 6706, "/usr/lib/libxcb-xv.a": 35526, "/usr/lib/libxcb-dpms.a": 8766, "/usr/lib/libxcb-res.a": 16628, "/usr/lib/libxcb-sync.a": 29712, "/usr/lib/libxcb-screensaver.a": 8146, "/usr/lib/libxcb-xinerama.a": 9640, "/usr/lib/libxcb-composite.a": 10274, "/usr/lib/libxcb-render.a": 52328, "/usr/lib/libxcb-xkb.a": 165636, "/usr/lib/libxcb-dri3.a": 8634, "/usr/lib/libxcb-xtest.a": 6000, "/usr/lib/libxcb-present.a": 8526, "/usr/lib/libxcb-dri2.a": 20042, "/usr/lib/libxcb-xvmc.a": 16714, "/usr/lib/libxcb-glx.a": 142926, "/usr/lib/libxcb-shape.a": 12358, "/usr/lib/libxcb-xf86dri.a": 18722, "/usr/lib/libxcb.a": 221338, "/usr/lib/libxcb-xevie.a": 7578}
+PKGSIZE_libxcb-staticdev: 987436

@@ -1,0 +1,14 @@
+PN: cryptodev-module
+PV: 1.7
+PR: r0
+PKGV: 1.7
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_cryptodev-module-dbg: A /dev/crypto device driver kernel module.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_cryptodev-module-dbg: A /dev/crypto device driver kernel module - Debugging files
+SECTION_cryptodev-module-dbg: devel
+PKG_cryptodev-module-dbg: cryptodev-module-dbg
+ALLOW_EMPTY_cryptodev-module-dbg: 1
+FILES_cryptodev-module-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/cryptodev-module/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/cryptodev-module/.debug /usr/lib/matchbox-panel/.debug /usr/lib/cryptodev-module/cryptodev-module/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_cryptodev-module-dbg: 0

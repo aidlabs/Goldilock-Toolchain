@@ -1,0 +1,15 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_python-smartpm-dbg: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_python-smartpm-dbg: The Smart Package Manager - Debugging files
+RRECOMMENDS_python-smartpm-dbg: glibc-dbg libpython2-dbg
+SECTION_python-smartpm-dbg: devel
+PKG_python-smartpm-dbg: python-smartpm-dbg
+ALLOW_EMPTY_python-smartpm-dbg: 1
+FILES_python-smartpm-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/python-smartpm/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/python-smartpm/.debug /usr/lib/matchbox-panel/.debug /usr/lib/python-smartpm/python-smartpm/.debug /usr/src/debug   /usr/lib/python2.7/site-packages/.debug   /usr/lib/python2.7/site-packages/*/.debug   /usr/lib/python2.7/site-packages/*/*/.debug  /usr/lib/python*/site-packages/smart/backends/rpm/.debug
+FILES_INFO: {"/usr/src/debug/python-smartpm/1.5+gitAUTOINC+407a7eca76-r0/git/smart/util/cdistance.c": 8238, "/usr/lib/python2.7/site-packages/smart/backends/rpm/.debug/crpmver.so": 23880, "/usr/lib/python2.7/site-packages/smart/util/.debug/ctagfile.so": 22084, "/usr/src/debug/python-smartpm/1.5+gitAUTOINC+407a7eca76-r0/git/smart/backends/rpm/crpmver.c": 8789, "/usr/lib/python2.7/site-packages/smart/util/.debug/cdistance.so": 20936, "/usr/src/debug/python-smartpm/1.5+gitAUTOINC+407a7eca76-r0/git/smart/util/ctagfile.c": 12414, "/usr/lib/python2.7/site-packages/smart/.debug/ccache.so": 106232, "/usr/src/debug/python-smartpm/1.5+gitAUTOINC+407a7eca76-r0/git/smart/ccache.c": 140708}
+PKGSIZE_python-smartpm-dbg: 343281

@@ -1,0 +1,14 @@
+PN: packagegroup-base
+PV: 1.0
+PR: r83
+PKGV: 1.0
+PKGR: r83.0
+LICENSE: MIT
+DESCRIPTION: Merge machine and distro options to create a basic machine task/package.
+SUMMARY_packagegroup-base-usbgadget: USB gadget support
+RRECOMMENDS_packagegroup-base-usbgadget:     kernel-module-pxa27x_udc     kernel-module-gadgetfs     kernel-module-g-file-storage     kernel-module-g-serial     kernel-module-g-ether
+SECTION: base
+PKG_packagegroup-base-usbgadget: packagegroup-base-usbgadget
+ALLOW_EMPTY_packagegroup-base-usbgadget: 1
+FILES_INFO: {}
+PKGSIZE_packagegroup-base-usbgadget: 0

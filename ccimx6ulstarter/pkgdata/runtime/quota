@@ -1,0 +1,42 @@
+PN: quota
+PV: 4.02
+PR: r0
+PKGV: 4.02
+PKGR: r0.0
+LICENSE: BSD & GPLv2+ & LGPLv2.1+
+DESCRIPTION: Tools for monitoring & limiting user disk usage per filesystem.
+SUMMARY: Tools for monitoring & limiting user disk usage per filesystem
+RDEPENDS_quota: libext2fs (>= 1.42.9) libtirpc (>= 0.2.5) glibc (>= 2.22) libwrap (>= 7.6) libcomerr (>= 1.42.9)
+SECTION: base
+PKG_quota: quota
+FILES_quota: /usr/bin/* /usr/sbin/* /usr/lib/quota/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quota /usr/lib/quota/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_quota: /usr/sbin/repquota /usr/sbin/quotacheck /usr/sbin/edquota /usr/sbin/warnquota /usr/sbin/rpc.rquotad /usr/sbin/quot /usr/bin/quotasync /usr/sbin/convertquota /usr/sbin/xqmstats /usr/sbin/setquota /usr/sbin/quotaon /usr/sbin/quotastats /usr/bin/quota
+FILES_INFO: {"/usr/sbin/repquota": 60164, "/usr/bin/quotasync": 53068, "/usr/bin/quota": 68468, "/usr/sbin/warnquota": 68340, "/etc/quotagrpadmins": 220, "/etc/warnquota.conf": 3038, "/usr/sbin/convertquota": 56200, "/usr/sbin/quot": 55892, "/usr/sbin/quotaoff": 7, "/usr/sbin/quotacheck": 89104, "/usr/sbin/rpc.rquotad": 60156, "/usr/sbin/xqmstats": 7728, "/usr/sbin/setquota": 68364, "/etc/quotatab": 261, "/usr/sbin/quotaon": 60076, "/usr/sbin/quotastats": 12896, "/usr/sbin/edquota": 64656}
+FILERPROVIDES_/usr/sbin/repquota_quota: elf(buildid) (= 6bf4de6d320ea550aeac5965e4d709b06c8760e6)
+FILERPROVIDES_/usr/sbin/quotacheck_quota: elf(buildid) (= 388ed5bae4483e4345344beaf11c2bd20fbdeeca)
+FILERPROVIDES_/usr/sbin/edquota_quota: elf(buildid) (= df199d52e5ed9a86638e4fa8adc55a9ab240c0ad)
+FILERPROVIDES_/usr/sbin/warnquota_quota: elf(buildid) (= 686ae2966b4d67d687b3bb5d35c47a64c16cf0f0)
+FILERPROVIDES_/usr/sbin/rpc.rquotad_quota: elf(buildid) (= a7f9a50fa919fab4ba12cb28079421bb1e343d01)
+FILERPROVIDES_/usr/sbin/quot_quota: elf(buildid) (= c16e882a0bcbca7deab83162ed0a2e5bfe7dae70)
+FILERPROVIDES_/usr/bin/quotasync_quota: elf(buildid) (= a55e1ca42941eb82636382898ee5532f6f940755)
+FILERPROVIDES_/usr/sbin/convertquota_quota: elf(buildid) (= c838ef992307c0fc7177df90a6de16bdb6c5f093)
+FILERPROVIDES_/usr/sbin/xqmstats_quota: elf(buildid) (= 5264e9313e09a26811f16f6cabaf451828e4703f)
+FILERPROVIDES_/usr/sbin/setquota_quota: elf(buildid) (= e191bd1d68bb841769f846cd375f7d5e206d2ddd)
+FILERPROVIDES_/usr/sbin/quotaon_quota: elf(buildid) (= 86665eecd1ada825c0524d6a18041cb7ac5ff41f)
+FILERPROVIDES_/usr/sbin/quotastats_quota: elf(buildid) (= 0971064f0df4b053f49b1756f06d53777ef6be41)
+FILERPROVIDES_/usr/bin/quota_quota: elf(buildid) (= f51203e8fe51d18d51e8929df2313b7b76f080b5)
+FILERDEPENDSFLIST_quota: /usr/sbin/repquota /usr/sbin/quotacheck /usr/sbin/edquota /usr/sbin/warnquota /usr/sbin/rpc.rquotad /usr/sbin/quot /usr/bin/quotasync /usr/sbin/convertquota /usr/sbin/xqmstats /usr/sbin/setquota /usr/sbin/quotaon /usr/sbin/quotastats /usr/bin/quota
+FILERDEPENDS_/usr/sbin/repquota_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/quotacheck_quota: libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libext2fs.so.2 libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/edquota_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/warnquota_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/rpc.rquotad_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 libwrap.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/quot_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/quotasync_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/convertquota_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/xqmstats_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/setquota_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/quotaon_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/quotastats_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/quota_quota: libc.so.6 libc.so.6(GLIBC_2.4) libtirpc.so.1 rtld(GNU_HASH)
+PKGSIZE_quota: 728638

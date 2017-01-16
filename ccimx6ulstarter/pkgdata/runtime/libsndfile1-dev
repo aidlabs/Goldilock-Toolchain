@@ -1,0 +1,17 @@
+PN: libsndfile1
+PV: 1.0.25
+PR: r2
+PKGV: 1.0.25
+PKGR: r2.0
+LICENSE: LGPLv2.1
+DESCRIPTION_libsndfile1-dev: Audio format Conversion library.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libsndfile1-dev: Audio format Conversion library - Development files
+RDEPENDS_libsndfile1-dev: libsndfile1 (= 1.0.25-r2.0)
+RPROVIDES_libsndfile1-dev:  libsndfile1-dev (=1.0.25)
+RRECOMMENDS_libsndfile1-dev: libasound-dev glibc-dev libsqlite3-dev sqlite3-dev alsa-lib-dev
+SECTION_libsndfile1-dev: devel
+PKG_libsndfile1-dev: libsndfile-dev
+ALLOW_EMPTY_libsndfile1-dev: 1
+FILES_libsndfile1-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsndfile1/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/sndfile.pc": 238, "/usr/include/sndfile.hh": 11935, "/usr/lib/libsndfile.so": 20, "/usr/include/sndfile.h": 21664, "/usr/lib/libsndfile.la": 937}
+PKGSIZE_libsndfile1-dev: 34794

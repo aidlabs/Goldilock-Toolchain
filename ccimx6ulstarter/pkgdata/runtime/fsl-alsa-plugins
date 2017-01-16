@@ -1,0 +1,18 @@
+PN: fsl-alsa-plugins
+PV: 1.0.25
+PR: r0
+PKGV: 1.0.25
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION: Freescale alsa-lib plugins
+SUMMARY: fsl-alsa-plugins version 1.0.25-r0
+RDEPENDS_fsl-alsa-plugins: libasound (>= 1.0.29) glibc (>= 2.22)
+SECTION: multimedia
+PKG_fsl-alsa-plugins: fsl-alsa-plugins
+FILES_fsl-alsa-plugins: /usr/bin/* /usr/sbin/* /usr/lib/fsl-alsa-plugins/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fsl-alsa-plugins /usr/lib/fsl-alsa-plugins/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/alsa-lib/libasound_*.so
+FILERPROVIDESFLIST_fsl-alsa-plugins: /usr/lib/alsa-lib/libasound@underscore@module@underscore@rate@underscore@asrcrate.so
+FILES_INFO: {"/usr/lib/alsa-lib/libasound_module_rate_asrcrate_fast.so": 33, "/usr/lib/alsa-lib/libasound_module_rate_asrcrate.so": 9956}
+FILERPROVIDES_/usr/lib/alsa-lib/libasound@underscore@module@underscore@rate@underscore@asrcrate.so_fsl-alsa-plugins: elf(buildid) (= 863cae5cbfdb73551c29f863d105e12b037ab762) libasound_module_rate_asrcrate.so
+FILERDEPENDSFLIST_fsl-alsa-plugins: /usr/lib/alsa-lib/libasound@underscore@module@underscore@rate@underscore@asrcrate.so
+FILERDEPENDS_/usr/lib/alsa-lib/libasound@underscore@module@underscore@rate@underscore@asrcrate.so_fsl-alsa-plugins: libasound.so.2 libasound.so.2(ALSA_0.9) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 rtld(GNU_HASH)
+PKGSIZE_fsl-alsa-plugins: 9989

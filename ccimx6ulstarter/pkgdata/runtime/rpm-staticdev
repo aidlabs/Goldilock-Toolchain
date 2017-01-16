@@ -1,0 +1,14 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-staticdev: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains static libraries for software development.
+SUMMARY_rpm-staticdev: The RPM package management system - Development files (Static Libraries)
+RDEPENDS_rpm-staticdev: rpm-dev (= 5.4.14-r0.0)
+SECTION_rpm-staticdev: devel
+PKG_rpm-staticdev: rpm-staticdev
+FILES_rpm-staticdev:  \t\t/usr/lib/librpm.a \t\t/usr/lib/librpmconstant.a \t\t/usr/lib/librpmdb.a \t\t/usr/lib/librpmio.a \t\t/usr/lib/librpmmisc.a \t\t/usr/lib/librpmbuild.a \t\t/usr/lib/rpm/lib/liblua.a \t\t/usr/lib/python*/site-packages/rpm/*.a \t\t
+FILES_INFO: {"/usr/lib/librpmdb.a": 7816858, "/usr/lib/librpmio.a": 25106380, "/usr/lib/python2.7/site-packages/rpm/_rpmmodule.a": 5588534, "/usr/lib/librpmmisc.a": 561768, "/usr/lib/librpmbuild.a": 5106218, "/usr/lib/librpmconstant.a": 753822, "/usr/lib/librpm.a": 9340386}
+PKGSIZE_rpm-staticdev: 54273966

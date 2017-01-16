@@ -1,0 +1,11 @@
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+libdir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/lib
+includedir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include
+
+Name: quota
+Description: Quota management library
+Version: 1.42.9
+Requires:
+Cflags: -I${includedir}/quota -I${includedir}
+Libs: -L${libdir} -lquota

@@ -1,0 +1,13 @@
+PN: gcc-runtime
+PV: 5.2.0
+PR: r0
+PKGV: 5.2.0
+PKGR: r0.0
+LICENSE_libquadmath-staticdev: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+SECTION: devel
+PKG_libquadmath-staticdev: libquadmath-staticdev
+FILES_libquadmath-staticdev: /usr/lib/libquadmath.a
+FILES_INFO: {}
+PKGSIZE_libquadmath-staticdev: 0

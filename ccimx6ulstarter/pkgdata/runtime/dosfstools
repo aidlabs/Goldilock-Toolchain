@@ -1,0 +1,22 @@
+PN: dosfstools
+PV: 3.0.28
+PR: r0
+PKGV: 3.0.28
+PKGR: r0.0
+LICENSE: GPLv3
+DESCRIPTION: DOS FAT Filesystem Utilities.
+SUMMARY: DOS FAT Filesystem Utilities
+RDEPENDS_dosfstools: glibc (>= 2.22)
+SECTION: base
+PKG_dosfstools: dosfstools
+FILES_dosfstools: /sbin
+FILERPROVIDESFLIST_dosfstools: /sbin/mkfs.fat /sbin/fsck.fat /sbin/fatlabel
+FILES_INFO: {"/sbin/mkdosfs": 8, "/sbin/fatlabel": 44004, "/sbin/dosfsck": 8, "/sbin/mkfs.vfat": 8, "/sbin/mkfs.msdos": 8, "/sbin/mkfs.fat": 25012, "/sbin/fsck.fat": 45820, "/sbin/fsck.msdos": 8, "/sbin/dosfslabel": 8, "/sbin/fsck.vfat": 8}
+FILERPROVIDES_/sbin/mkfs.fat_dosfstools: elf(buildid) (= a11c5aba79855f654d9e8279e40d7e8e624540e1)
+FILERPROVIDES_/sbin/fsck.fat_dosfstools: elf(buildid) (= 68e50e10355cab9d5f85c6511ca8be8c3e01d855)
+FILERPROVIDES_/sbin/fatlabel_dosfstools: elf(buildid) (= befef35610d7a43ef75d3a5a6613bbaffad4f999)
+FILERDEPENDSFLIST_dosfstools: /sbin/mkfs.fat /sbin/fsck.fat /sbin/fatlabel
+FILERDEPENDS_/sbin/mkfs.fat_dosfstools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/fsck.fat_dosfstools: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/fatlabel_dosfstools: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_dosfstools: 114892

@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-xtest: XCB library module for xtest
+SUMMARY_libxcb-xtest: XCB library module for xtest
+RDEPENDS_libxcb-xtest: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-xtest:  libxcb-xtest (=1.11)
+SECTION: x11/libs
+PKG_libxcb-xtest: libxcb-xtest0
+FILES_libxcb-xtest: /usr/lib/libxcb-xtest.so.0 /usr/lib/libxcb-xtest.so.0.0.0
+pkg_postinst_libxcb-xtest: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-xtest: /usr/lib/libxcb-xtest.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-xtest.so.0": 21, "/usr/lib/libxcb-xtest.so.0.0.0": 4868}
+FILERPROVIDES_/usr/lib/libxcb-xtest.so.0.0.0_libxcb-xtest: elf(buildid) (= dce84401960fb0be0a2cd27dbb34949a2fa7641a) libxcb-xtest.so.0
+FILERDEPENDSFLIST_libxcb-xtest: /usr/lib/libxcb-xtest.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-xtest.so.0.0.0_libxcb-xtest: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-xtest: 4889

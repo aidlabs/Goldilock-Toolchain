@@ -1,0 +1,21 @@
+PN: libgcrypt
+PV: 1.6.3
+PR: r1
+PKGV: 1.6.3
+PKGR: r1.0
+LICENSE_libgcrypt: LGPLv2.1+
+DESCRIPTION: General purpose cryptographic library based on the code from GnuPG.
+SUMMARY: General purpose cryptographic library based on the code from GnuPG
+RDEPENDS_libgcrypt: libcap (>= 2.24) glibc (>= 2.22) libgpg-error (>= 1.19)
+SECTION: libs
+PKG_libgcrypt: libgcrypt
+FILES_libgcrypt: /usr/bin/* /usr/sbin/* /usr/lib/libgcrypt/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libgcrypt /usr/lib/libgcrypt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libgcrypt: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libgcrypt: /usr/lib/libgcrypt.so.20.0.3 /usr/bin/mpicalc
+FILES_INFO: {"/usr/lib/libgcrypt.so.20.0.3": 621540, "/usr/bin/mpicalc": 11232, "/usr/lib/libgcrypt.so.20": 19}
+FILERPROVIDES_/usr/lib/libgcrypt.so.20.0.3_libgcrypt: elf(buildid) (= 2c2c000f6cf6e8dc81ac4381a58f40b774c0a937) libgcrypt.so.20 libgcrypt.so.20(GCRYPT_1.6)
+FILERPROVIDES_/usr/bin/mpicalc_libgcrypt: elf(buildid) (= 6f75b12400541e62884db7164fb5796b731aa8f5)
+FILERDEPENDSFLIST_libgcrypt: /usr/lib/libgcrypt.so.20.0.3 /usr/bin/mpicalc
+FILERDEPENDS_/usr/lib/libgcrypt.so.20.0.3_libgcrypt: libc.so.6 libc.so.6(GLIBC_2.4) libcap.so.2 libgpg-error.so.0 libgpg-error.so.0(GPG_ERROR_1.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mpicalc_libgcrypt: libc.so.6 libc.so.6(GLIBC_2.4) libgcrypt.so.20 libgcrypt.so.20(GCRYPT_1.6) libgpg-error.so.0 libgpg-error.so.0(GPG_ERROR_1.0) rtld(GNU_HASH)
+PKGSIZE_libgcrypt: 632791

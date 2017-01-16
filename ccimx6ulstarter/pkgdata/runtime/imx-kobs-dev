@@ -1,0 +1,16 @@
+PN: imx-kobs
+PV: 5.4
+PR: r0
+PKGV: 5.4
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_imx-kobs-dev: Nand boot write source.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_imx-kobs-dev: Nand boot write source - Development files
+RDEPENDS_imx-kobs-dev: imx-kobs (= 5.4-r0.0)
+RRECOMMENDS_imx-kobs-dev: glibc-dev
+SECTION_imx-kobs-dev: devel
+PKG_imx-kobs-dev: imx-kobs-dev
+ALLOW_EMPTY_imx-kobs-dev: 1
+FILES_imx-kobs-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/imx-kobs/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_imx-kobs-dev: 0

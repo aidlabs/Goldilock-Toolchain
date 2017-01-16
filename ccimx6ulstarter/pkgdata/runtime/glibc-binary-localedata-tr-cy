@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-tr-cy: binary locale definition for tr-cy
+SUMMARY_glibc-binary-localedata-tr-cy: binary locale definition for tr-cy
+SECTION: base
+PKG_glibc-binary-localedata-tr-cy: glibc-binary-localedata-tr-cy
+FILES_glibc-binary-localedata-tr-cy: /usr/lib/locale/tr_CY
+FILES_INFO: {"/usr/lib/locale/tr_CY/LC_CTYPE": 134664, "/usr/lib/locale/tr_CY/LC_MONETARY": 290, "/usr/lib/locale/tr_CY/LC_PAPER": 34, "/usr/lib/locale/tr_CY/LC_IDENTIFICATION": 372, "/usr/lib/locale/tr_CY/LC_TELEPHONE": 51, "/usr/lib/locale/tr_CY/LC_TIME": 2402, "/usr/lib/locale/tr_CY/LC_NAME": 86, "/usr/lib/locale/tr_CY/LC_MEASUREMENT": 23, "/usr/lib/locale/tr_CY/LC_COLLATE": 105206, "/usr/lib/locale/tr_CY/LC_NUMERIC": 54, "/usr/lib/locale/tr_CY/LC_MESSAGES/SYS_LC_MESSAGES": 62, "/usr/lib/locale/tr_CY/LC_ADDRESS": 165}
+PKGSIZE_glibc-binary-localedata-tr-cy: 243409

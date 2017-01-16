@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-bem-zm: binary locale definition for bem-zm
+SUMMARY_glibc-binary-localedata-bem-zm: binary locale definition for bem-zm
+SECTION: base
+PKG_glibc-binary-localedata-bem-zm: glibc-binary-localedata-bem-zm
+FILES_glibc-binary-localedata-bem-zm: /usr/lib/locale/bem_ZM
+FILES_INFO: {"/usr/lib/locale/bem_ZM/LC_ADDRESS": 145, "/usr/lib/locale/bem_ZM/LC_IDENTIFICATION": 334, "/usr/lib/locale/bem_ZM/LC_COLLATE": 1243766, "/usr/lib/locale/bem_ZM/LC_CTYPE": 278308, "/usr/lib/locale/bem_ZM/LC_MEASUREMENT": 23, "/usr/lib/locale/bem_ZM/LC_TELEPHONE": 57, "/usr/lib/locale/bem_ZM/LC_NAME": 75, "/usr/lib/locale/bem_ZM/LC_MESSAGES/SYS_LC_MESSAGES": 56, "/usr/lib/locale/bem_ZM/LC_MONETARY": 286, "/usr/lib/locale/bem_ZM/LC_NUMERIC": 54, "/usr/lib/locale/bem_ZM/LC_PAPER": 34, "/usr/lib/locale/bem_ZM/LC_TIME": 2614}
+PKGSIZE_glibc-binary-localedata-bem-zm: 1525752

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ka-ge: binary locale definition for ka-ge
+SUMMARY_glibc-binary-localedata-ka-ge: binary locale definition for ka-ge
+SECTION: base
+PKG_glibc-binary-localedata-ka-ge: glibc-binary-localedata-ka-ge
+FILES_glibc-binary-localedata-ka-ge: /usr/lib/locale/ka_GE
+FILES_INFO: {"/usr/lib/locale/ka_GE/LC_IDENTIFICATION": 327, "/usr/lib/locale/ka_GE/LC_TIME": 2890, "/usr/lib/locale/ka_GE/LC_NAME": 62, "/usr/lib/locale/ka_GE/LC_CTYPE": 278308, "/usr/lib/locale/ka_GE/LC_TELEPHONE": 54, "/usr/lib/locale/ka_GE/LC_NUMERIC": 54, "/usr/lib/locale/ka_GE/LC_PAPER": 34, "/usr/lib/locale/ka_GE/LC_MEASUREMENT": 23, "/usr/lib/locale/ka_GE/LC_COLLATE": 1243766, "/usr/lib/locale/ka_GE/LC_MONETARY": 294, "/usr/lib/locale/ka_GE/LC_ADDRESS": 165, "/usr/lib/locale/ka_GE/LC_MESSAGES/SYS_LC_MESSAGES": 66}
+PKGSIZE_glibc-binary-localedata-ka-ge: 1526043

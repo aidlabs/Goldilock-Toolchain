@@ -1,0 +1,13 @@
+PN: elfutils
+PV: 0.163
+PR: r0
+PKGV: 0.163
+PKGR: r0.0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-doc: Utilities and libraries for handling compiled object files.  This package contains documentation.
+SUMMARY_elfutils-doc: Utilities and libraries for handling compiled object files - Documentation files
+SECTION_elfutils-doc: doc
+PKG_elfutils-doc: elfutils-doc
+FILES_elfutils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_elfutils-doc: 0

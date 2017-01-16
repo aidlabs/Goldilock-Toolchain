@@ -1,0 +1,13 @@
+PN: file
+PV: 5.24
+PR: r0
+PKGV: 5.24
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION_file-doc: File attempts to classify files depending on their contents and prints a description if a match is found.  This package contains documentation.
+SUMMARY_file-doc: File classification tool - Documentation files
+SECTION_file-doc: doc
+PKG_file-doc: file-doc
+FILES_file-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/file.1": 19693, "/usr/share/man/man3/libmagic.3": 10650, "/usr/share/man/man4/magic.4": 21831}
+PKGSIZE_file-doc: 52174

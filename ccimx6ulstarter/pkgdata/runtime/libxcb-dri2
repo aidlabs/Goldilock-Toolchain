@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-dri2: XCB library module for dri2
+SUMMARY_libxcb-dri2: XCB library module for dri2
+RDEPENDS_libxcb-dri2: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-dri2:  libxcb-dri2 (=1.11)
+SECTION: x11/libs
+PKG_libxcb-dri2: libxcb-dri2-0
+FILES_libxcb-dri2: /usr/lib/libxcb-dri2.so.0 /usr/lib/libxcb-dri2.so.0.0.0
+pkg_postinst_libxcb-dri2: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-dri2: /usr/lib/libxcb-dri2.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-dri2.so.0.0.0": 10736, "/usr/lib/libxcb-dri2.so.0": 20}
+FILERPROVIDES_/usr/lib/libxcb-dri2.so.0.0.0_libxcb-dri2: elf(buildid) (= c0d3c356c57b8f487100dc8ffcf7f5e609116faf) libxcb-dri2.so.0
+FILERDEPENDSFLIST_libxcb-dri2: /usr/lib/libxcb-dri2.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-dri2.so.0.0.0_libxcb-dri2: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-dri2: 10756

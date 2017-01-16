@@ -1,0 +1,21 @@
+PN: wpa-supplicant
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION: Client for Wi-Fi Protected Access (WPA).
+SUMMARY: Client for Wi-Fi Protected Access (WPA)
+RDEPENDS_wpa-supplicant: libcrypto (>= 1.0.2h) glibc (>= 2.22) dbus-lib (>= 1.8.20) libnl-genl (>= 3.2.25) libnl (>= 3.2.25) libssl (>= 1.0.2h)
+RRECOMMENDS_wpa-supplicant: wpa-supplicant-passphrase wpa-supplicant-cli
+SECTION: network
+PKG_wpa-supplicant: wpa-supplicant
+FILES_wpa-supplicant: /usr/bin/* /usr/sbin/* /usr/lib/wpa-supplicant/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/wpa-supplicant /usr/lib/wpa-supplicant/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services/*
+pkg_postinst_wpa-supplicant: \t# If we\'re offline, we don\'t need to do this.\n\tif [ "x$D" = "x" ]; then\n\t\tkillall -q -HUP dbus-daemon || true\n\tfi\n\n
+FILERPROVIDESFLIST_wpa-supplicant: /usr/sbin/wpa@underscore@supplicant
+FILES_INFO: {"/etc/network/if-pre-up.d/wpa-supplicant": 1951, "/usr/share/dbus-1/system-services/fi.w1.wpa_supplicant1.service": 124, "/etc/default/volatiles/99_wpa_supplicant": 46, "/etc/wpa_supplicant.conf": 152, "/etc/network/if-post-down.d/wpa-supplicant": 29, "/usr/share/dbus-1/system-services/fi.epitest.hostap.WPASupplicant.service": 134, "/usr/sbin/wpa_supplicant": 1341076, "/etc/dbus-1/system.d/dbus-wpa_supplicant.conf": 1232}
+FILERPROVIDES_/usr/sbin/wpa@underscore@supplicant_wpa-supplicant: elf(buildid) (= a359e9c440fb05a178040adb7fbdf0620a3110a1)
+FILERDEPENDSFLIST_wpa-supplicant: /etc/network/if-pre-up.d/wpa-supplicant /usr/sbin/wpa@underscore@supplicant
+FILERDEPENDS_/etc/network/if-pre-up.d/wpa-supplicant_wpa-supplicant: /bin/sh
+FILERDEPENDS_/usr/sbin/wpa@underscore@supplicant_wpa-supplicant: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libdbus-1.so.3 libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) librt.so.1 librt.so.1(GLIBC_2.4) libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0(OPENSSL_1.0.1) rtld(GNU_HASH)
+PKGSIZE_wpa-supplicant: 1344744

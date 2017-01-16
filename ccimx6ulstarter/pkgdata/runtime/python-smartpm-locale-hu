@@ -1,0 +1,15 @@
+PN: python-smartpm
+PV: 1.5+gitAUTOINC+407a7eca76
+PR: r0
+PKGV: 1.5+git0+407a7eca76
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_python-smartpm-locale-hu: The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation.  This package contains language translation files for the hu locale.
+SUMMARY_python-smartpm-locale-hu: The Smart Package Manager - hu translations
+RPROVIDES_python-smartpm-locale-hu: python-smartpm-locale hu-translation
+RRECOMMENDS_python-smartpm-locale-hu: virtual-locale-hu
+SECTION: devel/python
+PKG_python-smartpm-locale-hu: python-smartpm-locale-hu
+FILES_python-smartpm-locale-hu: /usr/share/locale/hu
+FILES_INFO: {"/usr/share/locale/hu/LC_MESSAGES/smart.mo": 74406}
+PKGSIZE_python-smartpm-locale-hu: 74406

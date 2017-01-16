@@ -1,0 +1,16 @@
+PN: hostapd
+PV: 2.4
+PR: r0
+PKGV: 2.4
+PKGR: r0.0
+LICENSE: GPLv2 | BSD
+DESCRIPTION_hostapd-dev: User space daemon for extended IEEE 802.11 management.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_hostapd-dev: User space daemon for extended IEEE 802.11 management - Development files
+RDEPENDS_hostapd-dev: hostapd (= 2.4-r0.0)
+RRECOMMENDS_hostapd-dev: libnl-genl-dev glibc-dev libssl-dev openssl-dev libcrypto-dev update-rc.d-dev initscripts-functions-dev libnl-dev initscripts-dev
+SECTION_hostapd-dev: devel
+PKG_hostapd-dev: hostapd-dev
+ALLOW_EMPTY_hostapd-dev: 1
+FILES_hostapd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/hostapd/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_hostapd-dev: 0

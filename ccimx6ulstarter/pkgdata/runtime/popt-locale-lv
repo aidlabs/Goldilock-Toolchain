@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-lv: Library for parsing command line options.  This package contains language translation files for the lv locale.
+SUMMARY_popt-locale-lv: Library for parsing command line options - lv translations
+RPROVIDES_popt-locale-lv: popt-locale lv-translation popt-locale-lv (=1.16)
+RRECOMMENDS_popt-locale-lv: virtual-locale-lv
+SECTION: libs
+PKG_popt-locale-lv: libpopt-locale-lv
+FILES_popt-locale-lv: /usr/share/locale/lv
+FILES_INFO: {"/usr/share/locale/lv/LC_MESSAGES/popt.mo": 2371}
+PKGSIZE_popt-locale-lv: 2371

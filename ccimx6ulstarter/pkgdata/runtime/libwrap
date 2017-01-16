@@ -1,0 +1,20 @@
+PN: tcp-wrappers
+PV: 7.6
+PR: r10
+PKGV: 7.6
+PKGR: r10.0
+LICENSE: BSD
+DESCRIPTION: Tools for monitoring and filtering incoming requests for tcp                services.
+SUMMARY: Security tool that is a wrapper for TCP daemons
+RDEPENDS_libwrap: glibc (>= 2.22)
+RPROVIDES_libwrap:  libwrap (=7.6)
+SECTION: console/network
+PKG_libwrap: libwrap0
+FILES_libwrap: /lib/lib*.so.*
+pkg_postinst_libwrap: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libwrap: /lib/libwrap.so.0.7.6
+FILES_INFO: {"/lib/libwrap.so.0.7.6": 27204, "/lib/libwrap.so.0": 16}
+FILERPROVIDES_/lib/libwrap.so.0.7.6_libwrap: elf(buildid) (= f6f846787a2b9ab3c0121f2acc3a139b0ff62934) libwrap.so.0
+FILERDEPENDSFLIST_libwrap: /lib/libwrap.so.0.7.6
+FILERDEPENDS_/lib/libwrap.so.0.7.6_libwrap: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+PKGSIZE_libwrap: 27220

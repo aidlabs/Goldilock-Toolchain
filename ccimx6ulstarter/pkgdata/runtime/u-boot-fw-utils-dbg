@@ -1,0 +1,15 @@
+PN: u-boot-fw-utils
+PV: v2015.07+gitAUTOINC+33711bdd4a
+PR: r0
+PKGV: v2015.07+git0+33711bdd4a
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-fw-utils-dbg: U-Boot bootloader fw_printenv/setenv utilities.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_u-boot-fw-utils-dbg: U-Boot bootloader fw_printenv/setenv utilities - Debugging files
+RRECOMMENDS_u-boot-fw-utils-dbg: glibc-dbg
+SECTION_u-boot-fw-utils-dbg: devel
+PKG_u-boot-fw-utils-dbg: u-boot-fw-utils-dbg
+ALLOW_EMPTY_u-boot-fw-utils-dbg: 1
+FILES_u-boot-fw-utils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/u-boot-fw-utils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/u-boot-fw-utils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/u-boot-fw-utils/u-boot-fw-utils/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_u-boot-fw-utils-dbg: 0

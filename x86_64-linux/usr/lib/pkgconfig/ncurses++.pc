@@ -1,0 +1,15 @@
+prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr
+libdir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include/ncurses
+major_version=5
+version=5.9.20150329
+
+Name: ncurses++
+Description: ncurses 5.9 add-on library
+Version: ${version}
+URL: http://invisible-island.net/ncurses
+Requires.private: panel, menu, form, ncurses, tinfo
+Libs: -L${libdir} -lncurses++
+Libs.private: 
+Cflags:  -I/home/simon/work/goldilocks/tmp/sysroots/x86_64-linux/usr/include/ -I${includedir}

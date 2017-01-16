@@ -1,0 +1,15 @@
+PN: inputproto
+PE: 1
+PV: 2.3.1
+PR: r0
+PKGE: 1
+PKGV: 2.3.1
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_inputproto-doc: This package provides the wire protocol for the X Input extension.  The extension supports input devices other then the core X keyboard and pointer.  This package contains documentation.
+SUMMARY_inputproto-doc: XI: X Input extension headers - Documentation files
+SECTION_inputproto-doc: doc
+PKG_inputproto-doc: inputproto-doc
+FILES_inputproto-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/inputproto/XIproto.html": 139648, "/usr/share/doc/inputproto/XI2proto.txt": 108918, "/usr/share/doc/inputproto/XIproto.txt": 104572, "/usr/share/doc/inputproto/XI2proto.html": 150575}
+PKGSIZE_inputproto-doc: 503713

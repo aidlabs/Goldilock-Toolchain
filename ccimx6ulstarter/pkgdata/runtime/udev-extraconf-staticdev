@@ -1,0 +1,14 @@
+PN: udev-extraconf
+PV: 1.1
+PR: r0
+PKGV: 1.1
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_udev-extraconf-staticdev: Extra machine specific configuration files for udev, specifically blacklist information.  This package contains static libraries for software development.
+SUMMARY_udev-extraconf-staticdev: Extra machine specific configuration files - Development files (Static Libraries)
+RDEPENDS_udev-extraconf-staticdev: udev-extraconf-dev (= 1.1-r0.0)
+SECTION_udev-extraconf-staticdev: devel
+PKG_udev-extraconf-staticdev: udev-extraconf-staticdev
+FILES_udev-extraconf-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/udev-extraconf/*.a
+FILES_INFO: {}
+PKGSIZE_udev-extraconf-staticdev: 0

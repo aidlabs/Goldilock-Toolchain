@@ -1,0 +1,14 @@
+PN: dosfstools
+PV: 3.0.28
+PR: r0
+PKGV: 3.0.28
+PKGR: r0.0
+LICENSE: GPLv3
+DESCRIPTION_dosfstools-staticdev: DOS FAT Filesystem Utilities.  This package contains static libraries for software development.
+SUMMARY_dosfstools-staticdev: DOS FAT Filesystem Utilities - Development files (Static Libraries)
+RDEPENDS_dosfstools-staticdev: dosfstools-dev (= 3.0.28-r0.0)
+SECTION_dosfstools-staticdev: devel
+PKG_dosfstools-staticdev: dosfstools-staticdev
+FILES_dosfstools-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dosfstools/*.a
+FILES_INFO: {}
+PKGSIZE_dosfstools-staticdev: 0

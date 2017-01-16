@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ug-cn: binary locale definition for ug-cn
+SUMMARY_glibc-binary-localedata-ug-cn: binary locale definition for ug-cn
+SECTION: base
+PKG_glibc-binary-localedata-ug-cn: glibc-binary-localedata-ug-cn
+FILES_glibc-binary-localedata-ug-cn: /usr/lib/locale/ug_CN
+FILES_INFO: {"/usr/lib/locale/ug_CN/LC_COLLATE": 1244326, "/usr/lib/locale/ug_CN/LC_MEASUREMENT": 23, "/usr/lib/locale/ug_CN/LC_MONETARY": 290, "/usr/lib/locale/ug_CN/LC_IDENTIFICATION": 306, "/usr/lib/locale/ug_CN/LC_TELEPHONE": 57, "/usr/lib/locale/ug_CN/LC_MESSAGES/SYS_LC_MESSAGES": 57, "/usr/lib/locale/ug_CN/LC_CTYPE": 248252, "/usr/lib/locale/ug_CN/LC_PAPER": 34, "/usr/lib/locale/ug_CN/LC_TIME": 2542, "/usr/lib/locale/ug_CN/LC_NAME": 82, "/usr/lib/locale/ug_CN/LC_NUMERIC": 54, "/usr/lib/locale/ug_CN/LC_ADDRESS": 156}
+PKGSIZE_glibc-binary-localedata-ug-cn: 1496179

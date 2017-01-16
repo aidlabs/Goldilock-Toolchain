@@ -1,0 +1,20 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0.0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+SUMMARY_ppp-oe: Plugin for PPP for PPP-over-Ethernet support
+RDEPENDS_ppp-oe: glibc (>= 2.22)
+SECTION: console/network
+PKG_ppp-oe: ppp-oe
+FILES_ppp-oe: /usr/sbin/pppoe-discovery /usr/lib/pppd/2.4.7/rp-pppoe.so
+FILERPROVIDESFLIST_ppp-oe: /usr/sbin/pppoe-discovery /usr/lib/pppd/2.4.7/rp-pppoe.so
+FILES_INFO: {"/usr/sbin/pppoe-discovery": 11924, "/usr/lib/pppd/2.4.7/rp-pppoe.so": 20492}
+FILERPROVIDES_/usr/sbin/pppoe-discovery_ppp-oe: elf(buildid) (= a8667fdce420def3e43009b00ec3658069b21286)
+FILERPROVIDES_/usr/lib/pppd/2.4.7/rp-pppoe.so_ppp-oe: elf(buildid) (= c2bb1dd00efecb7e1ed23cc3847f4f1f405aad1f) rp-pppoe.so
+FILERDEPENDSFLIST_ppp-oe: /usr/sbin/pppoe-discovery /usr/lib/pppd/2.4.7/rp-pppoe.so
+FILERDEPENDS_/usr/sbin/pppoe-discovery_ppp-oe: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/pppd/2.4.7/rp-pppoe.so_ppp-oe: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ppp-oe: 32416

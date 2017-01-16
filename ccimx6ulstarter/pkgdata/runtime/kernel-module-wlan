@@ -1,0 +1,16 @@
+PN: kernel-module-qualcomm
+PV: v4.2.74.63
+PR: r0
+PKGV: v4.2.74.63
+PKGR: r0.0
+LICENSE: ISC
+DESCRIPTION_kernel-module-wlan: wlan kernel module; WLAN HOST DEVICE DRIVER
+SUMMARY_kernel-module-wlan: wlan kernel module
+RDEPENDS_kernel-module-wlan: kernel-4.1.35-dey+g8dca338
+SECTION: base
+PKG_kernel-module-wlan: kernel-module-wlan
+FILES_kernel-module-wlan: /lib/modules/4.1.35-dey+g8dca338/extra/wlan.ko /etc/modules-load.d/wlan.conf /etc/modprobe.d/wlan.conf
+pkg_postinst_kernel-module-wlan: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-wlan: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.1.35-dey+g8dca338\nelse\n\tdepmodwrapper -a -b $D 4.1.35-dey+g8dca338\nfi\n\n
+FILES_INFO: {"/lib/modules/4.1.35-dey+g8dca338/extra/wlan.ko": 3122000}
+PKGSIZE_kernel-module-wlan: 3122000

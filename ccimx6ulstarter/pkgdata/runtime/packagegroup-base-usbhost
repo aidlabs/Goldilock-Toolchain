@@ -1,0 +1,15 @@
+PN: packagegroup-base
+PV: 1.0
+PR: r83
+PKGV: 1.0
+PKGR: r83.0
+LICENSE: MIT
+DESCRIPTION: Merge machine and distro options to create a basic machine task/package.
+SUMMARY_packagegroup-base-usbhost: USB host support
+RDEPENDS_packagegroup-base-usbhost: usbutils
+RRECOMMENDS_packagegroup-base-usbhost:     kernel-module-uhci-hcd     kernel-module-ohci-hcd     kernel-module-ehci-hcd     kernel-module-usbcore     kernel-module-usbhid     kernel-module-usbnet     kernel-module-sd-mod     kernel-module-scsi-mod     kernel-module-usbmouse     kernel-module-mousedev     kernel-module-usbserial     kernel-module-usb-storage 
+SECTION: base
+PKG_packagegroup-base-usbhost: packagegroup-base-usbhost
+ALLOW_EMPTY_packagegroup-base-usbhost: 1
+FILES_INFO: {}
+PKGSIZE_packagegroup-base-usbhost: 0

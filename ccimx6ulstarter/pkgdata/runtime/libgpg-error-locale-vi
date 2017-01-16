@@ -1,0 +1,15 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-locale-vi: Small library that defines common error values for all GnuPG components.  This package contains language translation files for the vi locale.
+SUMMARY_libgpg-error-locale-vi: Small library that defines common error values for all GnuPG components - vi translations
+RPROVIDES_libgpg-error-locale-vi: libgpg-error-locale vi-translation
+RRECOMMENDS_libgpg-error-locale-vi: virtual-locale-vi
+SECTION: libs
+PKG_libgpg-error-locale-vi: libgpg-error-locale-vi
+FILES_libgpg-error-locale-vi: /usr/share/locale/vi
+FILES_INFO: {"/usr/share/locale/vi/LC_MESSAGES/libgpg-error.mo": 18368}
+PKGSIZE_libgpg-error-locale-vi: 18368

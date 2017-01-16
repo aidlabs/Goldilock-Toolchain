@@ -1,0 +1,21 @@
+PN: file
+PV: 5.24
+PR: r0
+PKGV: 5.24
+PKGR: r0.0
+LICENSE: BSD
+DESCRIPTION: File attempts to classify files depending on their contents and prints a description if a match is found.
+SUMMARY: File classification tool
+RDEPENDS_file: glibc (>= 2.22) zlib (>= 1.2.8)
+SECTION: console/utils
+PKG_file: file
+FILES_file: /usr/bin/* /usr/sbin/* /usr/lib/file/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/file /usr/lib/file/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/misc/*.mgc
+pkg_postinst_file: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_file: /usr/lib/libmagic.so.1.0.0 /usr/bin/file
+FILES_INFO: {"/usr/lib/libmagic.so.1": 17, "/usr/lib/libmagic.so.1.0.0": 110328, "/usr/share/misc/magic.mgc": 3865680, "/usr/bin/file": 14956}
+FILERPROVIDES_/usr/lib/libmagic.so.1.0.0_file: elf(buildid) (= a8f4d422fc96f745edb1b6963c341062151c8f29) libmagic.so.1
+FILERPROVIDES_/usr/bin/file_file: elf(buildid) (= f86a1b778ee3e6f43e7239c9e53cd37721c23668)
+FILERDEPENDSFLIST_file: /usr/lib/libmagic.so.1.0.0 /usr/bin/file
+FILERDEPENDS_/usr/lib/libmagic.so.1.0.0_file: libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/file_file: libc.so.6 libc.so.6(GLIBC_2.4) libmagic.so.1 rtld(GNU_HASH)
+PKGSIZE_file: 3990981

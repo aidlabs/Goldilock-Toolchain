@@ -1,0 +1,13 @@
+PN: u-boot-dey
+PV: 2015.04
+PR: r0
+PKGV: 2015.04
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: Bootloader for Digi platforms
+SUMMARY: Universal Boot Loader for embedded devices
+SECTION: bootloaders
+PKG_u-boot-dey: u-boot-dey
+FILES_u-boot-dey: /boot /etc
+FILES_INFO: {"/boot/u-boot.imx": 37, "/boot/u-boot-ccimx6ulstarter-2015.04-r0.imx": 592896, "/boot/u-boot.imx-ccimx6ulstarter": 37}
+PKGSIZE_u-boot-dey: 592970

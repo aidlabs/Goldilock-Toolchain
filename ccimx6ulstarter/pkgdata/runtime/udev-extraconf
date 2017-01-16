@@ -1,0 +1,21 @@
+PN: udev-extraconf
+PV: 1.1
+PR: r0
+PKGV: 1.1
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Extra machine specific configuration files for udev, specifically blacklist information.
+SUMMARY: Extra machine specific configuration files
+RDEPENDS_udev-extraconf: udev
+RPROVIDES_udev-extraconf: udev-extra-rules
+RREPLACES_udev-extraconf: udev-extra-rules
+RCONFLICTS_udev-extraconf: udev-extra-rules
+SECTION: base
+PKG_udev-extraconf: udev-extraconf
+FILES_udev-extraconf: /etc/udev
+FILES_INFO: {"/etc/udev/scripts/network.sh": 1402, "/etc/udev/mount.blacklist": 51, "/etc/udev/rules.d/localextra.rules": 940, "/etc/udev/scripts/mount.sh": 2436, "/etc/udev/rules.d/automount.rules": 1036, "/etc/udev/rules.d/autonet.rules": 757, "/etc/udev/scripts/mount_bootparts.sh": 979}
+FILERDEPENDSFLIST_udev-extraconf: /etc/udev/scripts/mount.sh /etc/udev/scripts/network.sh /etc/udev/scripts/mount@underscore@bootparts.sh
+FILERDEPENDS_/etc/udev/scripts/mount.sh_udev-extraconf: /bin/sh
+FILERDEPENDS_/etc/udev/scripts/network.sh_udev-extraconf: /bin/sh
+FILERDEPENDS_/etc/udev/scripts/mount@underscore@bootparts.sh_udev-extraconf: /bin/sh
+PKGSIZE_udev-extraconf: 7601

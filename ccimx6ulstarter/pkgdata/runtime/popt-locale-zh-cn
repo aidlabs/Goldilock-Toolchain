@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-zh-cn: Library for parsing command line options.  This package contains language translation files for the zh_CN locale.
+SUMMARY_popt-locale-zh-cn: Library for parsing command line options - zh_CN translations
+RPROVIDES_popt-locale-zh-cn: popt-locale zh-cn-translation popt-locale-zh-cn (=1.16)
+RRECOMMENDS_popt-locale-zh-cn: virtual-locale-zh-cn
+SECTION: libs
+PKG_popt-locale-zh-cn: libpopt-locale-zh-cn
+FILES_popt-locale-zh-cn: /usr/share/locale/zh_CN
+FILES_INFO: {"/usr/share/locale/zh_CN/LC_MESSAGES/popt.mo": 2045}
+PKGSIZE_popt-locale-zh-cn: 2045

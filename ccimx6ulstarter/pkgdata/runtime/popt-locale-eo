@@ -1,0 +1,15 @@
+PN: popt
+PV: 1.16
+PR: r3
+PKGV: 1.16
+PKGR: r3.0
+LICENSE: MIT
+DESCRIPTION_popt-locale-eo: Library for parsing command line options.  This package contains language translation files for the eo locale.
+SUMMARY_popt-locale-eo: Library for parsing command line options - eo translations
+RPROVIDES_popt-locale-eo: popt-locale eo-translation popt-locale-eo (=1.16)
+RRECOMMENDS_popt-locale-eo: virtual-locale-eo
+SECTION: libs
+PKG_popt-locale-eo: libpopt-locale-eo
+FILES_popt-locale-eo: /usr/share/locale/eo
+FILES_INFO: {"/usr/share/locale/eo/LC_MESSAGES/popt.mo": 2175}
+PKGSIZE_popt-locale-eo: 2175

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-zu-za: binary locale definition for zu-za
+SUMMARY_glibc-binary-localedata-zu-za: binary locale definition for zu-za
+SECTION: base
+PKG_glibc-binary-localedata-zu-za: glibc-binary-localedata-zu-za
+FILES_glibc-binary-localedata-zu-za: /usr/lib/locale/zu_ZA
+FILES_INFO: {"/usr/lib/locale/zu_ZA/LC_CTYPE": 278308, "/usr/lib/locale/zu_ZA/LC_MONETARY": 286, "/usr/lib/locale/zu_ZA/LC_PAPER": 34, "/usr/lib/locale/zu_ZA/LC_IDENTIFICATION": 430, "/usr/lib/locale/zu_ZA/LC_TELEPHONE": 58, "/usr/lib/locale/zu_ZA/LC_TIME": 2594, "/usr/lib/locale/zu_ZA/LC_NAME": 88, "/usr/lib/locale/zu_ZA/LC_MEASUREMENT": 23, "/usr/lib/locale/zu_ZA/LC_COLLATE": 1243766, "/usr/lib/locale/zu_ZA/LC_NUMERIC": 54, "/usr/lib/locale/zu_ZA/LC_MESSAGES/SYS_LC_MESSAGES": 50, "/usr/lib/locale/zu_ZA/LC_ADDRESS": 158}
+PKGSIZE_glibc-binary-localedata-zu-za: 1525849

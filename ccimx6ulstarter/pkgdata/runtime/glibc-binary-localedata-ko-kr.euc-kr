@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ko-kr.euc-kr: binary locale definition for ko-kr.euc-kr
+SUMMARY_glibc-binary-localedata-ko-kr.euc-kr: binary locale definition for ko-kr.euc-kr
+SECTION: base
+PKG_glibc-binary-localedata-ko-kr.euc-kr: glibc-binary-localedata-ko-kr.euc-kr
+FILES_glibc-binary-localedata-ko-kr.euc-kr: /usr/lib/locale/ko_KR.EUC-KR
+FILES_INFO: {"/usr/lib/locale/ko_KR.EUC-KR/LC_PAPER": 35, "/usr/lib/locale/ko_KR.EUC-KR/LC_MONETARY": 291, "/usr/lib/locale/ko_KR.EUC-KR/LC_COLLATE": 421563, "/usr/lib/locale/ko_KR.EUC-KR/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/ko_KR.EUC-KR/LC_NAME": 63, "/usr/lib/locale/ko_KR.EUC-KR/LC_TIME": 2135, "/usr/lib/locale/ko_KR.EUC-KR/LC_ADDRESS": 146, "/usr/lib/locale/ko_KR.EUC-KR/LC_CTYPE": 680416, "/usr/lib/locale/ko_KR.EUC-KR/LC_MEASUREMENT": 24, "/usr/lib/locale/ko_KR.EUC-KR/LC_TELEPHONE": 57, "/usr/lib/locale/ko_KR.EUC-KR/LC_IDENTIFICATION": 321, "/usr/lib/locale/ko_KR.EUC-KR/LC_NUMERIC": 55}
+PKGSIZE_glibc-binary-localedata-ko-kr.euc-kr: 1105165

@@ -1,0 +1,15 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-locale-ru: Small library that defines common error values for all GnuPG components.  This package contains language translation files for the ru locale.
+SUMMARY_libgpg-error-locale-ru: Small library that defines common error values for all GnuPG components - ru translations
+RPROVIDES_libgpg-error-locale-ru: libgpg-error-locale ru-translation
+RRECOMMENDS_libgpg-error-locale-ru: virtual-locale-ru
+SECTION: libs
+PKG_libgpg-error-locale-ru: libgpg-error-locale-ru
+FILES_libgpg-error-locale-ru: /usr/share/locale/ru
+FILES_INFO: {"/usr/share/locale/ru/LC_MESSAGES/libgpg-error.mo": 27254}
+PKGSIZE_libgpg-error-locale-ru: 27254

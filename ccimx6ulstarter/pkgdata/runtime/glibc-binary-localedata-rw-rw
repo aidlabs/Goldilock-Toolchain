@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-rw-rw: binary locale definition for rw-rw
+SUMMARY_glibc-binary-localedata-rw-rw: binary locale definition for rw-rw
+SECTION: base
+PKG_glibc-binary-localedata-rw-rw: glibc-binary-localedata-rw-rw
+FILES_glibc-binary-localedata-rw-rw: /usr/lib/locale/rw_RW
+FILES_INFO: {"/usr/lib/locale/rw_RW/LC_MONETARY": 294, "/usr/lib/locale/rw_RW/LC_MEASUREMENT": 23, "/usr/lib/locale/rw_RW/LC_TIME": 2590, "/usr/lib/locale/rw_RW/LC_CTYPE": 278308, "/usr/lib/locale/rw_RW/LC_COLLATE": 1243766, "/usr/lib/locale/rw_RW/LC_IDENTIFICATION": 356, "/usr/lib/locale/rw_RW/LC_TELEPHONE": 54, "/usr/lib/locale/rw_RW/LC_ADDRESS": 154, "/usr/lib/locale/rw_RW/LC_NUMERIC": 50, "/usr/lib/locale/rw_RW/LC_MESSAGES/SYS_LC_MESSAGES": 50, "/usr/lib/locale/rw_RW/LC_PAPER": 34, "/usr/lib/locale/rw_RW/LC_NAME": 62}
+PKGSIZE_glibc-binary-localedata-rw-rw: 1525741

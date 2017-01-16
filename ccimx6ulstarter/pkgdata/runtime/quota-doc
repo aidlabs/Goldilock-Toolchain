@@ -1,0 +1,13 @@
+PN: quota
+PV: 4.02
+PR: r0
+PKGV: 4.02
+PKGR: r0.0
+LICENSE: BSD & GPLv2+ & LGPLv2.1+
+DESCRIPTION_quota-doc: Tools for monitoring & limiting user disk usage per filesystem.  This package contains documentation.
+SUMMARY_quota-doc: Tools for monitoring & limiting user disk usage per filesystem - Documentation files
+SECTION_quota-doc: doc
+PKG_quota-doc: quota-doc
+FILES_quota-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man5/warnquota.conf.5": 4360, "/usr/share/man/man1/quota.1": 4432, "/usr/share/man/man8/quotacheck.8": 5597, "/usr/share/man/man8/convertquota.8": 1486, "/usr/share/man/man8/setquota.8": 4586, "/usr/share/man/man5/quotagrpadmins.5": 671, "/usr/share/man/man3/rquota.3": 613, "/usr/share/man/man8/quotaon.8": 6281, "/usr/share/man/man8/warnquota.8": 2629, "/usr/share/man/man8/quot.8": 1350, "/usr/share/man/man8/quota_nld.8": 1443, "/usr/share/man/man8/edquota.8": 5149, "/usr/share/man/man5/quotatab.5": 763, "/usr/share/man/man1/quotasync.1": 1605, "/usr/share/man/man8/repquota.8": 4597, "/usr/share/man/man8/quotastats.8": 735, "/usr/share/man/man8/xqmstats.8": 596, "/usr/share/man/man8/rpc.rquotad.8": 2808}
+PKGSIZE_quota-doc: 49701

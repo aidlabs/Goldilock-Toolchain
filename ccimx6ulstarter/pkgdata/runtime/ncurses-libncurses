@@ -1,0 +1,20 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1.0
+LICENSE: MIT
+DESCRIPTION_ncurses-libncurses: ncurses ncurses library
+SUMMARY_ncurses-libncurses: ncurses ncurses library
+RDEPENDS_ncurses-libncurses: glibc (>= 2.22) ncurses-libtinfo (>= 5.9)
+RPROVIDES_ncurses-libncurses:  ncurses-libncurses (=5.9)
+SECTION: libs
+PKG_ncurses-libncurses: libncurses5
+FILES_ncurses-libncurses: /lib/libncurses.so.5 /lib/libncurses.so.5.9
+pkg_postinst_ncurses-libncurses: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_ncurses-libncurses: /lib/libncurses.so.5.9
+FILES_INFO: {"/lib/libncurses.so.5": 17, "/lib/libncurses.so.5.9": 113132}
+FILERPROVIDES_/lib/libncurses.so.5.9_ncurses-libncurses: elf(buildid) (= b660a9b0f6fcc6ac78bccc1b0e7304b93d406b49) libncurses.so.5
+FILERDEPENDSFLIST_ncurses-libncurses: /lib/libncurses.so.5.9
+FILERDEPENDS_/lib/libncurses.so.5.9_ncurses-libncurses: libc.so.6 libc.so.6(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libncurses: 113149

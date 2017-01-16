@@ -1,0 +1,14 @@
+PN: modemmanager
+PV: 1.4.12
+PR: r0
+PKGV: 1.4.12
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_modemmanager-staticdev: ModemManager is a DBus-activated daemon which controls mobile broadband (2G/3G/4G) devices and connections  This package contains static libraries for software development.
+SUMMARY_modemmanager-staticdev: ModemManager is a daemon controlling broadband devices/connections - Development files (Static Libraries)
+RDEPENDS_modemmanager-staticdev: modemmanager-dev (= 1.4.12-r0.0)
+SECTION_modemmanager-staticdev: devel
+PKG_modemmanager-staticdev: modemmanager-staticdev
+FILES_modemmanager-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/modemmanager/*.a      /usr/lib/ModemManager/*.a 
+FILES_INFO: {"/usr/lib/ModemManager/libmm-plugin-mtk.a": 96368, "/usr/lib/ModemManager/libmm-plugin-linktop.a": 53524, "/usr/lib/ModemManager/libmm-plugin-hso.a": 250890, "/usr/lib/ModemManager/libmm-plugin-zte.a": 383142, "/usr/lib/ModemManager/libmm-plugin-novatel.a": 120260, "/usr/lib/ModemManager/libmm-plugin-samsung.a": 269800, "/usr/lib/ModemManager/libmm-plugin-longcheer.a": 76158, "/usr/lib/ModemManager/libmm-plugin-telit.a": 87018, "/usr/lib/ModemManager/libmm-plugin-huawei.a": 427368, "/usr/lib/ModemManager/libmm-plugin-anydata.a": 64380, "/usr/lib/libmm-glib.a": 2969024, "/usr/lib/ModemManager/libmm-plugin-nokia-icera.a": 255022, "/usr/lib/ModemManager/libmm-plugin-simtech.a": 90024, "/usr/lib/ModemManager/libmm-plugin-option.a": 104112, "/usr/lib/ModemManager/libmm-plugin-mbm.a": 238638, "/usr/lib/ModemManager/libmm-plugin-x22x.a": 75670, "/usr/lib/ModemManager/libmm-plugin-pantech.a": 75462, "/usr/lib/ModemManager/libmm-plugin-nokia.a": 81174, "/usr/lib/ModemManager/libmm-plugin-generic.a": 19178, "/usr/lib/ModemManager/libmm-plugin-cinterion.a": 220034, "/usr/lib/ModemManager/libmm-plugin-sierra.a": 518952, "/usr/lib/ModemManager/libmm-plugin-via.a": 70748, "/usr/lib/ModemManager/libmm-plugin-wavecom.a": 109580, "/usr/lib/ModemManager/libmm-plugin-iridium.a": 118320, "/usr/lib/ModemManager/libmm-plugin-motorola.a": 44526, "/usr/lib/ModemManager/libmm-plugin-novatel-lte.a": 165588, "/usr/lib/ModemManager/libmm-plugin-altair-lte.a": 195884}
+PKGSIZE_modemmanager-staticdev: 7180844

@@ -1,0 +1,18 @@
+PN: alsa-utils
+PV: 1.0.29
+PR: r0
+PKGV: 1.0.29
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: ALSA sound utilities.
+SUMMARY_alsa-utils-aplay: Play (and record) sound files using ALSA
+RDEPENDS_alsa-utils-aplay: glibc (>= 2.22) libasound (>= 1.0.29)
+SECTION: console/utils
+PKG_alsa-utils-aplay: alsa-utils-aplay
+FILES_alsa-utils-aplay: /usr/bin/aplay /usr/bin/arecord
+FILERPROVIDESFLIST_alsa-utils-aplay: /usr/bin/aplay
+FILES_INFO: {"/usr/bin/aplay": 55668, "/usr/bin/arecord": 5}
+FILERPROVIDES_/usr/bin/aplay_alsa-utils-aplay: elf(buildid) (= c86f61c6b966dc008190c429bff52f72a1580cb7)
+FILERDEPENDSFLIST_alsa-utils-aplay: /usr/bin/aplay
+FILERDEPENDS_/usr/bin/aplay_alsa-utils-aplay: libasound.so.2 libasound.so.2(ALSA_0.9) libasound.so.2(ALSA_0.9.0rc4) libasound.so.2(ALSA_0.9.0rc8) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_alsa-utils-aplay: 55673

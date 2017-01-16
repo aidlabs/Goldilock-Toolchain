@@ -1,0 +1,15 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-locale-ja: Small library that defines common error values for all GnuPG components.  This package contains language translation files for the ja locale.
+SUMMARY_libgpg-error-locale-ja: Small library that defines common error values for all GnuPG components - ja translations
+RPROVIDES_libgpg-error-locale-ja: libgpg-error-locale ja-translation
+RRECOMMENDS_libgpg-error-locale-ja: virtual-locale-ja
+SECTION: libs
+PKG_libgpg-error-locale-ja: libgpg-error-locale-ja
+FILES_libgpg-error-locale-ja: /usr/share/locale/ja
+FILES_INFO: {"/usr/share/locale/ja/LC_MESSAGES/libgpg-error.mo": 23672}
+PKGSIZE_libgpg-error-locale-ja: 23672

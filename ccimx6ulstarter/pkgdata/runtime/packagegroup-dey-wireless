@@ -1,0 +1,15 @@
+PN: packagegroup-dey-wireless
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: Wireless packagegroup for DEY image.
+SUMMARY: Wireless packagegroup for DEY image
+RDEPENDS_packagegroup-dey-wireless: wireless-tools hostapd wpa-supplicant-cli iw crda wpa-supplicant-passphrase wpa-supplicant
+SECTION: base
+PKG_packagegroup-dey-wireless: packagegroup-dey-wireless
+ALLOW_EMPTY_packagegroup-dey-wireless: 1
+FILES_packagegroup-dey-wireless: /usr/bin/* /usr/sbin/* /usr/lib/packagegroup-dey-wireless/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/packagegroup-dey-wireless /usr/lib/packagegroup-dey-wireless/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-wireless: 0

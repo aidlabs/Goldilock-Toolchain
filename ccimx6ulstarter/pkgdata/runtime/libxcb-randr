@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-randr: XCB library module for randr
+SUMMARY_libxcb-randr: XCB library module for randr
+RDEPENDS_libxcb-randr: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-randr:  libxcb-randr (=1.11)
+SECTION: x11/libs
+PKG_libxcb-randr: libxcb-randr0
+FILES_libxcb-randr: /usr/lib/libxcb-randr.so.0 /usr/lib/libxcb-randr.so.0.1.0
+pkg_postinst_libxcb-randr: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-randr: /usr/lib/libxcb-randr.so.0.1.0
+FILES_INFO: {"/usr/lib/libxcb-randr.so.0": 21, "/usr/lib/libxcb-randr.so.0.1.0": 36564}
+FILERPROVIDES_/usr/lib/libxcb-randr.so.0.1.0_libxcb-randr: elf(buildid) (= 77aa3945dcdbd79b53441037294ed6d5d23e52ef) libxcb-randr.so.0
+FILERDEPENDSFLIST_libxcb-randr: /usr/lib/libxcb-randr.so.0.1.0
+FILERDEPENDS_/usr/lib/libxcb-randr.so.0.1.0_libxcb-randr: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-randr: 36585

@@ -1,0 +1,15 @@
+PN: usbutils
+PV: 007
+PR: r0
+PKGV: 007
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_usbutils-dbg: Contains the lsusb utility for inspecting the devices connected to the USB bus.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_usbutils-dbg: Host side USB console utilities - Debugging files
+RRECOMMENDS_usbutils-dbg: glibc-dbg zlib-dbg libusb1-dbg
+SECTION_usbutils-dbg: devel
+PKG_usbutils-dbg: usbutils-dbg
+ALLOW_EMPTY_usbutils-dbg: 1
+FILES_usbutils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/usbutils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/usbutils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/usbutils/usbutils/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/usbutils/007-r0/usbutils-007/list.h": 2331, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/include/uhd/dev.h": 1906, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/include/uhd/iface_list.h": 2911, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/lib/iface.c": 6239, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/src/usbhid-dump.c": 30673, "/usr/src/debug/usbutils/007-r0/usbutils-007/lsusb.h": 69, "/usr/src/debug/usbutils/007-r0/usbutils-007/lsusb-t.c": 16443, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbmisc.h": 1213, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/lib/iface_list.c": 5211, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/include/uhd/iface.h": 5497, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/lib/dev_list.c": 3973, "/usr/src/debug/usbutils/007-r0/usbutils-007/names.h": 2332, "/usr/bin/.debug/lsusb": 141928, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/include/uhd/dev_list.h": 3034, "/usr/src/debug/usbutils/007-r0/usbutils-007/lsusb.c": 124193, "/usr/src/debug/usbutils/007-r0/usbutils-007/names.c": 24692, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbmisc.c": 5875, "/usr/src/debug/usbutils/007-r0/usbutils-007/usbhid-dump/lib/dev.c": 1902, "/usr/bin/.debug/usbhid-dump": 53028}
+PKGSIZE_usbutils-dbg: 433450

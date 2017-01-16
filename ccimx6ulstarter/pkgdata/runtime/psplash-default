@@ -1,0 +1,20 @@
+PN: psplash
+PV: 0.1+gitAUTOINC+14c8f7b705
+PR: r15
+PKGV: 0.1+git0+14c8f7b705
+PKGR: r15.0
+LICENSE: GPLv2+
+DESCRIPTION: PSplash is a userspace graphical boot splash screen for mainly embedded Linux devices supporting a 16bpp or 32bpp framebuffer. It has few dependencies (just libc), supports basic images and text and handles rotation. Its visual look is configurable by basic source changes. Also included is a \'client\' command utility for sending information to psplash such as boot progress information.
+SUMMARY: Userspace framebuffer boot logo based on usplash
+RDEPENDS_psplash-default: psplash update-alternatives-opkg glibc (>= 2.22)
+SECTION: base
+PKG_psplash-default: psplash-default
+FILES_psplash-default: /usr/bin/psplash-default
+pkg_postinst_psplash-default: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/psplash psplash /usr/bin/psplash-default 100\n
+pkg_prerm_psplash-default: #!/bin/sh\n\tupdate-alternatives --remove  psplash /usr/bin/psplash-default\n
+FILERPROVIDESFLIST_psplash-default: /usr/bin/psplash-default
+FILES_INFO: {"/usr/bin/psplash-default": 51192}
+FILERPROVIDES_/usr/bin/psplash-default_psplash-default: elf(buildid) (= 1178eb3f18cd37cec02d31b7dd430e0761df0294) /usr/bin/psplash
+FILERDEPENDSFLIST_psplash-default: /usr/bin/psplash-default
+FILERDEPENDS_/usr/bin/psplash-default_psplash-default: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_psplash-default: 51192

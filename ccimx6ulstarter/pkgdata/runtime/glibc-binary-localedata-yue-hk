@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-yue-hk: binary locale definition for yue-hk
+SUMMARY_glibc-binary-localedata-yue-hk: binary locale definition for yue-hk
+SECTION: base
+PKG_glibc-binary-localedata-yue-hk: glibc-binary-localedata-yue-hk
+FILES_glibc-binary-localedata-yue-hk: /usr/lib/locale/yue_HK
+FILES_INFO: {"/usr/lib/locale/yue_HK/LC_MESSAGES/SYS_LC_MESSAGES": 48, "/usr/lib/locale/yue_HK/LC_IDENTIFICATION": 347, "/usr/lib/locale/yue_HK/LC_MONETARY": 290, "/usr/lib/locale/yue_HK/LC_NUMERIC": 54, "/usr/lib/locale/yue_HK/LC_TELEPHONE": 55, "/usr/lib/locale/yue_HK/LC_ADDRESS": 138, "/usr/lib/locale/yue_HK/LC_MEASUREMENT": 23, "/usr/lib/locale/yue_HK/LC_TIME": 2218, "/usr/lib/locale/yue_HK/LC_PAPER": 34, "/usr/lib/locale/yue_HK/LC_COLLATE": 1243766, "/usr/lib/locale/yue_HK/LC_NAME": 82, "/usr/lib/locale/yue_HK/LC_CTYPE": 279140}
+PKGSIZE_glibc-binary-localedata-yue-hk: 1526195

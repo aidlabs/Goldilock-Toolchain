@@ -1,0 +1,13 @@
+PN: libtool
+PV: 2.4.6
+PR: r0
+PKGV: 2.4.6
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: This is GNU libtool, a generic library support script. Libtool hides the complexity of generating special library types (such as shared libraries) behind a consistent interface.
+SUMMARY: Generic library support script
+SECTION: devel
+PKG_libtool-locale: libtool-locale
+FILES_libtool-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libtool-locale: 0

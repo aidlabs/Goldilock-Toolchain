@@ -1,0 +1,16 @@
+PN: packagegroup-dey-bluetooth
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_packagegroup-dey-bluetooth-dev: Bluetooth packagegroup for DEY image.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_packagegroup-dey-bluetooth-dev: Bluetooth packagegroup for DEY image - Development files
+RDEPENDS_packagegroup-dey-bluetooth-dev: packagegroup-dey-bluetooth (= 1.0-r0.0)
+RRECOMMENDS_packagegroup-dey-bluetooth-dev: bluez5-testtools-dev bluez5-noinst-tools-dev libasound-module-bluez-dev bluez5-obex-dev bluez5-dev
+SECTION_packagegroup-dey-bluetooth-dev: devel
+PKG_packagegroup-dey-bluetooth-dev: packagegroup-dey-bluetooth-dev
+ALLOW_EMPTY_packagegroup-dey-bluetooth-dev: 1
+FILES_packagegroup-dey-bluetooth-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-dey-bluetooth/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-bluetooth-dev: 0

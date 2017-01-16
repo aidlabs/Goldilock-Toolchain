@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-tt-ru: binary locale definition for tt-ru
+SUMMARY_glibc-binary-localedata-tt-ru: binary locale definition for tt-ru
+SECTION: base
+PKG_glibc-binary-localedata-tt-ru: glibc-binary-localedata-tt-ru
+FILES_glibc-binary-localedata-tt-ru: /usr/lib/locale/tt_RU
+FILES_INFO: {"/usr/lib/locale/tt_RU/LC_TIME": 2526, "/usr/lib/locale/tt_RU/LC_COLLATE": 1243802, "/usr/lib/locale/tt_RU/LC_NAME": 51, "/usr/lib/locale/tt_RU/LC_TELEPHONE": 52, "/usr/lib/locale/tt_RU/LC_NUMERIC": 54, "/usr/lib/locale/tt_RU/LC_MEASUREMENT": 23, "/usr/lib/locale/tt_RU/LC_PAPER": 34, "/usr/lib/locale/tt_RU/LC_MESSAGES/SYS_LC_MESSAGES": 70, "/usr/lib/locale/tt_RU/LC_IDENTIFICATION": 348, "/usr/lib/locale/tt_RU/LC_ADDRESS": 103, "/usr/lib/locale/tt_RU/LC_CTYPE": 278308, "/usr/lib/locale/tt_RU/LC_MONETARY": 302}
+PKGSIZE_glibc-binary-localedata-tt-ru: 1525673

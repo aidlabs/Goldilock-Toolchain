@@ -1,0 +1,15 @@
+PN: kernel-module-qualcomm
+PV: v4.2.74.63
+PR: r0
+PKGV: v4.2.74.63
+PKGR: r0.0
+LICENSE: ISC
+DESCRIPTION: qcacld-2.0 module.bbclass mechanism.
+SUMMARY: Qualcomm\'s wireless driver for qca6564
+RDEPENDS_kernel-module-qualcomm: kernel-module-wlan
+SECTION: base
+PKG_kernel-module-qualcomm: kernel-module-qualcomm
+ALLOW_EMPTY_kernel-module-qualcomm: 1
+FILES_kernel-module-qualcomm:       /etc/network/if-pre-up.d/qualcomm     /etc/modprobe.d/qualcomm.conf 
+FILES_INFO: {"/etc/modprobe.d/qualcomm.conf": 250, "/etc/network/if-pre-up.d/qualcomm": 3410}
+PKGSIZE_kernel-module-qualcomm: 3660

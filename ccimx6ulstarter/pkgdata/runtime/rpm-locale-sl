@@ -1,0 +1,15 @@
+PN: rpm
+PV: 5.4.14
+PR: r0
+PKGV: 5.4.14
+PKGR: r0.0
+LICENSE: LGPLv2.1
+DESCRIPTION_rpm-locale-sl: The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages. Each software package consists of an archive of files along with information about the package like its version, a description, etc.  This package contains language translation files for the sl locale.
+SUMMARY_rpm-locale-sl: The RPM package management system - sl translations
+RPROVIDES_rpm-locale-sl: rpm-locale sl-translation
+RRECOMMENDS_rpm-locale-sl: virtual-locale-sl
+SECTION: base
+PKG_rpm-locale-sl: rpm-locale-sl
+FILES_rpm-locale-sl: /usr/share/locale/sl
+FILES_INFO: {"/usr/share/locale/sl/LC_MESSAGES/rpm.mo": 15654}
+PKGSIZE_rpm-locale-sl: 15654

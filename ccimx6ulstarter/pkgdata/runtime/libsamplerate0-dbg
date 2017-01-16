@@ -1,0 +1,15 @@
+PN: libsamplerate0
+PV: 0.1.8
+PR: r1
+PKGV: 0.1.8
+PKGR: r1.0
+LICENSE: GPLv2+
+DESCRIPTION_libsamplerate0-dbg: Audio Sample Rate Conversion library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libsamplerate0-dbg: Audio Sample Rate Conversion library - Debugging files
+RRECOMMENDS_libsamplerate0-dbg: libsndfile1-dbg glibc-dbg
+SECTION_libsamplerate0-dbg: devel
+PKG_libsamplerate0-dbg: libsamplerate0-dbg
+ALLOW_EMPTY_libsamplerate0-dbg: 1
+FILES_libsamplerate0-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libsamplerate0/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libsamplerate0/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libsamplerate0/libsamplerate0/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/fastest_coeffs.h": 72797, "/usr/lib/.debug/libsamplerate.so.0.1.8": 54720, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/mid_qual_coeffs.h": 607168, "/usr/bin/.debug/sndfile-resample": 23644, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/high_qual_coeffs.h": 9187803, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/examples/sndfile-resample.c": 9173, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/common.h": 4204, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/samplerate.c": 13876, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/src_sinc.c": 39214, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/src_linear.c": 6438, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/samplerate.h": 5442, "/usr/src/debug/libsamplerate0/0.1.8-r1/libsamplerate-0.1.8/src/src_zoh.c": 5932}
+PKGSIZE_libsamplerate0-dbg: 10030411

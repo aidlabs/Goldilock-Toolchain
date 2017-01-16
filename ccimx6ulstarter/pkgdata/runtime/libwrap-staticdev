@@ -1,0 +1,13 @@
+PN: tcp-wrappers
+PV: 7.6
+PR: r10
+PKGV: 7.6
+PKGR: r10.0
+LICENSE: BSD
+DESCRIPTION: Tools for monitoring and filtering incoming requests for tcp                services.
+SUMMARY: Security tool that is a wrapper for TCP daemons
+SECTION: console/network
+PKG_libwrap-staticdev: libwrap-staticdev
+FILES_libwrap-staticdev: /usr/lib/lib*.a
+FILES_INFO: {"/usr/lib/libwrap.a": 184642}
+PKGSIZE_libwrap-staticdev: 184642

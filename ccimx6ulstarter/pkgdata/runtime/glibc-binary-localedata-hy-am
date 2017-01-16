@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-hy-am: binary locale definition for hy-am
+SUMMARY_glibc-binary-localedata-hy-am: binary locale definition for hy-am
+SECTION: base
+PKG_glibc-binary-localedata-hy-am: glibc-binary-localedata-hy-am
+FILES_glibc-binary-localedata-hy-am: /usr/lib/locale/hy_AM
+FILES_INFO: {"/usr/lib/locale/hy_AM/LC_IDENTIFICATION": 342, "/usr/lib/locale/hy_AM/LC_TELEPHONE": 52, "/usr/lib/locale/hy_AM/LC_MONETARY": 290, "/usr/lib/locale/hy_AM/LC_ADDRESS": 174, "/usr/lib/locale/hy_AM/LC_PAPER": 34, "/usr/lib/locale/hy_AM/LC_COLLATE": 1243766, "/usr/lib/locale/hy_AM/LC_CTYPE": 278308, "/usr/lib/locale/hy_AM/LC_MEASUREMENT": 23, "/usr/lib/locale/hy_AM/LC_NAME": 86, "/usr/lib/locale/hy_AM/LC_TIME": 2710, "/usr/lib/locale/hy_AM/LC_MESSAGES/SYS_LC_MESSAGES": 68, "/usr/lib/locale/hy_AM/LC_NUMERIC": 54}
+PKGSIZE_glibc-binary-localedata-hy-am: 1525907

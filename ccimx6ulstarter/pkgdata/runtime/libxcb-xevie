@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_libxcb-xevie: XCB library module for xevie
+SUMMARY_libxcb-xevie: XCB library module for xevie
+RDEPENDS_libxcb-xevie: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxcb (>= 1.11) libxau (>= 1.0.8)
+RPROVIDES_libxcb-xevie:  libxcb-xevie (=1.11)
+SECTION: x11/libs
+PKG_libxcb-xevie: libxcb-xevie0
+FILES_libxcb-xevie: /usr/lib/libxcb-xevie.so.0 /usr/lib/libxcb-xevie.so.0.0.0
+pkg_postinst_libxcb-xevie: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-xevie: /usr/lib/libxcb-xevie.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-xevie.so.0.0.0": 5900, "/usr/lib/libxcb-xevie.so.0": 21}
+FILERPROVIDES_/usr/lib/libxcb-xevie.so.0.0.0_libxcb-xevie: elf(buildid) (= 26c64f3ed5dd6432df826c3300170f458f4f83bb) libxcb-xevie.so.0
+FILERDEPENDSFLIST_libxcb-xevie: /usr/lib/libxcb-xevie.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-xevie.so.0.0.0_libxcb-xevie: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) libxcb.so.1 rtld(GNU_HASH)
+PKGSIZE_libxcb-xevie: 5921

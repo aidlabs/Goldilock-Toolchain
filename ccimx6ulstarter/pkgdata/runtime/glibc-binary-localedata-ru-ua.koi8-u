@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ru-ua.koi8-u: binary locale definition for ru-ua.koi8-u
+SUMMARY_glibc-binary-localedata-ru-ua.koi8-u: binary locale definition for ru-ua.koi8-u
+SECTION: base
+PKG_glibc-binary-localedata-ru-ua.koi8-u: glibc-binary-localedata-ru-ua.koi8-u
+FILES_glibc-binary-localedata-ru-ua.koi8-u: /usr/lib/locale/ru_UA.KOI8-U
+FILES_INFO: {"/usr/lib/locale/ru_UA.KOI8-U/LC_PAPER": 35, "/usr/lib/locale/ru_UA.KOI8-U/LC_MONETARY": 291, "/usr/lib/locale/ru_UA.KOI8-U/LC_COLLATE": 21143, "/usr/lib/locale/ru_UA.KOI8-U/LC_MESSAGES/SYS_LC_MESSAGES": 57, "/usr/lib/locale/ru_UA.KOI8-U/LC_NAME": 63, "/usr/lib/locale/ru_UA.KOI8-U/LC_TIME": 2359, "/usr/lib/locale/ru_UA.KOI8-U/LC_ADDRESS": 140, "/usr/lib/locale/ru_UA.KOI8-U/LC_CTYPE": 237764, "/usr/lib/locale/ru_UA.KOI8-U/LC_MEASUREMENT": 24, "/usr/lib/locale/ru_UA.KOI8-U/LC_TELEPHONE": 51, "/usr/lib/locale/ru_UA.KOI8-U/LC_IDENTIFICATION": 311, "/usr/lib/locale/ru_UA.KOI8-U/LC_NUMERIC": 55}
+PKGSIZE_glibc-binary-localedata-ru-ua.koi8-u: 262293

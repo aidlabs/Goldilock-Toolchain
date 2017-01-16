@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ca-it.iso-8859-15: binary locale definition for ca-it.iso-8859-15
+SUMMARY_glibc-binary-localedata-ca-it.iso-8859-15: binary locale definition for ca-it.iso-8859-15
+SECTION: base
+PKG_glibc-binary-localedata-ca-it.iso-8859-15: glibc-binary-localedata-ca-it.iso-8859-15
+FILES_glibc-binary-localedata-ca-it.iso-8859-15: /usr/lib/locale/ca_IT.ISO-8859-15
+FILES_INFO: {"/usr/lib/locale/ca_IT.ISO-8859-15/LC_TELEPHONE": 55, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_ADDRESS": 147, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_MEASUREMENT": 29, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_MONETARY": 292, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_NUMERIC": 60, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_NAME": 68, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_CTYPE": 237448, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_MESSAGES/SYS_LC_MESSAGES": 60, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_PAPER": 40, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_TIME": 2344, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_COLLATE": 20552, "/usr/lib/locale/ca_IT.ISO-8859-15/LC_IDENTIFICATION": 315}
+PKGSIZE_glibc-binary-localedata-ca-it.iso-8859-15: 261410

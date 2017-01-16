@@ -1,0 +1,14 @@
+PN: imx-kobs
+PV: 5.4
+PR: r0
+PKGV: 5.4
+PKGR: r0.0
+LICENSE: GPLv2
+DESCRIPTION_imx-kobs-staticdev: Nand boot write source.  This package contains static libraries for software development.
+SUMMARY_imx-kobs-staticdev: Nand boot write source - Development files (Static Libraries)
+RDEPENDS_imx-kobs-staticdev: imx-kobs-dev (= 5.4-r0.0)
+SECTION_imx-kobs-staticdev: devel
+PKG_imx-kobs-staticdev: imx-kobs-staticdev
+FILES_imx-kobs-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/imx-kobs/*.a
+FILES_INFO: {}
+PKGSIZE_imx-kobs-staticdev: 0

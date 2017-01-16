@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-zh-tw.euc-tw: binary locale definition for zh-tw.euc-tw
+SUMMARY_glibc-binary-localedata-zh-tw.euc-tw: binary locale definition for zh-tw.euc-tw
+SECTION: base
+PKG_glibc-binary-localedata-zh-tw.euc-tw: glibc-binary-localedata-zh-tw.euc-tw
+FILES_glibc-binary-localedata-zh-tw.euc-tw: /usr/lib/locale/zh_TW.EUC-TW
+FILES_INFO: {"/usr/lib/locale/zh_TW.EUC-TW/LC_TIME": 2147, "/usr/lib/locale/zh_TW.EUC-TW/LC_NAME": 75, "/usr/lib/locale/zh_TW.EUC-TW/LC_CTYPE": 317848, "/usr/lib/locale/zh_TW.EUC-TW/LC_MONETARY": 291, "/usr/lib/locale/zh_TW.EUC-TW/LC_PAPER": 35, "/usr/lib/locale/zh_TW.EUC-TW/LC_TELEPHONE": 58, "/usr/lib/locale/zh_TW.EUC-TW/LC_IDENTIFICATION": 315, "/usr/lib/locale/zh_TW.EUC-TW/LC_ADDRESS": 147, "/usr/lib/locale/zh_TW.EUC-TW/LC_NUMERIC": 55, "/usr/lib/locale/zh_TW.EUC-TW/LC_MEASUREMENT": 24, "/usr/lib/locale/zh_TW.EUC-TW/LC_COLLATE": 774687, "/usr/lib/locale/zh_TW.EUC-TW/LC_MESSAGES/SYS_LC_MESSAGES": 55}
+PKGSIZE_glibc-binary-localedata-zh-tw.euc-tw: 1095737

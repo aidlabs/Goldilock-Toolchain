@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION: The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.
+SUMMARY: XCB: The X protocol C binding library
+RDEPENDS_libxcb: glibc (>= 2.22) libxdmcp (>= 1.1.2) libxau (>= 1.0.8)
+RPROVIDES_libxcb:  libxcb (=1.11)
+SECTION: x11/libs
+PKG_libxcb: libxcb1
+FILES_libxcb: /usr/lib/libxcb.so.*
+pkg_postinst_libxcb: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb: /usr/lib/libxcb.so.1.1.0
+FILES_INFO: {"/usr/lib/libxcb.so.1.1.0": 90016, "/usr/lib/libxcb.so.1": 15}
+FILERPROVIDES_/usr/lib/libxcb.so.1.1.0_libxcb: elf(buildid) (= 7b0d5ce1700db890dc6ed03042d60a77a6cbe61a) libxcb.so.1
+FILERDEPENDSFLIST_libxcb: /usr/lib/libxcb.so.1.1.0
+FILERDEPENDS_/usr/lib/libxcb.so.1.1.0_libxcb: libXau.so.6 libXdmcp.so.6 libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libxcb: 90031

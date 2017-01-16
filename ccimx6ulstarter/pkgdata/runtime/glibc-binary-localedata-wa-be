@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-wa-be: binary locale definition for wa-be
+SUMMARY_glibc-binary-localedata-wa-be: binary locale definition for wa-be
+SECTION: base
+PKG_glibc-binary-localedata-wa-be: glibc-binary-localedata-wa-be
+FILES_glibc-binary-localedata-wa-be: /usr/lib/locale/wa_BE
+FILES_INFO: {"/usr/lib/locale/wa_BE/LC_MONETARY": 294, "/usr/lib/locale/wa_BE/LC_COLLATE": 1243766, "/usr/lib/locale/wa_BE/LC_MEASUREMENT": 23, "/usr/lib/locale/wa_BE/LC_IDENTIFICATION": 321, "/usr/lib/locale/wa_BE/LC_TELEPHONE": 51, "/usr/lib/locale/wa_BE/LC_MESSAGES/SYS_LC_MESSAGES": 65, "/usr/lib/locale/wa_BE/LC_CTYPE": 278356, "/usr/lib/locale/wa_BE/LC_PAPER": 34, "/usr/lib/locale/wa_BE/LC_TIME": 2446, "/usr/lib/locale/wa_BE/LC_NAME": 73, "/usr/lib/locale/wa_BE/LC_NUMERIC": 54, "/usr/lib/locale/wa_BE/LC_ADDRESS": 149}
+PKGSIZE_glibc-binary-localedata-wa-be: 1525632

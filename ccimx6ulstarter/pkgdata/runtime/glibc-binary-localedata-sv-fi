@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sv-fi: binary locale definition for sv-fi
+SUMMARY_glibc-binary-localedata-sv-fi: binary locale definition for sv-fi
+SECTION: base
+PKG_glibc-binary-localedata-sv-fi: glibc-binary-localedata-sv-fi
+FILES_glibc-binary-localedata-sv-fi: /usr/lib/locale/sv_FI
+FILES_INFO: {"/usr/lib/locale/sv_FI/LC_CTYPE": 278308, "/usr/lib/locale/sv_FI/LC_MONETARY": 294, "/usr/lib/locale/sv_FI/LC_PAPER": 34, "/usr/lib/locale/sv_FI/LC_IDENTIFICATION": 357, "/usr/lib/locale/sv_FI/LC_TELEPHONE": 59, "/usr/lib/locale/sv_FI/LC_ADDRESS": 161, "/usr/lib/locale/sv_FI/LC_NAME": 62, "/usr/lib/locale/sv_FI/LC_MEASUREMENT": 23, "/usr/lib/locale/sv_FI/LC_COLLATE": 1243770, "/usr/lib/locale/sv_FI/LC_NUMERIC": 54, "/usr/lib/locale/sv_FI/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/sv_FI/LC_TIME": 2410}
+PKGSIZE_glibc-binary-localedata-sv-fi: 1525586

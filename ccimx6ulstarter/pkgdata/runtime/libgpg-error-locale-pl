@@ -1,0 +1,15 @@
+PN: libgpg-error
+PV: 1.19
+PR: r0
+PKGV: 1.19
+PKGR: r0.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_libgpg-error-locale-pl: Small library that defines common error values for all GnuPG components.  This package contains language translation files for the pl locale.
+SUMMARY_libgpg-error-locale-pl: Small library that defines common error values for all GnuPG components - pl translations
+RPROVIDES_libgpg-error-locale-pl: libgpg-error-locale pl-translation
+RRECOMMENDS_libgpg-error-locale-pl: virtual-locale-pl
+SECTION: libs
+PKG_libgpg-error-locale-pl: libgpg-error-locale-pl
+FILES_libgpg-error-locale-pl: /usr/share/locale/pl
+FILES_INFO: {"/usr/share/locale/pl/LC_MESSAGES/libgpg-error.mo": 21209}
+PKGSIZE_libgpg-error-locale-pl: 21209

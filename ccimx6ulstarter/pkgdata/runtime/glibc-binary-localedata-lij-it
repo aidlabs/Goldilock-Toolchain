@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-lij-it: binary locale definition for lij-it
+SUMMARY_glibc-binary-localedata-lij-it: binary locale definition for lij-it
+SECTION: base
+PKG_glibc-binary-localedata-lij-it: glibc-binary-localedata-lij-it
+FILES_glibc-binary-localedata-lij-it: /usr/lib/locale/lij_IT
+FILES_INFO: {"/usr/lib/locale/lij_IT/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/lij_IT/LC_NUMERIC": 54, "/usr/lib/locale/lij_IT/LC_NAME": 62, "/usr/lib/locale/lij_IT/LC_CTYPE": 278308, "/usr/lib/locale/lij_IT/LC_MONETARY": 294, "/usr/lib/locale/lij_IT/LC_PAPER": 34, "/usr/lib/locale/lij_IT/LC_TELEPHONE": 49, "/usr/lib/locale/lij_IT/LC_ADDRESS": 140, "/usr/lib/locale/lij_IT/LC_IDENTIFICATION": 321, "/usr/lib/locale/lij_IT/LC_TIME": 2378, "/usr/lib/locale/lij_IT/LC_MEASUREMENT": 23, "/usr/lib/locale/lij_IT/LC_COLLATE": 1243766}
+PKGSIZE_glibc-binary-localedata-lij-it: 1525483

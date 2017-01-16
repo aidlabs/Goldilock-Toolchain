@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-mg-mg.iso-8859-15: binary locale definition for mg-mg.iso-8859-15
+SUMMARY_glibc-binary-localedata-mg-mg.iso-8859-15: binary locale definition for mg-mg.iso-8859-15
+SECTION: base
+PKG_glibc-binary-localedata-mg-mg.iso-8859-15: glibc-binary-localedata-mg-mg.iso-8859-15
+FILES_glibc-binary-localedata-mg-mg.iso-8859-15: /usr/lib/locale/mg_MG.ISO-8859-15
+FILES_INFO: {"/usr/lib/locale/mg_MG.ISO-8859-15/LC_MEASUREMENT": 29, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_NUMERIC": 60, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_COLLATE": 20552, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_ADDRESS": 153, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_CTYPE": 237448, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_MONETARY": 296, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_PAPER": 40, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_TIME": 2424, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_NAME": 68, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_MESSAGES/SYS_LC_MESSAGES": 62, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_IDENTIFICATION": 417, "/usr/lib/locale/mg_MG.ISO-8859-15/LC_TELEPHONE": 63}
+PKGSIZE_glibc-binary-localedata-mg-mg.iso-8859-15: 261612

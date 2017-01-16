@@ -1,0 +1,16 @@
+PN: packagegroup-dey-wireless
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0.0
+LICENSE: MIT
+DESCRIPTION_packagegroup-dey-wireless-dev: Wireless packagegroup for DEY image.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_packagegroup-dey-wireless-dev: Wireless packagegroup for DEY image - Development files
+RDEPENDS_packagegroup-dey-wireless-dev: packagegroup-dey-wireless (= 1.0-r0.0)
+RRECOMMENDS_packagegroup-dey-wireless-dev: wpa-supplicant-passphrase-dev hostapd-dev crda-dev wpa-supplicant-dev wireless-tools-dev wpa-supplicant-cli-dev iw-dev
+SECTION_packagegroup-dey-wireless-dev: devel
+PKG_packagegroup-dey-wireless-dev: packagegroup-dey-wireless-dev
+ALLOW_EMPTY_packagegroup-dey-wireless-dev: 1
+FILES_packagegroup-dey-wireless-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-dey-wireless/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_packagegroup-dey-wireless-dev: 0

@@ -1,0 +1,14 @@
+PN: libgcrypt
+PV: 1.6.3
+PR: r1
+PKGV: 1.6.3
+PKGR: r1.0
+LICENSE: GPLv2+ & LGPLv2.1+ & GPLv3+
+DESCRIPTION_libgcrypt-staticdev: General purpose cryptographic library based on the code from GnuPG.  This package contains static libraries for software development.
+SUMMARY_libgcrypt-staticdev: General purpose cryptographic library based on the code from GnuPG - Development files (Static Libraries)
+RDEPENDS_libgcrypt-staticdev: libgcrypt-dev (= 1.6.3-r1.0)
+SECTION_libgcrypt-staticdev: devel
+PKG_libgcrypt-staticdev: libgcrypt-staticdev
+FILES_libgcrypt-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libgcrypt/*.a
+FILES_INFO: {}
+PKGSIZE_libgcrypt-staticdev: 0

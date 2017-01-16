@@ -1,0 +1,15 @@
+PN: libtool
+PV: 2.4.6
+PR: r0
+PKGV: 2.4.6
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_libtool-dbg: This is GNU libtool, a generic library support script. Libtool hides the complexity of generating special library types (such as shared libraries) behind a consistent interface.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libtool-dbg: Generic library support script - Debugging files
+RRECOMMENDS_libtool-dbg: glibc-dbg
+SECTION_libtool-dbg: devel
+PKG_libtool-dbg: libtool-dbg
+ALLOW_EMPTY_libtool-dbg: 1
+FILES_libtool-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libtool/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libtool/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libtool/libtool/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/lt_error.c": 2967, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/ltdl.h": 5709, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/libltdl/lt_error.h": 3647, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/libltdl/lt__private.h": 4507, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/libltdl/lt_dlloader.h": 3211, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/lt__strl.c": 3610, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/slist.c": 9830, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/libltdl/slist.h": 3233, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/ltdl.c": 55324, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/lt_dlloader.c": 6088, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/lt__alloc.c": 2298, "/usr/lib/.debug/libltdl.so.7.3.1": 94920, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/libltdl/lt__alloc.h": 2178, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/loaders/dlopen.c": 7585, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/libltdl/lt__strl.h": 1988, "/usr/src/debug/libtool/2.4.6-r0/libtool-2.4.6/libltdl/loaders/preopen.c": 9813}
+PKGSIZE_libtool-dbg: 216908

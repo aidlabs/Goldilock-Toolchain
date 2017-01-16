@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-hsb-de: binary locale definition for hsb-de
+SUMMARY_glibc-binary-localedata-hsb-de: binary locale definition for hsb-de
+SECTION: base
+PKG_glibc-binary-localedata-hsb-de: glibc-binary-localedata-hsb-de
+FILES_glibc-binary-localedata-hsb-de: /usr/lib/locale/hsb_DE
+FILES_INFO: {"/usr/lib/locale/hsb_DE/LC_ADDRESS": 159, "/usr/lib/locale/hsb_DE/LC_TIME": 2334, "/usr/lib/locale/hsb_DE/LC_MESSAGES/SYS_LC_MESSAGES": 60, "/usr/lib/locale/hsb_DE/LC_NAME": 81, "/usr/lib/locale/hsb_DE/LC_PAPER": 34, "/usr/lib/locale/hsb_DE/LC_MONETARY": 294, "/usr/lib/locale/hsb_DE/LC_IDENTIFICATION": 347, "/usr/lib/locale/hsb_DE/LC_MEASUREMENT": 23, "/usr/lib/locale/hsb_DE/LC_COLLATE": 106046, "/usr/lib/locale/hsb_DE/LC_NUMERIC": 54, "/usr/lib/locale/hsb_DE/LC_CTYPE": 248252, "/usr/lib/locale/hsb_DE/LC_TELEPHONE": 56}
+PKGSIZE_glibc-binary-localedata-hsb-de: 357740

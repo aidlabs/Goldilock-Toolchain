@@ -1,0 +1,15 @@
+PN: xextproto
+PE: 1
+PV: 7.3.0
+PR: r0
+PKGE: 1
+PKGV: 7.3.0
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_xextproto-doc: This package provides the wire protocol for several X extensions.  These protocol extensions include DOUBLE-BUFFER, DPMS, Extended-Visual-Information, LBX, MIT_SHM, MIT_SUNDRY-NONSTANDARD, Multi-Buffering, SECURITY, SHAPE, SYNC, TOG-CUP, XC-APPGROUP, XC-MISC, XTEST.  In addition a small set of utility functions are also available.  This package contains documentation.
+SUMMARY_xextproto-doc: XExt: X Extension headers - Documentation files
+SECTION_xextproto-doc: doc
+PKG_xextproto-doc: xextproto-doc
+FILES_xextproto-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_xextproto-doc: 0

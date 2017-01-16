@@ -1,0 +1,16 @@
+PN: inputproto
+PE: 1
+PV: 2.3.1
+PR: r0
+PKGE: 1
+PKGV: 2.3.1
+PKGR: r0.0
+LICENSE: MIT & MIT-style
+DESCRIPTION_inputproto-staticdev: This package provides the wire protocol for the X Input extension.  The extension supports input devices other then the core X keyboard and pointer.  This package contains static libraries for software development.
+SUMMARY_inputproto-staticdev: XI: X Input extension headers - Development files (Static Libraries)
+RDEPENDS_inputproto-staticdev: inputproto-dev (= 1:2.3.1-r0.0)
+SECTION_inputproto-staticdev: devel
+PKG_inputproto-staticdev: inputproto-staticdev
+FILES_inputproto-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/inputproto/*.a
+FILES_INFO: {}
+PKGSIZE_inputproto-staticdev: 0

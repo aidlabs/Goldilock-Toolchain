@@ -1,0 +1,15 @@
+PN: pciutils
+PV: 3.3.1
+PR: r0
+PKGV: 3.3.1
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION_pciutils-dbg: The PCI Utilities package contains a library for portable access to PCI bus configuration space and several utilities based on this library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_pciutils-dbg: PCI utilities - Debugging files
+RRECOMMENDS_pciutils-dbg: libpci-dbg glibc-dbg zlib-dbg libkmod-dbg
+SECTION_pciutils-dbg: devel
+PKG_pciutils-dbg: pciutils-dbg
+ALLOW_EMPTY_pciutils-dbg: 1
+FILES_pciutils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pciutils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pciutils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pciutils/pciutils/.debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/names-hash.c": 3100, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/names.h": 1573, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/names.c": 6969, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/access.c": 4206, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/dump.c": 3945, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/setpci.c": 16807, "/usr/sbin/.debug/setpci": 36060, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/generic.c": 4874, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/ls-caps-vendor.c": 1646, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/filter.c": 6489, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/sysfs.c": 9993, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/ls-kernel.c": 6275, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/sysdep.h": 1889, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/ls-ecaps.c": 16969, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/pci.h": 9383, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/proc.c": 4516, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/internal.h": 3054, "/usr/sbin/.debug/lspci": 129284, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/names-cache.c": 4374, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/ls-vpd.c": 4585, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/init.c": 4214, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/ls-map.c": 4264, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/pciutils.h": 1335, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/names-hwdb.c": 2556, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/params.c": 1671, "/usr/lib/.debug/libpci.so.3.3.1": 127056, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lspci.c": 28260, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/names-net.c": 5008, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lspci.h": 2269, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/types.h": 1443, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/caps.c": 2515, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/ls-tree.c": 6004, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/ls-caps.c": 41854, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/common.c": 2699, "/usr/src/debug/pciutils/3.3.1-r0/pciutils-3.3.1/lib/names-parse.c": 5669}
+PKGSIZE_pciutils-dbg: 512808

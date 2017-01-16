@@ -1,0 +1,15 @@
+PN: libsndfile1
+PV: 1.0.25
+PR: r2
+PKGV: 1.0.25
+PKGR: r2.0
+LICENSE: LGPLv2.1
+DESCRIPTION_libsndfile1-staticdev: Audio format Conversion library.  This package contains static libraries for software development.
+SUMMARY_libsndfile1-staticdev: Audio format Conversion library - Development files (Static Libraries)
+RDEPENDS_libsndfile1-staticdev: libsndfile1-dev (= 1.0.25-r2.0)
+RPROVIDES_libsndfile1-staticdev:  libsndfile1-staticdev (=1.0.25)
+SECTION_libsndfile1-staticdev: devel
+PKG_libsndfile1-staticdev: libsndfile-staticdev
+FILES_libsndfile1-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libsndfile1/*.a
+FILES_INFO: {"/usr/lib/libsndfile.a": 2311122}
+PKGSIZE_libsndfile1-staticdev: 2311122

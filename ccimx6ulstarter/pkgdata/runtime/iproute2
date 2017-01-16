@@ -1,0 +1,26 @@
+PN: iproute2
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0.0
+LICENSE: GPLv2+
+DESCRIPTION: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.
+SUMMARY: TCP / IP networking and traffic control utilities
+RDEPENDS_iproute2: update-alternatives-opkg glibc (>= 2.22)
+SECTION: base
+PKG_iproute2: iproute2
+FILES_iproute2: /usr/bin/* /usr/sbin/* /usr/lib/iproute2/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/iproute2 /usr/lib/iproute2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_iproute2: #!/bin/sh\n\tupdate-alternatives --install /sbin/ip ip /sbin/ip.iproute2 100\n
+pkg_prerm_iproute2: #!/bin/sh\n\tupdate-alternatives --remove  ip /sbin/ip.iproute2\n
+FILERPROVIDESFLIST_iproute2: /sbin/ip.iproute2 /sbin/rtmon
+FILES_INFO: {"/etc/iproute2/rt_scopes": 92, "/sbin/routel": 1262, "/sbin/rtmon": 31824, "/sbin/ip.iproute2": 314620, "/sbin/routef": 173, "/etc/iproute2/nl_protos": 264, "/etc/iproute2/rt_realms": 112, "/sbin/rtpr": 35, "/etc/iproute2/ematch_map": 75, "/etc/iproute2/group": 31, "/sbin/ifcfg": 3110, "/etc/iproute2/rt_dsfield": 331, "/etc/iproute2/rt_tables": 87, "/etc/iproute2/rt_protos": 326}
+FILERPROVIDES_/sbin/ip.iproute2_iproute2: elf(buildid) (= 4e1d4b481c75ab125d3779acfa598112b695c3c1) /sbin/ip
+FILERPROVIDES_/sbin/rtmon_iproute2: elf(buildid) (= b1bfd9d53ec75ce458395575b175a93276dd416a)
+FILERDEPENDSFLIST_iproute2: /sbin/routel /sbin/rtmon /sbin/rtpr /sbin/routef /sbin/ip.iproute2 /sbin/ifcfg
+FILERDEPENDS_/sbin/routel_iproute2: /bin/sh
+FILERDEPENDS_/sbin/rtmon_iproute2: libc.so.6 libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/rtpr_iproute2: /bin/sh
+FILERDEPENDS_/sbin/routef_iproute2: /bin/sh
+FILERDEPENDS_/sbin/ip.iproute2_iproute2: libc.so.6 libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/ifcfg_iproute2: /bin/sh
+PKGSIZE_iproute2: 352342

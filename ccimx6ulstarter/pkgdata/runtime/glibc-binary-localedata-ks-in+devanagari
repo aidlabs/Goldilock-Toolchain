@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ks-in+devanagari: binary locale definition for ks-in+devanagari
+SUMMARY_glibc-binary-localedata-ks-in+devanagari: binary locale definition for ks-in+devanagari
+SECTION: base
+PKG_glibc-binary-localedata-ks-in+devanagari: glibc-binary-localedata-ks-in+devanagari
+FILES_glibc-binary-localedata-ks-in+devanagari: /usr/lib/locale/ks_IN@devanagari
+FILES_INFO: {"/usr/lib/locale/ks_IN@devanagari/LC_NUMERIC": 54, "/usr/lib/locale/ks_IN@devanagari/LC_IDENTIFICATION": 474, "/usr/lib/locale/ks_IN@devanagari/LC_COLLATE": 1243766, "/usr/lib/locale/ks_IN@devanagari/LC_MEASUREMENT": 23, "/usr/lib/locale/ks_IN@devanagari/LC_NAME": 128, "/usr/lib/locale/ks_IN@devanagari/LC_CTYPE": 278308, "/usr/lib/locale/ks_IN@devanagari/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/ks_IN@devanagari/LC_MONETARY": 290, "/usr/lib/locale/ks_IN@devanagari/LC_TIME": 3222, "/usr/lib/locale/ks_IN@devanagari/LC_ADDRESS": 126, "/usr/lib/locale/ks_IN@devanagari/LC_PAPER": 34, "/usr/lib/locale/ks_IN@devanagari/LC_TELEPHONE": 53}
+PKGSIZE_glibc-binary-localedata-ks-in+devanagari: 1526530

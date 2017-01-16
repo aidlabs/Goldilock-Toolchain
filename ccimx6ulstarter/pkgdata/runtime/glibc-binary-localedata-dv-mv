@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-dv-mv: binary locale definition for dv-mv
+SUMMARY_glibc-binary-localedata-dv-mv: binary locale definition for dv-mv
+SECTION: base
+PKG_glibc-binary-localedata-dv-mv: glibc-binary-localedata-dv-mv
+FILES_glibc-binary-localedata-dv-mv: /usr/lib/locale/dv_MV
+FILES_INFO: {"/usr/lib/locale/dv_MV/LC_MONETARY": 294, "/usr/lib/locale/dv_MV/LC_CTYPE": 278308, "/usr/lib/locale/dv_MV/LC_PAPER": 34, "/usr/lib/locale/dv_MV/LC_TIME": 3282, "/usr/lib/locale/dv_MV/LC_NAME": 62, "/usr/lib/locale/dv_MV/LC_MESSAGES/SYS_LC_MESSAGES": 52, "/usr/lib/locale/dv_MV/LC_TELEPHONE": 57, "/usr/lib/locale/dv_MV/LC_NUMERIC": 54, "/usr/lib/locale/dv_MV/LC_COLLATE": 1243766, "/usr/lib/locale/dv_MV/LC_MEASUREMENT": 23, "/usr/lib/locale/dv_MV/LC_ADDRESS": 135, "/usr/lib/locale/dv_MV/LC_IDENTIFICATION": 306}
+PKGSIZE_glibc-binary-localedata-dv-mv: 1526373

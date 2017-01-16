@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-de-be: binary locale definition for de-be
+SUMMARY_glibc-binary-localedata-de-be: binary locale definition for de-be
+SECTION: base
+PKG_glibc-binary-localedata-de-be: glibc-binary-localedata-de-be
+FILES_glibc-binary-localedata-de-be: /usr/lib/locale/de_BE
+FILES_INFO: {"/usr/lib/locale/de_BE/LC_COLLATE": 1243766, "/usr/lib/locale/de_BE/LC_MONETARY": 294, "/usr/lib/locale/de_BE/LC_ADDRESS": 142, "/usr/lib/locale/de_BE/LC_MESSAGES/SYS_LC_MESSAGES": 54, "/usr/lib/locale/de_BE/LC_IDENTIFICATION": 355, "/usr/lib/locale/de_BE/LC_TIME": 2382, "/usr/lib/locale/de_BE/LC_NAME": 62, "/usr/lib/locale/de_BE/LC_CTYPE": 278468, "/usr/lib/locale/de_BE/LC_TELEPHONE": 51, "/usr/lib/locale/de_BE/LC_NUMERIC": 54, "/usr/lib/locale/de_BE/LC_PAPER": 34, "/usr/lib/locale/de_BE/LC_MEASUREMENT": 23}
+PKGSIZE_glibc-binary-localedata-de-be: 1525685

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.22
+PR: r0
+PKGV: 2.22
+PKGR: r0.0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-fa-ir: binary locale definition for fa-ir
+SUMMARY_glibc-binary-localedata-fa-ir: binary locale definition for fa-ir
+SECTION: base
+PKG_glibc-binary-localedata-fa-ir: glibc-binary-localedata-fa-ir
+FILES_glibc-binary-localedata-fa-ir: /usr/lib/locale/fa_IR
+FILES_INFO: {"/usr/lib/locale/fa_IR/LC_MEASUREMENT": 23, "/usr/lib/locale/fa_IR/LC_TIME": 4082, "/usr/lib/locale/fa_IR/LC_NAME": 98, "/usr/lib/locale/fa_IR/LC_CTYPE": 283516, "/usr/lib/locale/fa_IR/LC_PAPER": 34, "/usr/lib/locale/fa_IR/LC_MESSAGES/SYS_LC_MESSAGES": 64, "/usr/lib/locale/fa_IR/LC_MONETARY": 310, "/usr/lib/locale/fa_IR/LC_NUMERIC": 54, "/usr/lib/locale/fa_IR/LC_COLLATE": 1246198, "/usr/lib/locale/fa_IR/LC_IDENTIFICATION": 411, "/usr/lib/locale/fa_IR/LC_TELEPHONE": 70, "/usr/lib/locale/fa_IR/LC_ADDRESS": 160}
+PKGSIZE_glibc-binary-localedata-fa-ir: 1535020
